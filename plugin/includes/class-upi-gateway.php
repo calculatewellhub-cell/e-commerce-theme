@@ -139,7 +139,7 @@ class Upi_Gateway extends \WC_Payment_Gateway {
 	}
 
 	/**
-	 * upi:// payment URI for an order.
+	 * UPI payment URI (upi://pay) for an order.
 	 *
 	 * @param \WC_Order $order Order.
 	 * @return string

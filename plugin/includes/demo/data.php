@@ -49,7 +49,7 @@ return array(
 
 	// slug => data. Prices in INR.
 	'products'   => array(
-		'eternal-solitaire-diamond-ring'   => array(
+		'eternal-solitaire-diamond-ring'    => array(
 			'name'     => __( 'Eternal Solitaire Diamond Ring', 'aurelia-commerce' ),
 			'cat'      => 'jewellery',
 			'sku'      => 'AUR-RG-001',
@@ -59,12 +59,16 @@ return array(
 			'short'    => __( 'A timeless one-carat solitaire in a four-prong 18K white gold setting.', 'aurelia-commerce' ),
 			'desc'     => __( 'Our signature engagement ring: a one-carat IGI-certified round brilliant diamond held high in a four-prong cathedral setting so it catches light from every angle. The 2 mm comfort-fit band is cast in 18K white gold and rhodium-finished for a lasting, mirror-bright shine. Free resizing within 60 days and lifetime exchange at full gold value.', 'aurelia-commerce' ),
 			'tags'     => array( 'engagement ring', 'diamond', 'gift' ),
-			'attrs'    => array( 'Metal' => '18K White Gold', 'Gemstone' => '1.00 ct round brilliant, VVS2, F', 'Certification' => 'IGI + BIS hallmark' ),
+			'attrs'    => array(
+				'Metal'         => '18K White Gold',
+				'Gemstone'      => '1.00 ct round brilliant, VVS2, F',
+				'Certification' => 'IGI + BIS hallmark',
+			),
 			'vary'     => array( 'size' => array( '10', '12', '14', '16' ) ),
 			'3d'       => array( 'ring', '#e8ecf0', '#dff3ff' ),
 			'cross'    => array( 'sapphire-teardrop-pendant', 'celestial-diamond-tennis-bracelet' ),
 		),
-		'rose-petal-halo-ring'             => array(
+		'rose-petal-halo-ring'              => array(
 			'name'  => __( 'Rose Petal Halo Ring', 'aurelia-commerce' ),
 			'cat'   => 'jewellery',
 			'sku'   => 'AUR-RG-002',
@@ -72,11 +76,14 @@ return array(
 			'short' => __( 'A blush pink sapphire framed by a halo of micro-pavé diamonds.', 'aurelia-commerce' ),
 			'desc'  => __( 'Soft, romantic and quietly bold. A cushion-cut pink sapphire sits inside a halo of 18 micro-pavé diamonds, set on a slender 18K rose gold band with petal-shaped shoulders. Arrives in a gift box with its certificate.', 'aurelia-commerce' ),
 			'tags'  => array( 'anniversary', 'rose gold', 'gift' ),
-			'attrs' => array( 'Metal' => '18K Rose Gold', 'Gemstone' => '0.80 ct pink sapphire + 0.24 ct diamond halo' ),
+			'attrs' => array(
+				'Metal'    => '18K Rose Gold',
+				'Gemstone' => '0.80 ct pink sapphire + 0.24 ct diamond halo',
+			),
 			'3d'    => array( 'ring', '#e8a896', '#f06aa0' ),
 			'cross' => array( 'pearl-drop-jhumka-earrings' ),
 		),
-		'royal-emerald-kundan-necklace'    => array(
+		'royal-emerald-kundan-necklace'     => array(
 			'name'     => __( 'Royal Emerald Kundan Necklace', 'aurelia-commerce' ),
 			'cat'      => 'jewellery',
 			'sku'      => 'AUR-NK-001',
@@ -86,9 +93,13 @@ return array(
 			'short'    => __( 'A regal 22K kundan necklace with hand-set Zambian emerald drops.', 'aurelia-commerce' ),
 			'desc'     => __( 'Inspired by Mughal court jewellery and hand-set by our karigars in Jaipur using traditional kundan technique. Seven Zambian emerald drops hang from a 22K gold collar finished with meenakari enamel on the reverse — an heirloom for weddings and festive evenings.', 'aurelia-commerce' ),
 			'tags'     => array( 'bridal', 'wedding', 'kundan' ),
-			'attrs'    => array( 'Metal' => '22K Yellow Gold', 'Weight' => '48.5 g', 'Gemstone' => 'Zambian emeralds' ),
+			'attrs'    => array(
+				'Metal'    => '22K Yellow Gold',
+				'Weight'   => '48.5 g',
+				'Gemstone' => 'Zambian emeralds',
+			),
 		),
-		'pearl-drop-jhumka-earrings'       => array(
+		'pearl-drop-jhumka-earrings'        => array(
 			'name'  => __( 'Pearl Drop Jhumka Earrings', 'aurelia-commerce' ),
 			'cat'   => 'jewellery',
 			'sku'   => 'AUR-ER-001',
@@ -96,9 +107,12 @@ return array(
 			'short' => __( 'Light gold jhumkas finished with lustrous freshwater pearls.', 'aurelia-commerce' ),
 			'desc'  => __( 'Classic bell-shaped jhumkas in 22K gold with a delicate granulation border and a single freshwater pearl drop. Light enough to wear from the morning puja to the evening sangeet.', 'aurelia-commerce' ),
 			'tags'  => array( 'festive', 'pearl', 'everyday' ),
-			'attrs' => array( 'Metal' => '22K Yellow Gold', 'Gemstone' => 'Freshwater pearls' ),
+			'attrs' => array(
+				'Metal'    => '22K Yellow Gold',
+				'Gemstone' => 'Freshwater pearls',
+			),
 		),
-		'sapphire-teardrop-pendant'        => array(
+		'sapphire-teardrop-pendant'         => array(
 			'name'  => __( 'Sapphire Teardrop Pendant', 'aurelia-commerce' ),
 			'cat'   => 'jewellery',
 			'sku'   => 'AUR-PD-001',
@@ -106,7 +120,10 @@ return array(
 			'short' => __( 'A deep blue Ceylon sapphire framed with diamonds, on an 18-inch chain.', 'aurelia-commerce' ),
 			'desc'  => __( 'A 1.2-carat teardrop Ceylon sapphire surrounded by a pavé diamond frame in 18K white gold. Comes with a matching 18-inch box chain and a GIA gemstone report.', 'aurelia-commerce' ),
 			'tags'  => array( 'sapphire', 'gift', 'pendant' ),
-			'attrs' => array( 'Metal' => '18K White Gold', 'Gemstone' => '1.2 ct Ceylon sapphire' ),
+			'attrs' => array(
+				'Metal'    => '18K White Gold',
+				'Gemstone' => '1.2 ct Ceylon sapphire',
+			),
 		),
 		'celestial-diamond-tennis-bracelet' => array(
 			'name'  => __( 'Celestial Diamond Tennis Bracelet', 'aurelia-commerce' ),
@@ -117,9 +134,12 @@ return array(
 			'short' => __( 'Thirty-four brilliant diamonds in a fluid line of 18K white gold.', 'aurelia-commerce' ),
 			'desc'  => __( 'An everyday icon: 3 carats of matched round brilliant diamonds set in four-prong links that move like silk. Double safety clasp and complimentary annual cleaning.', 'aurelia-commerce' ),
 			'tags'  => array( 'diamond', 'bracelet', 'anniversary' ),
-			'attrs' => array( 'Metal' => '18K White Gold', 'Gemstone' => '3.00 ct diamonds' ),
+			'attrs' => array(
+				'Metal'    => '18K White Gold',
+				'Gemstone' => '3.00 ct diamonds',
+			),
 		),
-		'linen-wrap-dress'                 => array(
+		'linen-wrap-dress'                  => array(
 			'name'     => __( 'Linen Wrap Dress', 'aurelia-commerce' ),
 			'cat'      => 'fashion',
 			'sku'      => 'FSH-DR-001',
@@ -129,11 +149,14 @@ return array(
 			'short'    => __( 'A breezy midi wrap dress in washed European linen.', 'aurelia-commerce' ),
 			'desc'     => __( 'Cut from pre-washed European linen that softens with every wear. The wrap front and self-tie belt flatter every shape, and deep side pockets make it the dress you will reach for all summer. Machine washable.', 'aurelia-commerce' ),
 			'tags'     => array( 'linen', 'summer', 'dress' ),
-			'attrs'    => array( 'Material' => '100% linen', 'Care' => 'Machine wash cold' ),
+			'attrs'    => array(
+				'Material' => '100% linen',
+				'Care'     => 'Machine wash cold',
+			),
 			'vary'     => array( 'size' => array( 's', 'm', 'l' ) ),
 			'cross'    => array( 'structured-leather-tote', 'classic-leather-sneakers' ),
 		),
-		'classic-leather-sneakers'         => array(
+		'classic-leather-sneakers'          => array(
 			'name'  => __( 'Classic Leather Sneakers', 'aurelia-commerce' ),
 			'cat'   => 'fashion',
 			'sku'   => 'FSH-SN-001',
@@ -141,9 +164,12 @@ return array(
 			'short' => __( 'Minimal white leather sneakers with a cushioned, recycled sole.', 'aurelia-commerce' ),
 			'desc'  => __( 'Full-grain leather uppers, a padded collar and a recycled rubber cupsole make these the sneakers that go with everything. Leather-lined for all-day comfort.', 'aurelia-commerce' ),
 			'tags'  => array( 'sneakers', 'leather', 'unisex' ),
-			'attrs' => array( 'Upper' => 'Full-grain leather', 'Sole' => 'Recycled rubber' ),
+			'attrs' => array(
+				'Upper' => 'Full-grain leather',
+				'Sole'  => 'Recycled rubber',
+			),
 		),
-		'structured-leather-tote'          => array(
+		'structured-leather-tote'           => array(
 			'name'  => __( 'Structured Leather Tote', 'aurelia-commerce' ),
 			'cat'   => 'fashion',
 			'sku'   => 'FSH-BG-001',
@@ -152,24 +178,30 @@ return array(
 			'short' => __( 'A roomy tan tote that fits a 14-inch laptop and then some.', 'aurelia-commerce' ),
 			'desc'  => __( 'Vegetable-tanned leather, hand-stitched edges and a brass turn-lock pocket. It holds a 14-inch laptop, a water bottle and everything else your day needs, and ages beautifully.', 'aurelia-commerce' ),
 			'tags'  => array( 'bag', 'leather', 'work' ),
-			'attrs' => array( 'Material' => 'Vegetable-tanned leather', 'Fits' => '14-inch laptop' ),
+			'attrs' => array(
+				'Material' => 'Vegetable-tanned leather',
+				'Fits'     => '14-inch laptop',
+			),
 		),
-		'organic-cotton-tee'               => array(
-			'name'  => __( 'Organic Cotton Tee', 'aurelia-commerce' ),
-			'cat'   => 'fashion',
-			'sku'   => 'FSH-TS-001',
-			'price' => 999,
-			'short' => __( 'A heavyweight organic cotton T-shirt that keeps its shape.', 'aurelia-commerce' ),
-			'desc'  => __( '220 gsm GOTS-certified organic cotton, garment-dyed for a lived-in feel. Relaxed fit, reinforced neckline and made in Tiruppur.', 'aurelia-commerce' ),
-			'tags'  => array( 'tshirt', 'organic', 'basics' ),
-			'attrs' => array( 'Material' => '100% organic cotton, 220 gsm' ),
-			'vary'  => array(
+		'organic-cotton-tee'                => array(
+			'name'           => __( 'Organic Cotton Tee', 'aurelia-commerce' ),
+			'cat'            => 'fashion',
+			'sku'            => 'FSH-TS-001',
+			'price'          => 999,
+			'short'          => __( 'A heavyweight organic cotton T-shirt that keeps its shape.', 'aurelia-commerce' ),
+			'desc'           => __( '220 gsm GOTS-certified organic cotton, garment-dyed for a lived-in feel. Relaxed fit, reinforced neckline and made in Tiruppur.', 'aurelia-commerce' ),
+			'tags'           => array( 'tshirt', 'organic', 'basics' ),
+			'attrs'          => array( 'Material' => '100% organic cotton, 220 gsm' ),
+			'vary'           => array(
 				'color' => array( 'ivory', 'forest', 'charcoal' ),
 				'size'  => array( 's', 'm', 'l', 'xl' ),
 			),
-			'variant_images' => array( 'forest' => 'organic-cotton-tee-forest', 'charcoal' => 'organic-cotton-tee-charcoal' ),
+			'variant_images' => array(
+				'forest'   => 'organic-cotton-tee-forest',
+				'charcoal' => 'organic-cotton-tee-charcoal',
+			),
 		),
-		'aura-anc-headphones'              => array(
+		'aura-anc-headphones'               => array(
 			'name'     => __( 'Aura ANC Headphones', 'aurelia-commerce' ),
 			'cat'      => 'electronics',
 			'sku'      => 'ELX-HP-001',
@@ -179,10 +211,14 @@ return array(
 			'short'    => __( 'Adaptive noise cancelling, 40-hour battery and plush memory-foam cushions.', 'aurelia-commerce' ),
 			'desc'     => __( 'Hybrid active noise cancellation tunes itself to your surroundings, while 40 mm drivers deliver warm, detailed sound. Forty hours of battery, 10-minute fast charge for 5 hours, multipoint Bluetooth 5.3 and a foldable design. One-year warranty.', 'aurelia-commerce' ),
 			'tags'     => array( 'headphones', 'wireless', 'travel' ),
-			'attrs'    => array( 'Battery' => '40 hours', 'Bluetooth' => '5.3 multipoint', 'Warranty' => '1 year' ),
+			'attrs'    => array(
+				'Battery'   => '40 hours',
+				'Bluetooth' => '5.3 multipoint',
+				'Warranty'  => '1 year',
+			),
 			'cross'    => array( 'echo-wireless-earbuds', 'nova-bluetooth-speaker' ),
 		),
-		'pulse-smartwatch'                 => array(
+		'pulse-smartwatch'                  => array(
 			'name'  => __( 'Pulse Smartwatch', 'aurelia-commerce' ),
 			'cat'   => 'electronics',
 			'sku'   => 'ELX-SW-001',
@@ -190,9 +226,13 @@ return array(
 			'short' => __( 'AMOLED fitness watch with SpO2, sleep tracking and 10-day battery.', 'aurelia-commerce' ),
 			'desc'  => __( 'A 1.43-inch always-on AMOLED display, 100+ workout modes, heart-rate, SpO2 and sleep tracking, Bluetooth calling and up to 10 days on a charge. Swim-proof to 5 ATM.', 'aurelia-commerce' ),
 			'tags'  => array( 'smartwatch', 'fitness', 'wearable' ),
-			'attrs' => array( 'Display' => '1.43" AMOLED', 'Battery' => 'Up to 10 days', 'Water resistance' => '5 ATM' ),
+			'attrs' => array(
+				'Display'          => '1.43" AMOLED',
+				'Battery'          => 'Up to 10 days',
+				'Water resistance' => '5 ATM',
+			),
 		),
-		'nova-bluetooth-speaker'           => array(
+		'nova-bluetooth-speaker'            => array(
 			'name'  => __( 'Nova Bluetooth Speaker', 'aurelia-commerce' ),
 			'cat'   => 'electronics',
 			'sku'   => 'ELX-SP-001',
@@ -201,9 +241,12 @@ return array(
 			'short' => __( '360° room-filling sound, IPX7 waterproof, 18-hour battery.', 'aurelia-commerce' ),
 			'desc'  => __( 'Dual passive radiators and a 360° driver fill any room or terrace with rich, balanced sound. IPX7 waterproof, pairs with a second speaker for stereo, and lasts 18 hours per charge.', 'aurelia-commerce' ),
 			'tags'  => array( 'speaker', 'waterproof', 'party' ),
-			'attrs' => array( 'Battery' => '18 hours', 'Rating' => 'IPX7' ),
+			'attrs' => array(
+				'Battery' => '18 hours',
+				'Rating'  => 'IPX7',
+			),
 		),
-		'echo-wireless-earbuds'            => array(
+		'echo-wireless-earbuds'             => array(
 			'name'  => __( 'Echo Wireless Earbuds', 'aurelia-commerce' ),
 			'cat'   => 'electronics',
 			'sku'   => 'ELX-EB-001',
@@ -211,9 +254,12 @@ return array(
 			'short' => __( 'Pocket-size ANC earbuds with a 32-hour charging case.', 'aurelia-commerce' ),
 			'desc'  => __( 'Active noise cancellation, four microphones for clear calls, low-latency game mode and a slim case that adds 26 hours of listening. USB-C and wireless charging.', 'aurelia-commerce' ),
 			'tags'  => array( 'earbuds', 'wireless', 'anc' ),
-			'attrs' => array( 'Battery' => '6 h + 26 h case', 'Charging' => 'USB-C, Qi wireless' ),
+			'attrs' => array(
+				'Battery'  => '6 h + 26 h case',
+				'Charging' => 'USB-C, Qi wireless',
+			),
 		),
-		'vitamin-c-glow-serum'             => array(
+		'vitamin-c-glow-serum'              => array(
 			'name'     => __( 'Vitamin C Glow Serum', 'aurelia-commerce' ),
 			'cat'      => 'beauty',
 			'sku'      => 'BTY-SR-001',
@@ -223,10 +269,13 @@ return array(
 			'short'    => __( '15% vitamin C with ferulic acid for brighter, even skin.', 'aurelia-commerce' ),
 			'desc'     => __( 'A stable 15% L-ascorbic acid serum with vitamin E and ferulic acid to fade dark spots and protect against pollution. Fragrance-free, dermatologist tested and suitable for Indian skin tones. 30 ml.', 'aurelia-commerce' ),
 			'tags'     => array( 'skincare', 'serum', 'glow' ),
-			'attrs'    => array( 'Size' => '30 ml', 'Skin type' => 'All skin types' ),
+			'attrs'    => array(
+				'Size'      => '30 ml',
+				'Skin type' => 'All skin types',
+			),
 			'cross'    => array( 'rose-hydration-cream' ),
 		),
-		'velvet-matte-lipstick'            => array(
+		'velvet-matte-lipstick'             => array(
 			'name'           => __( 'Velvet Matte Lipstick', 'aurelia-commerce' ),
 			'cat'            => 'beauty',
 			'sku'            => 'BTY-LP-001',
@@ -234,11 +283,17 @@ return array(
 			'short'          => __( 'Weightless, transfer-resistant matte colour that stays for 12 hours.', 'aurelia-commerce' ),
 			'desc'           => __( 'A creamy bullet that sets to a soft velvet matte. Enriched with shea butter and vitamin E so lips never feel dry. Vegan and cruelty-free.', 'aurelia-commerce' ),
 			'tags'           => array( 'lipstick', 'makeup', 'vegan' ),
-			'attrs'          => array( 'Finish' => 'Velvet matte', 'Wear' => 'Up to 12 hours' ),
+			'attrs'          => array(
+				'Finish' => 'Velvet matte',
+				'Wear'   => 'Up to 12 hours',
+			),
 			'vary'           => array( 'color' => array( 'classic-red', 'nude', 'berry' ) ),
-			'variant_images' => array( 'nude' => 'velvet-matte-lipstick-nude', 'berry' => 'velvet-matte-lipstick-berry' ),
+			'variant_images' => array(
+				'nude'  => 'velvet-matte-lipstick-nude',
+				'berry' => 'velvet-matte-lipstick-berry',
+			),
 		),
-		'rose-hydration-cream'             => array(
+		'rose-hydration-cream'              => array(
 			'name'  => __( 'Rosé Hydration Cream', 'aurelia-commerce' ),
 			'cat'   => 'beauty',
 			'sku'   => 'BTY-CR-001',
@@ -248,7 +303,7 @@ return array(
 			'tags'  => array( 'moisturiser', 'rose', 'skincare' ),
 			'attrs' => array( 'Size' => '50 g' ),
 		),
-		'oud-eau-de-parfum'                => array(
+		'oud-eau-de-parfum'                 => array(
 			'name'  => __( 'Oud Eau de Parfum', 'aurelia-commerce' ),
 			'cat'   => 'beauty',
 			'sku'   => 'BTY-PF-001',
@@ -257,9 +312,12 @@ return array(
 			'short' => __( 'Smoky oud, Bulgarian rose and saffron in a long-lasting parfum.', 'aurelia-commerce' ),
 			'desc'  => __( 'An evening fragrance built around Assam oud, softened by Bulgarian rose and warmed with saffron and amber. Eau de parfum concentration for 8–10 hours of wear. 50 ml.', 'aurelia-commerce' ),
 			'tags'  => array( 'fragrance', 'oud', 'gift' ),
-			'attrs' => array( 'Size' => '50 ml', 'Concentration' => 'Eau de parfum' ),
+			'attrs' => array(
+				'Size'          => '50 ml',
+				'Concentration' => 'Eau de parfum',
+			),
 		),
-		'wild-forest-honey'                => array(
+		'wild-forest-honey'                 => array(
 			'name'     => __( 'Wild Forest Honey', 'aurelia-commerce' ),
 			'cat'      => 'grocery',
 			'sku'      => 'GRC-HN-001',
@@ -268,10 +326,13 @@ return array(
 			'short'    => __( 'Raw, unprocessed multi-flora honey from the Nilgiri forests.', 'aurelia-commerce' ),
 			'desc'     => __( 'Collected by tribal honey gatherers in the Nilgiri Biosphere and simply strained — never heated or blended — so every enzyme and floral note survives. Natural crystallisation is a sign of purity. 500 g glass jar.', 'aurelia-commerce' ),
 			'tags'     => array( 'honey', 'raw', 'organic' ),
-			'attrs'    => array( 'Net weight' => '500 g', 'Origin' => 'Nilgiris, Tamil Nadu' ),
+			'attrs'    => array(
+				'Net weight' => '500 g',
+				'Origin'     => 'Nilgiris, Tamil Nadu',
+			),
 			'cross'    => array( 'himalayan-green-tea' ),
 		),
-		'himalayan-green-tea'              => array(
+		'himalayan-green-tea'               => array(
 			'name'  => __( 'Himalayan Green Tea', 'aurelia-commerce' ),
 			'cat'   => 'grocery',
 			'sku'   => 'GRC-TE-001',
@@ -279,9 +340,12 @@ return array(
 			'short' => __( 'Whole-leaf first-flush green tea from a single Darjeeling estate.', 'aurelia-commerce' ),
 			'desc'  => __( 'Hand-plucked in spring and pan-fired the same day for a sweet, grassy cup with a gentle muscatel finish. Brews up to three times. 100 g in a reusable tin.', 'aurelia-commerce' ),
 			'tags'  => array( 'tea', 'darjeeling', 'green tea' ),
-			'attrs' => array( 'Net weight' => '100 g', 'Origin' => 'Darjeeling' ),
+			'attrs' => array(
+				'Net weight' => '100 g',
+				'Origin'     => 'Darjeeling',
+			),
 		),
-		'cold-pressed-olive-oil'           => array(
+		'cold-pressed-olive-oil'            => array(
 			'name'  => __( 'Cold-Pressed Olive Oil', 'aurelia-commerce' ),
 			'cat'   => 'grocery',
 			'sku'   => 'GRC-OL-001',
@@ -290,9 +354,12 @@ return array(
 			'short' => __( 'Extra virgin, single-origin and first cold pressed. 500 ml.', 'aurelia-commerce' ),
 			'desc'  => __( 'Pressed within hours of harvest from a single grove of Arbequina olives, with low acidity and a peppery, green finish. Ideal for salads, dips and finishing dishes.', 'aurelia-commerce' ),
 			'tags'  => array( 'olive oil', 'healthy', 'cooking' ),
-			'attrs' => array( 'Volume' => '500 ml', 'Acidity' => '< 0.3%' ),
+			'attrs' => array(
+				'Volume'  => '500 ml',
+				'Acidity' => '< 0.3%',
+			),
 		),
-		'superfood-trail-mix'              => array(
+		'superfood-trail-mix'               => array(
 			'name'  => __( 'Superfood Trail Mix', 'aurelia-commerce' ),
 			'cat'   => 'grocery',
 			'sku'   => 'GRC-TM-001',
@@ -302,7 +369,7 @@ return array(
 			'tags'  => array( 'snacks', 'healthy', 'nuts' ),
 			'attrs' => array( 'Net weight' => '400 g' ),
 		),
-		'terracotta-table-lamp'            => array(
+		'terracotta-table-lamp'             => array(
 			'name'     => __( 'Terracotta Table Lamp', 'aurelia-commerce' ),
 			'cat'      => 'home-living',
 			'sku'      => 'HOM-LP-001',
@@ -312,10 +379,13 @@ return array(
 			'short'    => __( 'Hand-thrown terracotta base with a pleated linen shade.', 'aurelia-commerce' ),
 			'desc'     => __( 'Thrown by potters in Khurja and fired twice for a warm, earthy glow. The pleated linen shade softens the light for bedside or living-room corners. E27 holder; bulb not included.', 'aurelia-commerce' ),
 			'tags'     => array( 'lamp', 'handmade', 'decor' ),
-			'attrs'    => array( 'Height' => '46 cm', 'Holder' => 'E27' ),
+			'attrs'    => array(
+				'Height' => '46 cm',
+				'Holder' => 'E27',
+			),
 			'cross'    => array( 'sandalwood-soy-candle', 'celadon-ceramic-vase' ),
 		),
-		'celadon-ceramic-vase'             => array(
+		'celadon-ceramic-vase'              => array(
 			'name'  => __( 'Celadon Ceramic Vase', 'aurelia-commerce' ),
 			'cat'   => 'home-living',
 			'sku'   => 'HOM-VS-001',
@@ -323,9 +393,12 @@ return array(
 			'short' => __( 'A sculptural stoneware vase with a soft celadon glaze.', 'aurelia-commerce' ),
 			'desc'  => __( 'Each vase is wheel-thrown and glazed by hand, so no two are alike. Watertight for fresh flowers and beautiful on its own with dried stems.', 'aurelia-commerce' ),
 			'tags'  => array( 'vase', 'ceramic', 'handmade' ),
-			'attrs' => array( 'Height' => '28 cm', 'Material' => 'Stoneware' ),
+			'attrs' => array(
+				'Height'   => '28 cm',
+				'Material' => 'Stoneware',
+			),
 		),
-		'handloom-cushion-cover'           => array(
+		'handloom-cushion-cover'            => array(
 			'name'  => __( 'Handloom Cushion Cover', 'aurelia-commerce' ),
 			'cat'   => 'home-living',
 			'sku'   => 'HOM-CC-001',
@@ -334,9 +407,12 @@ return array(
 			'short' => __( 'Handwoven cotton cushion cover with gold and forest stripes.', 'aurelia-commerce' ),
 			'desc'  => __( 'Woven on pit looms in Panipat from soft cotton yarn, with a hidden zip and tassel corners. 45 × 45 cm; insert not included.', 'aurelia-commerce' ),
 			'tags'  => array( 'cushion', 'handloom', 'textiles' ),
-			'attrs' => array( 'Size' => '45 × 45 cm', 'Material' => 'Cotton' ),
+			'attrs' => array(
+				'Size'     => '45 × 45 cm',
+				'Material' => 'Cotton',
+			),
 		),
-		'sandalwood-soy-candle'            => array(
+		'sandalwood-soy-candle'             => array(
 			'name'  => __( 'Sandalwood Soy Candle', 'aurelia-commerce' ),
 			'cat'   => 'home-living',
 			'sku'   => 'HOM-CD-001',
@@ -344,7 +420,10 @@ return array(
 			'short' => __( 'Mysore sandalwood and vetiver in a clean-burning soy candle.', 'aurelia-commerce' ),
 			'desc'  => __( 'Hand-poured soy wax with a cotton wick and a calming blend of Mysore sandalwood, vetiver and a hint of cardamom. Around 45 hours of burn time in a reusable glass tumbler.', 'aurelia-commerce' ),
 			'tags'  => array( 'candle', 'sandalwood', 'gift' ),
-			'attrs' => array( 'Burn time' => 'About 45 hours', 'Wax' => 'Soy' ),
+			'attrs' => array(
+				'Burn time' => 'About 45 hours',
+				'Wax'       => 'Soy',
+			),
 		),
 	),
 

@@ -88,7 +88,7 @@ class Reviews {
 				'error'    => 0,
 				'size'     => (int) $files['size'][ $i ],
 			);
-			$id = media_handle_upload(
+			$id                             = media_handle_upload(
 				'aurelia_single_photo',
 				(int) $data['comment_post_ID'],
 				array(),
@@ -121,7 +121,19 @@ class Reviews {
 		foreach ( $ids as $id ) {
 			$full = wp_get_attachment_image_url( $id, 'large' );
 			if ( $full ) {
-				printf( '<li><a href="%1$s" target="_blank" rel="noopener">%2$s</a></li>', esc_url( $full ), wp_get_attachment_image( $id, 'thumbnail', false, array( 'loading' => 'lazy', 'alt' => esc_attr__( 'Customer photo', 'aurelia-commerce' ) ) ) );
+				printf(
+					'<li><a href="%1$s" target="_blank" rel="noopener">%2$s</a></li>',
+					esc_url( $full ),
+					wp_get_attachment_image(
+						$id,
+						'thumbnail',
+						false,
+						array(
+							'loading' => 'lazy',
+							'alt'     => esc_attr__( 'Customer photo', 'aurelia-commerce' ),
+						)
+					)
+				);
 			}
 		}
 		echo '</ul>';

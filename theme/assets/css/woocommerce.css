@@ -505,7 +505,18 @@
 }
 
 .au-pdp .single_add_to_cart_button.disabled {
-	opacity: 0.5;
+	opacity: 1 !important;
+	background: var(--wp--preset--color--base-2) !important;
+	color: var(--wp--preset--color--contrast-2) !important;
+	border: 1px solid var(--wp--preset--color--line) !important;
+	cursor: not-allowed;
+	transform: none;
+}
+
+.woocommerce form .show-password-input,
+.woocommerce-page form .show-password-input {
+	min-inline-size: 24px;
+	min-block-size: 24px;
 }
 
 .au-pdp table.variations {

@@ -42,7 +42,7 @@ class Viewer {
 		add_action( 'add_meta_boxes_product', array( $this, 'meta_box' ) );
 		add_action( 'woocommerce_process_product_meta', array( $this, 'save' ) );
 		add_filter( 'upload_mimes', array( $this, 'mimes' ) );
-		add_filter( 'wp_check_filetype_and_ext', array( $this, 'check_filetype' ), 10, 4 );
+		add_filter( 'wp_check_filetype_and_ext', array( $this, 'check_filetype' ), 10, 3 );
 		add_action( 'init', array( $this, 'register_module' ) );
 
 		if ( Settings::on( 'viewer_hero' ) ) {
@@ -149,7 +149,13 @@ class Viewer {
 				'failed'  => __( 'The 3D view could not be loaded on this device.', 'aurelia-commerce' ),
 			),
 		);
-		wp_print_inline_script_tag( wp_json_encode( $config ), array( 'type' => 'application/json', 'id' => 'aurelia-3d-config' ) );
+		wp_print_inline_script_tag(
+			wp_json_encode( $config ),
+			array(
+				'type' => 'application/json',
+				'id'   => 'aurelia-3d-config',
+			)
+		);
 	}
 
 	/**
@@ -167,15 +173,14 @@ class Viewer {
 	}
 
 	/**
-	 * finfo reports GLB as octet-stream; trust the extension for store managers.
+	 * The finfo check reports GLB as octet-stream; trust the extension for store managers.
 	 *
 	 * @param array  $data     Detected data.
 	 * @param string $file     Path.
 	 * @param string $filename Name.
-	 * @param array  $mimes    Allowed mimes.
 	 * @return array
 	 */
-	public function check_filetype( $data, $file, $filename, $mimes ) {
+	public function check_filetype( $data, $file, $filename ) {
 		if ( empty( $data['ext'] ) && current_user_can( 'edit_products' ) ) {
 			$ext = strtolower( pathinfo( (string) $filename, PATHINFO_EXTENSION ) );
 			if ( 'glb' === $ext || 'gltf' === $ext ) {

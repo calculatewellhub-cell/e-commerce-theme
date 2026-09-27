@@ -788,18 +788,17 @@ canvas {
 }
 
 /* ---------- Brand logos ---------- */
-.au-logos p {
+.au-logos .is-layout-flex p {
 	font-family: var(--wp--preset--font-family--heading);
 	font-size: clamp(1.2rem, 2vw, 1.6rem);
-	opacity: 0.55;
-	filter: grayscale(1);
-	transition: opacity var(--au-ease);
+	color: var(--wp--preset--color--contrast-2);
+	transition: color var(--au-ease);
 	margin: 0;
 	white-space: nowrap;
 }
 
-.au-logos p:hover {
-	opacity: 1;
+.au-logos .is-layout-flex p:hover {
+	color: var(--wp--preset--color--contrast);
 }
 
 /* ---------- Gallery ---------- */

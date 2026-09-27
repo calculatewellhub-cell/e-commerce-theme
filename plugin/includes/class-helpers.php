@@ -67,7 +67,7 @@ class Helpers {
 	}
 
 	/**
-	 * wa.me link.
+	 * WhatsApp click-to-chat (wa.me) link.
 	 *
 	 * @param string $text   Pre-filled message.
 	 * @param string $number Optional number override.

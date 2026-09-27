@@ -122,13 +122,13 @@ class Whatsapp {
 	 */
 	public function config( $config ) {
 		$config['whatsapp'] = array(
-			'number'      => Settings::whatsapp_number(),
-			'mode'        => Settings::get( 'wa_mode' ),
-			'cart'        => Settings::on( 'wa_cart_button' ),
-			'askDetails'  => Settings::on( 'wa_ask_details' ),
-			'store'       => Settings::store_name(),
+			'number'     => Settings::whatsapp_number(),
+			'mode'       => Settings::get( 'wa_mode' ),
+			'cart'       => Settings::on( 'wa_cart_button' ),
+			'askDetails' => Settings::on( 'wa_ask_details' ),
+			'store'      => Settings::store_name(),
 		);
-		$config['i18n'] += array(
+		$config['i18n']    += array(
 			'waOrder'       => __( 'Order on WhatsApp', 'aurelia-commerce' ),
 			'waChoose'      => __( 'Please choose your options first.', 'aurelia-commerce' ),
 			'waDetails'     => __( 'Your delivery details', 'aurelia-commerce' ),

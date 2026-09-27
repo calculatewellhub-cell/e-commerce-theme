@@ -80,7 +80,6 @@ final class Plugin {
 		foreach ( $modules as $module ) {
 			( new $module() )->init();
 		}
-
 	}
 
 	/**

@@ -125,7 +125,7 @@ class Seo {
 	}
 
 	/**
-	 * robots.txt: welcome search engines and AI answer engines.
+	 * Robots.txt rules: welcome search engines and AI answer engines.
 	 *
 	 * @param string $output Output.
 	 * @param bool   $is_public Site visibility.
@@ -162,9 +162,7 @@ class Seo {
 		return $output . implode( "\n", $lines ) . "\n";
 	}
 
-	/* ------------------------------------------------------------------ */
-	/* Structured data                                                     */
-	/* ------------------------------------------------------------------ */
+	// Structured data.
 
 	/**
 	 * Shipping details + return policy added to an Offer.
@@ -401,7 +399,11 @@ class Seo {
 			$node['logo']  = $logo;
 			$node['image'] = $logo;
 		}
-		foreach ( array( 'telephone' => 'store_phone', 'email' => 'store_email', 'openingHours' => 'store_hours' ) as $prop => $key ) {
+		foreach ( array(
+			'telephone'    => 'store_phone',
+			'email'        => 'store_email',
+			'openingHours' => 'store_hours',
+		) as $prop => $key ) {
 			$value = (string) Settings::get( $key, '' );
 			if ( '' !== $value ) {
 				$node[ $prop ] = $value;
@@ -573,9 +575,7 @@ class Seo {
 		return array_values( $out );
 	}
 
-	/* ------------------------------------------------------------------ */
-	/* Social meta                                                         */
-	/* ------------------------------------------------------------------ */
+	// Social meta.
 
 	/**
 	 * Open Graph / Twitter tags and meta description (skipped with SEO plugins).
@@ -640,12 +640,10 @@ class Seo {
 		printf( '<meta name="twitter:card" content="%s">' . "\n", $image ? 'summary_large_image' : 'summary' );
 	}
 
-	/* ------------------------------------------------------------------ */
-	/* llms.txt and product feed                                           */
-	/* ------------------------------------------------------------------ */
+	// llms.txt and product feed.
 
 	/**
-	 * llms.txt (https://llmstxt.org) built from live data.
+	 * The llms.txt file (https://llmstxt.org) built from live data.
 	 *
 	 * @param bool $full Full product details.
 	 * @return string
@@ -798,38 +796,42 @@ class Seo {
 	 * One <item>.
 	 *
 	 * @param \WC_Product      $product  Product or variation.
-	 * @param \WC_Product|null $parent   Parent for variations.
+	 * @param \WC_Product|null $parent_product Parent for variations.
 	 * @param string           $currency Currency.
 	 * @param string           $country  Country.
 	 * @param string           $gcat     Google category.
 	 * @return string
 	 */
-	private function feed_item( $product, $parent, $currency, $country, $gcat ) {
-		$base  = $parent ? $parent : $product;
+	private function feed_item( $product, $parent_product, $currency, $country, $gcat ) {
+		$base  = $parent_product ? $parent_product : $product;
 		$desc  = wp_strip_all_tags( $base->get_description() ? $base->get_description() : $base->get_short_description() );
 		$image = $product->get_image_id() ? $product->get_image_id() : $base->get_image_id();
 		$cats  = wp_get_post_terms( $base->get_id(), 'product_cat', array( 'fields' => 'names' ) );
 		$brand = (string) $base->get_attribute( 'pa_brand' );
 		$tags  = array(
-			'g:id'                    => $product->get_sku() ? $product->get_sku() : (string) $product->get_id(),
-			'g:title'                 => $parent ? $parent->get_name() . ' - ' . wc_get_formatted_variation( $product, true, false, false ) : $product->get_name(),
-			'g:description'           => mb_substr( trim( preg_replace( '/\s+/', ' ', $desc ) ), 0, 4900 ),
-			'g:link'                  => $product->get_permalink(),
-			'g:image_link'            => $image ? (string) wp_get_attachment_image_url( $image, 'full' ) : '',
-			'g:availability'          => $product->is_in_stock() ? 'in_stock' : ( $product->is_on_backorder() ? 'backorder' : 'out_of_stock' ),
-			'g:price'                 => wc_format_decimal( $product->get_regular_price() ? $product->get_regular_price() : $product->get_price(), 2 ) . ' ' . $currency,
-			'g:brand'                 => '' !== $brand ? $brand : Settings::store_name(),
-			'g:condition'             => 'new',
-			'g:product_type'          => implode( ' > ', (array) $cats ),
-			'g:identifier_exists'     => 'no',
+			'g:id'                      => $product->get_sku() ? $product->get_sku() : (string) $product->get_id(),
+			'g:title'                   => $parent_product ? $parent_product->get_name() . ' - ' . wc_get_formatted_variation( $product, true, false, false ) : $product->get_name(),
+			'g:description'             => mb_substr( trim( preg_replace( '/\s+/', ' ', $desc ) ), 0, 4900 ),
+			'g:link'                    => $product->get_permalink(),
+			'g:image_link'              => $image ? (string) wp_get_attachment_image_url( $image, 'full' ) : '',
+			'g:availability'            => $product->is_in_stock() ? 'in_stock' : ( $product->is_on_backorder() ? 'backorder' : 'out_of_stock' ),
+			'g:price'                   => wc_format_decimal( $product->get_regular_price() ? $product->get_regular_price() : $product->get_price(), 2 ) . ' ' . $currency,
+			'g:brand'                   => '' !== $brand ? $brand : Settings::store_name(),
+			'g:condition'               => 'new',
+			'g:product_type'            => implode( ' > ', (array) $cats ),
+			'g:identifier_exists'       => 'no',
 			'g:google_product_category' => $gcat,
-			'g:item_group_id'         => $parent ? (string) $parent->get_id() : '',
+			'g:item_group_id'           => $parent_product ? (string) $parent_product->get_id() : '',
 		);
 		if ( $product->is_on_sale() && $product->get_sale_price() ) {
 			$tags['g:sale_price'] = wc_format_decimal( $product->get_sale_price(), 2 ) . ' ' . $currency;
 		}
-		foreach ( array( 'color' => 'g:color', 'size' => 'g:size', 'colour' => 'g:color' ) as $attr => $tag ) {
-			$value = $parent ? (string) $product->get_attribute( 'pa_' . $attr ) : (string) $product->get_attribute( 'pa_' . $attr );
+		foreach ( array(
+			'color'  => 'g:color',
+			'size'   => 'g:size',
+			'colour' => 'g:color',
+		) as $attr => $tag ) {
+			$value = $parent_product ? (string) $product->get_attribute( 'pa_' . $attr ) : (string) $product->get_attribute( 'pa_' . $attr );
 			if ( '' !== $value && empty( $tags[ $tag ] ) ) {
 				$tags[ $tag ] = $value;
 			}

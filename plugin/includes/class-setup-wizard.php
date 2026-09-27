@@ -181,17 +181,17 @@ class Setup_Wizard {
 			case 'payments':
 				Settings::update(
 					array(
-						'wa_number' => preg_replace( '/\D+/', '', $post( 'wa_number' ) ),
-						'wa_mode'   => $post( 'wa_mode' ),
+						'wa_number'  => preg_replace( '/\D+/', '', $post( 'wa_number' ) ),
+						'wa_mode'    => $post( 'wa_mode' ),
 						'wa_enabled' => '' !== $post( 'wa_number' ) ? 1 : 0,
 					)
 				);
 				$cod            = (array) get_option( 'woocommerce_cod_settings', array() );
 				$cod['enabled'] = empty( $_POST['cod'] ) ? 'no' : 'yes'; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- nonce checked above.
 				update_option( 'woocommerce_cod_settings', $cod );
-				$upi   = (array) get_option( 'woocommerce_aurelia_upi_settings', array() );
-				$vpa   = $post( 'upi_id' );
-				$upi   = array_merge(
+				$upi = (array) get_option( 'woocommerce_aurelia_upi_settings', array() );
+				$vpa = $post( 'upi_id' );
+				$upi = array_merge(
 					$upi,
 					array(
 						'enabled'    => Upi_Gateway::is_vpa( $vpa ) ? 'yes' : 'no',
@@ -370,11 +370,11 @@ class Setup_Wizard {
 			'aurelia-wizard',
 			'aureliaWizard',
 			array(
-				'next'     => admin_url( 'admin.php?page=' . self::SLUG . '&step=done' ),
-				'working'  => __( 'Importing… please keep this tab open.', 'aurelia-commerce' ),
-				'done'     => __( 'Done! Continue to the last step.', 'aurelia-commerce' ),
-				'removed'  => __( 'Demo content removed.', 'aurelia-commerce' ),
-				'confirm'  => __( 'Delete all demo products, pages, menu and images?', 'aurelia-commerce' ),
+				'next'    => admin_url( 'admin.php?page=' . self::SLUG . '&step=done' ),
+				'working' => __( 'Importing… please keep this tab open.', 'aurelia-commerce' ),
+				'done'    => __( 'Done! Continue to the last step.', 'aurelia-commerce' ),
+				'removed' => __( 'Demo content removed.', 'aurelia-commerce' ),
+				'confirm' => __( 'Delete all demo products, pages, menu and images?', 'aurelia-commerce' ),
 			)
 		);
 		echo '<h2>' . esc_html__( 'Make it look like the demo', 'aurelia-commerce' ) . '</h2>';
@@ -396,11 +396,11 @@ class Setup_Wizard {
 	private function render_done() {
 		echo '<h2>' . esc_html__( 'Your store is ready 🎉', 'aurelia-commerce' ) . '</h2><ul class="ul-disc">';
 		$links = array(
-			home_url( '/' )                                       => __( 'View your store', 'aurelia-commerce' ),
-			admin_url( 'site-editor.php?p=%2Fstyles' )            => __( 'Change colours, fonts and style variation', 'aurelia-commerce' ),
-			admin_url( 'post-new.php?post_type=product' )         => __( 'Add your first product', 'aurelia-commerce' ),
-			admin_url( 'admin.php?page=aurelia-settings' )        => __( 'Fine-tune Aurelia settings', 'aurelia-commerce' ),
-			admin_url( 'admin.php?page=aurelia-video-studio' )    => __( 'Make a product video', 'aurelia-commerce' ),
+			home_url( '/' )                                => __( 'View your store', 'aurelia-commerce' ),
+			admin_url( 'site-editor.php?p=%2Fstyles' )     => __( 'Change colours, fonts and style variation', 'aurelia-commerce' ),
+			admin_url( 'post-new.php?post_type=product' )  => __( 'Add your first product', 'aurelia-commerce' ),
+			admin_url( 'admin.php?page=aurelia-settings' ) => __( 'Fine-tune Aurelia settings', 'aurelia-commerce' ),
+			admin_url( 'admin.php?page=aurelia-video-studio' ) => __( 'Make a product video', 'aurelia-commerce' ),
 			admin_url( 'admin.php?page=wc-settings&tab=checkout' ) => __( 'Review payment methods', 'aurelia-commerce' ),
 		);
 		foreach ( $links as $url => $label ) {

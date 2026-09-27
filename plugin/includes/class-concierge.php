@@ -60,29 +60,29 @@ class Concierge {
 	 * @return array
 	 */
 	public function config( $config ) {
-		$suggestions      = array_values( array_filter( array_map( 'trim', explode( "\n", (string) Settings::get( 'ai_suggestions', '' ) ) ) ) );
-		$config['chat']   = array(
+		$suggestions     = array_values( array_filter( array_map( 'trim', explode( "\n", (string) Settings::get( 'ai_suggestions', '' ) ) ) ) );
+		$config['chat']  = array(
 			'name'        => (string) Settings::get( 'ai_name', 'Aria' ),
 			'greeting'    => (string) Settings::get( 'ai_greeting', '' ),
 			'suggestions' => array_slice( $suggestions, 0, 4 ),
 			'store'       => Settings::store_name(),
 		);
 		$config['i18n'] += array(
-			'chatOpen'     => __( 'Open the AI shopping assistant', 'aurelia-commerce' ),
+			'chatOpen'         => __( 'Open the AI shopping assistant', 'aurelia-commerce' ),
 			/* translators: %s: assistant name. */
-			'chatAsk'      => sprintf( __( 'Ask %s', 'aurelia-commerce' ), Settings::get( 'ai_name', 'Aria' ) ),
-			'chatTitle'    => __( 'AI shopping concierge', 'aurelia-commerce' ),
-			'chatStatus'   => __( 'Online · replies instantly', 'aurelia-commerce' ),
-			'chatClose'    => __( 'Close chat', 'aurelia-commerce' ),
-			'chatPlace'    => __( 'Ask about products, budgets, delivery…', 'aurelia-commerce' ),
-			'chatSend'     => __( 'Send', 'aurelia-commerce' ),
-			'chatMessage'  => __( 'Message', 'aurelia-commerce' ),
-			'chatError'    => __( 'Sorry, I am having trouble connecting. Our team is always available on WhatsApp.', 'aurelia-commerce' ),
-			'chatHandoff'  => __( 'Continue with a human on WhatsApp', 'aurelia-commerce' ),
+			'chatAsk'          => sprintf( __( 'Ask %s', 'aurelia-commerce' ), Settings::get( 'ai_name', 'Aria' ) ),
+			'chatTitle'        => __( 'AI shopping concierge', 'aurelia-commerce' ),
+			'chatStatus'       => __( 'Online · replies instantly', 'aurelia-commerce' ),
+			'chatClose'        => __( 'Close chat', 'aurelia-commerce' ),
+			'chatPlace'        => __( 'Ask about products, budgets, delivery…', 'aurelia-commerce' ),
+			'chatSend'         => __( 'Send', 'aurelia-commerce' ),
+			'chatMessage'      => __( 'Message', 'aurelia-commerce' ),
+			'chatError'        => __( 'Sorry, I am having trouble connecting. Our team is always available on WhatsApp.', 'aurelia-commerce' ),
+			'chatHandoff'      => __( 'Continue with a human on WhatsApp', 'aurelia-commerce' ),
 			/* translators: %s: store name. */
 			'chatHandoffIntro' => sprintf( __( 'Hello %s! I was chatting with your assistant on the website.', 'aurelia-commerce' ), Settings::store_name() ),
-			'chatMe'       => __( 'Me', 'aurelia-commerce' ),
-			'chatTyping'   => __( 'Assistant is typing', 'aurelia-commerce' ),
+			'chatMe'           => __( 'Me', 'aurelia-commerce' ),
+			'chatTyping'       => __( 'Assistant is typing', 'aurelia-commerce' ),
 		);
 		return $config;
 	}
@@ -387,7 +387,7 @@ class Concierge {
 		}
 
 		$cat_slug = '';
-		$terms  = get_terms(
+		$terms    = get_terms(
 			array(
 				'taxonomy'   => 'product_cat',
 				'hide_empty' => true,

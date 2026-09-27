@@ -122,7 +122,13 @@ class Admin {
 						)
 					);
 					if ( is_wp_error( $result ) ) {
-						return new \WP_REST_Response( array( 'ok' => false, 'message' => $result->get_error_message() ), 200 );
+						return new \WP_REST_Response(
+							array(
+								'ok'      => false,
+								'message' => $result->get_error_message(),
+							),
+							200
+						);
 					}
 					return array(
 						'ok'    => true,
@@ -151,7 +157,19 @@ class Admin {
 			<h1><?php esc_html_e( 'Aurelia settings', 'aurelia-commerce' ); ?></h1>
 			<nav class="nav-tab-wrapper" aria-label="<?php esc_attr_e( 'Settings sections', 'aurelia-commerce' ); ?>">
 				<?php foreach ( $schema as $key => $section ) : ?>
-					<a class="nav-tab <?php echo $key === $tab ? 'nav-tab-active' : ''; ?>" href="<?php echo esc_url( add_query_arg( array( 'page' => 'aurelia-settings', 'tab' => $key ), admin_url( 'admin.php' ) ) ); ?>" <?php echo $key === $tab ? 'aria-current="page"' : ''; ?>><?php echo esc_html( $section['label'] ); ?></a>
+					<a class="nav-tab <?php echo $key === $tab ? 'nav-tab-active' : ''; ?>" href="
+					<?php
+					echo esc_url(
+						add_query_arg(
+							array(
+								'page' => 'aurelia-settings',
+								'tab'  => $key,
+							),
+							admin_url( 'admin.php' )
+						)
+					);
+					?>
+										" <?php echo $key === $tab ? 'aria-current="page"' : ''; ?>><?php echo esc_html( $section['label'] ); ?></a>
 				<?php endforeach; ?>
 				<a class="nav-tab" href="<?php echo esc_url( admin_url( 'admin.php?page=wc-settings&tab=checkout&section=aurelia_upi' ) ); ?>"><?php esc_html_e( 'UPI payments ↗', 'aurelia-commerce' ); ?></a>
 			</nav>

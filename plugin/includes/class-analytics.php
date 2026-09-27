@@ -181,7 +181,8 @@ class Analytics {
 		if ( '' === $host ) {
 			return 'direct';
 		}
-		if ( wp_parse_url( home_url(), PHP_URL_HOST ) === $host || 'www.' . $host === wp_parse_url( home_url(), PHP_URL_HOST ) ) {
+		$home = (string) wp_parse_url( home_url(), PHP_URL_HOST );
+		if ( $home === $host || 'www.' . $host === $home ) {
 			return 'internal';
 		}
 		$groups = array(
@@ -279,11 +280,35 @@ class Analytics {
 			'value'     => round( $value, 2 ),
 			'daily'     => array_map( null, array_keys( $daily ), array_values( $daily ) ),
 			'top'       => $top,
-			'sources'   => array_map( static fn( $r ) => array( 'label' => '' !== $r['source'] ? $r['source'] : 'direct', 'count' => (int) $r['c'] ), $sources ),
-			'devices'   => array_map( static fn( $r ) => array( 'label' => $r['device'], 'count' => (int) $r['c'] ), $devices ),
-			'platforms' => array_map( static fn( $r ) => array( 'label' => $r['platform'], 'count' => (int) $r['c'] ), $platforms ),
+			'sources'   => array_map(
+				static fn( $r ) => array(
+					'label' => '' !== $r['source'] ? $r['source'] : 'direct',
+					'count' => (int) $r['c'],
+				),
+				$sources
+			),
+			'devices'   => array_map(
+				static fn( $r ) => array(
+					'label' => $r['device'],
+					'count' => (int) $r['c'],
+				),
+				$devices
+			),
+			'platforms' => array_map(
+				static fn( $r ) => array(
+					'label' => $r['platform'],
+					'count' => (int) $r['c'],
+				),
+				$platforms
+			),
 			'posts'     => $post_rows,
-			'pages'     => array_map( static fn( $r ) => array( 'label' => $r['path'], 'count' => (int) $r['c'] ), $pages ),
+			'pages'     => array_map(
+				static fn( $r ) => array(
+					'label' => $r['path'],
+					'count' => (int) $r['c'],
+				),
+				$pages
+			),
 		);
 	}
 
@@ -306,33 +331,33 @@ class Analytics {
 				'initial' => self::summary( 30 ),
 				'enabled' => Settings::on( 'analytics_enabled' ),
 				'i18n'    => array(
-					'pageViews'     => __( 'Page views', 'aurelia-commerce' ),
-					'productViews'  => __( 'Product views', 'aurelia-commerce' ),
-					'addToCart'     => __( 'Add to cart', 'aurelia-commerce' ),
-					'waOrders'      => __( 'WhatsApp orders', 'aurelia-commerce' ),
-					'waValue'       => __( 'WhatsApp order value', 'aurelia-commerce' ),
-					'waEnquiries'   => __( 'WhatsApp enquiries', 'aurelia-commerce' ),
-					'chat'          => __( 'Concierge messages', 'aurelia-commerce' ),
-					'social'        => __( 'Social clicks', 'aurelia-commerce' ),
-					'signups'       => __( 'Newsletter sign-ups', 'aurelia-commerce' ),
-					'traffic'       => __( 'Daily traffic', 'aurelia-commerce' ),
-					'topProducts'   => __( 'Top products', 'aurelia-commerce' ),
-					'product'       => __( 'Product', 'aurelia-commerce' ),
-					'views'         => __( 'Views', 'aurelia-commerce' ),
-					'carts'         => __( 'Add to cart', 'aurelia-commerce' ),
-					'rate'          => __( 'Cart rate', 'aurelia-commerce' ),
-					'sources'       => __( 'Traffic sources', 'aurelia-commerce' ),
-					'devices'       => __( 'Devices', 'aurelia-commerce' ),
-					'platforms'     => __( 'Social clicks by platform', 'aurelia-commerce' ),
-					'posts'         => __( 'Social clicks by post', 'aurelia-commerce' ),
-					'topPages'      => __( 'Top pages', 'aurelia-commerce' ),
-					'post'          => __( 'Post', 'aurelia-commerce' ),
-					'platform'      => __( 'Platform', 'aurelia-commerce' ),
-					'clicks'        => __( 'Clicks', 'aurelia-commerce' ),
-					'empty'         => __( 'No data yet for this period.', 'aurelia-commerce' ),
-					'disabled'      => __( 'Analytics is turned off in Settings → Analytics & SEO.', 'aurelia-commerce' ),
-					'table'         => __( 'Table view', 'aurelia-commerce' ),
-					'privacy'       => __( 'Cookie-less and anonymous: no IP addresses, cookies or personal data are stored.', 'aurelia-commerce' ),
+					'pageViews'    => __( 'Page views', 'aurelia-commerce' ),
+					'productViews' => __( 'Product views', 'aurelia-commerce' ),
+					'addToCart'    => __( 'Add to cart', 'aurelia-commerce' ),
+					'waOrders'     => __( 'WhatsApp orders', 'aurelia-commerce' ),
+					'waValue'      => __( 'WhatsApp order value', 'aurelia-commerce' ),
+					'waEnquiries'  => __( 'WhatsApp enquiries', 'aurelia-commerce' ),
+					'chat'         => __( 'Concierge messages', 'aurelia-commerce' ),
+					'social'       => __( 'Social clicks', 'aurelia-commerce' ),
+					'signups'      => __( 'Newsletter sign-ups', 'aurelia-commerce' ),
+					'traffic'      => __( 'Daily traffic', 'aurelia-commerce' ),
+					'topProducts'  => __( 'Top products', 'aurelia-commerce' ),
+					'product'      => __( 'Product', 'aurelia-commerce' ),
+					'views'        => __( 'Views', 'aurelia-commerce' ),
+					'carts'        => __( 'Add to cart', 'aurelia-commerce' ),
+					'rate'         => __( 'Cart rate', 'aurelia-commerce' ),
+					'sources'      => __( 'Traffic sources', 'aurelia-commerce' ),
+					'devices'      => __( 'Devices', 'aurelia-commerce' ),
+					'platforms'    => __( 'Social clicks by platform', 'aurelia-commerce' ),
+					'posts'        => __( 'Social clicks by post', 'aurelia-commerce' ),
+					'topPages'     => __( 'Top pages', 'aurelia-commerce' ),
+					'post'         => __( 'Post', 'aurelia-commerce' ),
+					'platform'     => __( 'Platform', 'aurelia-commerce' ),
+					'clicks'       => __( 'Clicks', 'aurelia-commerce' ),
+					'empty'        => __( 'No data yet for this period.', 'aurelia-commerce' ),
+					'disabled'     => __( 'Analytics is turned off in Settings → Analytics & SEO.', 'aurelia-commerce' ),
+					'table'        => __( 'Table view', 'aurelia-commerce' ),
+					'privacy'      => __( 'Cookie-less and anonymous: no IP addresses, cookies or personal data are stored.', 'aurelia-commerce' ),
 				),
 			)
 		);

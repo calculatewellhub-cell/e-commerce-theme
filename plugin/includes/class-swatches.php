@@ -152,7 +152,7 @@ class Swatches {
 			$options = array();
 			if ( taxonomy_exists( $attribute ) ) {
 				foreach ( wc_get_product_terms( $product_id, $attribute, array( 'fields' => 'all' ) ) as $term ) {
-					$image                   = absint( get_term_meta( $term->term_id, 'aurelia_swatch_image', true ) );
+					$image                  = absint( get_term_meta( $term->term_id, 'aurelia_swatch_image', true ) );
 					$options[ $term->slug ] = array(
 						'name'  => $term->name,
 						'color' => (string) get_term_meta( $term->term_id, 'aurelia_swatch_color', true ),

@@ -74,6 +74,16 @@
 		}, { passive: true } );
 	}
 
+	/* Closed mini-cart drawer: WooCommerce marks it aria-hidden; also make it inert
+	   so its buttons are not reachable by keyboard while hidden. */
+	const syncInert = () =>
+		document.querySelectorAll( '.wc-block-mini-cart__drawer' ).forEach( ( drawer ) => {
+			const hidden = drawer.getAttribute( 'aria-hidden' ) === 'true' || drawer.closest( '[aria-hidden="true"]' );
+			drawer.toggleAttribute( 'inert', !! hidden );
+		} );
+	syncInert();
+	new MutationObserver( syncInert ).observe( document.body, { attributes: true, attributeFilter: [ 'aria-hidden', 'class' ], subtree: true } );
+
 	/* Marquee: duplicate the items once (hidden from assistive tech) for a seamless loop */
 	document.querySelectorAll( '.au-marquee__track' ).forEach( ( track ) => {
 		if ( track.dataset.cloned ) {

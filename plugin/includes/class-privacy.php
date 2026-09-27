@@ -55,9 +55,18 @@ class Privacy {
 						'group_label' => __( 'Newsletter', 'aurelia-commerce' ),
 						'item_id'     => 'aurelia-newsletter',
 						'data'        => array(
-							array( 'name' => __( 'Email', 'aurelia-commerce' ), 'value' => $row['email'] ),
-							array( 'name' => __( 'Signed up', 'aurelia-commerce' ), 'value' => $row['created_at'] . ' UTC' ),
-							array( 'name' => __( 'Source', 'aurelia-commerce' ), 'value' => $row['source'] ),
+							array(
+								'name'  => __( 'Email', 'aurelia-commerce' ),
+								'value' => $row['email'],
+							),
+							array(
+								'name'  => __( 'Signed up', 'aurelia-commerce' ),
+								'value' => $row['created_at'] . ' UTC',
+							),
+							array(
+								'name'  => __( 'Source', 'aurelia-commerce' ),
+								'value' => $row['source'],
+							),
 						),
 					);
 				}

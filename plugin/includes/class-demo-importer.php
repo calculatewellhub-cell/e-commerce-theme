@@ -181,9 +181,24 @@ class Demo_Importer {
 			$zone->add_location( 'IN', 'country' );
 			$zone->save();
 			$flat_id = $zone->add_shipping_method( 'flat_rate' );
-			update_option( 'woocommerce_flat_rate_' . $flat_id . '_settings', array( 'title' => __( 'Standard delivery', 'aurelia-commerce' ), 'tax_status' => 'none', 'cost' => '79' ) );
+			update_option(
+				'woocommerce_flat_rate_' . $flat_id . '_settings',
+				array(
+					'title'      => __( 'Standard delivery', 'aurelia-commerce' ),
+					'tax_status' => 'none',
+					'cost'       => '79',
+				)
+			);
 			$free_id = $zone->add_shipping_method( 'free_shipping' );
-			update_option( 'woocommerce_free_shipping_' . $free_id . '_settings', array( 'title' => __( 'Free delivery', 'aurelia-commerce' ), 'requires' => 'min_amount', 'min_amount' => '999', 'ignore_discounts' => 'no' ) );
+			update_option(
+				'woocommerce_free_shipping_' . $free_id . '_settings',
+				array(
+					'title'            => __( 'Free delivery', 'aurelia-commerce' ),
+					'requires'         => 'min_amount',
+					'min_amount'       => '999',
+					'ignore_discounts' => 'no',
+				)
+			);
 		}
 
 		// Cash on delivery on; UPI on when a UPI ID exists.
@@ -337,14 +352,14 @@ class Demo_Importer {
 	 * @return string
 	 */
 	private function import_products( $batch ) {
-		$all      = self::data()['products'];
-		$slice    = array_slice( $all, $batch * self::BATCH, self::BATCH, true );
-		$reviews  = array(
+		$all     = self::data()['products'];
+		$slice   = array_slice( $all, $batch * self::BATCH, self::BATCH, true );
+		$reviews = array(
 			array( 'Ananya R.', 5, __( 'Beautiful quality and the packaging felt like a gift. Delivered a day early!', 'aurelia-commerce' ) ),
 			array( 'Rahul M.', 5, __( 'Exactly as pictured. The WhatsApp team answered all my questions before I ordered.', 'aurelia-commerce' ) ),
 			array( 'Sara K.', 4, __( 'Lovely piece, great value. Would buy again.', 'aurelia-commerce' ) ),
 		);
-		$created  = 0;
+		$created = 0;
 		foreach ( $slice as $slug => $p ) {
 			if ( get_page_by_path( $slug, OBJECT, 'product' ) ) {
 				continue;
@@ -588,7 +603,14 @@ class Demo_Importer {
 		$track    = $this->page( 'track-order', __( 'Track your order', 'aurelia-commerce' ), $para( __( 'Enter your order number and the email you used at checkout.', 'aurelia-commerce' ) ) . "\n\n<!-- wp:shortcode -->\n[woocommerce_order_tracking]\n<!-- /wp:shortcode -->" );
 		$journal  = $this->page( 'journal', __( 'Journal', 'aurelia-commerce' ), '' );
 
-		update_option( Shop::PAGES_OPTION, array( 'wishlist' => $wishlist, 'compare' => $compare, 'track' => $track ) );
+		update_option(
+			Shop::PAGES_OPTION,
+			array(
+				'wishlist' => $wishlist,
+				'compare'  => $compare,
+				'track'    => $track,
+			)
+		);
 		if ( $home ) {
 			update_option( 'show_on_front', 'page' );
 			update_option( 'page_on_front', $home );
@@ -615,7 +637,7 @@ class Demo_Importer {
 				JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
 			) . ' /-->';
 		};
-		$sub = static function ( $label, $url, array $children ) {
+		$sub  = static function ( $label, $url, array $children ) {
 			return '<!-- wp:navigation-submenu ' . wp_json_encode(
 				array(
 					'label' => $label,
@@ -671,7 +693,7 @@ class Demo_Importer {
 				$link( __( 'About', 'aurelia-commerce' ), home_url( '/about/' ) ),
 			)
 		);
-		$id = wp_insert_post(
+		$id      = wp_insert_post(
 			array(
 				'post_type'    => 'wp_navigation',
 				'post_status'  => 'publish',

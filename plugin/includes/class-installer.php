@@ -21,7 +21,7 @@ class Installer {
 	 */
 	public static function activate() {
 		self::create_tables();
-		add_filter( 'cron_schedules', array( Plugin::class, 'add_cron_schedule' ) ); // phpcs:ignore WordPress.WP.CronInterval.CronSchedulesInterval -- 5-minute social publishing tick is intentional.
+		add_filter( 'cron_schedules', array( Plugin::class, 'add_cron_schedule' ) ); // phpcs:ignore WordPress.WP.CronInterval -- 5-minute social publishing tick is intentional.
 		if ( ! wp_next_scheduled( 'aurelia_commerce_daily' ) ) {
 			wp_schedule_event( time() + HOUR_IN_SECONDS, 'daily', 'aurelia_commerce_daily' );
 		}

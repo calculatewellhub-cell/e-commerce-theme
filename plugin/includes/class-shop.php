@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
  */
 class Shop {
 
-	const PAGES_OPTION = 'aurelia_commerce_pages';
+	const PAGES_OPTION  = 'aurelia_commerce_pages';
 	const WISHLIST_META = '_aurelia_wishlist';
 
 	/**
@@ -31,8 +31,8 @@ class Shop {
 		add_action( 'wp_enqueue_scripts', array( $this, 'product_assets' ), 20 );
 
 		add_filter( 'render_block_woocommerce/product-image', array( $this, 'card_actions' ), 10, 3 );
-		add_filter( 'render_block_woocommerce/customer-account', array( $this, 'header_wishlist' ), 10, 2 );
-		add_filter( 'render_block_woocommerce/product-details', array( $this, 'recently_viewed_slot' ), 10, 2 );
+		add_filter( 'render_block_woocommerce/customer-account', array( $this, 'header_wishlist' ) );
+		add_filter( 'render_block_woocommerce/product-details', array( $this, 'recently_viewed_slot' ) );
 
 		add_action( 'woocommerce_before_add_to_cart_form', array( $this, 'before_form' ), 5 );
 		add_action( 'woocommerce_after_add_to_cart_form', array( $this, 'size_guide_link' ), 5 );
@@ -61,7 +61,7 @@ class Shop {
 	 * @return array
 	 */
 	public function config( $config ) {
-		$config['shop'] = array(
+		$config['shop']  = array(
 			'liveSearch'   => Settings::on( 'live_search' ),
 			'wishlist'     => Settings::on( 'wishlist' ),
 			'compare'      => Settings::on( 'compare' ),
@@ -75,11 +75,11 @@ class Shop {
 			'cartUrl'      => wc_get_cart_url(),
 			'product'      => is_singular( 'product' ) ? get_queried_object_id() : 0,
 			'priceFormat'  => array(
-				'symbol'    => html_entity_decode( get_woocommerce_currency_symbol(), ENT_QUOTES, 'UTF-8' ),
-				'position'  => get_option( 'woocommerce_currency_pos', 'left' ),
-				'decimals'  => wc_get_price_decimals(),
-				'thousand'  => wc_get_price_thousand_separator(),
-				'decimal'   => wc_get_price_decimal_separator(),
+				'symbol'   => html_entity_decode( get_woocommerce_currency_symbol(), ENT_QUOTES, 'UTF-8' ),
+				'position' => get_option( 'woocommerce_currency_pos', 'left' ),
+				'decimals' => wc_get_price_decimals(),
+				'thousand' => wc_get_price_thousand_separator(),
+				'decimal'  => wc_get_price_decimal_separator(),
 			),
 		);
 		$config['i18n'] += array(
@@ -203,7 +203,7 @@ class Shop {
 		if ( mb_strlen( $q ) < 2 ) {
 			return array( 'products' => array() );
 		}
-		$ids = wc_get_products(
+		$ids    = wc_get_products(
 			array(
 				'status'     => 'publish',
 				'limit'      => 6,
@@ -233,8 +233,20 @@ class Shop {
 		);
 		return array(
 			'products'   => $out,
-			'categories' => is_wp_error( $cats ) ? array() : array_map( static fn( $c ) => array( 'name' => $c->name, 'url' => get_term_link( $c ) ), $cats ),
-			'all'        => add_query_arg( array( 's' => $q, 'post_type' => 'product' ), home_url( '/' ) ),
+			'categories' => is_wp_error( $cats ) ? array() : array_map(
+				static fn( $c ) => array(
+					'name' => $c->name,
+					'url'  => get_term_link( $c ),
+				),
+				$cats
+			),
+			'all'        => add_query_arg(
+				array(
+					's'         => $q,
+					'post_type' => 'product',
+				),
+				home_url( '/' )
+			),
 		);
 	}
 
@@ -302,7 +314,7 @@ class Shop {
 		if ( ! $product || 'publish' !== $product->get_status() || ! $product->is_visible() ) {
 			return new \WP_Error( 'aurelia_not_found', __( 'Product not found.', 'aurelia-commerce' ), array( 'status' => 404 ) );
 		}
-		$images = array_slice( array_filter( array_merge( array( $product->get_image_id() ), $product->get_gallery_image_ids() ) ), 0, 5 );
+		$images  = array_slice( array_filter( array_merge( array( $product->get_image_id() ), $product->get_gallery_image_ids() ) ), 0, 5 );
 		$gallery = array();
 		foreach ( $images as $image_id ) {
 			$gallery[] = array(
@@ -367,10 +379,9 @@ class Shop {
 	 * Wishlist icon next to the account icon in the header.
 	 *
 	 * @param string $content Block HTML.
-	 * @param array  $block   Parsed block.
 	 * @return string
 	 */
-	public function header_wishlist( $content, $block ) {
+	public function header_wishlist( $content ) {
 		$url = self::page_url( 'wishlist' );
 		if ( ! Settings::on( 'wishlist' ) || '' === $url ) {
 			return $content;
@@ -387,10 +398,9 @@ class Shop {
 	 * Recently viewed products slot after the product details tabs.
 	 *
 	 * @param string $content Block HTML.
-	 * @param array  $block   Parsed block.
 	 * @return string
 	 */
-	public function recently_viewed_slot( $content, $block ) {
+	public function recently_viewed_slot( $content ) {
 		if ( ! Settings::on( 'recently_viewed' ) || ! is_singular( 'product' ) ) {
 			return $content;
 		}

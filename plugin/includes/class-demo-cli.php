@@ -20,11 +20,8 @@ class Demo_Cli {
 	 * ## EXAMPLES
 	 *
 	 *     wp aurelia demo import --user=admin
-	 *
-	 * @param array $args       Args.
-	 * @param array $assoc_args Assoc args.
 	 */
-	public function import( $args, $assoc_args ) {
+	public function import() {
 		$importer = new Demo_Importer();
 		foreach ( Demo_Importer::steps() as $step ) {
 			\WP_CLI::log( $step . ': ' . $importer->run( $step ) );
@@ -35,11 +32,8 @@ class Demo_Cli {
 
 	/**
 	 * Remove everything the demo import created.
-	 *
-	 * @param array $args       Args.
-	 * @param array $assoc_args Assoc args.
 	 */
-	public function remove( $args, $assoc_args ) {
+	public function remove() {
 		\WP_CLI::success( ( new Demo_Importer() )->remove() );
 	}
 }

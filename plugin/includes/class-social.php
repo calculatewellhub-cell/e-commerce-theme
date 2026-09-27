@@ -130,14 +130,14 @@ class Social {
 			'aurelia-admin-social',
 			'aureliaSocial',
 			array(
-				'platforms'  => self::PLATFORMS,
-				'webhook'    => '' !== (string) Settings::get( 'social_webhook', '' ),
-				'meta'       => '' !== Settings::secret( 'meta_token' ) && '' !== (string) Settings::get( 'meta_page_id', '' ),
-				'ai'         => Claude_Client::has_key(),
-				'settings'   => admin_url( 'admin.php?page=aurelia-settings&tab=social' ),
-				'media'      => isset( $_GET['media'] ) ? esc_url_raw( wp_unslash( $_GET['media'] ) ) : '', // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- prefill from Video Studio link.
-				'timezone'   => wp_timezone_string(),
-				'i18n'       => array(
+				'platforms' => self::PLATFORMS,
+				'webhook'   => '' !== (string) Settings::get( 'social_webhook', '' ),
+				'meta'      => '' !== Settings::secret( 'meta_token' ) && '' !== (string) Settings::get( 'meta_page_id', '' ),
+				'ai'        => Claude_Client::has_key(),
+				'settings'  => admin_url( 'admin.php?page=aurelia-settings&tab=social' ),
+				'media'     => isset( $_GET['media'] ) ? esc_url_raw( wp_unslash( $_GET['media'] ) ) : '', // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- prefill from Video Studio link.
+				'timezone'  => wp_timezone_string(),
+				'i18n'      => array(
 					'compose'     => __( 'Compose a post', 'aurelia-commerce' ),
 					'product'     => __( 'Product', 'aurelia-commerce' ),
 					'noProduct'   => __( '— No product —', 'aurelia-commerce' ),
@@ -281,7 +281,7 @@ class Social {
 		global $wpdb;
 		$clicks = array();
 		if ( Settings::on( 'analytics_enabled' ) ) {
-			$rows = $wpdb->get_results( $wpdb->prepare( "SELECT platform, COUNT(*) AS c FROM %i WHERE type = 'social_click' AND ref_id = %d GROUP BY platform", Analytics::table(), $id ), ARRAY_A ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery -- custom analytics table.
+			$rows   = $wpdb->get_results( $wpdb->prepare( "SELECT platform, COUNT(*) AS c FROM %i WHERE type = 'social_click' AND ref_id = %d GROUP BY platform", Analytics::table(), $id ), ARRAY_A ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery -- custom analytics table.
 			$clicks = array_column( (array) $rows, 'c', 'platform' );
 		}
 		$platforms = (array) get_post_meta( $id, '_platforms', true );
@@ -464,6 +464,7 @@ class Social {
 	 *
 	 * @param int $id Post ID.
 	 * @return int Post ID.
+	 * @throws \RuntimeException Internally, per platform; always caught and stored as a result.
 	 */
 	public function publish( $id ) {
 		$platforms = (array) get_post_meta( $id, '_platforms', true );
@@ -510,7 +511,11 @@ class Social {
 			foreach ( $platforms as $p ) {
 				try {
 					if ( 'facebook' === $p ) {
-						$results[ $p ] = array( 'ok' => true, 'id' => $this->publish_facebook( $id ), 'at' => $now );
+						$results[ $p ] = array(
+							'ok' => true,
+							'id' => $this->publish_facebook( $id ),
+							'at' => $now,
+						);
 					} elseif ( 'instagram' === $p ) {
 						$results[ $p ] = $this->publish_instagram( $id ) + array( 'at' => $now );
 					} else {
@@ -594,10 +599,22 @@ class Social {
 		$media   = (string) get_post_meta( $id, '_media_url', true );
 		$type    = (string) get_post_meta( $id, '_media_type', true );
 		if ( 'video' === $type && '' !== $media ) {
-			return (string) ( $this->graph( $page . '/videos', array( 'file_url' => $media, 'description' => $message ) )['id'] ?? '' );
+			return (string) ( $this->graph(
+				$page . '/videos',
+				array(
+					'file_url'    => $media,
+					'description' => $message,
+				)
+			)['id'] ?? '' );
 		}
 		if ( 'image' === $type && '' !== $media ) {
-			return (string) ( $this->graph( $page . '/photos', array( 'url' => $media, 'caption' => $message ) )['post_id'] ?? '' );
+			return (string) ( $this->graph(
+				$page . '/photos',
+				array(
+					'url'     => $media,
+					'caption' => $message,
+				)
+			)['post_id'] ?? '' );
 		}
 		$params = array( 'message' => $message );
 		if ( get_post_meta( $id, '_link', true ) ) {
@@ -627,7 +644,14 @@ class Social {
 		$caption   = self::caption_for( $id, 'instagram' );
 		$container = $this->graph(
 			$ig . '/media',
-			'video' === $type ? array( 'media_type' => 'REELS', 'video_url' => $media, 'caption' => $caption ) : array( 'image_url' => $media, 'caption' => $caption )
+			'video' === $type ? array(
+				'media_type' => 'REELS',
+				'video_url'  => $media,
+				'caption'    => $caption,
+			) : array(
+				'image_url' => $media,
+				'caption'   => $caption,
+			)
 		);
 		if ( 'video' === $type ) {
 			update_post_meta( $id, '_ig_container', (string) $container['id'] );
@@ -692,14 +716,26 @@ class Social {
 				$code     = (string) ( $status['status_code'] ?? '' );
 				if ( 'FINISHED' === $code ) {
 					$published            = $this->graph( (string) Settings::get( 'meta_ig_user_id', '' ) . '/media_publish', array( 'creation_id' => $container ) );
-					$results['instagram'] = array( 'ok' => true, 'id' => (string) ( $published['id'] ?? '' ), 'at' => gmdate( 'c' ) );
+					$results['instagram'] = array(
+						'ok' => true,
+						'id' => (string) ( $published['id'] ?? '' ),
+						'at' => gmdate( 'c' ),
+					);
 					delete_post_meta( $id, '_ig_container' );
 				} elseif ( 'ERROR' === $code || 'EXPIRED' === $code ) {
-					$results['instagram'] = array( 'ok' => false, 'error' => __( 'Instagram could not process the video.', 'aurelia-commerce' ), 'at' => gmdate( 'c' ) );
+					$results['instagram'] = array(
+						'ok'    => false,
+						'error' => __( 'Instagram could not process the video.', 'aurelia-commerce' ),
+						'at'    => gmdate( 'c' ),
+					);
 					delete_post_meta( $id, '_ig_container' );
 				}
 			} catch ( \Exception $e ) {
-				$results['instagram'] = array( 'ok' => false, 'error' => $e->getMessage(), 'at' => gmdate( 'c' ) );
+				$results['instagram'] = array(
+					'ok'    => false,
+					'error' => $e->getMessage(),
+					'at'    => gmdate( 'c' ),
+				);
 				delete_post_meta( $id, '_ig_container' );
 			}
 			update_post_meta( $id, '_results', $results );

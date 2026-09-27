@@ -26,6 +26,7 @@ $aurelia_items = array(
 foreach ( $aurelia_items as $aurelia_item ) {
 	printf( "<!-- wp:paragraph -->\n<p>%s</p>\n<!-- /wp:paragraph -->\n", esc_html( $aurelia_item ) );
 }
-?></div>
+?>
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

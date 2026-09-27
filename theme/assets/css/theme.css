@@ -244,12 +244,29 @@ canvas {
 	z-index: 40;
 }
 
+/* The open mobile menu must cover floating buttons (chat, WhatsApp, sticky bar). */
+.au-site-header:has(.wp-block-navigation__responsive-container.is-menu-open) {
+	z-index: 100000;
+}
+
+/* The frosted glass lives on a pseudo-element: backdrop-filter on the header itself
+   would become the containing block for the fixed mobile menu overlay and clip it. */
 .au-header {
+	position: relative;
+	isolation: isolate;
+	border-block-end: 1px solid transparent;
+	transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.au-header::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
 	background: color-mix(in srgb, var(--wp--preset--color--base) 82%, transparent);
 	-webkit-backdrop-filter: blur(14px) saturate(1.4);
 	backdrop-filter: blur(14px) saturate(1.4);
-	border-block-end: 1px solid transparent;
-	transition: border-color 0.3s, box-shadow 0.3s;
+	pointer-events: none;
 }
 
 .is-scrolled .au-header {

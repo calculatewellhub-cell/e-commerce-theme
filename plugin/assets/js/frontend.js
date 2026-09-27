@@ -351,7 +351,7 @@
 			const enquiry = e.target.closest( '.au-wa-enquiry' );
 			if ( enquiry ) {
 				const tpl = enquiry.dataset.kind === 'video' ? T.waVideo : T.waEnquiry;
-				const text = sprintf( tpl, WA.store, enquiry.dataset.name, enquiry.dataset.url );
+				const text = sprintf( tpl, WA.store, enquiry.dataset.name, enquiry.dataset.url ).replace( /\\n/g, '\n' );
 				beacon( { type: 'whatsapp_enquiry', path: location.pathname, product: enquiry.dataset.product } );
 				window.open( 'https://wa.me/' + WA.number + '?text=' + encodeURIComponent( text ), '_blank', 'noopener' );
 			}

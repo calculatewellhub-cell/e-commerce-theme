@@ -264,10 +264,16 @@
 	color: var(--wp--preset--color--contrast);
 }
 
-.wc-block-product-filters__overlay-wrapper,
-.wc-block-product-filters__overlay-dialog {
-	background: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--contrast);
+.wc-block-product-filters {
+	--wc-product-filters-overlay-background-color: var(--wp--preset--color--base);
+	--wc-product-filters-overlay-text-color: var(--wp--preset--color--contrast);
+}
+
+/* Closed phone overlay: keep it from painting or taking focus. */
+@media (max-width: 600px) {
+	.wc-block-product-filters:not(.is-overlay-opened) .wc-block-product-filters__overlay {
+		visibility: hidden;
+	}
 }
 
 /* List view (toggled by Aurelia Commerce) */
@@ -1101,4 +1107,16 @@ p.demo_store {
 :root[data-color-scheme="dark"] .wc-block-components-sidebar-layout,
 :root[data-color-scheme="dark"] .wc-block-components-totals-wrapper {
 	border-color: var(--wp--preset--color--line);
+}
+
+/* Room for six-digit rupee prices in the price filter inputs. */
+.wc-block-product-filter-price-slider__left.text,
+.wc-block-product-filter-price-slider__right.text {
+	inline-size: 6.5em;
+}
+
+.wc-block-product-filter-price-slider .text input[type="text"] {
+	inline-size: 100%;
+	max-inline-size: none;
+	font-variant-numeric: tabular-nums;
 }

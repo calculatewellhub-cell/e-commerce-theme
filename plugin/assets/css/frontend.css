@@ -34,6 +34,7 @@
 }
 
 /* Our components use display rules; keep the hidden attribute authoritative. */
+.au-wishlist-count[hidden],
 .au-compare-bar[hidden],
 .au-ship-bar[hidden],
 .au-sticky-cart[hidden],

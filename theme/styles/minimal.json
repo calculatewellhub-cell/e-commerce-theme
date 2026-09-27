@@ -1,0 +1,277 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Minimal",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Base",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "base-2",
+					"name": "Base alt",
+					"color": "#f5f5f4"
+				},
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "contrast",
+					"name": "Contrast",
+					"color": "#18181b"
+				},
+				{
+					"slug": "contrast-2",
+					"name": "Contrast muted",
+					"color": "#52525b"
+				},
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#18181b"
+				},
+				{
+					"slug": "primary-2",
+					"name": "Primary alt",
+					"color": "#27272a"
+				},
+				{
+					"slug": "primary-3",
+					"name": "Primary light",
+					"color": "#3f3f46"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#18181b"
+				},
+				{
+					"slug": "accent-2",
+					"name": "Accent light",
+					"color": "#e4e4e7"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Accent text",
+					"color": "#3f3f46"
+				},
+				{
+					"slug": "on-primary",
+					"name": "On primary",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "on-accent",
+					"name": "On accent",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "line",
+					"name": "Line",
+					"color": "#e4e4e7"
+				},
+				{
+					"slug": "sale",
+					"name": "Sale",
+					"color": "#b91c1c"
+				},
+				{
+					"slug": "success",
+					"name": "Success",
+					"color": "#15803d"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "accent-sheen",
+					"name": "Accent sheen",
+					"gradient": "linear-gradient(120deg, #18181b 0%, #3f3f46 100%)"
+				},
+				{
+					"slug": "primary-radial",
+					"name": "Primary glow",
+					"gradient": "linear-gradient(180deg, #18181b 0%, #27272a 100%)"
+				},
+				{
+					"slug": "primary-soft",
+					"name": "Primary soft",
+					"gradient": "linear-gradient(180deg, #27272a, #18181b)"
+				},
+				{
+					"slug": "fade-to-contrast",
+					"name": "Image shade",
+					"gradient": "linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.72) 100%)"
+				}
+			]
+		},
+		"shadow": {
+			"presets": [
+				{
+					"slug": "soft",
+					"name": "Soft",
+					"shadow": "0 18px 40px -28px rgba(0, 0, 0, 0.12)"
+				},
+				{
+					"slug": "card",
+					"name": "Card",
+					"shadow": "0 1px 0 rgba(0,0,0,0.04), 0 18px 40px -28px rgba(0, 0, 0, 0.12)"
+				},
+				{
+					"slug": "deep",
+					"name": "Deep",
+					"shadow": "0 40px 60px -30px rgba(0, 0, 0, 0.12)"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading (Inter)",
+					"fontFamily": "\"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans Devanagari\", \"Helvetica Neue\", Arial, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/inter/inter-latin-wght-normal.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body (Inter)",
+					"fontFamily": "\"Inter\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans Devanagari\", \"Helvetica Neue\", Arial, sans-serif"
+				},
+				{
+					"slug": "system",
+					"name": "System",
+					"fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans Devanagari\", \"Helvetica Neue\", Arial, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "x-small",
+					"name": "Extra small",
+					"size": "0.78rem",
+					"fluid": false
+				},
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "0.9rem",
+					"fluid": false
+				},
+				{
+					"slug": "medium",
+					"name": "Medium",
+					"size": "1.05rem",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.05rem"
+					}
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "1.5rem",
+					"fluid": {
+						"min": "1.062rem",
+						"max": "1.275rem"
+					}
+				},
+				{
+					"slug": "x-large",
+					"name": "Extra large",
+					"size": "2.2rem",
+					"fluid": {
+						"min": "1.445rem",
+						"max": "1.87rem"
+					}
+				},
+				{
+					"slug": "xx-large",
+					"name": "2X large",
+					"size": "3.2rem",
+					"fluid": {
+						"min": "1.785rem",
+						"max": "2.72rem"
+					}
+				},
+				{
+					"slug": "huge",
+					"name": "Huge",
+					"size": "5.2rem",
+					"fluid": {
+						"min": "2.21rem",
+						"max": "4.42rem"
+					}
+				}
+			]
+		},
+		"custom": {
+			"radius": {
+				"sm": "4px",
+				"md": "6px",
+				"lg": "8px",
+				"pill": "999px",
+				"button": "6px"
+			},
+			"dark": {
+				"base": "#09090b",
+				"base-2": "#111113",
+				"surface": "#18181b",
+				"contrast": "#fafafa",
+				"contrast-2": "#a1a1aa",
+				"line": "#27272a",
+				"accent-3": "#d4d4d8"
+			},
+			"heading": {
+				"weight": "600",
+				"transform": "none"
+			},
+			"button": {
+				"transform": "none",
+				"letter-spacing": "0.01em"
+			},
+			"header": {
+				"height": "72px"
+			},
+			"whatsapp": {
+				"background": "#25d366",
+				"text": "#06301a"
+			},
+			"transition": {
+				"base": "0.25s ease",
+				"spring": "0.5s cubic-bezier(0.2, 0.7, 0.2, 1)"
+			}
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "600",
+					"textTransform": "none"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "6px"
+				},
+				"typography": {
+					"textTransform": "none",
+					"letterSpacing": "0.01em"
+				}
+			}
+		}
+	}
+}

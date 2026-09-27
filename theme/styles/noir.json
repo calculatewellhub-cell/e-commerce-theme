@@ -1,0 +1,301 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Noir",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Base",
+					"color": "#0d1614"
+				},
+				{
+					"slug": "base-2",
+					"name": "Base alt",
+					"color": "#111e1b"
+				},
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#16241f"
+				},
+				{
+					"slug": "contrast",
+					"name": "Contrast",
+					"color": "#f3ede2"
+				},
+				{
+					"slug": "contrast-2",
+					"name": "Contrast muted",
+					"color": "#b9ae9c"
+				},
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#050c0b"
+				},
+				{
+					"slug": "primary-2",
+					"name": "Primary alt",
+					"color": "#0b1a17"
+				},
+				{
+					"slug": "primary-3",
+					"name": "Primary light",
+					"color": "#1f4a41"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#c9a45c"
+				},
+				{
+					"slug": "accent-2",
+					"name": "Accent light",
+					"color": "#f1dca4"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Accent text",
+					"color": "#d9b872"
+				},
+				{
+					"slug": "on-primary",
+					"name": "On primary",
+					"color": "#ffffff"
+				},
+				{
+					"slug": "on-accent",
+					"name": "On accent",
+					"color": "#1c1406"
+				},
+				{
+					"slug": "line",
+					"name": "Line",
+					"color": "#2a3a35"
+				},
+				{
+					"slug": "sale",
+					"name": "Sale",
+					"color": "#ff8a80"
+				},
+				{
+					"slug": "success",
+					"name": "Success",
+					"color": "#6fd49b"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "accent-sheen",
+					"name": "Accent sheen",
+					"gradient": "linear-gradient(120deg, #a67f36 0%, #f1dca4 35%, #c9a45c 55%, #fff1c9 75%, #a67f36 100%)"
+				},
+				{
+					"slug": "primary-radial",
+					"name": "Primary glow",
+					"gradient": "radial-gradient(120% 90% at 70% 30%, #1f4a41 0%, #0b1a17 55%, #050c0b 100%)"
+				},
+				{
+					"slug": "primary-soft",
+					"name": "Primary soft",
+					"gradient": "radial-gradient(80% 120% at 80% 20%, #24554b, #0b1a17)"
+				},
+				{
+					"slug": "fade-to-contrast",
+					"name": "Image shade",
+					"gradient": "linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.72) 100%)"
+				}
+			]
+		},
+		"shadow": {
+			"presets": [
+				{
+					"slug": "soft",
+					"name": "Soft",
+					"shadow": "0 18px 40px -28px rgba(11, 26, 23, 0.35)"
+				},
+				{
+					"slug": "card",
+					"name": "Card",
+					"shadow": "0 1px 0 rgba(0,0,0,0.04), 0 18px 40px -28px rgba(11, 26, 23, 0.35)"
+				},
+				{
+					"slug": "deep",
+					"name": "Deep",
+					"shadow": "0 40px 60px -30px rgba(11, 26, 23, 0.35)"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading (Cormorant Garamond)",
+					"fontFamily": "\"Cormorant Garamond\", Georgia, \"Times New Roman\", \"Noto Serif Devanagari\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/cormorant-garamond-latin-wght-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "italic",
+							"fontWeight": "300 700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/cormorant-garamond-latin-wght-italic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body (Jost)",
+					"fontFamily": "\"Jost\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans Devanagari\", \"Helvetica Neue\", Arial, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Jost",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/jost/jost-latin-wght-normal.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "system",
+					"name": "System",
+					"fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Noto Sans Devanagari\", \"Helvetica Neue\", Arial, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "x-small",
+					"name": "Extra small",
+					"size": "0.78rem",
+					"fluid": false
+				},
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "0.9rem",
+					"fluid": false
+				},
+				{
+					"slug": "medium",
+					"name": "Medium",
+					"size": "1.05rem",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.05rem"
+					}
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "1.5rem",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					}
+				},
+				{
+					"slug": "x-large",
+					"name": "Extra large",
+					"size": "2.2rem",
+					"fluid": {
+						"min": "1.7rem",
+						"max": "2.2rem"
+					}
+				},
+				{
+					"slug": "xx-large",
+					"name": "2X large",
+					"size": "3.2rem",
+					"fluid": {
+						"min": "2.1rem",
+						"max": "3.2rem"
+					}
+				},
+				{
+					"slug": "huge",
+					"name": "Huge",
+					"size": "5.2rem",
+					"fluid": {
+						"min": "2.6rem",
+						"max": "5.2rem"
+					}
+				}
+			]
+		},
+		"custom": {
+			"radius": {
+				"sm": "10px",
+				"md": "18px",
+				"lg": "24px",
+				"pill": "999px",
+				"button": "999px"
+			},
+			"dark": {
+				"base": "#0d1614",
+				"base-2": "#111e1b",
+				"surface": "#16241f",
+				"contrast": "#f3ede2",
+				"contrast-2": "#b9ae9c",
+				"line": "#2a3a35",
+				"accent-3": "#d9b872"
+			},
+			"heading": {
+				"weight": "500",
+				"transform": "none"
+			},
+			"button": {
+				"transform": "uppercase",
+				"letter-spacing": "0.06em"
+			},
+			"header": {
+				"height": "72px"
+			},
+			"whatsapp": {
+				"background": "#25d366",
+				"text": "#06301a"
+			},
+			"transition": {
+				"base": "0.25s ease",
+				"spring": "0.5s cubic-bezier(0.2, 0.7, 0.2, 1)"
+			}
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "500",
+					"textTransform": "none"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "999px"
+				},
+				"typography": {
+					"textTransform": "uppercase",
+					"letterSpacing": "0.06em"
+				}
+			}
+		},
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		}
+	}
+}

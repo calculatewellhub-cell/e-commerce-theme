@@ -1,0 +1,20 @@
+/**
+ * Aurelia — right-to-left adjustments.
+ * The main styles use logical properties, so only a few physical transforms need flipping.
+ */
+.au-header .wp-block-search__inside-wrapper {
+	padding: 2px 14px 2px 4px;
+}
+
+.au-pdp .woocommerce-product-gallery .flex-direction-nav a {
+	transform: scaleX(-1);
+}
+
+.wc-block-components-product-image .wc-block-components-product-sale-badge {
+	right: 0.75rem;
+	left: auto;
+}
+
+.is-style-eyebrow {
+	letter-spacing: 0;
+}

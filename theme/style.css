@@ -1,0 +1,23 @@
+/*
+Theme Name: Aurelia
+Theme URI: https://github.com/calculatewellhub-cell/e-commerce-theme
+Author: Aurelia Commerce
+Author URI: https://github.com/calculatewellhub-cell
+Description: Aurelia is a premium, universal WooCommerce block theme for any kind of store: jewellery, fashion, electronics, beauty, grocery or home. It ships with seven complete style variations (Luxe emerald and gold, Noir, Fashion, Electronics, Beauty, Grocery and Minimal), automatic light and dark mode, a full set of shop templates, and over twenty store patterns — hero, category grid, product carousels, promo banners, countdown sale, testimonials, FAQ, brand logos, gallery, newsletter, trust badges and more. Every colour, font, radius and spacing value comes from theme.json, so the whole store changes look from Appearance → Editor → Styles. Pair it with the free Aurelia Commerce plugin for WhatsApp ordering, an AI shopping concierge, 3D product viewing and marketing tools; the theme works fully without it.
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.1
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aurelia
+Domain Path: /languages
+Tags: e-commerce, full-site-editing, block-patterns, block-styles, style-variations, wide-blocks, editor-style, custom-colors, custom-logo, custom-menu, featured-images, rtl-language-support, translation-ready, threaded-comments, one-column, two-columns, left-sidebar, accessibility-ready
+WC requires at least: 9.0
+WC tested up to: 11.1
+
+Aurelia WordPress Theme, (C) 2026 Aurelia Commerce.
+Aurelia is distributed under the terms of the GNU GPL v2 or later.
+
+All presentation lives in theme.json and assets/css. This file only holds the theme header.
+*/

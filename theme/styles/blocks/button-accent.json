@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Accent",
+	"slug": "accent",
+	"blockTypes": [ "core/button" ],
+	"styles": {
+		"color": { "gradient": "var:preset|gradient|accent-sheen", "text": "var:preset|color|on-accent" },
+		"shadow": "var:preset|shadow|soft"
+	}
+}

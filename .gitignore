@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/dist/
+/build/
+*.zip
+.DS_Store
+.phpcs-cache
+*.log
+/tools/node_modules/

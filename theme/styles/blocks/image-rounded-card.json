@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Rounded",
+	"slug": "rounded-card",
+	"blockTypes": [ "core/image", "core/cover", "core/media-text" ],
+	"styles": {
+		"border": { "radius": "var(--wp--custom--radius--md)" }
+	}
+}

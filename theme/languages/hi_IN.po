@@ -1,0 +1,1579 @@
+# Copyright (C) 2026 Aurelia Commerce
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aurelia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/calculatewellhub-cell/e-commerce-theme/issues\n"
+"Last-Translator: Aurelia <hello@example.com>\n"
+"Language-Team: Aurelia\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T12:14:30+00:00\n"
+"PO-Revision-Date: 2026-09-27 12:00+0530\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: aurelia\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Aurelia"
+msgstr "Aurelia"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/calculatewellhub-cell/e-commerce-theme"
+msgstr "https://github.com/calculatewellhub-cell/e-commerce-theme"
+
+#. Description of the theme
+#: style.css
+msgid "Aurelia is a premium, universal WooCommerce block theme for any kind of store: jewellery, fashion, electronics, beauty, grocery or home. It ships with seven complete style variations (Luxe emerald and gold, Noir, Fashion, Electronics, Beauty, Grocery and Minimal), automatic light and dark mode, a full set of shop templates, and over twenty store patterns — hero, category grid, product carousels, promo banners, countdown sale, testimonials, FAQ, brand logos, gallery, newsletter, trust badges and more. Every colour, font, radius and spacing value comes from theme.json, so the whole store changes look from Appearance → Editor → Styles. Pair it with the free Aurelia Commerce plugin for WhatsApp ordering, an AI shopping concierge, 3D product viewing and marketing tools; the theme works fully without it."
+msgstr "Aurelia हर तरह के स्टोर के लिए एक प्रीमियम, यूनिवर्सल WooCommerce ब्लॉक थीम है: ज्वेलरी, फ़ैशन, इलेक्ट्रॉनिक्स, ब्यूटी, ग्रोसरी या होम। इसमें सात पूरे स्टाइल वेरिएशन (Luxe एमरल्ड और गोल्ड, Noir, Fashion, Electronics, Beauty, Grocery और Minimal), अपने-आप लाइट और डार्क मोड, शॉप के सभी टेम्पलेट और बीस से ज़्यादा स्टोर पैटर्न हैं — हीरो, कैटेगरी ग्रिड, प्रोडक्ट कैरोसेल, प्रोमो बैनर, काउंटडाउन सेल, टेस्टिमोनियल, FAQ, ब्रांड लोगो, गैलरी, न्यूज़लेटर, ट्रस्ट बैज और भी बहुत कुछ। हर रंग, फ़ॉन्ट, रेडियस और स्पेसिंग theme.json से आती है, इसलिए Appearance → Editor → Styles से पूरे स्टोर का लुक बदल जाता है। WhatsApp ऑर्डर, AI शॉपिंग कंसीयर्ज, 3D प्रोडक्ट व्यू और मार्केटिंग टूल के लिए इसे मुफ़्त Aurelia Commerce प्लगइन के साथ इस्तेमाल करें; थीम इसके बिना भी पूरी तरह काम करती है।"
+
+#. Author of the theme
+#: style.css
+msgid "Aurelia Commerce"
+msgstr "Aurelia Commerce"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/calculatewellhub-cell"
+msgstr "https://github.com/calculatewellhub-cell"
+
+#: functions.php:78
+#: patterns/header.php:28
+msgid "Switch to dark mode"
+msgstr "डार्क मोड पर जाएँ"
+
+#: functions.php:79
+msgid "Switch to light mode"
+msgstr "लाइट मोड पर जाएँ"
+
+#: functions.php:80
+msgid "Previous products"
+msgstr "पिछले प्रोडक्ट"
+
+#: functions.php:81
+msgid "Next products"
+msgstr "अगले प्रोडक्ट"
+
+#: functions.php:82
+msgid "Days"
+msgstr "दिन"
+
+#: functions.php:83
+msgid "Hours"
+msgstr "घंटे"
+
+#: functions.php:84
+msgid "Mins"
+msgstr "मिनट"
+
+#: functions.php:85
+msgid "Secs"
+msgstr "सेकंड"
+
+#: functions.php:86
+msgid "This offer has ended"
+msgstr "यह ऑफ़र ख़त्म हो गया है"
+
+#: functions.php:136
+msgid "Checklist"
+msgstr "चेकलिस्ट"
+
+#: functions.php:139
+msgid "Mega menu"
+msgstr "मेगा मेन्यू"
+
+#: functions.php:142
+msgid "3D tile"
+msgstr "3D टाइल"
+
+#: functions.php:145
+msgid "Ghost (on dark)"
+msgstr "घोस्ट (डार्क पर)"
+
+#: functions.php:148
+msgid "Reveal on scroll"
+msgstr "स्क्रॉल पर दिखाएँ"
+
+#: functions.php:151
+msgid "Numbered steps"
+msgstr "क्रमांकित चरण"
+
+#: functions.php:154
+#: patterns/footer.php:90
+msgid "FAQ"
+msgstr "FAQ"
+
+#: functions.php:157
+msgid "Carousel"
+msgstr "कैरोसेल"
+
+#: functions.php:179
+msgid "Aurelia: Hero"
+msgstr "Aurelia: हीरो"
+
+#: functions.php:180
+msgid "Aurelia: Shop"
+msgstr "Aurelia: शॉप"
+
+#: functions.php:181
+msgid "Aurelia: Marketing"
+msgstr "Aurelia: मार्केटिंग"
+
+#: functions.php:182
+msgid "Aurelia: Content"
+msgstr "Aurelia: कंटेंट"
+
+#: functions.php:183
+msgid "Aurelia: Pages"
+msgstr "Aurelia: पेज"
+
+#: patterns/announcement.php
+msgctxt "Pattern title"
+msgid "Announcement bar"
+msgstr "घोषणा पट्टी"
+
+#: patterns/announcement.php
+msgctxt "Pattern description"
+msgid "Slim promotional bar shown above the header."
+msgstr "हेडर के ऊपर दिखने वाली पतली प्रमोशनल पट्टी।"
+
+#: patterns/announcement.php:15
+msgid "Free shipping over ₹999 · Easy 15-day returns · Order on WhatsApp in one tap"
+msgstr "₹999 से ऊपर मुफ़्त शिपिंग · 15 दिन में आसान रिटर्न · एक टैप में WhatsApp पर ऑर्डर"
+
+#: patterns/brand-logos.php
+msgctxt "Pattern title"
+msgid "Brand logos strip"
+msgstr "ब्रांड लोगो पट्टी"
+
+#: patterns/brand-logos.php
+msgctxt "Pattern description"
+msgid "A row of brand or press names. Replace the text with logo images from your media library."
+msgstr "ब्रांड या प्रेस के नामों की एक पंक्ति। टेक्स्ट की जगह अपनी मीडिया लाइब्रेरी से लोगो इमेज लगाएँ।"
+
+#: patterns/brand-logos.php:17
+msgid "Brands we stock"
+msgstr "हमारे ब्रांड"
+
+#: patterns/category-grid.php
+msgctxt "Pattern title"
+msgid "Shop by category (3D tiles)"
+msgstr "कैटेगरी से ख़रीदें (3D टाइल)"
+
+#: patterns/category-grid.php
+msgctxt "Pattern description"
+msgid "Six image tiles that tilt in 3D on hover and link to your product categories."
+msgstr "छह इमेज टाइल जो होवर पर 3D में झुकती हैं और आपकी प्रोडक्ट कैटेगरी से लिंक होती हैं।"
+
+#: patterns/category-grid.php:14
+#: patterns/footer.php:50
+msgid "Jewellery"
+msgstr "ज्वेलरी"
+
+#: patterns/category-grid.php:14
+msgid "Emerald necklace on a dark background"
+msgstr "गहरे बैकग्राउंड पर एमरल्ड नेकलेस"
+
+#: patterns/category-grid.php:15
+#: patterns/footer.php:54
+msgid "Fashion"
+msgstr "फ़ैशन"
+
+#: patterns/category-grid.php:15
+msgid "Linen wrap dress on a hanger"
+msgstr "हैंगर पर लिनन रैप ड्रेस"
+
+#: patterns/category-grid.php:16
+#: patterns/footer.php:58
+msgid "Electronics"
+msgstr "इलेक्ट्रॉनिक्स"
+
+#: patterns/category-grid.php:16
+msgid "Wireless headphones"
+msgstr "वायरलेस हेडफ़ोन"
+
+#: patterns/category-grid.php:17
+#: patterns/footer.php:62
+msgid "Beauty"
+msgstr "ब्यूटी"
+
+#: patterns/category-grid.php:17
+msgid "Pink perfume bottle"
+msgstr "गुलाबी परफ़्यूम की बोतल"
+
+#: patterns/category-grid.php:18
+msgid "Grocery"
+msgstr "ग्रोसरी"
+
+#: patterns/category-grid.php:18
+msgid "Jar of raw honey"
+msgstr "कच्चे शहद का जार"
+
+#: patterns/category-grid.php:19
+msgid "Home & Living"
+msgstr "होम और लिविंग"
+
+#: patterns/category-grid.php:19
+msgid "Terracotta table lamp"
+msgstr "टेराकोटा टेबल लैंप"
+
+#: patterns/category-grid.php:25
+msgid "Collections"
+msgstr "कलेक्शन"
+
+#: patterns/category-grid.php:29
+msgid "Shop by category"
+msgstr "कैटेगरी से ख़रीदें"
+
+#: patterns/countdown-sale.php
+msgctxt "Pattern title"
+msgid "Countdown sale"
+msgstr "काउंटडाउन सेल"
+
+#: patterns/countdown-sale.php
+msgctxt "Pattern description"
+msgid "Deal-of-the-day band with a live countdown. Set the end date in the Custom HTML block's data-end attribute (for example 2026-12-31T23:59:59+05:30); without it the timer counts down to midnight."
+msgstr "लाइव काउंटडाउन के साथ आज की डील का बैंड। Custom HTML ब्लॉक के data-end एट्रिब्यूट में ख़त्म होने की तारीख़ डालें (जैसे 2026-12-31T23:59:59+05:30); इसके बिना टाइमर आधी रात तक गिनता है।"
+
+#: patterns/countdown-sale.php:18
+msgid "Deal of the day"
+msgstr "आज की डील"
+
+#: patterns/countdown-sale.php:22
+msgid "Extra 15% off everything, today only"
+msgstr "हर चीज़ पर 15% अतिरिक्त छूट, सिर्फ़ आज"
+
+#: patterns/countdown-sale.php:26
+msgid "Use code <strong>TODAY15</strong> at checkout. Valid on UPI, card and cash on delivery orders."
+msgstr "चेकआउट पर कोड <strong>TODAY15</strong> इस्तेमाल करें। UPI, कार्ड और कैश ऑन डिलीवरी ऑर्डर पर मान्य।"
+
+#: patterns/countdown-sale.php:30
+msgid "Time left for this offer"
+msgstr "इस ऑफ़र में बचा समय"
+
+#: patterns/countdown-sale.php:30
+msgid "Ends at midnight"
+msgstr "आधी रात को ख़त्म"
+
+#: patterns/countdown-sale.php:35
+msgid "Grab the deal"
+msgstr "डील पाएँ"
+
+#: patterns/countdown-sale.php:42
+#: patterns/promo-banners.php:15
+msgid "Headphones and a smartwatch on a navy background"
+msgstr "नेवी बैकग्राउंड पर हेडफ़ोन और स्मार्टवॉच"
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "FAQ accordion"
+msgstr "FAQ अकॉर्डियन"
+
+#: patterns/faq.php
+msgctxt "Pattern description"
+msgid "Frequently asked questions as accessible Details blocks. Aurelia Commerce turns them into FAQPage structured data automatically."
+msgstr "सुलभ Details ब्लॉक के रूप में अक्सर पूछे जाने वाले सवाल। Aurelia Commerce इन्हें अपने-आप FAQPage स्ट्रक्चर्ड डेटा में बदल देता है।"
+
+#: patterns/faq.php:14
+msgid "How long does delivery take?"
+msgstr "डिलीवरी में कितना समय लगता है?"
+
+#: patterns/faq.php:14
+msgid "Orders are dispatched within 48 hours. Metro cities usually receive them in 2–4 days and the rest of India in 3–7 days. You will get a tracking link by SMS, email and WhatsApp."
+msgstr "ऑर्डर 48 घंटे में भेज दिए जाते हैं। मेट्रो शहरों में आमतौर पर 2–4 दिन और बाक़ी भारत में 3–7 दिन लगते हैं। आपको SMS, ईमेल और WhatsApp पर ट्रैकिंग लिंक मिलेगा।"
+
+#: patterns/faq.php:15
+msgid "Which payment methods do you accept?"
+msgstr "आप कौन-से पेमेंट तरीक़े स्वीकार करते हैं?"
+
+#: patterns/faq.php:15
+msgid "UPI (PhonePe, Google Pay, Paytm and any UPI app), debit and credit cards, net banking and cash on delivery. You can also place your order on WhatsApp and pay by UPI."
+msgstr "UPI (PhonePe, Google Pay, Paytm और कोई भी UPI ऐप), डेबिट और क्रेडिट कार्ड, नेट बैंकिंग और कैश ऑन डिलीवरी। आप WhatsApp पर ऑर्डर देकर UPI से भी पेमेंट कर सकते हैं।"
+
+#: patterns/faq.php:16
+msgid "Can I order on WhatsApp?"
+msgstr "क्या मैं WhatsApp पर ऑर्डर कर सकता/सकती हूँ?"
+
+#: patterns/faq.php:16
+msgid "Yes. Tap \"Order on WhatsApp\" on any product or in your bag. We receive your items, sizes and total instantly and a real person confirms availability, delivery and payment with you."
+msgstr "हाँ। किसी भी प्रोडक्ट पर या अपने बैग में \"WhatsApp पर ऑर्डर करें\" पर टैप करें। आपके आइटम, साइज़ और कुल रक़म हमें तुरंत मिल जाती है और एक असली व्यक्ति आपके साथ स्टॉक, डिलीवरी और पेमेंट की पुष्टि करता है।"
+
+#: patterns/faq.php:17
+msgid "What is your return policy?"
+msgstr "आपकी रिटर्न पॉलिसी क्या है?"
+
+#: patterns/faq.php:17
+msgid "Unused items in original packaging can be returned within 15 days of delivery for a full refund or exchange. Hygiene products and personalised items are final sale."
+msgstr "बिना इस्तेमाल किए, असली पैकिंग में रखे आइटम डिलीवरी के 15 दिन के अंदर पूरे रिफ़ंड या एक्सचेंज के लिए लौटाए जा सकते हैं। हाइजीन प्रोडक्ट और पर्सनलाइज़्ड आइटम वापस नहीं होते।"
+
+#: patterns/faq.php:18
+msgid "Is cash on delivery available?"
+msgstr "क्या कैश ऑन डिलीवरी उपलब्ध है?"
+
+#: patterns/faq.php:18
+msgid "Cash on delivery is available on most pin codes for orders up to ₹50,000. You can check at checkout."
+msgstr "₹50,000 तक के ऑर्डर पर ज़्यादातर पिन कोड में कैश ऑन डिलीवरी उपलब्ध है। चेकआउट पर जाँच सकते हैं।"
+
+#: patterns/faq.php:24
+msgid "Good to know"
+msgstr "जानने लायक"
+
+#: patterns/faq.php:28
+msgid "Frequently asked questions"
+msgstr "अक्सर पूछे जाने वाले सवाल"
+
+#: patterns/features.php
+msgctxt "Pattern title"
+msgid "Why shop with us"
+msgstr "हमसे क्यों ख़रीदें"
+
+#: patterns/features.php
+msgctxt "Pattern description"
+msgid "Dark section with four promise cards."
+msgstr "चार वादों वाले कार्ड के साथ डार्क सेक्शन।"
+
+#: patterns/features.php:14
+msgid "Authentic, always"
+msgstr "हमेशा असली"
+
+#: patterns/features.php:14
+msgid "Sourced directly from makers and authorised brands, with invoices and warranty."
+msgstr "सीधे कारीगरों और अधिकृत ब्रांड से, बिल और वारंटी के साथ।"
+
+#: patterns/features.php:15
+msgid "Insured delivery"
+msgstr "बीमित डिलीवरी"
+
+#: patterns/features.php:15
+msgid "Every parcel is tracked and insured door to door across India."
+msgstr "पूरे भारत में हर पार्सल ट्रैक और घर तक बीमित।"
+
+#: patterns/features.php:16
+msgid "Lifetime care"
+msgstr "आजीवन देखभाल"
+
+#: patterns/features.php:16
+msgid "Free exchanges, repairs guidance and honest after-sales support."
+msgstr "मुफ़्त एक्सचेंज, रिपेयर में मार्गदर्शन और ईमानदार आफ़्टर-सेल्स सपोर्ट।"
+
+#: patterns/features.php:17
+msgid "Personal concierge"
+msgstr "निजी कंसीयर्ज"
+
+#: patterns/features.php:17
+msgid "Ask our AI concierge anytime, or chat with a human stylist on WhatsApp."
+msgstr "कभी भी हमारे AI कंसीयर्ज से पूछें, या WhatsApp पर किसी स्टाइलिस्ट से बात करें।"
+
+#: patterns/features.php:23
+msgid "Our promise"
+msgstr "हमारा वादा"
+
+#: patterns/features.php:27
+msgid "Why thousands shop with us"
+msgstr "हज़ारों लोग हमसे क्यों ख़रीदते हैं"
+
+#: patterns/footer-minimal.php
+msgctxt "Pattern title"
+msgid "Minimal footer"
+msgstr "मिनिमल फ़ुटर"
+
+#: patterns/footer-minimal.php
+msgctxt "Pattern description"
+msgid "Single-line footer for checkout."
+msgstr "चेकआउट के लिए एक पंक्ति वाला फ़ुटर।"
+
+#. translators: 1: current year, 2: site name.
+#: patterns/footer-minimal.php:19
+#, php-format
+msgid "© %1$s %2$s · Secure payments · Easy returns"
+msgstr "© %1$s %2$s · सुरक्षित पेमेंट · आसान रिटर्न"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Store footer"
+msgstr "स्टोर फ़ुटर"
+
+#: patterns/footer.php
+msgctxt "Pattern description"
+msgid "Four-column footer with brand, shop links, customer care, contact and payment marks."
+msgstr "ब्रांड, शॉप लिंक, कस्टमर केयर, संपर्क और पेमेंट चिह्नों वाला चार कॉलम का फ़ुटर।"
+
+#: patterns/footer.php:25
+msgid "Thoughtfully curated products, honest prices and real people behind every order. Shop online or message us on WhatsApp — we reply within minutes."
+msgstr "सोच-समझकर चुने गए प्रोडक्ट, ईमानदार दाम और हर ऑर्डर के पीछे असली लोग। ऑनलाइन ख़रीदें या WhatsApp पर मैसेज करें — हम कुछ ही मिनट में जवाब देते हैं।"
+
+#: patterns/footer.php:41
+msgid "Shop"
+msgstr "शॉप"
+
+#: patterns/footer.php:46
+msgid "All products"
+msgstr "सभी प्रोडक्ट"
+
+#: patterns/footer.php:66
+msgid "Home & living"
+msgstr "होम और लिविंग"
+
+#: patterns/footer.php:73
+msgid "Customer care"
+msgstr "कस्टमर केयर"
+
+#: patterns/footer.php:78
+msgid "My account"
+msgstr "मेरा अकाउंट"
+
+#: patterns/footer.php:82
+msgid "Track your order"
+msgstr "अपना ऑर्डर ट्रैक करें"
+
+#: patterns/footer.php:86
+msgid "Shipping & returns"
+msgstr "शिपिंग और रिटर्न"
+
+#: patterns/footer.php:94
+#: patterns/page-contact.php:22
+msgid "Contact us"
+msgstr "संपर्क करें"
+
+#: patterns/footer.php:101
+msgid "Visit & contact"
+msgstr "आएँ और संपर्क करें"
+
+#: patterns/footer.php:105
+msgid "12 Heritage Arcade, Zaveri Bazaar"
+msgstr "12 हेरिटेज आर्केड, ज़वेरी बाज़ार"
+
+#: patterns/footer.php:105
+msgid "Mumbai, Maharashtra 400002"
+msgstr "मुंबई, महाराष्ट्र 400002"
+
+#: patterns/footer.php:105
+#: patterns/page-contact.php:70
+msgid "Mon–Sat, 10:30–20:30"
+msgstr "सोम–शनि, 10:30–20:30"
+
+#. translators: 1: current year, 2: site name.
+#: patterns/footer.php:115
+#, php-format
+msgid "© %1$s %2$s. All rights reserved."
+msgstr "© %1$s %2$s. सर्वाधिकार सुरक्षित।"
+
+#: patterns/footer.php:121
+msgid "Accepted payments"
+msgstr "स्वीकृत पेमेंट"
+
+#: patterns/footer.php:121
+msgid "COD"
+msgstr "COD"
+
+#: patterns/gallery.php
+msgctxt "Pattern title"
+msgid "Instagram-style gallery"
+msgstr "Instagram जैसी गैलरी"
+
+#: patterns/gallery.php
+msgctxt "Pattern description"
+msgid "Six-tile social gallery with a follow button."
+msgstr "फ़ॉलो बटन के साथ छह टाइल वाली सोशल गैलरी।"
+
+#: patterns/gallery.php:14
+msgid "Gold bangles set with rubies"
+msgstr "रूबी जड़े सोने के कंगन का सेट"
+
+#: patterns/gallery.php:15
+msgid "Vitamin C serum bottle"
+msgstr "विटामिन C सीरम की बोतल"
+
+#: patterns/gallery.php:16
+msgid "White leather sneaker"
+msgstr "सफ़ेद लेदर स्नीकर"
+
+#: patterns/gallery.php:17
+msgid "Sandalwood candle glowing"
+msgstr "जलती हुई चंदन की मोमबत्ती"
+
+#: patterns/gallery.php:18
+msgid "Green tea tin with leaves"
+msgstr "पत्तियों के साथ ग्रीन टी का डिब्बा"
+
+#: patterns/gallery.php:19
+msgid "Bluetooth speaker"
+msgstr "ब्लूटूथ स्पीकर"
+
+#: patterns/gallery.php:25
+msgid "@yourstore"
+msgstr "@yourstore"
+
+#: patterns/gallery.php:29
+msgid "Seen on Instagram"
+msgstr "Instagram पर देखा गया"
+
+#: patterns/gallery.php:45
+msgid "Follow us on Instagram"
+msgstr "Instagram पर फ़ॉलो करें"
+
+#: patterns/header-minimal.php
+msgctxt "Pattern title"
+msgid "Minimal header"
+msgstr "मिनिमल हेडर"
+
+#: patterns/header-minimal.php
+msgctxt "Pattern description"
+msgid "Logo-only header used on checkout and landing pages."
+msgstr "चेकआउट और लैंडिंग पेज के लिए सिर्फ़ लोगो वाला हेडर।"
+
+#: patterns/header-minimal.php:23
+msgid "🔒 Secure checkout"
+msgstr "🔒 सुरक्षित चेकआउट"
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Store header"
+msgstr "स्टोर हेडर"
+
+#: patterns/header.php
+msgctxt "Pattern description"
+msgid "Sticky header with logo, mega menu, product search, account, dark mode and mini-cart."
+msgstr "लोगो, मेगा मेन्यू, प्रोडक्ट सर्च, अकाउंट, डार्क मोड और मिनी-कार्ट वाला स्टिकी हेडर।"
+
+#: patterns/header.php:25
+msgid "Search products"
+msgstr "प्रोडक्ट खोजें"
+
+#: patterns/header.php:25
+#: patterns/hidden-404.php:24
+msgid "Search products…"
+msgstr "प्रोडक्ट खोजें…"
+
+#: patterns/header.php:25
+#: patterns/hidden-404.php:24
+#: patterns/hidden-no-results.php:15
+#: patterns/hidden-search-form.php:11
+msgid "Search"
+msgstr "खोजें"
+
+#: patterns/hero-3d.php
+msgctxt "Pattern title"
+msgid "Hero with 3D showcase"
+msgstr "3D शोकेस वाला हीरो"
+
+#: patterns/hero-3d.php
+msgctxt "Pattern description"
+msgid "Dark hero with headline, calls to action, store stats and a stage that the Aurelia Commerce plugin turns into an interactive 3D model. Without the plugin it shows the image."
+msgstr "हेडलाइन, कॉल टू ऐक्शन, स्टोर आँकड़ों और एक स्टेज वाला डार्क हीरो, जिसे Aurelia Commerce प्लगइन इंटरैक्टिव 3D मॉडल में बदल देता है। प्लगइन के बिना यह इमेज दिखाता है।"
+
+#: patterns/hero-3d.php:18
+msgid "New season collection"
+msgstr "नए सीज़न का कलेक्शन"
+
+#: patterns/hero-3d.php:22
+msgid "Made to be <em class=\"au-sheen-text\">treasured</em>, every day"
+msgstr "हर दिन <em class=\"au-sheen-text\">संजोने</em> के लिए बना"
+
+#: patterns/hero-3d.php:26
+msgid "Discover pieces crafted with care and priced honestly. Shop online with secure UPI payments, or order in one tap on WhatsApp and a real person will confirm every detail."
+msgstr "प्यार से बनी और ईमानदार दाम वाली चीज़ें खोजें। सुरक्षित UPI पेमेंट के साथ ऑनलाइन ख़रीदें, या WhatsApp पर एक टैप में ऑर्डर करें और एक असली व्यक्ति हर बात की पुष्टि करेगा।"
+
+#: patterns/hero-3d.php:31
+msgid "Shop the collection"
+msgstr "कलेक्शन देखें"
+
+#: patterns/hero-3d.php:35
+msgid "Explore categories"
+msgstr "कैटेगरी देखें"
+
+#: patterns/hero-3d.php:42
+msgid "Happy customers"
+msgstr "ख़ुश ग्राहक"
+
+#: patterns/hero-3d.php:48
+msgid "Average rating"
+msgstr "औसत रेटिंग"
+
+#: patterns/hero-3d.php:54
+msgid "Dispatch"
+msgstr "डिस्पैच"
+
+#: patterns/hero-3d.php:63
+msgid "A gold solitaire ring with a brilliant-cut diamond"
+msgstr "ब्रिलियंट-कट हीरे वाली सोने की सॉलिटेयर अंगूठी"
+
+#: patterns/hero-cover.php
+msgctxt "Pattern title"
+msgid "Full-width image hero"
+msgstr "फ़ुल-विड्थ इमेज हीरो"
+
+#: patterns/hero-cover.php
+msgctxt "Pattern description"
+msgid "Full-bleed image hero with centred headline and two buttons. Works for any product category."
+msgstr "बीच में हेडलाइन और दो बटन वाला पूरी चौड़ाई का इमेज हीरो। किसी भी प्रोडक्ट कैटेगरी के लिए।"
+
+#: patterns/hero-cover.php:14
+#: patterns/hero-cover.php:15
+msgid "A perfume bottle and a smartwatch on a dark background"
+msgstr "गहरे बैकग्राउंड पर परफ़्यूम की बोतल और स्मार्टवॉच"
+
+#: patterns/hero-cover.php:17
+msgid "The festive edit"
+msgstr "त्योहार का ख़ास कलेक्शन"
+
+#: patterns/hero-cover.php:21
+msgid "Gifts they will actually love"
+msgstr "ऐसे तोहफ़े जो सच में पसंद आएँ"
+
+#: patterns/hero-cover.php:25
+msgid "Up to 30% off across fashion, beauty, tech and home. Free gift wrapping on every order this week."
+msgstr "फ़ैशन, ब्यूटी, टेक और होम पर 30% तक की छूट। इस हफ़्ते हर ऑर्डर पर मुफ़्त गिफ़्ट रैपिंग।"
+
+#: patterns/hero-cover.php:30
+msgid "Shop the sale"
+msgstr "सेल में ख़रीदें"
+
+#: patterns/hero-cover.php:34
+msgid "Browse categories"
+msgstr "कैटेगरी ब्राउज़ करें"
+
+#: patterns/hero-split.php
+msgctxt "Pattern title"
+msgid "Split hero with arch image"
+msgstr "आर्च इमेज वाला स्प्लिट हीरो"
+
+#: patterns/hero-split.php
+msgctxt "Pattern description"
+msgid "Light split hero with text on one side and an arch-framed image on the other."
+msgstr "एक तरफ़ टेक्स्ट और दूसरी तरफ़ आर्च फ़्रेम वाली इमेज के साथ लाइट स्प्लिट हीरो।"
+
+#: patterns/hero-split.php:18
+msgid "Our story"
+msgstr "हमारी कहानी"
+
+#: patterns/hero-split.php:22
+msgid "Small-batch craft, delivered to your door"
+msgstr "छोटे बैच की कारीगरी, आपके दरवाज़े तक"
+
+#: patterns/hero-split.php:26
+msgid "We work directly with makers and brands we trust, check every item by hand and ship it beautifully packed. No middlemen, no surprises."
+msgstr "हम सीधे भरोसेमंद कारीगरों और ब्रांड के साथ काम करते हैं, हर आइटम को हाथ से जाँचते हैं और सुंदर पैकिंग में भेजते हैं। कोई बिचौलिया नहीं, कोई हैरानी नहीं।"
+
+#: patterns/hero-split.php:31
+msgid "Quality checked before dispatch"
+msgstr "भेजने से पहले क्वालिटी की जाँच"
+
+#: patterns/hero-split.php:35
+msgid "Pay by UPI, card or cash on delivery"
+msgstr "UPI, कार्ड या कैश ऑन डिलीवरी से भुगतान"
+
+#: patterns/hero-split.php:39
+msgid "Real humans on WhatsApp, 7 days a week"
+msgstr "हफ़्ते के सातों दिन WhatsApp पर असली लोग"
+
+#: patterns/hero-split.php:45
+msgid "Start shopping"
+msgstr "ख़रीदारी शुरू करें"
+
+#: patterns/hero-split.php:52
+msgid "Gold pearl drop earrings on an emerald background"
+msgstr "एमरल्ड बैकग्राउंड पर सोने और मोती के झुमके"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404 content"
+msgstr "404 कंटेंट"
+
+#: patterns/hidden-404.php:17
+msgid "This page wandered off"
+msgstr "यह पेज कहीं भटक गया"
+
+#: patterns/hidden-404.php:21
+msgid "The page you are looking for may have moved. Try a search, or explore the shop."
+msgstr "जिस पेज को आप ढूँढ रहे हैं, वह शायद हट गया है। खोजकर देखें, या शॉप देखें।"
+
+#: patterns/hidden-404.php:28
+msgid "Continue shopping"
+msgstr "ख़रीदारी जारी रखें"
+
+#: patterns/hidden-blog-heading.php
+msgctxt "Pattern title"
+msgid "Blog heading"
+msgstr "ब्लॉग हेडिंग"
+
+#: patterns/hidden-blog-heading.php:12
+msgid "Journal"
+msgstr "जर्नल"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "टिप्पणियाँ"
+
+#: patterns/hidden-comments.php:13
+msgid "Comments"
+msgstr "टिप्पणियाँ"
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "No results"
+msgstr "कोई नतीजा नहीं"
+
+#: patterns/hidden-no-results.php:12
+msgid "Nothing matched your search. Try different keywords or browse our collections."
+msgstr "आपकी खोज से कुछ नहीं मिला। दूसरे शब्द आज़माएँ या हमारे कलेक्शन देखें।"
+
+#: patterns/hidden-product-assurance.php
+msgctxt "Pattern title"
+msgid "Product assurance badges"
+msgstr "प्रोडक्ट भरोसा बैज"
+
+#: patterns/hidden-product-assurance.php:11
+msgid "Secure payment"
+msgstr "सुरक्षित पेमेंट"
+
+#: patterns/hidden-product-assurance.php:12
+msgid "Fast delivery"
+msgstr "तेज़ डिलीवरी"
+
+#: patterns/hidden-product-assurance.php:13
+msgid "15-day returns"
+msgstr "15 दिन में रिटर्न"
+
+#: patterns/hidden-search-form.php
+msgctxt "Pattern title"
+msgid "Search form"
+msgstr "सर्च फ़ॉर्म"
+
+#: patterns/marquee.php
+msgctxt "Pattern title"
+msgid "Scrolling trust marquee"
+msgstr "स्क्रॉल होती भरोसा पट्टी"
+
+#: patterns/marquee.php
+msgctxt "Pattern description"
+msgid "An infinitely scrolling ribbon of store promises. Pauses on hover and stops for reduced-motion users."
+msgstr "स्टोर के वादों की लगातार स्क्रॉल होती पट्टी। होवर पर रुकती है और कम मोशन चाहने वालों के लिए स्थिर रहती है।"
+
+#: patterns/marquee.php:14
+msgid "Free shipping over ₹999"
+msgstr "₹999 से ऊपर मुफ़्त शिपिंग"
+
+#: patterns/marquee.php:15
+msgid "Secure UPI & card payments"
+msgstr "सुरक्षित UPI और कार्ड पेमेंट"
+
+#: patterns/marquee.php:16
+msgid "Cash on delivery available"
+msgstr "कैश ऑन डिलीवरी उपलब्ध"
+
+#: patterns/marquee.php:17
+msgid "Easy 15-day returns"
+msgstr "15 दिन में आसान रिटर्न"
+
+#: patterns/marquee.php:18
+msgid "Order on WhatsApp"
+msgstr "WhatsApp पर ऑर्डर करें"
+
+#: patterns/marquee.php:19
+msgid "Gift wrapping on request"
+msgstr "अनुरोध पर गिफ़्ट रैपिंग"
+
+#: patterns/newsletter.php
+msgctxt "Pattern title"
+msgid "Newsletter band"
+msgstr "न्यूज़लेटर बैंड"
+
+#: patterns/newsletter.php
+msgctxt "Pattern description"
+msgid "Rounded call-to-action band with an email signup form. Aurelia Commerce stores sign-ups and can forward them to your email tool; without it, link the form to your provider."
+msgstr "ईमेल साइन-अप फ़ॉर्म के साथ गोल कोनों वाला कॉल-टू-ऐक्शन बैंड। Aurelia Commerce साइन-अप सहेजता है और उन्हें आपके ईमेल टूल पर भेज सकता है; इसके बिना फ़ॉर्म को अपने प्रोवाइडर से जोड़ें।"
+
+#: patterns/newsletter.php:19
+msgid "The insider list"
+msgstr "इनसाइडर लिस्ट"
+
+#: patterns/newsletter.php:23
+msgid "Get 10% off your first order"
+msgstr "पहले ऑर्डर पर 10% की छूट पाएँ"
+
+#: patterns/newsletter.php:27
+msgid "New arrivals, private sales and styling tips. One email a week, never spam."
+msgstr "नए प्रोडक्ट, प्राइवेट सेल और स्टाइलिंग टिप्स। हफ़्ते में एक ईमेल, स्पैम कभी नहीं।"
+
+#: patterns/newsletter.php:34
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: patterns/newsletter.php:35
+msgid "Your email address"
+msgstr "आपका ईमेल पता"
+
+#: patterns/newsletter.php:36
+msgid "Subscribe"
+msgstr "सब्सक्राइब करें"
+
+#: patterns/newsletter.php:37
+msgid "By subscribing you agree to receive marketing emails. Unsubscribe anytime."
+msgstr "सब्सक्राइब करके आप मार्केटिंग ईमेल पाने के लिए सहमत होते हैं। कभी भी अनसब्सक्राइब करें।"
+
+#: patterns/page-about.php
+msgctxt "Pattern title"
+msgid "About page"
+msgstr "हमारे बारे में पेज"
+
+#: patterns/page-about.php
+msgctxt "Pattern description"
+msgid "Brand story, promises and testimonials."
+msgstr "ब्रांड की कहानी, वादे और टेस्टिमोनियल।"
+
+#: patterns/page-contact.php
+msgctxt "Pattern title"
+msgid "Contact page"
+msgstr "संपर्क पेज"
+
+#: patterns/page-contact.php
+msgctxt "Pattern description"
+msgid "Contact details, opening hours and quick links to WhatsApp, phone and email."
+msgstr "संपर्क विवरण, खुलने का समय और WhatsApp, फ़ोन और ईमेल के क्विक लिंक।"
+
+#: patterns/page-contact.php:18
+msgid "We are here to help"
+msgstr "हम मदद के लिए यहाँ हैं"
+
+#: patterns/page-contact.php:26
+msgid "The fastest way to reach us is WhatsApp — we usually reply within 10 minutes during opening hours."
+msgstr "हमसे जुड़ने का सबसे तेज़ तरीक़ा WhatsApp है — खुलने के समय में हम आमतौर पर 10 मिनट में जवाब देते हैं।"
+
+#: patterns/page-contact.php:34
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: patterns/page-contact.php:38
+msgid "Orders, sizing, video calls and custom requests."
+msgstr "ऑर्डर, साइज़, वीडियो कॉल और कस्टम अनुरोध।"
+
+#: patterns/page-contact.php:48
+msgid "Email"
+msgstr "ईमेल"
+
+#: patterns/page-contact.php:52
+msgid "Invoices, returns and business enquiries."
+msgstr "बिल, रिटर्न और बिज़नेस से जुड़ी पूछताछ।"
+
+#: patterns/page-contact.php:62
+msgid "Visit the store"
+msgstr "स्टोर पर आएँ"
+
+#: patterns/page-contact.php:66
+msgid "12 Heritage Arcade, Zaveri Bazaar, Mumbai 400002"
+msgstr "12 हेरिटेज आर्केड, ज़वेरी बाज़ार, मुंबई 400002"
+
+#: patterns/page-home.php
+msgctxt "Pattern title"
+msgid "Store home page"
+msgstr "स्टोर होम पेज"
+
+#: patterns/page-home.php
+msgctxt "Pattern description"
+msgid "A complete store home page: 3D hero, marquee, categories, new arrivals, promos, deal countdown, best sellers, WhatsApp steps, testimonials, gallery, FAQ and newsletter."
+msgstr "पूरा स्टोर होम पेज: 3D हीरो, मार्की, कैटेगरी, नए प्रोडक्ट, प्रोमो, डील काउंटडाउन, बेस्ट सेलर, WhatsApp के चरण, टेस्टिमोनियल, गैलरी, FAQ और न्यूज़लेटर।"
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr "पोस्ट मेटा"
+
+#: patterns/products-best-sellers.php
+msgctxt "Pattern title"
+msgid "Best sellers grid"
+msgstr "बेस्ट सेलर ग्रिड"
+
+#: patterns/products-best-sellers.php
+msgctxt "Pattern description"
+msgid "Your top-selling products in a four-column grid."
+msgstr "चार कॉलम की ग्रिड में आपके सबसे ज़्यादा बिकने वाले प्रोडक्ट।"
+
+#: patterns/products-best-sellers.php:17
+msgid "Loved by customers"
+msgstr "ग्राहकों की पसंद"
+
+#: patterns/products-best-sellers.php:21
+msgid "Best sellers"
+msgstr "बेस्ट सेलर"
+
+#: patterns/products-best-sellers.php:43
+#: patterns/products-featured.php:43
+#: patterns/products-new-arrivals.php:43
+#: patterns/products-on-sale.php:43
+msgid "View all products"
+msgstr "सभी प्रोडक्ट देखें"
+
+#: patterns/products-featured.php
+msgctxt "Pattern title"
+msgid "Featured products grid"
+msgstr "फ़ीचर्ड प्रोडक्ट ग्रिड"
+
+#: patterns/products-featured.php
+msgctxt "Pattern description"
+msgid "Hand-featured products in a three-column grid."
+msgstr "तीन कॉलम की ग्रिड में चुनिंदा प्रोडक्ट।"
+
+#: patterns/products-featured.php:17
+msgid "Editor’s picks"
+msgstr "संपादक की पसंद"
+
+#: patterns/products-featured.php:21
+msgid "Featured favourites"
+msgstr "ख़ास पसंदीदा"
+
+#: patterns/products-new-arrivals.php
+msgctxt "Pattern title"
+msgid "New arrivals carousel"
+msgstr "नए प्रोडक्ट का कैरोसेल"
+
+#: patterns/products-new-arrivals.php
+msgctxt "Pattern description"
+msgid "A swipeable carousel of your newest products."
+msgstr "आपके सबसे नए प्रोडक्ट का स्वाइप होने वाला कैरोसेल।"
+
+#: patterns/products-new-arrivals.php:17
+msgid "Just landed"
+msgstr "अभी-अभी आए"
+
+#: patterns/products-new-arrivals.php:21
+msgid "New arrivals"
+msgstr "नए प्रोडक्ट"
+
+#: patterns/products-on-sale.php
+msgctxt "Pattern title"
+msgid "On sale carousel"
+msgstr "सेल कैरोसेल"
+
+#: patterns/products-on-sale.php
+msgctxt "Pattern description"
+msgid "Carousel of discounted products with sale badges."
+msgstr "सेल बैज के साथ छूट वाले प्रोडक्ट का कैरोसेल।"
+
+#: patterns/products-on-sale.php:17
+msgid "Limited time"
+msgstr "सीमित समय"
+
+#: patterns/products-on-sale.php:21
+msgid "On sale now"
+msgstr "अभी सेल में"
+
+#: patterns/promo-banners.php
+msgctxt "Pattern title"
+msgid "Two promo banners"
+msgstr "दो प्रोमो बैनर"
+
+#: patterns/promo-banners.php
+msgctxt "Pattern description"
+msgid "Two side-by-side image banners with an offer and a link."
+msgstr "ऑफ़र और लिंक के साथ अगल-बगल दो इमेज बैनर।"
+
+#: patterns/promo-banners.php:14
+msgid "Wrap dress and leather tote on a blush background"
+msgstr "ब्लश बैकग्राउंड पर रैप ड्रेस और लेदर टोट"
+
+#: patterns/promo-banners.php:14
+msgid "Fashion edit"
+msgstr "फ़ैशन एडिट"
+
+#: patterns/promo-banners.php:14
+msgid "Linen, leather & easy layers"
+msgstr "लिनन, लेदर और हल्की लेयर"
+
+#: patterns/promo-banners.php:14
+msgid "Up to 30% off"
+msgstr "30% तक की छूट"
+
+#: patterns/promo-banners.php:15
+msgid "Tech week"
+msgstr "टेक वीक"
+
+#: patterns/promo-banners.php:15
+msgid "Sound & smart wearables"
+msgstr "साउंड और स्मार्ट वियरेबल"
+
+#: patterns/promo-banners.php:15
+msgid "Free fast delivery"
+msgstr "मुफ़्त तेज़ डिलीवरी"
+
+#: patterns/promo-banners.php:38
+msgid "Shop now"
+msgstr "अभी ख़रीदें"
+
+#: patterns/template-shop-search.php
+msgctxt "Pattern title"
+msgid "Product search results layout"
+msgstr "प्रोडक्ट सर्च नतीजों का लेआउट"
+
+#: patterns/template-shop-search.php
+msgctxt "Pattern description"
+msgid "Product search results with filters."
+msgstr "फ़िल्टर के साथ प्रोडक्ट सर्च के नतीजे।"
+
+#: patterns/template-shop-search.php:27
+#: patterns/template-shop.php:29
+msgid "Filters"
+msgstr "फ़िल्टर"
+
+#: patterns/template-shop-search.php:38
+#: patterns/template-shop.php:40
+msgid "Clear filters"
+msgstr "फ़िल्टर हटाएँ"
+
+#: patterns/template-shop-search.php:46
+#: patterns/template-shop.php:48
+msgid "Price"
+msgstr "दाम"
+
+#: patterns/template-shop-search.php:56
+#: patterns/template-shop.php:58
+msgid "Category"
+msgstr "कैटेगरी"
+
+#: patterns/template-shop-search.php:67
+#: patterns/template-shop.php:69
+msgid "Colour"
+msgstr "रंग"
+
+#: patterns/template-shop-search.php:79
+#: patterns/template-shop.php:81
+msgid "Size"
+msgstr "साइज़"
+
+#: patterns/template-shop-search.php:90
+#: patterns/template-shop.php:92
+msgid "Rating"
+msgstr "रेटिंग"
+
+#: patterns/template-shop-search.php:100
+#: patterns/template-shop.php:102
+msgid "Availability"
+msgstr "उपलब्धता"
+
+#: patterns/template-shop.php
+msgctxt "Pattern title"
+msgid "Shop archive layout"
+msgstr "शॉप आर्काइव लेआउट"
+
+#: patterns/template-shop.php
+msgctxt "Pattern description"
+msgid "Shop, category and tag archive: page header, AJAX filters sidebar, sorting and product grid."
+msgstr "शॉप, कैटेगरी और टैग आर्काइव: पेज हेडर, AJAX फ़िल्टर साइडबार, सॉर्टिंग और प्रोडक्ट ग्रिड।"
+
+#: patterns/template-single-product.php
+msgctxt "Pattern title"
+msgid "Single product layout"
+msgstr "सिंगल प्रोडक्ट लेआउट"
+
+#: patterns/template-single-product.php
+msgctxt "Pattern description"
+msgid "Gallery with zoom and lightbox, buy box, trust badges, details tabs with reviews, upsells and related products."
+msgstr "ज़ूम और लाइटबॉक्स वाली गैलरी, ख़रीद बॉक्स, भरोसा बैज, रिव्यू सहित विवरण टैब, अपसेल और मिलते-जुलते प्रोडक्ट।"
+
+#: patterns/template-single-product.php:39
+msgid "Tags: "
+msgstr "टैग: "
+
+#: patterns/template-single-product.php:55
+msgid "You may also like"
+msgstr "आपको ये भी पसंद आ सकते हैं"
+
+#: patterns/template-single-product.php:75
+msgid "Complete the look"
+msgstr "लुक पूरा करें"
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Customer testimonials"
+msgstr "ग्राहकों के टेस्टिमोनियल"
+
+#: patterns/testimonials.php
+msgctxt "Pattern description"
+msgid "Three customer quotes with star ratings."
+msgstr "स्टार रेटिंग के साथ ग्राहकों के तीन कथन।"
+
+#: patterns/testimonials.php:14
+msgid "Ordered on WhatsApp at midnight and had a reply in minutes. The packaging felt like a gift, and the quality is better than the photos."
+msgstr "आधी रात को WhatsApp पर ऑर्डर किया और कुछ ही मिनट में जवाब आ गया। पैकिंग तोहफ़े जैसी थी, और क्वालिटी फ़ोटो से भी बेहतर है।"
+
+#: patterns/testimonials.php:14
+msgid "Priya S., Mumbai"
+msgstr "प्रिया एस., मुंबई"
+
+#: patterns/testimonials.php:15
+msgid "Paid with UPI, got tracking the same day and the headphones arrived in two days. Genuinely the easiest online order I have made."
+msgstr "UPI से पेमेंट किया, उसी दिन ट्रैकिंग मिली और हेडफ़ोन दो दिन में आ गए। सच में मेरा अब तक का सबसे आसान ऑनलाइन ऑर्डर।"
+
+#: patterns/testimonials.php:15
+msgid "Arjun M., Bengaluru"
+msgstr "अर्जुन एम., बेंगलुरु"
+
+#: patterns/testimonials.php:16
+msgid "The concierge chat helped me choose a gift for my mother within my budget. She has not stopped wearing it since."
+msgstr "कंसीयर्ज चैट ने मेरे बजट में माँ के लिए तोहफ़ा चुनने में मदद की। तब से वे इसे पहनना नहीं छोड़तीं।"
+
+#: patterns/testimonials.php:16
+msgid "Fatima K., Hyderabad"
+msgstr "फ़ातिमा के., हैदराबाद"
+
+#: patterns/testimonials.php:22
+msgid "Kind words"
+msgstr "प्यार भरे शब्द"
+
+#: patterns/testimonials.php:26
+msgid "Loved across India"
+msgstr "पूरे भारत में पसंद किया गया"
+
+#: patterns/trust-badges.php
+msgctxt "Pattern title"
+msgid "Trust badges"
+msgstr "भरोसा बैज"
+
+#: patterns/trust-badges.php
+msgctxt "Pattern description"
+msgid "Four icon badges: shipping, secure payments, returns and support."
+msgstr "चार आइकन बैज: शिपिंग, सुरक्षित पेमेंट, रिटर्न और सपोर्ट।"
+
+#: patterns/trust-badges.php:14
+msgid "Fast, free shipping"
+msgstr "तेज़, मुफ़्त शिपिंग"
+
+#: patterns/trust-badges.php:14
+msgid "Free on orders over ₹999, dispatched in 48 hours"
+msgstr "₹999 से ऊपर के ऑर्डर पर मुफ़्त, 48 घंटे में डिस्पैच"
+
+#: patterns/trust-badges.php:15
+msgid "Secure payments"
+msgstr "सुरक्षित पेमेंट"
+
+#: patterns/trust-badges.php:15
+msgid "UPI, cards, net banking and cash on delivery"
+msgstr "UPI, कार्ड, नेट बैंकिंग और कैश ऑन डिलीवरी"
+
+#: patterns/trust-badges.php:16
+msgid "Easy returns"
+msgstr "आसान रिटर्न"
+
+#: patterns/trust-badges.php:16
+msgid "No-questions-asked 15-day returns"
+msgstr "बिना सवाल 15 दिन में रिटर्न"
+
+#: patterns/trust-badges.php:17
+msgid "Real human support"
+msgstr "असली इंसानों से सपोर्ट"
+
+#: patterns/trust-badges.php:17
+msgid "Chat on WhatsApp, 7 days a week"
+msgstr "हफ़्ते के सातों दिन WhatsApp पर बात करें"
+
+#: patterns/whatsapp-steps.php
+msgctxt "Pattern title"
+msgid "How to order on WhatsApp"
+msgstr "WhatsApp पर ऑर्डर कैसे करें"
+
+#: patterns/whatsapp-steps.php
+msgctxt "Pattern description"
+msgid "Three numbered steps explaining WhatsApp ordering."
+msgstr "WhatsApp ऑर्डर समझाने वाले तीन क्रमांकित चरण।"
+
+#: patterns/whatsapp-steps.php:14
+msgid "Pick your favourites"
+msgstr "अपनी पसंद चुनें"
+
+#: patterns/whatsapp-steps.php:14
+msgid "Browse the store, choose sizes or shades and add to your bag — or tap \"Order on WhatsApp\" on any product."
+msgstr "स्टोर ब्राउज़ करें, साइज़ या शेड चुनें और बैग में डालें — या किसी भी प्रोडक्ट पर \"WhatsApp पर ऑर्डर करें\" पर टैप करें।"
+
+#: patterns/whatsapp-steps.php:15
+msgid "Send us the message"
+msgstr "हमें मैसेज भेजें"
+
+#: patterns/whatsapp-steps.php:15
+msgid "WhatsApp opens with your items, quantities and total already written. Add your address and hit send."
+msgstr "WhatsApp आपके आइटम, मात्रा और कुल रक़म पहले से लिखे हुए खुलता है। अपना पता जोड़ें और भेज दें।"
+
+#: patterns/whatsapp-steps.php:16
+msgid "Confirm & relax"
+msgstr "पुष्टि करें और बेफ़िक्र रहें"
+
+#: patterns/whatsapp-steps.php:16
+msgid "We confirm stock and delivery, share a UPI or payment link, and send tracking the moment it ships."
+msgstr "हम स्टॉक और डिलीवरी की पुष्टि करते हैं, UPI या पेमेंट लिंक भेजते हैं, और शिप होते ही ट्रैकिंग भेज देते हैं।"
+
+#: patterns/whatsapp-steps.php:22
+msgid "How it works"
+msgstr "यह कैसे काम करता है"
+
+#: patterns/whatsapp-steps.php:26
+msgid "Order on WhatsApp in 3 easy steps"
+msgstr "3 आसान चरणों में WhatsApp पर ऑर्डर करें"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr "बहुत छोटा"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "छोटा"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "मध्यम"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "बड़ा"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr "बहुत बड़ा"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "2X large"
+msgstr "2X बड़ा"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "विशाल"
+
+#: theme.json styles/noir.json
+msgctxt "Font family name"
+msgid "Heading (Cormorant Garamond)"
+msgstr "हेडिंग (Cormorant Garamond)"
+
+#: theme.json styles/noir.json
+msgctxt "Font family name"
+msgid "Body (Jost)"
+msgstr "बॉडी (Jost)"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font family name"
+msgid "System"
+msgstr "सिस्टम"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "बेस"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Base alt"
+msgstr "बेस वैकल्पिक"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr "सरफ़ेस"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "कंट्रास्ट"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Contrast muted"
+msgstr "हल्का कंट्रास्ट"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "प्राइमरी"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary alt"
+msgstr "प्राइमरी वैकल्पिक"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary light"
+msgstr "हल्का प्राइमरी"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "एक्सेंट"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent light"
+msgstr "हल्का एक्सेंट"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent text"
+msgstr "एक्सेंट टेक्स्ट"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "On primary"
+msgstr "प्राइमरी पर"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "On accent"
+msgstr "एक्सेंट पर"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Line"
+msgstr "लाइन"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Sale"
+msgstr "सेल"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Success"
+msgstr "सफलता"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Accent sheen"
+msgstr "एक्सेंट चमक"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Primary glow"
+msgstr "प्राइमरी ग्लो"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Primary soft"
+msgstr "हल्का प्राइमरी"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Image shade"
+msgstr "इमेज शेड"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and accent"
+msgstr "प्राइमरी और एक्सेंट"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "7"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Soft"
+msgstr "हल्की"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Card"
+msgstr "कार्ड"
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Deep"
+msgstr "गहरी"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page without title (full width)"
+msgstr "बिना टाइटल का पेज (पूरी चौड़ाई)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page wide"
+msgstr "चौड़ा पेज"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Landing page (no header or footer)"
+msgstr "लैंडिंग पेज (बिना हेडर या फ़ुटर)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Announcement bar"
+msgstr "घोषणा पट्टी"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "हेडर"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (minimal)"
+msgstr "हेडर (मिनिमल)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "फ़ुटर"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer (minimal)"
+msgstr "फ़ुटर (मिनिमल)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post meta"
+msgstr "पोस्ट मेटा"
+
+#: styles/beauty.json
+msgctxt "Style variation name"
+msgid "Beauty"
+msgstr "ब्यूटी"
+
+#: styles/beauty.json
+msgctxt "Font family name"
+msgid "Heading (Fraunces)"
+msgstr "हेडिंग (Fraunces)"
+
+#: styles/beauty.json
+msgctxt "Font family name"
+msgid "Body (DM Sans)"
+msgstr "बॉडी (DM Sans)"
+
+#: styles/blocks/button-accent.json
+msgctxt "Style variation name"
+msgid "Accent"
+msgstr "एक्सेंट"
+
+#: styles/blocks/image-arch.json
+msgctxt "Style variation name"
+msgid "Arch"
+msgstr "आर्च"
+
+#: styles/blocks/image-rounded-card.json
+msgctxt "Style variation name"
+msgid "Rounded"
+msgstr "गोल कोने"
+
+#: styles/blocks/paragraph-eyebrow.json
+msgctxt "Style variation name"
+msgid "Eyebrow"
+msgstr "आईब्रो"
+
+#: styles/fashion.json
+msgctxt "Style variation name"
+msgid "Fashion"
+msgstr "फ़ैशन"
+
+#: styles/fashion.json
+msgctxt "Font family name"
+msgid "Heading (Bodoni Moda)"
+msgstr "हेडिंग (Bodoni Moda)"
+
+#: styles/fashion.json
+msgctxt "Font family name"
+msgid "Body (Manrope)"
+msgstr "बॉडी (Manrope)"
+
+#: styles/grocery.json
+msgctxt "Style variation name"
+msgid "Grocery"
+msgstr "ग्रोसरी"
+
+#: styles/grocery.json
+msgctxt "Font family name"
+msgid "Heading (Outfit)"
+msgstr "हेडिंग (Outfit)"
+
+#: styles/grocery.json
+msgctxt "Font family name"
+msgid "Body (Nunito Sans)"
+msgstr "बॉडी (Nunito Sans)"
+
+#: styles/minimal.json
+msgctxt "Style variation name"
+msgid "Minimal"
+msgstr "मिनिमल"
+
+#: styles/minimal.json
+msgctxt "Font family name"
+msgid "Heading (Inter)"
+msgstr "हेडिंग (Inter)"
+
+#: styles/minimal.json styles/tech.json
+msgctxt "Font family name"
+msgid "Body (Inter)"
+msgstr "बॉडी (Inter)"
+
+#: styles/noir.json
+msgctxt "Style variation name"
+msgid "Noir"
+msgstr "Noir"
+
+#: styles/sections/card.json
+msgctxt "Style variation name"
+msgid "Card"
+msgstr "कार्ड"
+
+#: styles/sections/section-alt.json
+msgctxt "Style variation name"
+msgid "Soft section"
+msgstr "हल्का सेक्शन"
+
+#: styles/sections/section-dark.json
+msgctxt "Style variation name"
+msgid "Dark section"
+msgstr "डार्क सेक्शन"
+
+#: styles/sections/section-primary.json
+msgctxt "Style variation name"
+msgid "Primary section"
+msgstr "प्राइमरी सेक्शन"
+
+#: styles/tech.json
+msgctxt "Style variation name"
+msgid "Electronics"
+msgstr "इलेक्ट्रॉनिक्स"
+
+#: styles/tech.json
+msgctxt "Font family name"
+msgid "Heading (Space Grotesk)"
+msgstr "हेडिंग (Space Grotesk)"

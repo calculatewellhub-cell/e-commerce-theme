@@ -1,0 +1,2820 @@
+# Copyright (C) 2026 Aurelia Commerce
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aurelia Commerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/calculatewellhub-cell/e-commerce-theme/issues\n"
+"Last-Translator: Aurelia <hello@example.com>\n"
+"Language-Team: Aurelia\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T12:14:30+00:00\n"
+"PO-Revision-Date: 2026-09-27 12:00+0530\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: aurelia-commerce\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: aurelia-commerce.php
+#: includes/class-admin.php:37
+msgid "Aurelia Commerce"
+msgstr "Aurelia Commerce"
+
+#. Plugin URI of the plugin
+#: aurelia-commerce.php
+msgid "https://github.com/calculatewellhub-cell/e-commerce-theme"
+msgstr "https://github.com/calculatewellhub-cell/e-commerce-theme"
+
+#. Description of the plugin
+#: aurelia-commerce.php
+msgid "Store features for any WooCommerce shop: WhatsApp ordering, UPI QR payments, an AI shopping concierge (Claude), 3D product viewer, image-to-video studio, social auto-posting with tracked links, privacy-friendly analytics, SEO/AIO structured data, wishlist, compare, quick view, swatches and a one-click demo import."
+msgstr "किसी भी WooCommerce शॉप के लिए स्टोर फ़ीचर: WhatsApp ऑर्डर, UPI QR पेमेंट, AI शॉपिंग कंसीयर्ज (Claude), 3D प्रोडक्ट व्यूअर, इमेज से वीडियो स्टूडियो, ट्रैक किए गए लिंक के साथ सोशल ऑटो-पोस्टिंग, प्राइवेसी-फ़्रेंडली एनालिटिक्स, SEO/AIO स्ट्रक्चर्ड डेटा, विशलिस्ट, तुलना, क्विक व्यू, स्वॉच और एक क्लिक में डेमो इम्पोर्ट।"
+
+#. Author URI of the plugin
+#: aurelia-commerce.php
+msgid "https://github.com/calculatewellhub-cell"
+msgstr "https://github.com/calculatewellhub-cell"
+
+#: includes/class-admin.php:37
+msgid "Aurelia"
+msgstr "Aurelia"
+
+#: includes/class-admin.php:44
+#: includes/class-admin.php:157
+msgid "Aurelia settings"
+msgstr "Aurelia सेटिंग"
+
+#: includes/class-admin.php:44
+#: includes/class-admin.php:96
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: includes/class-admin.php:79
+msgid "Testing…"
+msgstr "जाँच हो रही है…"
+
+#: includes/class-admin.php:80
+msgid "Connected ✓"
+msgstr "कनेक्टेड ✓"
+
+#: includes/class-admin.php:81
+msgid "Failed: "
+msgstr "विफल: "
+
+#: includes/class-admin.php:97
+#: includes/class-setup-wizard.php:50
+msgid "Setup wizard"
+msgstr "सेटअप विज़ार्ड"
+
+#: includes/class-admin.php:158
+msgid "Settings sections"
+msgstr "सेटिंग सेक्शन"
+
+#: includes/class-admin.php:174
+msgid "UPI payments ↗"
+msgstr "UPI पेमेंट ↗"
+
+#: includes/class-admin.php:195
+msgid "Reliable scheduling with a real cron job"
+msgstr "असली क्रॉन जॉब से भरोसेमंद शेड्यूलिंग"
+
+#: includes/class-admin.php:196
+msgid "WP-Cron only runs when someone visits your site. For posts to go out exactly on time, disable it and call WordPress from your server every five minutes:"
+msgstr "WP-Cron तभी चलता है जब कोई आपकी साइट पर आता है। पोस्ट ठीक समय पर जाएँ, इसके लिए इसे बंद करें और अपने सर्वर से हर पाँच मिनट पर WordPress को कॉल करें:"
+
+#: includes/class-admin.php:197
+msgid "(in wp-config.php)"
+msgstr "(wp-config.php में)"
+
+#: includes/class-admin.php:199
+msgid "Or with WP-CLI:"
+msgstr "या WP-CLI से:"
+
+#: includes/class-admin.php:264
+msgid "Saved — leave blank to keep"
+msgstr "सहेजा गया — बदलना न हो तो ख़ाली छोड़ें"
+
+#: includes/class-admin.php:268
+msgid "Remove saved value"
+msgstr "सहेजी गई वैल्यू हटाएँ"
+
+#: includes/class-admin.php:271
+msgid "Test connection"
+msgstr "कनेक्शन जाँचें"
+
+#: includes/class-analytics.php:319
+#: includes/class-analytics.php:367
+msgid "Store analytics"
+msgstr "स्टोर एनालिटिक्स"
+
+#: includes/class-analytics.php:319
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: includes/class-analytics.php:334
+msgid "Page views"
+msgstr "पेज व्यू"
+
+#: includes/class-analytics.php:335
+msgid "Product views"
+msgstr "प्रोडक्ट व्यू"
+
+#: includes/class-analytics.php:336
+#: includes/class-analytics.php:347
+#: includes/class-shop.php:100
+#: includes/class-shop.php:557
+msgid "Add to cart"
+msgstr "कार्ट में डालें"
+
+#: includes/class-analytics.php:337
+msgid "WhatsApp orders"
+msgstr "WhatsApp ऑर्डर"
+
+#: includes/class-analytics.php:338
+msgid "WhatsApp order value"
+msgstr "WhatsApp ऑर्डर वैल्यू"
+
+#: includes/class-analytics.php:339
+msgid "WhatsApp enquiries"
+msgstr "WhatsApp पूछताछ"
+
+#: includes/class-analytics.php:340
+msgid "Concierge messages"
+msgstr "कंसीयर्ज मैसेज"
+
+#: includes/class-analytics.php:341
+msgid "Social clicks"
+msgstr "सोशल क्लिक"
+
+#: includes/class-analytics.php:342
+msgid "Newsletter sign-ups"
+msgstr "न्यूज़लेटर साइन-अप"
+
+#: includes/class-analytics.php:343
+msgid "Daily traffic"
+msgstr "रोज़ का ट्रैफ़िक"
+
+#: includes/class-analytics.php:344
+msgid "Top products"
+msgstr "टॉप प्रोडक्ट"
+
+#: includes/class-analytics.php:345
+#: includes/class-social.php:142
+msgid "Product"
+msgstr "प्रोडक्ट"
+
+#: includes/class-analytics.php:346
+msgid "Views"
+msgstr "व्यू"
+
+#: includes/class-analytics.php:348
+msgid "Cart rate"
+msgstr "कार्ट दर"
+
+#: includes/class-analytics.php:349
+msgid "Traffic sources"
+msgstr "ट्रैफ़िक के स्रोत"
+
+#: includes/class-analytics.php:350
+msgid "Devices"
+msgstr "डिवाइस"
+
+#: includes/class-analytics.php:351
+msgid "Social clicks by platform"
+msgstr "प्लैटफ़ॉर्म के अनुसार सोशल क्लिक"
+
+#: includes/class-analytics.php:352
+msgid "Social clicks by post"
+msgstr "पोस्ट के अनुसार सोशल क्लिक"
+
+#: includes/class-analytics.php:353
+msgid "Top pages"
+msgstr "टॉप पेज"
+
+#: includes/class-analytics.php:354
+msgid "Post"
+msgstr "पोस्ट"
+
+#: includes/class-analytics.php:355
+msgid "Platform"
+msgstr "प्लैटफ़ॉर्म"
+
+#: includes/class-analytics.php:356
+msgid "Clicks"
+msgstr "क्लिक"
+
+#: includes/class-analytics.php:357
+msgid "No data yet for this period."
+msgstr "इस अवधि का अभी कोई डेटा नहीं है।"
+
+#: includes/class-analytics.php:358
+msgid "Analytics is turned off in Settings → Analytics & SEO."
+msgstr "एनालिटिक्स Settings → Analytics & SEO में बंद है।"
+
+#: includes/class-analytics.php:359
+msgid "Table view"
+msgstr "टेबल व्यू"
+
+#: includes/class-analytics.php:360
+msgid "Cookie-less and anonymous: no IP addresses, cookies or personal data are stored."
+msgstr "बिना कुकी और गुमनाम: कोई IP पता, कुकी या निजी डेटा सहेजा नहीं जाता।"
+
+#: includes/class-analytics.php:369
+msgid "Date range"
+msgstr "तारीख़ की अवधि"
+
+#: includes/class-analytics.php:371
+msgid "Last 7 days"
+msgstr "पिछले 7 दिन"
+
+#: includes/class-analytics.php:372
+msgid "Last 30 days"
+msgstr "पिछले 30 दिन"
+
+#: includes/class-analytics.php:373
+msgid "Last 90 days"
+msgstr "पिछले 90 दिन"
+
+#: includes/class-analytics.php:374
+msgid "Last 12 months"
+msgstr "पिछले 12 महीने"
+
+#: includes/class-claude-client.php:46
+msgid "No Claude API key is configured."
+msgstr "कोई Claude API key सेट नहीं है।"
+
+#: includes/class-claude-client.php:95
+msgid "The request was declined."
+msgstr "अनुरोध अस्वीकार कर दिया गया।"
+
+#: includes/class-concierge.php:71
+msgid "Open the AI shopping assistant"
+msgstr "AI शॉपिंग असिस्टेंट खोलें"
+
+#. translators: %s: assistant name.
+#: includes/class-concierge.php:73
+#, php-format
+msgid "Ask %s"
+msgstr "%s से पूछें"
+
+#: includes/class-concierge.php:74
+msgid "AI shopping concierge"
+msgstr "AI शॉपिंग कंसीयर्ज"
+
+#: includes/class-concierge.php:75
+msgid "Online · replies instantly"
+msgstr "ऑनलाइन · तुरंत जवाब"
+
+#: includes/class-concierge.php:76
+msgid "Close chat"
+msgstr "चैट बंद करें"
+
+#: includes/class-concierge.php:77
+msgid "Ask about products, budgets, delivery…"
+msgstr "प्रोडक्ट, बजट, डिलीवरी के बारे में पूछें…"
+
+#: includes/class-concierge.php:78
+msgid "Send"
+msgstr "भेजें"
+
+#: includes/class-concierge.php:79
+msgid "Message"
+msgstr "मैसेज"
+
+#: includes/class-concierge.php:80
+msgid "Sorry, I am having trouble connecting. Our team is always available on WhatsApp."
+msgstr "माफ़ करें, कनेक्ट करने में दिक़्क़त हो रही है। हमारी टीम WhatsApp पर हमेशा उपलब्ध है।"
+
+#: includes/class-concierge.php:81
+msgid "Continue with a human on WhatsApp"
+msgstr "WhatsApp पर किसी व्यक्ति से बात जारी रखें"
+
+#. translators: %s: store name.
+#: includes/class-concierge.php:83
+#, php-format
+msgid "Hello %s! I was chatting with your assistant on the website."
+msgstr "नमस्ते %s! मैं वेबसाइट पर आपके असिस्टेंट से बात कर रहा/रही था/थी।"
+
+#: includes/class-concierge.php:84
+msgid "Me"
+msgstr "मैं"
+
+#: includes/class-concierge.php:85
+msgid "Assistant is typing"
+msgstr "असिस्टेंट लिख रहा है"
+
+#: includes/class-concierge.php:119
+msgid "The assistant is disabled."
+msgstr "असिस्टेंट बंद है।"
+
+#: includes/class-concierge.php:122
+msgid "You are sending messages too quickly. Please wait a few minutes, or reach us on WhatsApp."
+msgstr "आप बहुत जल्दी-जल्दी मैसेज भेज रहे हैं। कृपया कुछ मिनट रुकें, या WhatsApp पर हमसे जुड़ें।"
+
+#: includes/class-concierge.php:127
+msgid "Invalid conversation."
+msgstr "अमान्य बातचीत।"
+
+#: includes/class-concierge.php:159
+msgid "I am not able to help with that here — our team will be happy to assist you on WhatsApp."
+msgstr "मैं यहाँ इसमें मदद नहीं कर सकता — हमारी टीम WhatsApp पर ख़ुशी से आपकी मदद करेगी।"
+
+#: includes/class-concierge.php:385
+msgid "Anything else I can help with? You can also chat with our team on WhatsApp."
+msgstr "क्या मैं और कुछ मदद कर सकता हूँ? आप WhatsApp पर हमारी टीम से भी बात कर सकते हैं।"
+
+#. translators: 1: assistant name, 2: store name.
+#: includes/class-concierge.php:410
+#, php-format
+msgid "Welcome to %2$s ✨ I am %1$s, your shopping concierge. Are you shopping for an occasion, a gift or something for yourself? Tell me a budget and I will suggest a few pieces."
+msgstr "%2$s में आपका स्वागत है ✨ मैं %1$s हूँ, आपका शॉपिंग कंसीयर्ज। क्या आप किसी मौक़े, तोहफ़े या अपने लिए ख़रीदारी कर रहे हैं? अपना बजट बताइए और मैं कुछ चीज़ें सुझाऊँगा।"
+
+#: includes/class-concierge.php:445
+msgid "I could not find an exact match right now. Our team can help you find or source it — tap the WhatsApp button and tell us what you have in mind!"
+msgstr "अभी मुझे बिल्कुल सही मैच नहीं मिला। हमारी टीम इसे ढूँढने या मँगवाने में मदद कर सकती है — WhatsApp बटन पर टैप करें और बताइए आपके मन में क्या है!"
+
+#: includes/class-concierge.php:452
+msgid "Here are a few you may love:"
+msgstr "ये कुछ चीज़ें आपको पसंद आ सकती हैं:"
+
+#: includes/class-concierge.php:452
+msgid "Would you like help choosing, or shall I connect you to our team on WhatsApp?"
+msgstr "क्या चुनने में मदद चाहिए, या मैं आपको WhatsApp पर हमारी टीम से जोड़ दूँ?"
+
+#: includes/class-demo-importer.php:187
+msgid "Standard delivery"
+msgstr "स्टैंडर्ड डिलीवरी"
+
+#: includes/class-demo-importer.php:196
+msgid "Free delivery"
+msgstr "मुफ़्त डिलीवरी"
+
+#: includes/class-demo-importer.php:208
+#: includes/class-setup-wizard.php:346
+msgid "Cash on delivery"
+msgstr "कैश ऑन डिलीवरी"
+
+#: includes/class-demo-importer.php:209
+msgid "Pay in cash or by UPI when your order arrives."
+msgstr "ऑर्डर पहुँचने पर नक़द या UPI से भुगतान करें।"
+
+#: includes/class-demo-importer.php:232
+msgid "Store settings, shipping zone, cash on delivery and coupons ready."
+msgstr "स्टोर सेटिंग, शिपिंग ज़ोन, कैश ऑन डिलीवरी और कूपन तैयार हैं।"
+
+#: includes/class-demo-importer.php:297
+msgid "Colour and size attributes with swatches, and six categories created."
+msgstr "स्वॉच के साथ रंग और साइज़ एट्रिब्यूट, और छह कैटेगरी बनाई गईं।"
+
+#: includes/class-demo-importer.php:358
+msgid "Beautiful quality and the packaging felt like a gift. Delivered a day early!"
+msgstr "शानदार क्वालिटी और पैकिंग तोहफ़े जैसी लगी। एक दिन पहले ही डिलीवर हो गया!"
+
+#: includes/class-demo-importer.php:359
+msgid "Exactly as pictured. The WhatsApp team answered all my questions before I ordered."
+msgstr "बिल्कुल फ़ोटो जैसा। ऑर्डर से पहले WhatsApp टीम ने मेरे सारे सवालों के जवाब दिए।"
+
+#: includes/class-demo-importer.php:360
+msgid "Lovely piece, great value. Would buy again."
+msgstr "प्यारी चीज़, पैसा वसूल। फिर से ख़रीदूँगी।"
+
+#. translators: %d: number of products.
+#: includes/class-demo-importer.php:476
+#, php-format
+msgid "Imported %d products with images."
+msgstr "इमेज के साथ %d प्रोडक्ट इम्पोर्ट किए गए।"
+
+#: includes/class-demo-importer.php:584
+#: includes/class-seo.php:441
+msgid "Home"
+msgstr "होम"
+
+#: includes/class-demo-importer.php:585
+msgid "About us"
+msgstr "हमारे बारे में"
+
+#: includes/class-demo-importer.php:585
+msgid "Tell your story here."
+msgstr "अपनी कहानी यहाँ लिखें।"
+
+#: includes/class-demo-importer.php:586
+#: includes/class-demo-importer.php:684
+msgid "Contact"
+msgstr "संपर्क"
+
+#: includes/class-demo-importer.php:586
+msgid "Add your contact details here."
+msgstr "अपना संपर्क विवरण यहाँ जोड़ें।"
+
+#: includes/class-demo-importer.php:587
+#: includes/class-demo-importer.php:683
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/class-demo-importer.php:590
+#: includes/class-demo-importer.php:682
+msgid "Shipping & returns"
+msgstr "शिपिंग और रिटर्न"
+
+#: includes/class-demo-importer.php:594
+msgid "Shipping"
+msgstr "शिपिंग"
+
+#: includes/class-demo-importer.php:595
+msgid "We dispatch within 48 hours. Delivery takes 2–7 working days across India. Shipping is free on orders over ₹999; otherwise a flat ₹79 applies. You will receive tracking by SMS, email and WhatsApp."
+msgstr "हम 48 घंटे में डिस्पैच करते हैं। पूरे भारत में डिलीवरी में 2–7 कार्यदिवस लगते हैं। ₹999 से ऊपर के ऑर्डर पर शिपिंग मुफ़्त है; वरना ₹79 फ़्लैट लगता है। आपको SMS, ईमेल और WhatsApp पर ट्रैकिंग मिलेगी।"
+
+#: includes/class-demo-importer.php:596
+msgid "Returns & exchanges"
+msgstr "रिटर्न और एक्सचेंज"
+
+#: includes/class-demo-importer.php:597
+msgid "Unused items in original packaging can be returned within 15 days of delivery. Message us on WhatsApp or email us with your order number and we will arrange a free pickup. Refunds are issued to the original payment method within 5–7 working days."
+msgstr "बिना इस्तेमाल किए, असली पैकिंग में रखे आइटम डिलीवरी के 15 दिन के अंदर लौटाए जा सकते हैं। अपने ऑर्डर नंबर के साथ हमें WhatsApp या ईमेल करें और हम मुफ़्त पिकअप की व्यवस्था करेंगे। रिफ़ंड 5–7 कार्यदिवस में मूल पेमेंट तरीक़े पर भेजा जाता है।"
+
+#: includes/class-demo-importer.php:601
+#: includes/class-demo-importer.php:673
+#: includes/class-settings.php:292
+#: includes/class-shop.php:392
+msgid "Wishlist"
+msgstr "विशलिस्ट"
+
+#: includes/class-demo-importer.php:602
+msgid "Compare products"
+msgstr "प्रोडक्ट की तुलना करें"
+
+#: includes/class-demo-importer.php:603
+#: includes/class-demo-importer.php:681
+msgid "Track your order"
+msgstr "अपना ऑर्डर ट्रैक करें"
+
+#: includes/class-demo-importer.php:603
+msgid "Enter your order number and the email you used at checkout."
+msgstr "अपना ऑर्डर नंबर और चेकआउट में इस्तेमाल किया गया ईमेल डालें।"
+
+#: includes/class-demo-importer.php:604
+msgid "Journal"
+msgstr "जर्नल"
+
+#: includes/class-demo-importer.php:621
+msgid "Home, About, Contact, FAQ, Shipping & returns, Wishlist, Compare and Track order pages created."
+msgstr "होम, हमारे बारे में, संपर्क, FAQ, शिपिंग और रिटर्न, विशलिस्ट, तुलना और ऑर्डर ट्रैक पेज बनाए गए।"
+
+#: includes/class-demo-importer.php:662
+msgid "Shop"
+msgstr "शॉप"
+
+#: includes/class-demo-importer.php:665
+#: includes/class-seo.php:682
+msgid "Collections"
+msgstr "कलेक्शन"
+
+#: includes/class-demo-importer.php:667
+msgid "Discover"
+msgstr "खोजें"
+
+#: includes/class-demo-importer.php:670
+msgid "New arrivals"
+msgstr "नए प्रोडक्ट"
+
+#: includes/class-demo-importer.php:671
+msgid "Best sellers"
+msgstr "बेस्ट सेलर"
+
+#: includes/class-demo-importer.php:672
+msgid "Top rated"
+msgstr "टॉप रेटेड"
+
+#: includes/class-demo-importer.php:674
+msgid "Compare"
+msgstr "तुलना"
+
+#: includes/class-demo-importer.php:678
+msgid "Help"
+msgstr "मदद"
+
+#: includes/class-demo-importer.php:693
+msgid "About"
+msgstr "हमारे बारे में"
+
+#: includes/class-demo-importer.php:700
+msgid "Main menu"
+msgstr "मुख्य मेन्यू"
+
+#: includes/class-demo-importer.php:707
+msgid "Main menu with a mega menu created."
+msgstr "मेगा मेन्यू के साथ मुख्य मेन्यू बनाया गया।"
+
+#: includes/class-demo-importer.php:747
+msgid "Finishing touches: cross-sells, upsells and category images. Your store is ready!"
+msgstr "अंतिम टच: क्रॉस-सेल, अपसेल और कैटेगरी इमेज। आपका स्टोर तैयार है!"
+
+#: includes/class-demo-importer.php:784
+#: includes/class-setup-wizard.php:376
+msgid "Demo content removed."
+msgstr "डेमो कंटेंट हटा दिया गया।"
+
+#: includes/class-marketing.php:39
+msgid "Subscribe"
+msgstr "सब्सक्राइब करें"
+
+#: includes/class-marketing.php:40
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: includes/class-marketing.php:41
+msgid "Your email address"
+msgstr "आपका ईमेल पता"
+
+#: includes/class-marketing.php:42
+msgid "Thank you! You are on the list."
+msgstr "धन्यवाद! आप लिस्ट में जुड़ गए हैं।"
+
+#. translators: %s: coupon code.
+#: includes/class-marketing.php:44
+#, php-format
+msgid "Thank you! Use code %s at checkout."
+msgstr "धन्यवाद! चेकआउट पर कोड %s इस्तेमाल करें।"
+
+#: includes/class-marketing.php:45
+#: includes/class-marketing.php:75
+msgid "Please enter a valid email address."
+msgstr "कृपया सही ईमेल पता डालें।"
+
+#: includes/class-marketing.php:46
+msgid "No thanks"
+msgstr "नहीं, धन्यवाद"
+
+#: includes/class-marketing.php:78
+#: includes/class-upi-payments.php:87
+msgid "Too many attempts. Please try again later."
+msgstr "बहुत ज़्यादा कोशिशें। कृपया बाद में फिर कोशिश करें।"
+
+#: includes/class-plugin.php:101
+msgid "Every five minutes (Aurelia)"
+msgstr "हर पाँच मिनट (Aurelia)"
+
+#: includes/class-plugin.php:169
+msgid "Aurelia Commerce needs WooCommerce. Please install and activate WooCommerce to use the store features."
+msgstr "Aurelia Commerce को WooCommerce चाहिए। स्टोर फ़ीचर इस्तेमाल करने के लिए कृपया WooCommerce इंस्टॉल और चालू करें।"
+
+#: includes/class-privacy.php:33
+msgid "Store analytics are cookie-less and anonymous: we record page and product views, cart additions and similar events without IP addresses, cookies or any personal identifiers."
+msgstr "स्टोर एनालिटिक्स बिना कुकी और गुमनाम हैं: हम पेज और प्रोडक्ट व्यू, कार्ट में जोड़ना और ऐसे ही इवेंट बिना IP पते, कुकी या किसी निजी पहचान के रिकॉर्ड करते हैं।"
+
+#: includes/class-privacy.php:34
+msgid "If you join our newsletter we store your email address until you unsubscribe or ask us to delete it."
+msgstr "अगर आप हमारा न्यूज़लेटर जॉइन करते हैं तो हम आपका ईमेल पता तब तक रखते हैं जब तक आप अनसब्सक्राइब न करें या उसे हटाने को न कहें।"
+
+#: includes/class-privacy.php:35
+msgid "Messages you send to our shopping assistant are processed by Anthropic (Claude) to generate replies and are not stored on this website. WhatsApp orders are sent through WhatsApp, which is subject to its own privacy policy."
+msgstr "हमारे शॉपिंग असिस्टेंट को भेजे गए मैसेज जवाब बनाने के लिए Anthropic (Claude) द्वारा प्रोसेस किए जाते हैं और इस वेबसाइट पर सहेजे नहीं जाते। WhatsApp ऑर्डर WhatsApp के ज़रिए भेजे जाते हैं, जिस पर उसकी अपनी प्राइवेसी पॉलिसी लागू होती है।"
+
+#: includes/class-privacy.php:47
+#: includes/class-privacy.php:90
+msgid "Newsletter (Aurelia)"
+msgstr "न्यूज़लेटर (Aurelia)"
+
+#: includes/class-privacy.php:55
+msgid "Newsletter"
+msgstr "न्यूज़लेटर"
+
+#: includes/class-privacy.php:59
+#: includes/class-settings.php:71
+#: includes/class-setup-wizard.php:328
+msgid "Email"
+msgstr "ईमेल"
+
+#: includes/class-privacy.php:63
+msgid "Signed up"
+msgstr "साइन-अप किया"
+
+#: includes/class-privacy.php:67
+msgid "Source"
+msgstr "स्रोत"
+
+#: includes/class-reviews.php:41
+msgid "Add photos (optional)"
+msgstr "फ़ोटो जोड़ें (वैकल्पिक)"
+
+#. translators: %d: max photos.
+#: includes/class-reviews.php:44
+#, php-format
+msgid "Up to %d images, 5 MB each. JPG, PNG or WebP."
+msgstr "अधिकतम %d इमेज, हर एक 5 MB तक। JPG, PNG या WebP।"
+
+#: includes/class-reviews.php:133
+msgid "Customer photo"
+msgstr "ग्राहक की फ़ोटो"
+
+#. translators: %s: store name.
+#: includes/class-seo.php:662
+#, php-format
+msgid "%s is an online store."
+msgstr "%s एक ऑनलाइन स्टोर है।"
+
+#. translators: %s: city.
+#: includes/class-seo.php:665
+#, php-format
+msgid "Based in %s."
+msgstr "%s में स्थित।"
+
+#. translators: %s: WhatsApp number.
+#: includes/class-seo.php:669
+#, php-format
+msgid "Orders can be placed on the website or on WhatsApp (+%s)."
+msgstr "ऑर्डर वेबसाइट पर या WhatsApp (+%s) पर दिए जा सकते हैं।"
+
+#: includes/class-seo.php:689
+msgid "Products"
+msgstr "प्रोडक्ट"
+
+#. translators: %s: price.
+#: includes/class-seo.php:707
+#, php-format
+msgid "Price: %s"
+msgstr "दाम: %s"
+
+#: includes/class-seo.php:711
+msgid "Category"
+msgstr "कैटेगरी"
+
+#. translators: 1: rating, 2: review count.
+#: includes/class-seo.php:718
+#, php-format
+msgid "Rating: %1$s/5 from %2$d reviews"
+msgstr "रेटिंग: %2$d रिव्यू से %1$s/5"
+
+#: includes/class-seo.php:720
+#: includes/class-shop.php:106
+msgid "In stock"
+msgstr "स्टॉक में"
+
+#: includes/class-seo.php:720
+#: includes/class-shop.php:107
+msgid "Out of stock"
+msgstr "स्टॉक में नहीं"
+
+#: includes/class-seo.php:729
+msgid "Policies & FAQ"
+msgstr "पॉलिसी और FAQ"
+
+#: includes/class-seo.php:736
+msgid "Key pages"
+msgstr "मुख्य पेज"
+
+#: includes/class-seo.php:737
+msgid "Shop all products"
+msgstr "सभी प्रोडक्ट ख़रीदें"
+
+#: includes/class-seo.php:745
+msgid "Product feed (XML)"
+msgstr "प्रोडक्ट फ़ीड (XML)"
+
+#: includes/class-seo.php:750
+msgid "Full product details"
+msgstr "प्रोडक्ट का पूरा विवरण"
+
+#: includes/class-settings.php:37
+msgid "General store"
+msgstr "जनरल स्टोर"
+
+#: includes/class-settings.php:38
+msgid "Jewellery store"
+msgstr "ज्वेलरी स्टोर"
+
+#: includes/class-settings.php:39
+msgid "Clothing store"
+msgstr "कपड़ों का स्टोर"
+
+#: includes/class-settings.php:40
+msgid "Electronics store"
+msgstr "इलेक्ट्रॉनिक्स स्टोर"
+
+#: includes/class-settings.php:41
+msgid "Beauty store"
+msgstr "ब्यूटी स्टोर"
+
+#: includes/class-settings.php:42
+msgid "Grocery store"
+msgstr "ग्रोसरी स्टोर"
+
+#: includes/class-settings.php:43
+msgid "Home goods store"
+msgstr "होम गुड्स स्टोर"
+
+#: includes/class-settings.php:44
+msgid "Online-only store"
+msgstr "सिर्फ़ ऑनलाइन स्टोर"
+
+#: includes/class-settings.php:49
+#: includes/class-setup-wizard.php:38
+msgid "Store"
+msgstr "स्टोर"
+
+#: includes/class-settings.php:53
+#: includes/class-setup-wizard.php:326
+msgid "Store name"
+msgstr "स्टोर का नाम"
+
+#: includes/class-settings.php:55
+msgid "Leave empty to use the site title."
+msgstr "साइट टाइटल इस्तेमाल करने के लिए ख़ाली छोड़ें।"
+
+#: includes/class-settings.php:59
+#: includes/class-setup-wizard.php:294
+msgid "Store type"
+msgstr "स्टोर का प्रकार"
+
+#: includes/class-settings.php:62
+msgid "Used in structured data and to tune the AI concierge."
+msgstr "स्ट्रक्चर्ड डेटा में और AI कंसीयर्ज को बेहतर बनाने में इस्तेमाल होता है।"
+
+#: includes/class-settings.php:66
+#: includes/class-setup-wizard.php:327
+#: includes/class-whatsapp.php:137
+#: includes/class-whatsapp.php:493
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: includes/class-settings.php:76
+msgid "Street address"
+msgstr "पता"
+
+#: includes/class-settings.php:81
+#: includes/class-setup-wizard.php:330
+#: includes/class-whatsapp.php:139
+#: includes/class-whatsapp.php:495
+msgid "City"
+msgstr "शहर"
+
+#: includes/class-settings.php:86
+msgid "State / region"
+msgstr "राज्य / क्षेत्र"
+
+#: includes/class-settings.php:91
+#: includes/class-setup-wizard.php:332
+msgid "PIN / postcode"
+msgstr "PIN / पोस्टकोड"
+
+#: includes/class-settings.php:96
+#: includes/class-setup-wizard.php:333
+msgid "Country code"
+msgstr "देश कोड"
+
+#: includes/class-settings.php:98
+msgid "Two-letter ISO code, e.g. IN."
+msgstr "दो अक्षरों का ISO कोड, जैसे IN।"
+
+#: includes/class-settings.php:102
+msgid "Opening hours"
+msgstr "खुलने का समय"
+
+#: includes/class-settings.php:104
+msgid "schema.org format, e.g. Mo-Sa 10:30-20:30."
+msgstr "schema.org फ़ॉर्मैट, जैसे Mo-Sa 10:30-20:30।"
+
+#: includes/class-settings.php:108
+msgid "Social profile URLs"
+msgstr "सोशल प्रोफ़ाइल URL"
+
+#: includes/class-settings.php:110
+msgid "One URL per line (Instagram, Facebook, YouTube...). Used for structured data."
+msgstr "हर पंक्ति में एक URL (Instagram, Facebook, YouTube...)। स्ट्रक्चर्ड डेटा के लिए।"
+
+#: includes/class-settings.php:115
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-settings.php:119
+msgid "Enable WhatsApp ordering"
+msgstr "WhatsApp ऑर्डर चालू करें"
+
+#: includes/class-settings.php:124
+#: includes/class-setup-wizard.php:344
+msgid "WhatsApp number"
+msgstr "WhatsApp नंबर"
+
+#: includes/class-settings.php:126
+msgid "International format with country code, digits only, e.g. 919876543210."
+msgstr "देश कोड के साथ अंतरराष्ट्रीय फ़ॉर्मैट, सिर्फ़ अंक, जैसे 919876543210।"
+
+#: includes/class-settings.php:130
+msgid "Checkout mode"
+msgstr "चेकआउट मोड"
+
+#: includes/class-settings.php:133
+msgid "Show alongside normal checkout"
+msgstr "सामान्य चेकआउट के साथ दिखाएँ"
+
+#: includes/class-settings.php:134
+msgid "Replace checkout with WhatsApp ordering"
+msgstr "चेकआउट की जगह WhatsApp ऑर्डर"
+
+#: includes/class-settings.php:139
+msgid "\"Order on WhatsApp\" on product pages"
+msgstr "प्रोडक्ट पेज पर \"WhatsApp पर ऑर्डर करें\""
+
+#: includes/class-settings.php:144
+msgid "\"Order on WhatsApp\" in cart and side cart"
+msgstr "कार्ट और साइड कार्ट में \"WhatsApp पर ऑर्डर करें\""
+
+#: includes/class-settings.php:149
+msgid "Product enquiry button"
+msgstr "प्रोडक्ट पूछताछ बटन"
+
+#: includes/class-settings.php:154
+msgid "\"Request a video call\" button"
+msgstr "\"वीडियो कॉल का अनुरोध\" बटन"
+
+#: includes/class-settings.php:159
+msgid "Floating WhatsApp button"
+msgstr "फ़्लोटिंग WhatsApp बटन"
+
+#: includes/class-settings.php:164
+msgid "Floating button position"
+msgstr "फ़्लोटिंग बटन की जगह"
+
+#: includes/class-settings.php:167
+msgid "Bottom right"
+msgstr "नीचे दाएँ"
+
+#: includes/class-settings.php:168
+msgid "Bottom left"
+msgstr "नीचे बाएँ"
+
+#: includes/class-settings.php:173
+msgid "Create a WooCommerce order (\"Pending – WhatsApp\") for each WhatsApp order"
+msgstr "हर WhatsApp ऑर्डर के लिए एक WooCommerce ऑर्डर (\"Pending – WhatsApp\") बनाएँ"
+
+#: includes/class-settings.php:178
+msgid "Ask for name, phone and address before opening WhatsApp"
+msgstr "WhatsApp खोलने से पहले नाम, फ़ोन और पता पूछें"
+
+#: includes/class-settings.php:183
+msgid "Include an online payment link in the message"
+msgstr "मैसेज में ऑनलाइन पेमेंट लिंक शामिल करें"
+
+#: includes/class-settings.php:188
+msgid "Message closing line"
+msgstr "मैसेज की आख़िरी पंक्ति"
+
+#: includes/class-settings.php:189
+msgid "Please confirm availability and payment options. Thank you!"
+msgstr "कृपया स्टॉक और पेमेंट विकल्पों की पुष्टि करें। धन्यवाद!"
+
+#: includes/class-settings.php:194
+msgid "AI concierge"
+msgstr "AI कंसीयर्ज"
+
+#: includes/class-settings.php:198
+msgid "Enable the AI shopping concierge"
+msgstr "AI शॉपिंग कंसीयर्ज चालू करें"
+
+#: includes/class-settings.php:203
+#: includes/class-setup-wizard.php:357
+msgid "Claude API key"
+msgstr "Claude API key"
+
+#: includes/class-settings.php:205
+msgid "Create a key at console.anthropic.com. It is stored on your server and never sent to the browser. Without a key, a rule-based assistant answers from your catalogue."
+msgstr "console.anthropic.com पर key बनाएँ। यह आपके सर्वर पर सहेजी जाती है और कभी ब्राउज़र को नहीं भेजी जाती। key के बिना, नियमों पर आधारित असिस्टेंट आपके कैटलॉग से जवाब देता है।"
+
+#: includes/class-settings.php:209
+msgid "Model"
+msgstr "मॉडल"
+
+#: includes/class-settings.php:211
+msgid "Claude model ID, e.g. claude-opus-5 or claude-sonnet-5."
+msgstr "Claude मॉडल ID, जैसे claude-opus-5 या claude-sonnet-5।"
+
+#: includes/class-settings.php:215
+#: includes/class-setup-wizard.php:358
+msgid "Assistant name"
+msgstr "असिस्टेंट का नाम"
+
+#: includes/class-settings.php:220
+msgid "Greeting"
+msgstr "स्वागत संदेश"
+
+#: includes/class-settings.php:221
+msgid "Namaste ✨ I am your personal shopping concierge. What are you looking for today?"
+msgstr "नमस्ते ✨ मैं आपका निजी शॉपिंग कंसीयर्ज हूँ। आज आप क्या ढूँढ रहे हैं?"
+
+#: includes/class-settings.php:225
+msgid "Suggested questions"
+msgstr "सुझाए गए सवाल"
+
+#: includes/class-settings.php:226
+msgid "Gift ideas under ₹2,000\nWhat's new this week?\nDo you offer cash on delivery?\nHow long does delivery take?"
+msgstr "₹2,000 से कम में तोहफ़े के आइडिया\nइस हफ़्ते नया क्या है?\nक्या कैश ऑन डिलीवरी है?\nडिलीवरी में कितना समय लगता है?"
+
+#: includes/class-settings.php:227
+msgid "One per line."
+msgstr "हर पंक्ति में एक।"
+
+#: includes/class-settings.php:231
+msgid "Shipping, returns & payment policy"
+msgstr "शिपिंग, रिटर्न और पेमेंट पॉलिसी"
+
+#: includes/class-settings.php:232
+msgid "Free shipping on orders over ₹999, otherwise ₹79. Dispatch within 48 hours; delivery in 2–7 days across India.\nEasy 15-day returns on unused items in original packaging.\nPayments: UPI (PhonePe, Google Pay, Paytm), cards, net banking and cash on delivery."
+msgstr "₹999 से ऊपर के ऑर्डर पर मुफ़्त शिपिंग, वरना ₹79। 48 घंटे में डिस्पैच; पूरे भारत में 2–7 दिन में डिलीवरी।\nबिना इस्तेमाल किए, असली पैकिंग वाले आइटम पर 15 दिन में आसान रिटर्न।\nपेमेंट: UPI (PhonePe, Google Pay, Paytm), कार्ड, नेट बैंकिंग और कैश ऑन डिलीवरी।"
+
+#: includes/class-settings.php:236
+msgid "FAQ for the assistant"
+msgstr "असिस्टेंट के लिए FAQ"
+
+#: includes/class-settings.php:238
+msgid "Optional. Write each as \"Q: ...\" followed by \"A: ...\". FAQ blocks on your pages are included automatically."
+msgstr "वैकल्पिक। हर सवाल \"Q: ...\" और उसके बाद \"A: ...\" के रूप में लिखें। आपके पेजों के FAQ ब्लॉक अपने-आप शामिल होते हैं।"
+
+#: includes/class-settings.php:242
+msgid "Extra instructions"
+msgstr "अतिरिक्त निर्देश"
+
+#: includes/class-settings.php:244
+msgid "Tone, brand voice or topics to avoid."
+msgstr "टोन, ब्रांड की आवाज़ या जिन विषयों से बचना है।"
+
+#: includes/class-settings.php:248
+msgid "Messages per visitor per 10 minutes"
+msgstr "हर विज़िटर के लिए 10 मिनट में मैसेज"
+
+#: includes/class-settings.php:256
+msgid "3D viewer"
+msgstr "3D व्यूअर"
+
+#: includes/class-settings.php:260
+msgid "Enable \"View in 3D\" on products"
+msgstr "प्रोडक्ट पर \"3D में देखें\" चालू करें"
+
+#: includes/class-settings.php:262
+msgid "Configure each product in its \"3D view\" box: the built-in ring or your own GLB/GLTF model."
+msgstr "हर प्रोडक्ट को उसके \"3D व्यू\" बॉक्स में सेट करें: बिल्ट-इन अंगूठी या आपका अपना GLB/GLTF मॉडल।"
+
+#: includes/class-settings.php:266
+msgid "Animate the hero 3D stage"
+msgstr "हीरो 3D स्टेज को एनिमेट करें"
+
+#: includes/class-settings.php:268
+msgid "Turns the \"Hero with 3D showcase\" pattern image into a live 3D ring."
+msgstr "\"3D शोकेस वाला हीरो\" पैटर्न की इमेज को लाइव 3D अंगूठी में बदलता है।"
+
+#: includes/class-settings.php:272
+msgid "Default metal colour"
+msgstr "डिफ़ॉल्ट धातु का रंग"
+
+#: includes/class-settings.php:277
+msgid "Default gem colour"
+msgstr "डिफ़ॉल्ट रत्न का रंग"
+
+#: includes/class-settings.php:283
+msgid "Shop features"
+msgstr "शॉप फ़ीचर"
+
+#: includes/class-settings.php:287
+msgid "Live product search suggestions"
+msgstr "लाइव प्रोडक्ट सर्च सुझाव"
+
+#: includes/class-settings.php:297
+msgid "Product compare"
+msgstr "प्रोडक्ट तुलना"
+
+#: includes/class-settings.php:302
+#: includes/class-shop.php:97
+msgid "Quick view"
+msgstr "क्विक व्यू"
+
+#: includes/class-settings.php:307
+msgid "Variation swatches (colour, image, button)"
+msgstr "वेरिएशन स्वॉच (रंग, इमेज, बटन)"
+
+#: includes/class-settings.php:312
+msgid "Grid / list view toggle"
+msgstr "ग्रिड / लिस्ट व्यू टॉगल"
+
+#: includes/class-settings.php:317
+msgid "Shop pagination"
+msgstr "शॉप पेजिनेशन"
+
+#: includes/class-settings.php:320
+msgid "Page numbers"
+msgstr "पेज नंबर"
+
+#: includes/class-settings.php:321
+msgid "\"Load more\" button"
+msgstr "\"और लोड करें\" बटन"
+
+#: includes/class-settings.php:322
+msgid "Infinite scroll"
+msgstr "इनफ़िनिट स्क्रॉल"
+
+#: includes/class-settings.php:327
+msgid "Sticky add-to-cart bar on product pages"
+msgstr "प्रोडक्ट पेज पर स्टिकी ऐड-टू-कार्ट बार"
+
+#: includes/class-settings.php:332
+msgid "Quantity + / − buttons"
+msgstr "मात्रा के + / − बटन"
+
+#: includes/class-settings.php:337
+msgid "Recently viewed products"
+msgstr "हाल में देखे गए प्रोडक्ट"
+
+#: includes/class-settings.php:342
+msgid "Frequently bought together (uses cross-sells)"
+msgstr "अक्सर साथ ख़रीदे जाते हैं (क्रॉस-सेल इस्तेमाल करता है)"
+
+#: includes/class-settings.php:347
+msgid "Allow photos in reviews"
+msgstr "रिव्यू में फ़ोटो की अनुमति दें"
+
+#: includes/class-settings.php:352
+msgid "Countdown for scheduled sales"
+msgstr "शेड्यूल की गई सेल के लिए काउंटडाउन"
+
+#: includes/class-settings.php:357
+msgid "Show dispatch & delivery estimate"
+msgstr "डिस्पैच और डिलीवरी का अनुमान दिखाएँ"
+
+#: includes/class-settings.php:362
+msgid "Same-day dispatch cut-off hour (0–23)"
+msgstr "उसी दिन डिस्पैच का आख़िरी घंटा (0–23)"
+
+#: includes/class-settings.php:369
+msgid "Delivery days (minimum)"
+msgstr "डिलीवरी के दिन (न्यूनतम)"
+
+#: includes/class-settings.php:376
+msgid "Delivery days (maximum)"
+msgstr "डिलीवरी के दिन (अधिकतम)"
+
+#: includes/class-settings.php:383
+msgid "Free-shipping progress bar in cart"
+msgstr "कार्ट में मुफ़्त शिपिंग प्रोग्रेस बार"
+
+#: includes/class-settings.php:388
+msgid "Free shipping threshold"
+msgstr "मुफ़्त शिपिंग की सीमा"
+
+#: includes/class-settings.php:392
+msgid "Order value that unlocks free shipping (0 to hide the bar)."
+msgstr "जिस ऑर्डर वैल्यू पर शिपिंग मुफ़्त होती है (बार छिपाने के लिए 0)।"
+
+#: includes/class-settings.php:396
+#: includes/class-shop.php:491
+msgid "Size guide"
+msgstr "साइज़ गाइड"
+
+#: includes/class-settings.php:398
+msgid "Shown in a popup on products with a \"Size\" attribute. Each product can override it."
+msgstr "\"Size\" एट्रिब्यूट वाले प्रोडक्ट पर पॉपअप में दिखता है। हर प्रोडक्ट इसे बदल सकता है।"
+
+#: includes/class-settings.php:403
+msgid "Marketing"
+msgstr "मार्केटिंग"
+
+#: includes/class-settings.php:407
+msgid "Newsletter popup"
+msgstr "न्यूज़लेटर पॉपअप"
+
+#: includes/class-settings.php:412
+msgid "Show on exit intent (desktop)"
+msgstr "पेज छोड़ते समय दिखाएँ (डेस्कटॉप)"
+
+#: includes/class-settings.php:417
+msgid "Or show after (seconds)"
+msgstr "या इतने सेकंड बाद दिखाएँ"
+
+#: includes/class-settings.php:424
+msgid "Popup title"
+msgstr "पॉपअप का टाइटल"
+
+#: includes/class-settings.php:425
+msgid "Get 10% off your first order"
+msgstr "पहले ऑर्डर पर 10% की छूट पाएँ"
+
+#: includes/class-settings.php:429
+msgid "Popup text"
+msgstr "पॉपअप का टेक्स्ट"
+
+#: includes/class-settings.php:430
+msgid "Join our list for new arrivals and private sales."
+msgstr "नए प्रोडक्ट और प्राइवेट सेल के लिए हमारी लिस्ट से जुड़ें।"
+
+#: includes/class-settings.php:434
+msgid "Coupon shown after sign-up"
+msgstr "साइन-अप के बाद दिखने वाला कूपन"
+
+#: includes/class-settings.php:439
+msgid "Forward sign-ups to webhook"
+msgstr "साइन-अप को वेबहुक पर भेजें"
+
+#: includes/class-settings.php:441
+msgid "Optional Make / Zapier / n8n / Mailchimp webhook URL."
+msgstr "वैकल्पिक Make / Zapier / n8n / Mailchimp वेबहुक URL।"
+
+#: includes/class-settings.php:446
+msgid "Social posting"
+msgstr "सोशल पोस्टिंग"
+
+#: includes/class-settings.php:450
+msgid "Publishing webhook (Make, Zapier, n8n)"
+msgstr "पब्लिशिंग वेबहुक (Make, Zapier, n8n)"
+
+#: includes/class-settings.php:452
+msgid "When set, every post is sent here as JSON and your automation fans it out to any network."
+msgstr "सेट होने पर हर पोस्ट JSON के रूप में यहाँ भेजी जाती है और आपका ऑटोमेशन उसे किसी भी नेटवर्क पर पहुँचाता है।"
+
+#: includes/class-settings.php:456
+msgid "Facebook Page ID"
+msgstr "Facebook Page ID"
+
+#: includes/class-settings.php:461
+msgid "Instagram Business account ID"
+msgstr "Instagram Business अकाउंट ID"
+
+#: includes/class-settings.php:466
+msgid "Meta Page access token"
+msgstr "Meta Page ऐक्सेस टोकन"
+
+#: includes/class-settings.php:468
+msgid "Long-lived Page token with pages_manage_posts, instagram_basic and instagram_content_publish."
+msgstr "pages_manage_posts, instagram_basic और instagram_content_publish अनुमतियों वाला लंबी अवधि का Page टोकन।"
+
+#: includes/class-settings.php:472
+msgid "Graph API version"
+msgstr "Graph API वर्शन"
+
+#: includes/class-settings.php:478
+msgid "Analytics & SEO"
+msgstr "एनालिटिक्स और SEO"
+
+#: includes/class-settings.php:482
+msgid "Privacy-friendly analytics (no cookies, no personal data)"
+msgstr "प्राइवेसी-फ़्रेंडली एनालिटिक्स (कोई कुकी नहीं, कोई निजी डेटा नहीं)"
+
+#: includes/class-settings.php:487
+msgid "Keep analytics for (days)"
+msgstr "एनालिटिक्स इतने दिन रखें"
+
+#: includes/class-settings.php:494
+msgid "Structured data (Product, Store, WebSite, Breadcrumbs, FAQ)"
+msgstr "स्ट्रक्चर्ड डेटा (Product, Store, WebSite, Breadcrumbs, FAQ)"
+
+#: includes/class-settings.php:496
+msgid "When Yoast, Rank Math or AIOSEO is active, their schema is extended instead of duplicated."
+msgstr "जब Yoast, Rank Math या AIOSEO चालू हो, तो उनका schema दोहराने की जगह बढ़ाया जाता है।"
+
+#: includes/class-settings.php:500
+msgid "Open Graph & Twitter meta (skipped when an SEO plugin is active)"
+msgstr "Open Graph और Twitter मेटा (SEO प्लगइन चालू होने पर छोड़ दिया जाता है)"
+
+#: includes/class-settings.php:505
+msgid "Publish /llms.txt and /llms-full.txt for AI assistants"
+msgstr "AI असिस्टेंट के लिए /llms.txt और /llms-full.txt प्रकाशित करें"
+
+#: includes/class-settings.php:510
+msgid "Allow AI crawlers in robots.txt"
+msgstr "robots.txt में AI क्रॉलर को अनुमति दें"
+
+#: includes/class-settings.php:515
+msgid "Google Merchant / Meta catalogue feed at /product-feed.xml"
+msgstr "/product-feed.xml पर Google Merchant / Meta कैटलॉग फ़ीड"
+
+#: includes/class-settings.php:520
+msgid "Return window (days)"
+msgstr "रिटर्न की अवधि (दिन)"
+
+#: includes/class-settings.php:527
+msgid "Standard shipping cost (for schema)"
+msgstr "स्टैंडर्ड शिपिंग ख़र्च (schema के लिए)"
+
+#: includes/class-settings.php:534
+msgid "Default Google product category"
+msgstr "डिफ़ॉल्ट Google प्रोडक्ट कैटेगरी"
+
+#: includes/class-settings.php:536
+msgid "Optional Google taxonomy ID used in the feed, e.g. 188 for jewellery."
+msgstr "फ़ीड में इस्तेमाल होने वाली वैकल्पिक Google टैक्सोनॉमी ID, जैसे ज्वेलरी के लिए 188।"
+
+#: includes/class-setup-wizard.php:37
+msgid "Look"
+msgstr "लुक"
+
+#: includes/class-setup-wizard.php:39
+msgid "WhatsApp & payments"
+msgstr "WhatsApp और पेमेंट"
+
+#: includes/class-setup-wizard.php:40
+msgid "AI & social"
+msgstr "AI और सोशल"
+
+#: includes/class-setup-wizard.php:41
+msgid "Demo content"
+msgstr "डेमो कंटेंट"
+
+#: includes/class-setup-wizard.php:42
+msgid "Ready"
+msgstr "तैयार"
+
+#: includes/class-setup-wizard.php:78
+msgid "Welcome to Aurelia!"
+msgstr "Aurelia में आपका स्वागत है!"
+
+#: includes/class-setup-wizard.php:79
+msgid "Set up your store look, WhatsApp, payments and demo content in a few minutes."
+msgstr "कुछ ही मिनट में अपने स्टोर का लुक, WhatsApp, पेमेंट और डेमो कंटेंट सेट करें।"
+
+#: includes/class-setup-wizard.php:81
+msgid "Run the setup wizard"
+msgstr "सेटअप विज़ार्ड चलाएँ"
+
+#: includes/class-setup-wizard.php:143
+msgid "You are not allowed to do this."
+msgstr "आपको यह करने की अनुमति नहीं है।"
+
+#: includes/class-setup-wizard.php:235
+msgid "Set up your Aurelia store"
+msgstr "अपना Aurelia स्टोर सेट करें"
+
+#: includes/class-setup-wizard.php:253
+msgid "Skip this step"
+msgstr "यह चरण छोड़ें"
+
+#: includes/class-setup-wizard.php:254
+msgid "Save & continue"
+msgstr "सहेजें और आगे बढ़ें"
+
+#: includes/class-setup-wizard.php:256
+msgid "Launch my store"
+msgstr "मेरा स्टोर लॉन्च करें"
+
+#: includes/class-setup-wizard.php:293
+msgid "What do you sell, and how should it look?"
+msgstr "आप क्या बेचते हैं, और यह कैसा दिखना चाहिए?"
+
+#: includes/class-setup-wizard.php:301
+msgid "Style"
+msgstr "स्टाइल"
+
+#: includes/class-setup-wizard.php:315
+msgid "You can switch any time in Appearance → Editor → Styles."
+msgstr "आप इसे कभी भी Appearance → Editor → Styles में बदल सकते हैं।"
+
+#: includes/class-setup-wizard.php:325
+msgid "Your store details"
+msgstr "आपके स्टोर का विवरण"
+
+#: includes/class-setup-wizard.php:325
+msgid "Used in emails, invoices, WhatsApp messages and search results."
+msgstr "ईमेल, बिल, WhatsApp मैसेज और सर्च नतीजों में इस्तेमाल होता है।"
+
+#: includes/class-setup-wizard.php:329
+#: includes/class-whatsapp.php:138
+#: includes/class-whatsapp.php:494
+msgid "Address"
+msgstr "पता"
+
+#: includes/class-setup-wizard.php:331
+msgid "State code"
+msgstr "राज्य कोड"
+
+#: includes/class-setup-wizard.php:331
+msgid "For India, e.g. MH, DL, KA, TN."
+msgstr "भारत के लिए, जैसे MH, DL, KA, TN।"
+
+#: includes/class-setup-wizard.php:343
+msgid "WhatsApp ordering & payments"
+msgstr "WhatsApp ऑर्डर और पेमेंट"
+
+#: includes/class-setup-wizard.php:344
+msgid "With country code, e.g. 919876543210. Orders and enquiries open a chat with this number."
+msgstr "देश कोड के साथ, जैसे 919876543210। ऑर्डर और पूछताछ इसी नंबर के साथ चैट खोलते हैं।"
+
+#: includes/class-setup-wizard.php:345
+msgid "WhatsApp mode"
+msgstr "WhatsApp मोड"
+
+#: includes/class-setup-wizard.php:345
+msgid "Alongside normal checkout"
+msgstr "सामान्य चेकआउट के साथ"
+
+#: includes/class-setup-wizard.php:345
+msgid "Replace checkout (WhatsApp only)"
+msgstr "चेकआउट की जगह (सिर्फ़ WhatsApp)"
+
+#: includes/class-setup-wizard.php:346
+msgid "Accept cash on delivery"
+msgstr "कैश ऑन डिलीवरी स्वीकार करें"
+
+#: includes/class-setup-wizard.php:347
+msgid "UPI ID for QR payments"
+msgstr "QR पेमेंट के लिए UPI ID"
+
+#: includes/class-setup-wizard.php:347
+msgid "e.g. yourshop@okhdfcbank. Customers scan a QR or tap \"Pay with UPI app\" (PhonePe, Google Pay, Paytm…)."
+msgstr "जैसे yourshop@okhdfcbank। ग्राहक QR स्कैन करते हैं या \"UPI ऐप से भुगतान करें\" पर टैप करते हैं (PhonePe, Google Pay, Paytm…)।"
+
+#: includes/class-setup-wizard.php:348
+#: includes/class-upi-gateway.php:71
+msgid "Payee name"
+msgstr "प्राप्तकर्ता का नाम"
+
+#: includes/class-setup-wizard.php:349
+msgid "Prefer a payment gateway? Install Razorpay, PhonePe PG or Cashfree from Plugins → Add New; Aurelia styles their checkout automatically."
+msgstr "पेमेंट गेटवे पसंद है? Plugins → Add New से Razorpay, PhonePe PG या Cashfree इंस्टॉल करें; Aurelia उनके चेकआउट को अपने-आप स्टाइल करता है।"
+
+#: includes/class-setup-wizard.php:356
+msgid "AI concierge & social posting (optional)"
+msgstr "AI कंसीयर्ज और सोशल पोस्टिंग (वैकल्पिक)"
+
+#: includes/class-setup-wizard.php:357
+msgid "A key is already saved — leave blank to keep it."
+msgstr "एक key पहले से सहेजी है — उसे रखने के लिए ख़ाली छोड़ें।"
+
+#: includes/class-setup-wizard.php:357
+msgid "From console.anthropic.com. Stored on your server only. Without it, a rule-based assistant still answers from your catalogue."
+msgstr "console.anthropic.com से। सिर्फ़ आपके सर्वर पर सहेजी जाती है। इसके बिना भी नियमों पर आधारित असिस्टेंट आपके कैटलॉग से जवाब देता है।"
+
+#: includes/class-setup-wizard.php:359
+msgid "Social webhook (Make, Zapier, n8n)"
+msgstr "सोशल वेबहुक (Make, Zapier, n8n)"
+
+#: includes/class-setup-wizard.php:359
+msgid "Optional. Or connect Facebook & Instagram later in Settings → Social posting."
+msgstr "वैकल्पिक। या बाद में Settings → Social posting में Facebook और Instagram जोड़ें।"
+
+#: includes/class-setup-wizard.php:374
+msgid "Importing… please keep this tab open."
+msgstr "इम्पोर्ट हो रहा है… कृपया यह टैब खुला रखें।"
+
+#: includes/class-setup-wizard.php:375
+msgid "Done! Continue to the last step."
+msgstr "हो गया! आख़िरी चरण पर जाएँ।"
+
+#: includes/class-setup-wizard.php:377
+msgid "Delete all demo products, pages, menu and images?"
+msgstr "सभी डेमो प्रोडक्ट, पेज, मेन्यू और इमेज हटाएँ?"
+
+#: includes/class-setup-wizard.php:380
+msgid "Make it look like the demo"
+msgstr "इसे डेमो जैसा बनाएँ"
+
+#: includes/class-setup-wizard.php:381
+msgid "Imports 26 sample products across jewellery, fashion, electronics, beauty, grocery and home — with images, variations, swatches, 3D rings, reviews and coupons — plus Home, About, Contact, FAQ, Shipping, Wishlist, Compare and Track-order pages and a mega menu. You can remove it all later in one click."
+msgstr "ज्वेलरी, फ़ैशन, इलेक्ट्रॉनिक्स, ब्यूटी, ग्रोसरी और होम में 26 सैंपल प्रोडक्ट इम्पोर्ट करता है — इमेज, वेरिएशन, स्वॉच, 3D अंगूठियों, रिव्यू और कूपन के साथ — साथ ही होम, हमारे बारे में, संपर्क, FAQ, शिपिंग, विशलिस्ट, तुलना और ऑर्डर ट्रैक पेज और एक मेगा मेन्यू। बाद में एक क्लिक में सब हटा सकते हैं।"
+
+#: includes/class-setup-wizard.php:383
+msgid "Demo content is already imported."
+msgstr "डेमो कंटेंट पहले से इम्पोर्ट है।"
+
+#: includes/class-setup-wizard.php:385
+msgid "Import demo content"
+msgstr "डेमो कंटेंट इम्पोर्ट करें"
+
+#: includes/class-setup-wizard.php:387
+msgid "Remove demo content"
+msgstr "डेमो कंटेंट हटाएँ"
+
+#: includes/class-setup-wizard.php:390
+#: includes/class-whatsapp.php:143
+msgid "Skip"
+msgstr "छोड़ें"
+
+#: includes/class-setup-wizard.php:397
+msgid "Your store is ready 🎉"
+msgstr "आपका स्टोर तैयार है 🎉"
+
+#: includes/class-setup-wizard.php:399
+msgid "View your store"
+msgstr "अपना स्टोर देखें"
+
+#: includes/class-setup-wizard.php:400
+msgid "Change colours, fonts and style variation"
+msgstr "रंग, फ़ॉन्ट और स्टाइल वेरिएशन बदलें"
+
+#: includes/class-setup-wizard.php:401
+msgid "Add your first product"
+msgstr "अपना पहला प्रोडक्ट जोड़ें"
+
+#: includes/class-setup-wizard.php:402
+msgid "Fine-tune Aurelia settings"
+msgstr "Aurelia सेटिंग को बारीकी से सेट करें"
+
+#: includes/class-setup-wizard.php:403
+msgid "Make a product video"
+msgstr "प्रोडक्ट वीडियो बनाएँ"
+
+#: includes/class-setup-wizard.php:404
+msgid "Review payment methods"
+msgstr "पेमेंट तरीक़े देखें"
+
+#: includes/class-setup-wizard.php:409
+msgid "Launching turns off WooCommerce \"Coming soon\" mode so shoppers can see your store."
+msgstr "लॉन्च करने से WooCommerce का \"Coming soon\" मोड बंद हो जाता है ताकि ख़रीदार आपका स्टोर देख सकें।"
+
+#: includes/class-shop.php:86
+msgid "Add to wishlist"
+msgstr "विशलिस्ट में जोड़ें"
+
+#: includes/class-shop.php:87
+msgid "Remove from wishlist"
+msgstr "विशलिस्ट से हटाएँ"
+
+#: includes/class-shop.php:88
+#: includes/class-shop.php:567
+msgid "Your wishlist is empty. Tap the heart on any product to save it here."
+msgstr "आपकी विशलिस्ट ख़ाली है। किसी भी प्रोडक्ट पर दिल के निशान पर टैप करके उसे यहाँ सहेजें।"
+
+#: includes/class-shop.php:89
+msgid "Add to compare"
+msgstr "तुलना में जोड़ें"
+
+#: includes/class-shop.php:90
+msgid "Remove from compare"
+msgstr "तुलना से हटाएँ"
+
+#: includes/class-shop.php:91
+msgid "Add up to 4 products to compare them side by side."
+msgstr "अगल-बगल तुलना के लिए 4 प्रोडक्ट तक जोड़ें।"
+
+#: includes/class-shop.php:92
+msgid "Compare now"
+msgstr "अभी तुलना करें"
+
+#: includes/class-shop.php:93
+msgid "Clear"
+msgstr "साफ़ करें"
+
+#. translators: %d: number of products.
+#: includes/class-shop.php:95
+#, php-format
+msgid "Compare (%d)"
+msgstr "तुलना (%d)"
+
+#: includes/class-shop.php:96
+msgid "You can compare up to 4 products."
+msgstr "आप 4 प्रोडक्ट तक की तुलना कर सकते हैं।"
+
+#: includes/class-shop.php:98
+#: includes/class-shop.php:492
+msgid "Close"
+msgstr "बंद करें"
+
+#: includes/class-shop.php:99
+msgid "View full details"
+msgstr "पूरा विवरण देखें"
+
+#: includes/class-shop.php:101
+#: includes/class-shop.php:152
+msgid "Added to cart ✓"
+msgstr "कार्ट में जोड़ा गया ✓"
+
+#: includes/class-shop.php:102
+#: includes/class-shop.php:557
+msgid "Choose options"
+msgstr "विकल्प चुनें"
+
+#: includes/class-shop.php:103
+msgid "Price"
+msgstr "दाम"
+
+#: includes/class-shop.php:104
+msgid "Rating"
+msgstr "रेटिंग"
+
+#: includes/class-shop.php:105
+msgid "Availability"
+msgstr "उपलब्धता"
+
+#: includes/class-shop.php:108
+msgid "No products found"
+msgstr "कोई प्रोडक्ट नहीं मिला"
+
+#: includes/class-shop.php:109
+msgid "See all results"
+msgstr "सभी नतीजे देखें"
+
+#: includes/class-shop.php:110
+msgid "Product suggestions"
+msgstr "प्रोडक्ट सुझाव"
+
+#: includes/class-shop.php:111
+msgid "Grid view"
+msgstr "ग्रिड व्यू"
+
+#: includes/class-shop.php:112
+msgid "List view"
+msgstr "लिस्ट व्यू"
+
+#: includes/class-shop.php:113
+msgid "Load more products"
+msgstr "और प्रोडक्ट लोड करें"
+
+#: includes/class-shop.php:114
+msgid "Loading…"
+msgstr "लोड हो रहा है…"
+
+#. translators: %s: amount left for free shipping.
+#: includes/class-shop.php:116
+#, php-format
+msgid "Add %s more for FREE shipping"
+msgstr "मुफ़्त शिपिंग के लिए %s और जोड़ें"
+
+#: includes/class-shop.php:117
+msgid "🎉 You have unlocked FREE shipping!"
+msgstr "🎉 आपको मुफ़्त शिपिंग मिल गई!"
+
+#: includes/class-shop.php:118
+#: includes/class-shop.php:407
+msgid "Recently viewed"
+msgstr "हाल में देखे गए"
+
+#: includes/class-shop.php:119
+#: includes/class-video-studio.php:59
+msgid "Remove"
+msgstr "हटाएँ"
+
+#: includes/class-shop.php:120
+msgid "Decrease quantity"
+msgstr "मात्रा घटाएँ"
+
+#: includes/class-shop.php:121
+msgid "Increase quantity"
+msgstr "मात्रा बढ़ाएँ"
+
+#: includes/class-shop.php:143
+msgid "Select an option"
+msgstr "एक विकल्प चुनें"
+
+#: includes/class-shop.php:144
+msgid "Unavailable"
+msgstr "उपलब्ध नहीं"
+
+#: includes/class-shop.php:145
+#: includes/class-shop.php:423
+msgid "Sale ends in"
+msgstr "सेल ख़त्म होने में"
+
+#: includes/class-shop.php:146
+msgctxt "days abbreviation"
+msgid "d"
+msgstr "दि"
+
+#: includes/class-shop.php:147
+msgctxt "hours abbreviation"
+msgid "h"
+msgstr "घं"
+
+#: includes/class-shop.php:148
+msgctxt "minutes abbreviation"
+msgid "m"
+msgstr "मि"
+
+#: includes/class-shop.php:149
+msgctxt "seconds abbreviation"
+msgid "s"
+msgstr "से"
+
+#: includes/class-shop.php:150
+#: includes/class-shop.php:535
+msgid "Add selected to cart"
+msgstr "चुने हुए कार्ट में डालें"
+
+#: includes/class-shop.php:151
+msgid "Adding…"
+msgstr "जोड़ा जा रहा है…"
+
+#: includes/class-shop.php:299
+msgid "Weight"
+msgstr "वज़न"
+
+#: includes/class-shop.php:315
+msgid "Product not found."
+msgstr "प्रोडक्ट नहीं मिला।"
+
+#. translators: %s: product name.
+#: includes/class-shop.php:362
+#, php-format
+msgid "Add %s to wishlist"
+msgstr "%s को विशलिस्ट में जोड़ें"
+
+#. translators: %s: product name.
+#: includes/class-shop.php:366
+#, php-format
+msgid "Quick view %s"
+msgstr "%s का क्विक व्यू"
+
+#. translators: %s: product name.
+#: includes/class-shop.php:370
+#, php-format
+msgid "Compare %s"
+msgstr "%s की तुलना करें"
+
+#. translators: %d: items left.
+#: includes/class-shop.php:430
+#, php-format
+msgid "Hurry — only %d left in stock"
+msgid_plural "Hurry — only %d left in stock"
+msgstr[0] "जल्दी करें — स्टॉक में सिर्फ़ %d बचा है"
+msgstr[1] "जल्दी करें — स्टॉक में सिर्फ़ %d बचे हैं"
+
+#. translators: 1: hours, 2: minutes.
+#: includes/class-shop.php:461
+#, php-format
+msgid "Order within %1$dh %2$dm for dispatch today."
+msgstr "आज डिस्पैच के लिए %1$d घंटे %2$d मिनट में ऑर्डर करें।"
+
+#. translators: 1: earliest date, 2: latest date.
+#: includes/class-shop.php:464
+#, php-format
+msgid "Estimated delivery %1$s – %2$s"
+msgstr "अनुमानित डिलीवरी %1$s – %2$s"
+
+#: includes/class-shop.php:521
+msgid "Frequently bought together"
+msgstr "अक्सर साथ ख़रीदे जाते हैं"
+
+#: includes/class-shop.php:528
+msgid "This item:"
+msgstr "यह आइटम:"
+
+#: includes/class-shop.php:534
+msgid "Total:"
+msgstr "कुल:"
+
+#: includes/class-shop.php:585
+msgid "Size guide (optional)"
+msgstr "साइज़ गाइड (वैकल्पिक)"
+
+#: includes/class-shop.php:588
+msgid "Overrides the global size guide for this product."
+msgstr "इस प्रोडक्ट के लिए ग्लोबल साइज़ गाइड की जगह इस्तेमाल होता है।"
+
+#: includes/class-social.php:40
+#: includes/class-social.php:120
+#: includes/class-social.php:179
+msgid "Social posts"
+msgstr "सोशल पोस्ट"
+
+#: includes/class-social.php:141
+msgid "Compose a post"
+msgstr "पोस्ट लिखें"
+
+#: includes/class-social.php:143
+msgid "— No product —"
+msgstr "— कोई प्रोडक्ट नहीं —"
+
+#: includes/class-social.php:144
+msgid "Image or video URL"
+msgstr "इमेज या वीडियो URL"
+
+#: includes/class-social.php:145
+msgid "Choose from Media Library"
+msgstr "मीडिया लाइब्रेरी से चुनें"
+
+#: includes/class-social.php:146
+msgid "Media type"
+msgstr "मीडिया का प्रकार"
+
+#: includes/class-social.php:147
+msgid "Image"
+msgstr "इमेज"
+
+#: includes/class-social.php:148
+msgid "Video / Reel"
+msgstr "वीडियो / रील"
+
+#: includes/class-social.php:149
+msgid "Text only"
+msgstr "सिर्फ़ टेक्स्ट"
+
+#: includes/class-social.php:150
+msgid "Link (tracked per platform)"
+msgstr "लिंक (हर प्लैटफ़ॉर्म के लिए ट्रैक किया गया)"
+
+#: includes/class-social.php:151
+msgid "Caption"
+msgstr "कैप्शन"
+
+#: includes/class-social.php:152
+msgid "Hashtags"
+msgstr "हैशटैग"
+
+#: includes/class-social.php:153
+msgid "✨ Write with AI"
+msgstr "✨ AI से लिखें"
+
+#: includes/class-social.php:154
+msgid "Writing…"
+msgstr "लिखा जा रहा है…"
+
+#: includes/class-social.php:155
+msgid "Platforms"
+msgstr "प्लैटफ़ॉर्म"
+
+#: includes/class-social.php:156
+msgid "Schedule (leave empty to save as draft)"
+msgstr "शेड्यूल (ड्राफ़्ट के रूप में सहेजने के लिए ख़ाली छोड़ें)"
+
+#: includes/class-social.php:157
+msgid "Save"
+msgstr "सहेजें"
+
+#: includes/class-social.php:158
+msgid "Publish now"
+msgstr "अभी प्रकाशित करें"
+
+#: includes/class-social.php:159
+msgid "Posts"
+msgstr "पोस्ट"
+
+#: includes/class-social.php:160
+msgid "Status"
+msgstr "स्थिति"
+
+#: includes/class-social.php:161
+msgid "When"
+msgstr "कब"
+
+#: includes/class-social.php:162
+msgid "Tracked links"
+msgstr "ट्रैक किए गए लिंक"
+
+#: includes/class-social.php:163
+msgid "Actions"
+msgstr "कार्रवाई"
+
+#: includes/class-social.php:164
+msgid "Edit"
+msgstr "बदलें"
+
+#: includes/class-social.php:165
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: includes/class-social.php:166
+msgid "Delete this post?"
+msgstr "यह पोस्ट हटाएँ?"
+
+#: includes/class-social.php:167
+#: includes/class-upi-gateway.php:209
+msgid "Copy"
+msgstr "कॉपी करें"
+
+#: includes/class-social.php:168
+#: includes/class-upi-gateway.php:182
+msgid "Copied"
+msgstr "कॉपी हो गया"
+
+#: includes/class-social.php:169
+msgid "No posts yet. Compose your first one above."
+msgstr "अभी कोई पोस्ट नहीं। ऊपर अपनी पहली पोस्ट लिखें।"
+
+#: includes/class-social.php:170
+msgid "Saved."
+msgstr "सहेजा गया।"
+
+#: includes/class-social.php:171
+msgid "Published."
+msgstr "प्रकाशित हुआ।"
+
+#: includes/class-social.php:172
+msgid "Error: "
+msgstr "त्रुटि: "
+
+#: includes/class-social.php:173
+msgid "No publisher configured yet. Add a webhook (Make, Zapier, n8n) or your Meta Page token in Settings → Social posting."
+msgstr "अभी कोई पब्लिशर सेट नहीं है। Settings → Social posting में वेबहुक (Make, Zapier, n8n) या अपना Meta Page टोकन जोड़ें।"
+
+#: includes/class-social.php:174
+msgid "clicks"
+msgstr "क्लिक"
+
+#: includes/class-social.php:175
+msgid "New post"
+msgstr "नई पोस्ट"
+
+#: includes/class-social.php:179
+msgid "Compose from a product, let AI write the caption, then schedule or publish. Every platform gets its own tracked short link, so the dashboard shows which post and network drove visits."
+msgstr "किसी प्रोडक्ट से पोस्ट बनाएँ, AI से कैप्शन लिखवाएँ, फिर शेड्यूल या प्रकाशित करें। हर प्लैटफ़ॉर्म को अपना ट्रैक किया गया छोटा लिंक मिलता है, ताकि डैशबोर्ड दिखाए कि किस पोस्ट और नेटवर्क से विज़िट आईं।"
+
+#: includes/class-social.php:348
+msgid "Social post"
+msgstr "सोशल पोस्ट"
+
+#: includes/class-social.php:353
+msgid "Post not found."
+msgstr "पोस्ट नहीं मिली।"
+
+#. translators: 1: product name, 2: price.
+#: includes/class-social.php:432
+#, php-format
+msgid "✨ Meet the %1$s.\nMade to be loved, priced at %2$s.\n🛍️ Tap the link or message us on WhatsApp to order."
+msgstr "✨ मिलिए %1$s से।\nप्यार से बना, दाम %2$s।\n🛍️ ऑर्डर के लिए लिंक पर टैप करें या WhatsApp पर मैसेज करें।"
+
+#: includes/class-social.php:453
+msgid "🔗 Shop via the link in our bio or DM us on WhatsApp"
+msgstr "🔗 हमारे बायो के लिंक से ख़रीदें या WhatsApp पर DM करें"
+
+#. translators: %s: link.
+#: includes/class-social.php:459
+#, php-format
+msgid "Shop now: %s"
+msgstr "अभी ख़रीदें: %s"
+
+#: includes/class-social.php:522
+msgid "No publisher for this platform — add a webhook in Settings → Social posting."
+msgstr "इस प्लैटफ़ॉर्म के लिए कोई पब्लिशर नहीं — Settings → Social posting में वेबहुक जोड़ें।"
+
+#: includes/class-social.php:596
+msgid "Facebook is not connected — add your Page ID and token in Settings → Social posting."
+msgstr "Facebook कनेक्ट नहीं है — Settings → Social posting में अपना Page ID और टोकन जोड़ें।"
+
+#: includes/class-social.php:639
+msgid "Instagram is not connected — add your Instagram Business account ID and token."
+msgstr "Instagram कनेक्ट नहीं है — अपना Instagram Business अकाउंट ID और टोकन जोड़ें।"
+
+#: includes/class-social.php:642
+msgid "Instagram needs an image or video."
+msgstr "Instagram के लिए इमेज या वीडियो चाहिए।"
+
+#: includes/class-social.php:661
+msgid "Processing video…"
+msgstr "वीडियो प्रोसेस हो रहा है…"
+
+#: includes/class-social.php:728
+msgid "Instagram could not process the video."
+msgstr "Instagram वीडियो प्रोसेस नहीं कर सका।"
+
+#: includes/class-swatches.php:40
+msgid "Colour swatch"
+msgstr "रंग स्वॉच"
+
+#: includes/class-swatches.php:41
+msgid "Image swatch"
+msgstr "इमेज स्वॉच"
+
+#: includes/class-swatches.php:42
+msgid "Button"
+msgstr "बटन"
+
+#: includes/class-swatches.php:80
+#: includes/class-swatches.php:103
+msgid "Swatch colour"
+msgstr "स्वॉच का रंग"
+
+#: includes/class-swatches.php:84
+#: includes/class-swatches.php:107
+msgid "Swatch image"
+msgstr "स्वॉच इमेज"
+
+#: includes/class-swatches.php:86
+#: includes/class-swatches.php:110
+msgid "Choose image"
+msgstr "इमेज चुनें"
+
+#: includes/class-upi-blocks.php:65
+msgid "UPI"
+msgstr "UPI"
+
+#: includes/class-upi-gateway.php:27
+msgid "UPI (QR code & UPI apps)"
+msgstr "UPI (QR कोड और UPI ऐप)"
+
+#: includes/class-upi-gateway.php:28
+msgid "Customers pay to your UPI ID by scanning a QR code or tapping \"Pay with UPI app\" (PhonePe, Google Pay, Paytm, BHIM…), then share the UPI reference. Orders stay On hold until you verify the payment."
+msgstr "ग्राहक QR कोड स्कैन करके या \"UPI ऐप से भुगतान करें\" पर टैप करके (PhonePe, Google Pay, Paytm, BHIM…) आपकी UPI ID पर भुगतान करते हैं, फिर UPI रेफ़रेंस भेजते हैं। पेमेंट की जाँच होने तक ऑर्डर On hold रहते हैं।"
+
+#: includes/class-upi-gateway.php:48
+msgid "Enable/Disable"
+msgstr "चालू/बंद"
+
+#: includes/class-upi-gateway.php:50
+msgid "Enable UPI payments"
+msgstr "UPI पेमेंट चालू करें"
+
+#: includes/class-upi-gateway.php:54
+msgid "Title"
+msgstr "टाइटल"
+
+#: includes/class-upi-gateway.php:56
+msgid "UPI — PhonePe, Google Pay, Paytm & more"
+msgstr "UPI — PhonePe, Google Pay, Paytm और भी"
+
+#: includes/class-upi-gateway.php:59
+msgid "Description"
+msgstr "विवरण"
+
+#: includes/class-upi-gateway.php:61
+msgid "After placing your order you will see a QR code and a \"Pay with UPI app\" button for the exact amount. Scan or tap, pay, then enter the UPI reference number."
+msgstr "ऑर्डर देने के बाद आपको सही रक़म के लिए एक QR कोड और \"UPI ऐप से भुगतान करें\" बटन दिखेगा। स्कैन या टैप करें, भुगतान करें, फिर UPI रेफ़रेंस नंबर डालें।"
+
+#: includes/class-upi-gateway.php:64
+msgid "Your UPI ID (VPA)"
+msgstr "आपकी UPI ID (VPA)"
+
+#: includes/class-upi-gateway.php:66
+msgid "For example yourstore@okhdfcbank or 9876543210@ybl. Payments are sent here."
+msgstr "जैसे yourstore@okhdfcbank या 9876543210@ybl। पेमेंट यहाँ भेजे जाते हैं।"
+
+#: includes/class-upi-gateway.php:73
+msgid "Shown in the customer's UPI app. Usually your business name as registered with your bank."
+msgstr "ग्राहक के UPI ऐप में दिखता है। आमतौर पर बैंक में रजिस्टर्ड आपके बिज़नेस का नाम।"
+
+#: includes/class-upi-gateway.php:77
+msgid "Static QR image URL (optional)"
+msgstr "स्टैटिक QR इमेज URL (वैकल्पिक)"
+
+#: includes/class-upi-gateway.php:79
+msgid "Your shop's printed PhonePe / Paytm / bank QR. Shown next to the amount-specific QR as a backup."
+msgstr "आपकी शॉप का प्रिंटेड PhonePe / Paytm / बैंक QR। बैकअप के रूप में रक़म वाले QR के बगल में दिखता है।"
+
+#: includes/class-upi-gateway.php:95
+msgid "That does not look like a valid UPI ID (for example name@bank)."
+msgstr "यह सही UPI ID नहीं लगती (जैसे name@bank)।"
+
+#: includes/class-upi-gateway.php:129
+msgid "Awaiting UPI payment."
+msgstr "UPI पेमेंट का इंतज़ार है।"
+
+#. translators: %s: order number.
+#: includes/class-upi-gateway.php:149
+#, php-format
+msgid "Order %s"
+msgstr "ऑर्डर %s"
+
+#: includes/class-upi-gateway.php:183
+msgid "Sending…"
+msgstr "भेजा जा रहा है…"
+
+#: includes/class-upi-gateway.php:184
+msgid "Something went wrong. Please try again or contact us."
+msgstr "कुछ गड़बड़ हो गई। कृपया फिर कोशिश करें या हमसे संपर्क करें।"
+
+#: includes/class-upi-gateway.php:190
+msgid "Complete your UPI payment"
+msgstr "अपना UPI पेमेंट पूरा करें"
+
+#: includes/class-upi-gateway.php:192
+msgid "Thank you! We have your payment reference and will confirm your order shortly."
+msgstr "धन्यवाद! हमें आपका पेमेंट रेफ़रेंस मिल गया है और हम जल्द ही आपके ऑर्डर की पुष्टि करेंगे।"
+
+#: includes/class-upi-gateway.php:195
+msgid "Amount to pay"
+msgstr "भुगतान की रक़म"
+
+#: includes/class-upi-gateway.php:200
+msgid "UPI payment QR code"
+msgstr "UPI पेमेंट QR कोड"
+
+#: includes/class-upi-gateway.php:201
+msgid "Scan with any UPI app"
+msgstr "किसी भी UPI ऐप से स्कैन करें"
+
+#: includes/class-upi-gateway.php:204
+msgid "Pay with UPI app"
+msgstr "UPI ऐप से भुगतान करें"
+
+#: includes/class-upi-gateway.php:205
+msgid "PhonePe · Google Pay · Paytm · BHIM · any bank app"
+msgstr "PhonePe · Google Pay · Paytm · BHIM · कोई भी बैंक ऐप"
+
+#: includes/class-upi-gateway.php:207
+msgid "Or pay to UPI ID"
+msgstr "या UPI ID पर भुगतान करें"
+
+#: includes/class-upi-gateway.php:213
+msgid "Show our shop QR instead"
+msgstr "इसकी जगह हमारी शॉप का QR दिखाएँ"
+
+#: includes/class-upi-gateway.php:214
+msgid "Shop UPI QR code"
+msgstr "शॉप का UPI QR कोड"
+
+#: includes/class-upi-gateway.php:218
+msgid "After paying, enter the UPI reference / UTR (12 digits)"
+msgstr "भुगतान के बाद UPI रेफ़रेंस / UTR (12 अंक) डालें"
+
+#: includes/class-upi-gateway.php:221
+msgid "I have paid"
+msgstr "मैंने भुगतान कर दिया"
+
+#. translators: 1: amount, 2: UPI ID.
+#: includes/class-upi-gateway.php:244
+#, php-format
+msgid "Please pay %1$s to UPI ID %2$s and share the UPI reference on your order page:"
+msgstr "कृपया UPI ID %2$s पर %1$s का भुगतान करें और अपने ऑर्डर पेज पर UPI रेफ़रेंस भेजें:"
+
+#: includes/class-upi-gateway.php:249
+msgid "Open payment page"
+msgstr "पेमेंट पेज खोलें"
+
+#: includes/class-upi-payments.php:94
+msgid "Order not found."
+msgstr "ऑर्डर नहीं मिला।"
+
+#: includes/class-upi-payments.php:97
+msgid "Please enter the 12-digit UPI reference (UTR) shown in your payment app."
+msgstr "कृपया अपने पेमेंट ऐप में दिखा 12 अंकों का UPI रेफ़रेंस (UTR) डालें।"
+
+#. translators: %s: UPI transaction reference.
+#: includes/class-upi-payments.php:106
+#, php-format
+msgid "Customer reports UPI payment with reference %s. Verify it in your bank or UPI app, then mark the order as Processing."
+msgstr "ग्राहक ने रेफ़रेंस %s के साथ UPI पेमेंट बताया है। इसे अपने बैंक या UPI ऐप में जाँचें, फिर ऑर्डर को Processing करें।"
+
+#: includes/class-upi-payments.php:114
+msgid "Thank you! We have received your payment reference and will confirm your order shortly."
+msgstr "धन्यवाद! हमें आपका पेमेंट रेफ़रेंस मिल गया है और हम जल्द ही आपके ऑर्डर की पुष्टि करेंगे।"
+
+#: includes/class-video-studio.php:29
+msgid "Video studio"
+msgstr "वीडियो स्टूडियो"
+
+#: includes/class-video-studio.php:50
+msgid "1 · Slides"
+msgstr "1 · स्लाइड"
+
+#: includes/class-video-studio.php:51
+msgid "2 · Style"
+msgstr "2 · स्टाइल"
+
+#: includes/class-video-studio.php:52
+msgid "+ Add product image…"
+msgstr "+ प्रोडक्ट इमेज जोड़ें…"
+
+#: includes/class-video-studio.php:53
+msgid "Add from Media Library"
+msgstr "मीडिया लाइब्रेरी से जोड़ें"
+
+#: includes/class-video-studio.php:54
+msgid "Upload photos"
+msgstr "फ़ोटो अपलोड करें"
+
+#: includes/class-video-studio.php:55
+msgid "Slide title"
+msgstr "स्लाइड का टाइटल"
+
+#: includes/class-video-studio.php:56
+msgid "Price or tagline"
+msgstr "दाम या टैगलाइन"
+
+#: includes/class-video-studio.php:57
+msgid "Move up"
+msgstr "ऊपर ले जाएँ"
+
+#: includes/class-video-studio.php:58
+msgid "Move down"
+msgstr "नीचे ले जाएँ"
+
+#: includes/class-video-studio.php:60
+msgid "Format"
+msgstr "फ़ॉर्मैट"
+
+#: includes/class-video-studio.php:61
+msgid "9:16 Reel / Story / Short"
+msgstr "9:16 रील / स्टोरी / शॉर्ट"
+
+#: includes/class-video-studio.php:62
+msgid "1:1 Feed post"
+msgstr "1:1 फ़ीड पोस्ट"
+
+#: includes/class-video-studio.php:63
+msgid "16:9 YouTube / Facebook"
+msgstr "16:9 YouTube / Facebook"
+
+#: includes/class-video-studio.php:64
+msgid "Transition"
+msgstr "ट्रांज़िशन"
+
+#: includes/class-video-studio.php:65
+msgid "Ken Burns zoom"
+msgstr "केन बर्न्स ज़ूम"
+
+#: includes/class-video-studio.php:66
+msgid "Cross-fade"
+msgstr "क्रॉस-फ़ेड"
+
+#: includes/class-video-studio.php:67
+msgid "Slide"
+msgstr "स्लाइड"
+
+#: includes/class-video-studio.php:68
+msgid "Shine sweep"
+msgstr "चमक की लहर"
+
+#: includes/class-video-studio.php:69
+msgid "Seconds per slide"
+msgstr "हर स्लाइड के सेकंड"
+
+#: includes/class-video-studio.php:70
+msgid "Background music (optional)"
+msgstr "बैकग्राउंड म्यूज़िक (वैकल्पिक)"
+
+#: includes/class-video-studio.php:71
+msgid "Closing line"
+msgstr "आख़िरी पंक्ति"
+
+#: includes/class-video-studio.php:72
+msgid "Call to action"
+msgstr "कॉल टू ऐक्शन"
+
+#: includes/class-video-studio.php:73
+msgid "Accent colour"
+msgstr "एक्सेंट रंग"
+
+#: includes/class-video-studio.php:74
+msgid "Background colour"
+msgstr "बैकग्राउंड रंग"
+
+#: includes/class-video-studio.php:75
+msgid "live preview"
+msgstr "लाइव प्रीव्यू"
+
+#: includes/class-video-studio.php:76
+msgid "🎬 Render video"
+msgstr "🎬 वीडियो बनाएँ"
+
+#: includes/class-video-studio.php:77
+msgid "Rendering…"
+msgstr "बन रहा है…"
+
+#: includes/class-video-studio.php:78
+msgid "Download"
+msgstr "डाउनलोड करें"
+
+#: includes/class-video-studio.php:79
+msgid "Save to Media Library"
+msgstr "मीडिया लाइब्रेरी में सहेजें"
+
+#: includes/class-video-studio.php:80
+msgid "Saving…"
+msgstr "सहेजा जा रहा है…"
+
+#: includes/class-video-studio.php:81
+msgid "Saved to Media Library ✓"
+msgstr "मीडिया लाइब्रेरी में सहेजा गया ✓"
+
+#: includes/class-video-studio.php:82
+msgid "Schedule as social post →"
+msgstr "सोशल पोस्ट के रूप में शेड्यूल करें →"
+
+#: includes/class-video-studio.php:83
+msgid "Your browser cannot record video. Please use the latest Chrome, Edge or Safari."
+msgstr "आपका ब्राउज़र वीडियो रिकॉर्ड नहीं कर सकता। कृपया नया Chrome, Edge या Safari इस्तेमाल करें।"
+
+#: includes/class-video-studio.php:84
+msgid "Could not load an image: "
+msgstr "इमेज लोड नहीं हो सकी: "
+
+#: includes/class-video-studio.php:85
+msgid "Turn product photos into branded Reels, Shorts and Stories. Rendering happens in your browser; the finished video is saved to your Media Library."
+msgstr "प्रोडक्ट फ़ोटो को ब्रांडेड रील, शॉर्ट और स्टोरी में बदलें। वीडियो आपके ब्राउज़र में बनता है; तैयार वीडियो आपकी मीडिया लाइब्रेरी में सहेजा जाता है।"
+
+#: includes/class-video-studio.php:86
+#: includes/class-whatsapp.php:132
+#: includes/class-whatsapp.php:176
+#: includes/class-whatsapp.php:199
+msgid "Order on WhatsApp"
+msgstr "WhatsApp पर ऑर्डर करें"
+
+#. translators: %s: store name.
+#: includes/class-video-studio.php:88
+#, php-format
+msgid "%s · Link in bio"
+msgstr "%s · लिंक बायो में"
+
+#: includes/class-video-studio.php:92
+msgid "Image → video studio"
+msgstr "इमेज → वीडियो स्टूडियो"
+
+#: includes/class-viewer.php:144
+msgid "View in 3D"
+msgstr "3D में देखें"
+
+#: includes/class-viewer.php:145
+msgid "Close 3D view"
+msgstr "3D व्यू बंद करें"
+
+#: includes/class-viewer.php:146
+msgid "Drag to rotate"
+msgstr "घुमाने के लिए खींचें"
+
+#: includes/class-viewer.php:147
+msgid "Interactive 3D model of the product"
+msgstr "प्रोडक्ट का इंटरैक्टिव 3D मॉडल"
+
+#: includes/class-viewer.php:148
+msgid "Loading 3D model…"
+msgstr "3D मॉडल लोड हो रहा है…"
+
+#: includes/class-viewer.php:149
+msgid "The 3D view could not be loaded on this device."
+msgstr "इस डिवाइस पर 3D व्यू लोड नहीं हो सका।"
+
+#: includes/class-viewer.php:198
+msgid "3D view"
+msgstr "3D व्यू"
+
+#: includes/class-viewer.php:221
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: includes/class-viewer.php:223
+msgid "No 3D view"
+msgstr "कोई 3D व्यू नहीं"
+
+#: includes/class-viewer.php:224
+msgid "Built-in ring model"
+msgstr "बिल्ट-इन अंगूठी मॉडल"
+
+#: includes/class-viewer.php:225
+msgid "My GLB / GLTF model"
+msgstr "मेरा GLB / GLTF मॉडल"
+
+#: includes/class-viewer.php:229
+msgid "Metal colour"
+msgstr "धातु का रंग"
+
+#: includes/class-viewer.php:231
+msgid "Gem"
+msgstr "रत्न"
+
+#: includes/class-viewer.php:234
+msgid "Plain band (no stone)"
+msgstr "सादा बैंड (कोई पत्थर नहीं)"
+
+#: includes/class-viewer.php:236
+msgid "Model file URL (.glb / .gltf)"
+msgstr "मॉडल फ़ाइल URL (.glb / .gltf)"
+
+#: includes/class-viewer.php:238
+msgid "Upload / choose model"
+msgstr "मॉडल अपलोड करें / चुनें"
+
+#: includes/class-viewer.php:242
+msgid "Choose a 3D model"
+msgstr "3D मॉडल चुनें"
+
+#: includes/class-whatsapp.php:50
+#: includes/class-whatsapp.php:72
+#: includes/class-whatsapp.php:76
+msgctxt "Order status"
+msgid "Pending (WhatsApp)"
+msgstr "पेंडिंग (WhatsApp)"
+
+#. translators: %s: number of orders.
+#: includes/class-whatsapp.php:56
+#, php-format
+msgid "Pending (WhatsApp) <span class=\"count\">(%s)</span>"
+msgid_plural "Pending (WhatsApp) <span class=\"count\">(%s)</span>"
+msgstr[0] "पेंडिंग (WhatsApp) <span class=\"count\">(%s)</span>"
+msgstr[1] "पेंडिंग (WhatsApp) <span class=\"count\">(%s)</span>"
+
+#: includes/class-whatsapp.php:133
+#: includes/class-whatsapp.php:317
+msgid "Please choose your options first."
+msgstr "कृपया पहले अपने विकल्प चुनें।"
+
+#: includes/class-whatsapp.php:134
+msgid "Your delivery details"
+msgstr "आपकी डिलीवरी का विवरण"
+
+#: includes/class-whatsapp.php:135
+msgid "Optional — helps us confirm faster. Saved only on this device."
+msgstr "वैकल्पिक — इससे हम जल्दी पुष्टि कर पाते हैं। सिर्फ़ इसी डिवाइस पर सहेजा जाता है।"
+
+#: includes/class-whatsapp.php:136
+#: includes/class-whatsapp.php:492
+msgid "Name"
+msgstr "नाम"
+
+#: includes/class-whatsapp.php:140
+msgid "PIN code"
+msgstr "PIN कोड"
+
+#: includes/class-whatsapp.php:141
+#: includes/class-whatsapp.php:497
+msgid "Notes"
+msgstr "नोट"
+
+#: includes/class-whatsapp.php:142
+msgid "Continue to WhatsApp"
+msgstr "WhatsApp पर आगे बढ़ें"
+
+#: includes/class-whatsapp.php:144
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: includes/class-whatsapp.php:145
+msgid "Opening WhatsApp…"
+msgstr "WhatsApp खुल रहा है…"
+
+#. translators: 1: store name, 2: product name, 3: product URL.
+#: includes/class-whatsapp.php:147
+#, php-format
+msgid "Hello %1$s! I am interested in the *%2$s*.\\n%3$s\\n\\nCould you share more photos and the delivery time?"
+msgstr "नमस्ते %1$s! मुझे *%2$s* में रुचि है।\\n%3$s\\n\\nक्या आप और फ़ोटो और डिलीवरी का समय बता सकते हैं?"
+
+#. translators: 1: store name, 2: product name, 3: product URL.
+#: includes/class-whatsapp.php:149
+#, php-format
+msgid "Hello %1$s! I would like a live video call to see the *%2$s*.\\n%3$s\\n\\nWhen would be a good time?"
+msgstr "नमस्ते %1$s! मैं *%2$s* देखने के लिए लाइव वीडियो कॉल चाहता/चाहती हूँ।\\n%3$s\\n\\nकौन-सा समय ठीक रहेगा?"
+
+#. translators: %s: store name.
+#: includes/class-whatsapp.php:151
+#: includes/class-whatsapp.php:210
+#, php-format
+msgid "Hello %s! I have a question."
+msgstr "नमस्ते %s! मेरा एक सवाल है।"
+
+#: includes/class-whatsapp.php:182
+msgid "Ask a question"
+msgstr "सवाल पूछें"
+
+#: includes/class-whatsapp.php:185
+msgid "Request a video call"
+msgstr "वीडियो कॉल का अनुरोध करें"
+
+#: includes/class-whatsapp.php:215
+msgid "Chat with us on WhatsApp (opens in a new tab)"
+msgstr "WhatsApp पर हमसे बात करें (नए टैब में खुलता है)"
+
+#: includes/class-whatsapp.php:217
+msgid "Chat with us"
+msgstr "हमसे बात करें"
+
+#: includes/class-whatsapp.php:244
+msgid "WhatsApp ordering is not configured."
+msgstr "WhatsApp ऑर्डर सेट नहीं है।"
+
+#: includes/class-whatsapp.php:247
+msgid "Too many requests. Please try again shortly."
+msgstr "बहुत ज़्यादा अनुरोध। कृपया थोड़ी देर बाद फिर कोशिश करें।"
+
+#: includes/class-whatsapp.php:258
+msgid "Your bag is empty."
+msgstr "आपका बैग ख़ाली है।"
+
+#: includes/class-whatsapp.php:311
+msgid "This product is not available."
+msgstr "यह प्रोडक्ट उपलब्ध नहीं है।"
+
+#: includes/class-whatsapp.php:314
+msgid "Invalid product option."
+msgstr "प्रोडक्ट का विकल्प अमान्य है।"
+
+#: includes/class-whatsapp.php:443
+msgid "Order started on WhatsApp. Confirm the details with the customer in your WhatsApp chat."
+msgstr "ऑर्डर WhatsApp पर शुरू हुआ। अपनी WhatsApp चैट में ग्राहक के साथ विवरण की पुष्टि करें।"
+
+#. translators: %s: store name.
+#: includes/class-whatsapp.php:471
+#, php-format
+msgid "New order — %s"
+msgstr "नया ऑर्डर — %s"
+
+#. translators: %s: order reference.
+#: includes/class-whatsapp.php:473
+#, php-format
+msgid "Order ref: #%s"
+msgstr "ऑर्डर रेफ़: #%s"
+
+#. translators: %s: SKU.
+#: includes/class-whatsapp.php:480
+#, php-format
+msgid "SKU %s"
+msgstr "SKU %s"
+
+#. translators: %d: quantity.
+#: includes/class-whatsapp.php:483
+#, php-format
+msgid "Qty %d"
+msgstr "मात्रा %d"
+
+#. translators: %s: order total.
+#: includes/class-whatsapp.php:489
+#, php-format
+msgid "Order total: %s"
+msgstr "ऑर्डर का कुल: %s"
+
+#: includes/class-whatsapp.php:496
+msgid "PIN"
+msgstr "PIN"
+
+#: includes/class-whatsapp.php:507
+msgid "Delivery details"
+msgstr "डिलीवरी का विवरण"
+
+#. translators: %s: payment URL.
+#: includes/class-whatsapp.php:513
+#, php-format
+msgid "Pay online (UPI / card): %s"
+msgstr "ऑनलाइन भुगतान करें (UPI / कार्ड): %s"
+
+#: includes/demo/data.php:13
+msgid "Jewellery"
+msgstr "ज्वेलरी"
+
+#: includes/demo/data.php:13
+msgid "Hallmarked gold, certified diamonds and gemstones, handcrafted for every occasion."
+msgstr "हॉलमार्क सोना, सर्टिफ़ाइड हीरे और रत्न, हर मौक़े के लिए हाथ से बने।"
+
+#: includes/demo/data.php:14
+msgid "Fashion"
+msgstr "फ़ैशन"
+
+#: includes/demo/data.php:14
+msgid "Easy linen, soft organic cotton and leather pieces that last for years."
+msgstr "आरामदायक लिनन, मुलायम ऑर्गेनिक कॉटन और लेदर की चीज़ें जो सालों चलती हैं।"
+
+#: includes/demo/data.php:15
+msgid "Electronics"
+msgstr "इलेक्ट्रॉनिक्स"
+
+#: includes/demo/data.php:15
+msgid "Headphones, wearables and speakers with warranty and fast delivery."
+msgstr "वारंटी और तेज़ डिलीवरी के साथ हेडफ़ोन, वियरेबल और स्पीकर।"
+
+#: includes/demo/data.php:16
+msgid "Beauty"
+msgstr "ब्यूटी"
+
+#: includes/demo/data.php:16
+msgid "Clean skincare, long-wear colour and fragrances made in small batches."
+msgstr "छोटे बैच में बनी क्लीन स्किनकेयर, लंबे समय तक टिकने वाला मेकअप और परफ़्यूम।"
+
+#: includes/demo/data.php:17
+msgid "Grocery"
+msgstr "ग्रोसरी"
+
+#: includes/demo/data.php:17
+msgid "Raw honey, first-flush teas and cold-pressed oils sourced from farms we know."
+msgstr "जाने-पहचाने खेतों से कच्चा शहद, फ़र्स्ट-फ़्लश चाय और कोल्ड-प्रेस्ड तेल।"
+
+#: includes/demo/data.php:18
+msgid "Home & Living"
+msgstr "होम और लिविंग"
+
+#: includes/demo/data.php:18
+msgid "Handmade lamps, ceramics and textiles that make a house feel like home."
+msgstr "हाथ से बने लैंप, सिरेमिक और कपड़े जो घर को घर जैसा बनाते हैं।"
+
+#: includes/demo/data.php:23
+msgid "Colour"
+msgstr "रंग"
+
+#: includes/demo/data.php:26
+msgid "Forest"
+msgstr "फ़ॉरेस्ट"
+
+#: includes/demo/data.php:27
+msgid "Charcoal"
+msgstr "चारकोल"
+
+#: includes/demo/data.php:28
+msgid "Ivory"
+msgstr "आइवरी"
+
+#: includes/demo/data.php:29
+msgid "Classic Red"
+msgstr "क्लासिक लाल"
+
+#: includes/demo/data.php:30
+msgid "Nude"
+msgstr "न्यूड"
+
+#: includes/demo/data.php:31
+msgid "Berry"
+msgstr "बेरी"
+
+#: includes/demo/data.php:35
+msgid "Size"
+msgstr "साइज़"
+
+#: includes/demo/data.php:53
+msgid "Eternal Solitaire Diamond Ring"
+msgstr "इटर्नल सॉलिटेयर डायमंड रिंग"
+
+#: includes/demo/data.php:59
+msgid "A timeless one-carat solitaire in a four-prong 18K white gold setting."
+msgstr "18K व्हाइट गोल्ड की चार-प्रॉन्ग सेटिंग में एक सदाबहार एक-कैरेट सॉलिटेयर।"
+
+#: includes/demo/data.php:60
+msgid "Our signature engagement ring: a one-carat IGI-certified round brilliant diamond held high in a four-prong cathedral setting so it catches light from every angle. The 2 mm comfort-fit band is cast in 18K white gold and rhodium-finished for a lasting, mirror-bright shine. Free resizing within 60 days and lifetime exchange at full gold value."
+msgstr "हमारी सिग्नेचर सगाई की अंगूठी: एक-कैरेट IGI-सर्टिफ़ाइड राउंड ब्रिलियंट हीरा, चार-प्रॉन्ग कैथेड्रल सेटिंग में ऊँचा जड़ा ताकि हर कोण से रोशनी पकड़े। 2 mm का कम्फ़र्ट-फ़िट बैंड 18K व्हाइट गोल्ड में ढला है और लंबे समय तक आईने जैसी चमक के लिए रोडियम फ़िनिश है। 60 दिन में मुफ़्त रीसाइज़िंग और पूरे सोने के मूल्य पर आजीवन एक्सचेंज।"
+
+#: includes/demo/data.php:72
+msgid "Rose Petal Halo Ring"
+msgstr "रोज़ पेटल हेलो रिंग"
+
+#: includes/demo/data.php:76
+msgid "A blush pink sapphire framed by a halo of micro-pavé diamonds."
+msgstr "माइक्रो-पावे हीरों के घेरे में एक हल्का गुलाबी नीलम।"
+
+#: includes/demo/data.php:77
+msgid "Soft, romantic and quietly bold. A cushion-cut pink sapphire sits inside a halo of 18 micro-pavé diamonds, set on a slender 18K rose gold band with petal-shaped shoulders. Arrives in a gift box with its certificate."
+msgstr "नरम, रोमांटिक और चुपचाप बोल्ड। कुशन-कट गुलाबी नीलम 18 माइक्रो-पावे हीरों के घेरे में है, जो पंखुड़ी के आकार वाले कंधों के साथ पतले 18K रोज़ गोल्ड बैंड पर जड़ा है। सर्टिफ़िकेट के साथ गिफ़्ट बॉक्स में आता है।"
+
+#: includes/demo/data.php:87
+msgid "Royal Emerald Kundan Necklace"
+msgstr "रॉयल एमरल्ड कुंदन नेकलेस"
+
+#: includes/demo/data.php:93
+msgid "A regal 22K kundan necklace with hand-set Zambian emerald drops."
+msgstr "हाथ से जड़ी ज़ाम्बियन पन्ने की बूँदों वाला शाही 22K कुंदन हार।"
+
+#: includes/demo/data.php:94
+msgid "Inspired by Mughal court jewellery and hand-set by our karigars in Jaipur using traditional kundan technique. Seven Zambian emerald drops hang from a 22K gold collar finished with meenakari enamel on the reverse — an heirloom for weddings and festive evenings."
+msgstr "मुग़ल दरबार के गहनों से प्रेरित और जयपुर में हमारे कारीगरों द्वारा पारंपरिक कुंदन तकनीक से हाथ से जड़ा। सात ज़ाम्बियन पन्ने की बूँदें 22K सोने के कॉलर से लटकती हैं, जिसके पीछे मीनाकारी है — शादियों और त्योहारों की शामों के लिए पुश्तैनी गहना।"
+
+#: includes/demo/data.php:103
+msgid "Pearl Drop Jhumka Earrings"
+msgstr "पर्ल ड्रॉप झुमके"
+
+#: includes/demo/data.php:107
+msgid "Light gold jhumkas finished with lustrous freshwater pearls."
+msgstr "चमकदार मीठे पानी के मोतियों वाले हल्के सोने के झुमके।"
+
+#: includes/demo/data.php:108
+msgid "Classic bell-shaped jhumkas in 22K gold with a delicate granulation border and a single freshwater pearl drop. Light enough to wear from the morning puja to the evening sangeet."
+msgstr "नाज़ुक दानेदार किनारी और एक मीठे पानी के मोती वाले 22K सोने के क्लासिक घंटीनुमा झुमके। सुबह की पूजा से शाम के संगीत तक पहनने लायक हल्के।"
+
+#: includes/demo/data.php:116
+msgid "Sapphire Teardrop Pendant"
+msgstr "सैफ़ायर टियरड्रॉप पेंडेंट"
+
+#: includes/demo/data.php:120
+msgid "A deep blue Ceylon sapphire framed with diamonds, on an 18-inch chain."
+msgstr "हीरों के फ़्रेम में गहरा नीला सीलोन नीलम, 18 इंच की चेन पर।"
+
+#: includes/demo/data.php:121
+msgid "A 1.2-carat teardrop Ceylon sapphire surrounded by a pavé diamond frame in 18K white gold. Comes with a matching 18-inch box chain and a GIA gemstone report."
+msgstr "18K व्हाइट गोल्ड में पावे हीरों के फ़्रेम से घिरा 1.2 कैरेट का टियरड्रॉप सीलोन नीलम। मैचिंग 18 इंच की बॉक्स चेन और GIA रत्न रिपोर्ट के साथ।"
+
+#: includes/demo/data.php:129
+msgid "Celestial Diamond Tennis Bracelet"
+msgstr "सेलेस्टियल डायमंड टेनिस ब्रेसलेट"
+
+#: includes/demo/data.php:134
+msgid "Thirty-four brilliant diamonds in a fluid line of 18K white gold."
+msgstr "18K व्हाइट गोल्ड की लचीली लड़ी में चौंतीस ब्रिलियंट हीरे।"
+
+#: includes/demo/data.php:135
+msgid "An everyday icon: 3 carats of matched round brilliant diamonds set in four-prong links that move like silk. Double safety clasp and complimentary annual cleaning."
+msgstr "रोज़ का आइकन: चार-प्रॉन्ग कड़ियों में जड़े 3 कैरेट के मैच किए हुए राउंड ब्रिलियंट हीरे, जो रेशम की तरह चलते हैं। डबल सेफ़्टी क्लैस्प और हर साल मुफ़्त सफ़ाई।"
+
+#: includes/demo/data.php:143
+msgid "Linen Wrap Dress"
+msgstr "लिनन रैप ड्रेस"
+
+#: includes/demo/data.php:149
+msgid "A breezy midi wrap dress in washed European linen."
+msgstr "धुले हुए यूरोपियन लिनन की हवादार मिडी रैप ड्रेस।"
+
+#: includes/demo/data.php:150
+msgid "Cut from pre-washed European linen that softens with every wear. The wrap front and self-tie belt flatter every shape, and deep side pockets make it the dress you will reach for all summer. Machine washable."
+msgstr "पहले से धुले यूरोपियन लिनन से बनी, जो हर बार पहनने पर और मुलायम होती है। रैप फ़्रंट और सेल्फ़-टाई बेल्ट हर शेप पर जँचते हैं, और गहरी साइड पॉकेट इसे पूरी गर्मी की पसंदीदा ड्रेस बनाती हैं। मशीन में धो सकते हैं।"
+
+#: includes/demo/data.php:160
+msgid "Classic Leather Sneakers"
+msgstr "क्लासिक लेदर स्नीकर"
+
+#: includes/demo/data.php:164
+msgid "Minimal white leather sneakers with a cushioned, recycled sole."
+msgstr "कुशन वाले, रीसायकल्ड सोल के साथ मिनिमल सफ़ेद लेदर स्नीकर।"
+
+#: includes/demo/data.php:165
+msgid "Full-grain leather uppers, a padded collar and a recycled rubber cupsole make these the sneakers that go with everything. Leather-lined for all-day comfort."
+msgstr "फ़ुल-ग्रेन लेदर अपर, गद्देदार कॉलर और रीसायकल्ड रबर कपसोल इन्हें हर चीज़ के साथ जँचने वाले स्नीकर बनाते हैं। दिनभर आराम के लिए अंदर लेदर लाइनिंग।"
+
+#: includes/demo/data.php:173
+msgid "Structured Leather Tote"
+msgstr "स्ट्रक्चर्ड लेदर टोट"
+
+#: includes/demo/data.php:178
+msgid "A roomy tan tote that fits a 14-inch laptop and then some."
+msgstr "एक खुला टैन टोट जिसमें 14 इंच का लैपटॉप और बहुत कुछ आ जाता है।"
+
+#: includes/demo/data.php:179
+msgid "Vegetable-tanned leather, hand-stitched edges and a brass turn-lock pocket. It holds a 14-inch laptop, a water bottle and everything else your day needs, and ages beautifully."
+msgstr "वेजिटेबल-टैन्ड लेदर, हाथ से सिले किनारे और पीतल के टर्न-लॉक वाली पॉकेट। इसमें 14 इंच का लैपटॉप, पानी की बोतल और दिनभर की हर ज़रूरत आ जाती है, और यह समय के साथ और सुंदर होता है।"
+
+#: includes/demo/data.php:187
+msgid "Organic Cotton Tee"
+msgstr "ऑर्गेनिक कॉटन टी-शर्ट"
+
+#: includes/demo/data.php:191
+msgid "A heavyweight organic cotton T-shirt that keeps its shape."
+msgstr "भारी ऑर्गेनिक कॉटन की टी-शर्ट जो अपना आकार नहीं खोती।"
+
+#: includes/demo/data.php:192
+msgid "220 gsm GOTS-certified organic cotton, garment-dyed for a lived-in feel. Relaxed fit, reinforced neckline and made in Tiruppur."
+msgstr "220 gsm GOTS-सर्टिफ़ाइड ऑर्गेनिक कॉटन, पहने हुए जैसे एहसास के लिए गारमेंट-डाइड। रिलैक्स्ड फ़िट, मज़बूत गला और तिरुपुर में बनी।"
+
+#: includes/demo/data.php:205
+msgid "Aura ANC Headphones"
+msgstr "Aura ANC हेडफ़ोन"
+
+#: includes/demo/data.php:211
+msgid "Adaptive noise cancelling, 40-hour battery and plush memory-foam cushions."
+msgstr "अडैप्टिव नॉइज़ कैंसलिंग, 40 घंटे की बैटरी और मुलायम मेमोरी-फ़ोम कुशन।"
+
+#: includes/demo/data.php:212
+msgid "Hybrid active noise cancellation tunes itself to your surroundings, while 40 mm drivers deliver warm, detailed sound. Forty hours of battery, 10-minute fast charge for 5 hours, multipoint Bluetooth 5.3 and a foldable design. One-year warranty."
+msgstr "हाइब्रिड ऐक्टिव नॉइज़ कैंसलेशन ख़ुद को आपके आसपास के हिसाब से ढालता है, और 40 mm ड्राइवर गर्म, बारीक आवाज़ देते हैं। चालीस घंटे की बैटरी, 10 मिनट की फ़ास्ट चार्जिंग में 5 घंटे, मल्टीपॉइंट Bluetooth 5.3 और फ़ोल्ड होने वाला डिज़ाइन। एक साल की वारंटी।"
+
+#: includes/demo/data.php:222
+msgid "Pulse Smartwatch"
+msgstr "Pulse स्मार्टवॉच"
+
+#: includes/demo/data.php:226
+msgid "AMOLED fitness watch with SpO2, sleep tracking and 10-day battery."
+msgstr "SpO2, नींद ट्रैकिंग और 10 दिन की बैटरी वाली AMOLED फ़िटनेस वॉच।"
+
+#: includes/demo/data.php:227
+msgid "A 1.43-inch always-on AMOLED display, 100+ workout modes, heart-rate, SpO2 and sleep tracking, Bluetooth calling and up to 10 days on a charge. Swim-proof to 5 ATM."
+msgstr "1.43 इंच का ऑलवेज़-ऑन AMOLED डिस्प्ले, 100+ वर्कआउट मोड, हार्ट-रेट, SpO2 और नींद ट्रैकिंग, Bluetooth कॉलिंग और एक चार्ज में 10 दिन तक। 5 ATM तक तैराकी-रोधी।"
+
+#: includes/demo/data.php:236
+msgid "Nova Bluetooth Speaker"
+msgstr "Nova ब्लूटूथ स्पीकर"
+
+#: includes/demo/data.php:241
+msgid "360° room-filling sound, IPX7 waterproof, 18-hour battery."
+msgstr "360° कमरा भर देने वाली आवाज़, IPX7 वॉटरप्रूफ़, 18 घंटे की बैटरी।"
+
+#: includes/demo/data.php:242
+msgid "Dual passive radiators and a 360° driver fill any room or terrace with rich, balanced sound. IPX7 waterproof, pairs with a second speaker for stereo, and lasts 18 hours per charge."
+msgstr "दो पैसिव रेडिएटर और 360° ड्राइवर किसी भी कमरे या छत को भरपूर, संतुलित आवाज़ से भर देते हैं। IPX7 वॉटरप्रूफ़, स्टीरियो के लिए दूसरे स्पीकर से जुड़ता है, और एक चार्ज में 18 घंटे चलता है।"
+
+#: includes/demo/data.php:250
+msgid "Echo Wireless Earbuds"
+msgstr "Echo वायरलेस ईयरबड"
+
+#: includes/demo/data.php:254
+msgid "Pocket-size ANC earbuds with a 32-hour charging case."
+msgstr "32 घंटे के चार्जिंग केस के साथ जेब में आने वाले ANC ईयरबड।"
+
+#: includes/demo/data.php:255
+msgid "Active noise cancellation, four microphones for clear calls, low-latency game mode and a slim case that adds 26 hours of listening. USB-C and wireless charging."
+msgstr "ऐक्टिव नॉइज़ कैंसलेशन, साफ़ कॉल के लिए चार माइक्रोफ़ोन, कम लेटेंसी वाला गेम मोड और पतला केस जो 26 घंटे की और सुनाई जोड़ता है। USB-C और वायरलेस चार्जिंग।"
+
+#: includes/demo/data.php:263
+msgid "Vitamin C Glow Serum"
+msgstr "विटामिन C ग्लो सीरम"
+
+#: includes/demo/data.php:269
+msgid "15% vitamin C with ferulic acid for brighter, even skin."
+msgstr "चमकदार, एक-सी त्वचा के लिए फ़ेरुलिक एसिड के साथ 15% विटामिन C।"
+
+#: includes/demo/data.php:270
+msgid "A stable 15% L-ascorbic acid serum with vitamin E and ferulic acid to fade dark spots and protect against pollution. Fragrance-free, dermatologist tested and suitable for Indian skin tones. 30 ml."
+msgstr "विटामिन E और फ़ेरुलिक एसिड के साथ स्थिर 15% L-एस्कॉर्बिक एसिड सीरम, जो काले धब्बे हल्के करता है और प्रदूषण से बचाता है। ख़ुशबू-रहित, डर्मेटोलॉजिस्ट टेस्टेड और भारतीय त्वचा के रंगों के लिए उपयुक्त। 30 ml।"
+
+#: includes/demo/data.php:279
+msgid "Velvet Matte Lipstick"
+msgstr "वेलवेट मैट लिपस्टिक"
+
+#: includes/demo/data.php:283
+msgid "Weightless, transfer-resistant matte colour that stays for 12 hours."
+msgstr "हल्का, न फैलने वाला मैट रंग जो 12 घंटे टिकता है।"
+
+#: includes/demo/data.php:284
+msgid "A creamy bullet that sets to a soft velvet matte. Enriched with shea butter and vitamin E so lips never feel dry. Vegan and cruelty-free."
+msgstr "क्रीमी बुलेट जो नरम वेलवेट मैट में सेट होती है। शिया बटर और विटामिन E से भरपूर ताकि होंठ कभी सूखे न लगें। वीगन और क्रूरता-मुक्त।"
+
+#: includes/demo/data.php:297
+msgid "Rosé Hydration Cream"
+msgstr "रोज़े हाइड्रेशन क्रीम"
+
+#: includes/demo/data.php:301
+msgid "A cushiony moisturiser with Kannauj rose water and ceramides."
+msgstr "कन्नौज के गुलाब जल और सेरामाइड वाला मुलायम मॉइस्चराइज़र।"
+
+#: includes/demo/data.php:302
+msgid "Steam-distilled rose water from Kannauj, three ceramides and hyaluronic acid restore the skin barrier and keep it plump for 48 hours. Non-greasy and perfect under make-up. 50 g."
+msgstr "कन्नौज का भाप से निकाला गुलाब जल, तीन सेरामाइड और हायलूरोनिक एसिड त्वचा की परत को ठीक करते हैं और 48 घंटे तक भरी-भरी रखते हैं। चिपचिपा नहीं और मेकअप के नीचे बढ़िया। 50 g।"
+
+#: includes/demo/data.php:307
+msgid "Oud Eau de Parfum"
+msgstr "ऊद ओ द परफ़्यूम"
+
+#: includes/demo/data.php:312
+msgid "Smoky oud, Bulgarian rose and saffron in a long-lasting parfum."
+msgstr "लंबे समय तक टिकने वाले परफ़्यूम में धुएँदार ऊद, बुल्गारियाई गुलाब और केसर।"
+
+#: includes/demo/data.php:313
+msgid "An evening fragrance built around Assam oud, softened by Bulgarian rose and warmed with saffron and amber. Eau de parfum concentration for 8–10 hours of wear. 50 ml."
+msgstr "असम के ऊद पर बनी शाम की ख़ुशबू, बुल्गारियाई गुलाब से नरम और केसर व अंबर से गर्म। 8–10 घंटे टिकने वाला ओ द परफ़्यूम कॉन्सन्ट्रेशन। 50 ml।"
+
+#: includes/demo/data.php:321
+msgid "Wild Forest Honey"
+msgstr "जंगली वन शहद"
+
+#: includes/demo/data.php:326
+msgid "Raw, unprocessed multi-flora honey from the Nilgiri forests."
+msgstr "नीलगिरि के जंगलों का कच्चा, बिना प्रोसेस किया बहु-फूल शहद।"
+
+#: includes/demo/data.php:327
+msgid "Collected by tribal honey gatherers in the Nilgiri Biosphere and simply strained — never heated or blended — so every enzyme and floral note survives. Natural crystallisation is a sign of purity. 500 g glass jar."
+msgstr "नीलगिरि बायोस्फ़ियर में आदिवासी शहद संग्राहकों द्वारा इकट्ठा किया और बस छाना गया — कभी गर्म या मिलाया नहीं — ताकि हर एंज़ाइम और फूलों की ख़ुशबू बनी रहे। प्राकृतिक रूप से जमना शुद्धता की निशानी है। 500 g काँच का जार।"
+
+#: includes/demo/data.php:336
+msgid "Himalayan Green Tea"
+msgstr "हिमालयन ग्रीन टी"
+
+#: includes/demo/data.php:340
+msgid "Whole-leaf first-flush green tea from a single Darjeeling estate."
+msgstr "दार्जिलिंग के एक ही बाग़ान की साबुत पत्ती वाली फ़र्स्ट-फ़्लश ग्रीन टी।"
+
+#: includes/demo/data.php:341
+msgid "Hand-plucked in spring and pan-fired the same day for a sweet, grassy cup with a gentle muscatel finish. Brews up to three times. 100 g in a reusable tin."
+msgstr "वसंत में हाथ से तोड़ी और उसी दिन भूनी गई, मीठे, घास जैसे स्वाद और हल्के मस्कटेल अंत के साथ। तीन बार तक बनाई जा सकती है। दोबारा इस्तेमाल होने वाले डिब्बे में 100 g।"
+
+#: includes/demo/data.php:349
+msgid "Cold-Pressed Olive Oil"
+msgstr "कोल्ड-प्रेस्ड ऑलिव ऑयल"
+
+#: includes/demo/data.php:354
+msgid "Extra virgin, single-origin and first cold pressed. 500 ml."
+msgstr "एक्स्ट्रा वर्जिन, एक ही जगह का और पहली कोल्ड प्रेसिंग। 500 ml।"
+
+#: includes/demo/data.php:355
+msgid "Pressed within hours of harvest from a single grove of Arbequina olives, with low acidity and a peppery, green finish. Ideal for salads, dips and finishing dishes."
+msgstr "अर्बेक्विना जैतून के एक ही बाग़ से तुड़ाई के कुछ घंटों में पेरा गया, कम अम्लता और तीखे, हरे अंत के साथ। सलाद, डिप और व्यंजनों पर ऊपर से डालने के लिए बढ़िया।"
+
+#: includes/demo/data.php:363
+msgid "Superfood Trail Mix"
+msgstr "सुपरफ़ूड ट्रेल मिक्स"
+
+#: includes/demo/data.php:367
+msgid "Roasted almonds, cashews, cranberries and seeds with no added sugar."
+msgstr "बिना अतिरिक्त चीनी के भुने बादाम, काजू, क्रैनबेरी और बीज।"
+
+#: includes/demo/data.php:368
+msgid "A crunchy, protein-rich mix of dry-roasted almonds and cashews, pumpkin and sunflower seeds, cranberries and golden raisins. No added sugar, no palm oil. 400 g resealable jar."
+msgstr "सूखे भुने बादाम और काजू, कद्दू और सूरजमुखी के बीज, क्रैनबेरी और सुनहरी किशमिश का कुरकुरा, प्रोटीन से भरपूर मिक्स। कोई अतिरिक्त चीनी नहीं, कोई पाम ऑयल नहीं। 400 g का दोबारा बंद होने वाला जार।"
+
+#: includes/demo/data.php:373
+msgid "Terracotta Table Lamp"
+msgstr "टेराकोटा टेबल लैंप"
+
+#: includes/demo/data.php:379
+msgid "Hand-thrown terracotta base with a pleated linen shade."
+msgstr "प्लीटेड लिनन शेड के साथ हाथ से बना टेराकोटा बेस।"
+
+#: includes/demo/data.php:380
+msgid "Thrown by potters in Khurja and fired twice for a warm, earthy glow. The pleated linen shade softens the light for bedside or living-room corners. E27 holder; bulb not included."
+msgstr "खुर्जा के कुम्हारों द्वारा चाक पर बनाया और गर्म, मिट्टी जैसी चमक के लिए दो बार पकाया गया। प्लीटेड लिनन शेड बिस्तर के पास या बैठक के कोनों के लिए रोशनी को नरम करता है। E27 होल्डर; बल्ब शामिल नहीं।"
+
+#: includes/demo/data.php:389
+msgid "Celadon Ceramic Vase"
+msgstr "सेलाडॉन सिरेमिक फूलदान"
+
+#: includes/demo/data.php:393
+msgid "A sculptural stoneware vase with a soft celadon glaze."
+msgstr "नरम सेलाडॉन ग्लेज़ वाला मूर्तिनुमा स्टोनवेयर फूलदान।"
+
+#: includes/demo/data.php:394
+msgid "Each vase is wheel-thrown and glazed by hand, so no two are alike. Watertight for fresh flowers and beautiful on its own with dried stems."
+msgstr "हर फूलदान चाक पर बना और हाथ से ग्लेज़ किया गया है, इसलिए कोई दो एक जैसे नहीं। ताज़े फूलों के लिए पानी-रोधी और सूखी टहनियों के साथ अपने-आप में सुंदर।"
+
+#: includes/demo/data.php:402
+msgid "Handloom Cushion Cover"
+msgstr "हैंडलूम कुशन कवर"
+
+#: includes/demo/data.php:407
+msgid "Handwoven cotton cushion cover with gold and forest stripes."
+msgstr "सुनहरी और हरी धारियों वाला हाथ से बुना कॉटन कुशन कवर।"
+
+#: includes/demo/data.php:408
+msgid "Woven on pit looms in Panipat from soft cotton yarn, with a hidden zip and tassel corners. 45 × 45 cm; insert not included."
+msgstr "पानीपत में पिट करघों पर मुलायम कॉटन धागे से बुना, छिपी ज़िप और फुँदने वाले कोनों के साथ। 45 × 45 cm; कुशन शामिल नहीं।"
+
+#: includes/demo/data.php:416
+msgid "Sandalwood Soy Candle"
+msgstr "चंदन सोया कैंडल"
+
+#: includes/demo/data.php:420
+msgid "Mysore sandalwood and vetiver in a clean-burning soy candle."
+msgstr "साफ़ जलने वाली सोया मोमबत्ती में मैसूर चंदन और ख़स।"
+
+#: includes/demo/data.php:421
+msgid "Hand-poured soy wax with a cotton wick and a calming blend of Mysore sandalwood, vetiver and a hint of cardamom. Around 45 hours of burn time in a reusable glass tumbler."
+msgstr "कॉटन बाती के साथ हाथ से ढाली सोया वैक्स, मैसूर चंदन, ख़स और हल्की इलायची के सुकून भरे मेल के साथ। दोबारा इस्तेमाल होने वाले काँच के गिलास में लगभग 45 घंटे जलती है।"
+
+#: includes/demo/data.php:431
+msgid "Deal of the day: 15% off"
+msgstr "आज की डील: 15% छूट"
+
+#: includes/demo/data.php:432
+msgid "Newsletter welcome: 10% off the first order"
+msgstr "न्यूज़लेटर स्वागत: पहले ऑर्डर पर 10% छूट"

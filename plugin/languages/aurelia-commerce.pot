@@ -1,0 +1,2828 @@
+# Copyright (C) 2026 Aurelia Commerce
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aurelia Commerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/calculatewellhub-cell/e-commerce-theme/issues\n"
+"Last-Translator: Aurelia <hello@example.com>\n"
+"Language-Team: Aurelia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T12:14:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: aurelia-commerce\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: aurelia-commerce.php
+#: includes/class-admin.php:37
+msgid "Aurelia Commerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: aurelia-commerce.php
+msgid "https://github.com/calculatewellhub-cell/e-commerce-theme"
+msgstr ""
+
+#. Description of the plugin
+#: aurelia-commerce.php
+msgid "Store features for any WooCommerce shop: WhatsApp ordering, UPI QR payments, an AI shopping concierge (Claude), 3D product viewer, image-to-video studio, social auto-posting with tracked links, privacy-friendly analytics, SEO/AIO structured data, wishlist, compare, quick view, swatches and a one-click demo import."
+msgstr ""
+
+#. Author URI of the plugin
+#: aurelia-commerce.php
+msgid "https://github.com/calculatewellhub-cell"
+msgstr ""
+
+#: includes/class-admin.php:37
+msgid "Aurelia"
+msgstr ""
+
+#: includes/class-admin.php:44
+#: includes/class-admin.php:157
+msgid "Aurelia settings"
+msgstr ""
+
+#: includes/class-admin.php:44
+#: includes/class-admin.php:96
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:79
+msgid "Testing…"
+msgstr ""
+
+#: includes/class-admin.php:80
+msgid "Connected ✓"
+msgstr ""
+
+#: includes/class-admin.php:81
+msgid "Failed: "
+msgstr ""
+
+#: includes/class-admin.php:97
+#: includes/class-setup-wizard.php:50
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/class-admin.php:158
+msgid "Settings sections"
+msgstr ""
+
+#: includes/class-admin.php:174
+msgid "UPI payments ↗"
+msgstr ""
+
+#: includes/class-admin.php:195
+msgid "Reliable scheduling with a real cron job"
+msgstr ""
+
+#: includes/class-admin.php:196
+msgid "WP-Cron only runs when someone visits your site. For posts to go out exactly on time, disable it and call WordPress from your server every five minutes:"
+msgstr ""
+
+#: includes/class-admin.php:197
+msgid "(in wp-config.php)"
+msgstr ""
+
+#: includes/class-admin.php:199
+msgid "Or with WP-CLI:"
+msgstr ""
+
+#: includes/class-admin.php:264
+msgid "Saved — leave blank to keep"
+msgstr ""
+
+#: includes/class-admin.php:268
+msgid "Remove saved value"
+msgstr ""
+
+#: includes/class-admin.php:271
+msgid "Test connection"
+msgstr ""
+
+#: includes/class-analytics.php:319
+#: includes/class-analytics.php:367
+msgid "Store analytics"
+msgstr ""
+
+#: includes/class-analytics.php:319
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-analytics.php:334
+msgid "Page views"
+msgstr ""
+
+#: includes/class-analytics.php:335
+msgid "Product views"
+msgstr ""
+
+#: includes/class-analytics.php:336
+#: includes/class-analytics.php:347
+#: includes/class-shop.php:100
+#: includes/class-shop.php:557
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class-analytics.php:337
+msgid "WhatsApp orders"
+msgstr ""
+
+#: includes/class-analytics.php:338
+msgid "WhatsApp order value"
+msgstr ""
+
+#: includes/class-analytics.php:339
+msgid "WhatsApp enquiries"
+msgstr ""
+
+#: includes/class-analytics.php:340
+msgid "Concierge messages"
+msgstr ""
+
+#: includes/class-analytics.php:341
+msgid "Social clicks"
+msgstr ""
+
+#: includes/class-analytics.php:342
+msgid "Newsletter sign-ups"
+msgstr ""
+
+#: includes/class-analytics.php:343
+msgid "Daily traffic"
+msgstr ""
+
+#: includes/class-analytics.php:344
+msgid "Top products"
+msgstr ""
+
+#: includes/class-analytics.php:345
+#: includes/class-social.php:142
+msgid "Product"
+msgstr ""
+
+#: includes/class-analytics.php:346
+msgid "Views"
+msgstr ""
+
+#: includes/class-analytics.php:348
+msgid "Cart rate"
+msgstr ""
+
+#: includes/class-analytics.php:349
+msgid "Traffic sources"
+msgstr ""
+
+#: includes/class-analytics.php:350
+msgid "Devices"
+msgstr ""
+
+#: includes/class-analytics.php:351
+msgid "Social clicks by platform"
+msgstr ""
+
+#: includes/class-analytics.php:352
+msgid "Social clicks by post"
+msgstr ""
+
+#: includes/class-analytics.php:353
+msgid "Top pages"
+msgstr ""
+
+#: includes/class-analytics.php:354
+msgid "Post"
+msgstr ""
+
+#: includes/class-analytics.php:355
+msgid "Platform"
+msgstr ""
+
+#: includes/class-analytics.php:356
+msgid "Clicks"
+msgstr ""
+
+#: includes/class-analytics.php:357
+msgid "No data yet for this period."
+msgstr ""
+
+#: includes/class-analytics.php:358
+msgid "Analytics is turned off in Settings → Analytics & SEO."
+msgstr ""
+
+#: includes/class-analytics.php:359
+msgid "Table view"
+msgstr ""
+
+#: includes/class-analytics.php:360
+msgid "Cookie-less and anonymous: no IP addresses, cookies or personal data are stored."
+msgstr ""
+
+#: includes/class-analytics.php:369
+msgid "Date range"
+msgstr ""
+
+#: includes/class-analytics.php:371
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-analytics.php:372
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/class-analytics.php:373
+msgid "Last 90 days"
+msgstr ""
+
+#: includes/class-analytics.php:374
+msgid "Last 12 months"
+msgstr ""
+
+#: includes/class-claude-client.php:46
+msgid "No Claude API key is configured."
+msgstr ""
+
+#: includes/class-claude-client.php:95
+msgid "The request was declined."
+msgstr ""
+
+#: includes/class-concierge.php:71
+msgid "Open the AI shopping assistant"
+msgstr ""
+
+#. translators: %s: assistant name.
+#: includes/class-concierge.php:73
+#, php-format
+msgid "Ask %s"
+msgstr ""
+
+#: includes/class-concierge.php:74
+msgid "AI shopping concierge"
+msgstr ""
+
+#: includes/class-concierge.php:75
+msgid "Online · replies instantly"
+msgstr ""
+
+#: includes/class-concierge.php:76
+msgid "Close chat"
+msgstr ""
+
+#: includes/class-concierge.php:77
+msgid "Ask about products, budgets, delivery…"
+msgstr ""
+
+#: includes/class-concierge.php:78
+msgid "Send"
+msgstr ""
+
+#: includes/class-concierge.php:79
+msgid "Message"
+msgstr ""
+
+#: includes/class-concierge.php:80
+msgid "Sorry, I am having trouble connecting. Our team is always available on WhatsApp."
+msgstr ""
+
+#: includes/class-concierge.php:81
+msgid "Continue with a human on WhatsApp"
+msgstr ""
+
+#. translators: %s: store name.
+#: includes/class-concierge.php:83
+#, php-format
+msgid "Hello %s! I was chatting with your assistant on the website."
+msgstr ""
+
+#: includes/class-concierge.php:84
+msgid "Me"
+msgstr ""
+
+#: includes/class-concierge.php:85
+msgid "Assistant is typing"
+msgstr ""
+
+#: includes/class-concierge.php:119
+msgid "The assistant is disabled."
+msgstr ""
+
+#: includes/class-concierge.php:122
+msgid "You are sending messages too quickly. Please wait a few minutes, or reach us on WhatsApp."
+msgstr ""
+
+#: includes/class-concierge.php:127
+msgid "Invalid conversation."
+msgstr ""
+
+#: includes/class-concierge.php:159
+msgid "I am not able to help with that here — our team will be happy to assist you on WhatsApp."
+msgstr ""
+
+#: includes/class-concierge.php:385
+msgid "Anything else I can help with? You can also chat with our team on WhatsApp."
+msgstr ""
+
+#. translators: 1: assistant name, 2: store name.
+#: includes/class-concierge.php:410
+#, php-format
+msgid "Welcome to %2$s ✨ I am %1$s, your shopping concierge. Are you shopping for an occasion, a gift or something for yourself? Tell me a budget and I will suggest a few pieces."
+msgstr ""
+
+#: includes/class-concierge.php:445
+msgid "I could not find an exact match right now. Our team can help you find or source it — tap the WhatsApp button and tell us what you have in mind!"
+msgstr ""
+
+#: includes/class-concierge.php:452
+msgid "Here are a few you may love:"
+msgstr ""
+
+#: includes/class-concierge.php:452
+msgid "Would you like help choosing, or shall I connect you to our team on WhatsApp?"
+msgstr ""
+
+#: includes/class-demo-importer.php:187
+msgid "Standard delivery"
+msgstr ""
+
+#: includes/class-demo-importer.php:196
+msgid "Free delivery"
+msgstr ""
+
+#: includes/class-demo-importer.php:208
+#: includes/class-setup-wizard.php:346
+msgid "Cash on delivery"
+msgstr ""
+
+#: includes/class-demo-importer.php:209
+msgid "Pay in cash or by UPI when your order arrives."
+msgstr ""
+
+#: includes/class-demo-importer.php:232
+msgid "Store settings, shipping zone, cash on delivery and coupons ready."
+msgstr ""
+
+#: includes/class-demo-importer.php:297
+msgid "Colour and size attributes with swatches, and six categories created."
+msgstr ""
+
+#: includes/class-demo-importer.php:358
+msgid "Beautiful quality and the packaging felt like a gift. Delivered a day early!"
+msgstr ""
+
+#: includes/class-demo-importer.php:359
+msgid "Exactly as pictured. The WhatsApp team answered all my questions before I ordered."
+msgstr ""
+
+#: includes/class-demo-importer.php:360
+msgid "Lovely piece, great value. Would buy again."
+msgstr ""
+
+#. translators: %d: number of products.
+#: includes/class-demo-importer.php:476
+#, php-format
+msgid "Imported %d products with images."
+msgstr ""
+
+#: includes/class-demo-importer.php:584
+#: includes/class-seo.php:441
+msgid "Home"
+msgstr ""
+
+#: includes/class-demo-importer.php:585
+msgid "About us"
+msgstr ""
+
+#: includes/class-demo-importer.php:585
+msgid "Tell your story here."
+msgstr ""
+
+#: includes/class-demo-importer.php:586
+#: includes/class-demo-importer.php:684
+msgid "Contact"
+msgstr ""
+
+#: includes/class-demo-importer.php:586
+msgid "Add your contact details here."
+msgstr ""
+
+#: includes/class-demo-importer.php:587
+#: includes/class-demo-importer.php:683
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-demo-importer.php:590
+#: includes/class-demo-importer.php:682
+msgid "Shipping & returns"
+msgstr ""
+
+#: includes/class-demo-importer.php:594
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-demo-importer.php:595
+msgid "We dispatch within 48 hours. Delivery takes 2–7 working days across India. Shipping is free on orders over ₹999; otherwise a flat ₹79 applies. You will receive tracking by SMS, email and WhatsApp."
+msgstr ""
+
+#: includes/class-demo-importer.php:596
+msgid "Returns & exchanges"
+msgstr ""
+
+#: includes/class-demo-importer.php:597
+msgid "Unused items in original packaging can be returned within 15 days of delivery. Message us on WhatsApp or email us with your order number and we will arrange a free pickup. Refunds are issued to the original payment method within 5–7 working days."
+msgstr ""
+
+#: includes/class-demo-importer.php:601
+#: includes/class-demo-importer.php:673
+#: includes/class-settings.php:292
+#: includes/class-shop.php:392
+msgid "Wishlist"
+msgstr ""
+
+#: includes/class-demo-importer.php:602
+msgid "Compare products"
+msgstr ""
+
+#: includes/class-demo-importer.php:603
+#: includes/class-demo-importer.php:681
+msgid "Track your order"
+msgstr ""
+
+#: includes/class-demo-importer.php:603
+msgid "Enter your order number and the email you used at checkout."
+msgstr ""
+
+#: includes/class-demo-importer.php:604
+msgid "Journal"
+msgstr ""
+
+#: includes/class-demo-importer.php:621
+msgid "Home, About, Contact, FAQ, Shipping & returns, Wishlist, Compare and Track order pages created."
+msgstr ""
+
+#: includes/class-demo-importer.php:662
+msgid "Shop"
+msgstr ""
+
+#: includes/class-demo-importer.php:665
+#: includes/class-seo.php:682
+msgid "Collections"
+msgstr ""
+
+#: includes/class-demo-importer.php:667
+msgid "Discover"
+msgstr ""
+
+#: includes/class-demo-importer.php:670
+msgid "New arrivals"
+msgstr ""
+
+#: includes/class-demo-importer.php:671
+msgid "Best sellers"
+msgstr ""
+
+#: includes/class-demo-importer.php:672
+msgid "Top rated"
+msgstr ""
+
+#: includes/class-demo-importer.php:674
+msgid "Compare"
+msgstr ""
+
+#: includes/class-demo-importer.php:678
+msgid "Help"
+msgstr ""
+
+#: includes/class-demo-importer.php:693
+msgid "About"
+msgstr ""
+
+#: includes/class-demo-importer.php:700
+msgid "Main menu"
+msgstr ""
+
+#: includes/class-demo-importer.php:707
+msgid "Main menu with a mega menu created."
+msgstr ""
+
+#: includes/class-demo-importer.php:747
+msgid "Finishing touches: cross-sells, upsells and category images. Your store is ready!"
+msgstr ""
+
+#: includes/class-demo-importer.php:784
+#: includes/class-setup-wizard.php:376
+msgid "Demo content removed."
+msgstr ""
+
+#: includes/class-marketing.php:39
+msgid "Subscribe"
+msgstr ""
+
+#: includes/class-marketing.php:40
+msgid "Email address"
+msgstr ""
+
+#: includes/class-marketing.php:41
+msgid "Your email address"
+msgstr ""
+
+#: includes/class-marketing.php:42
+msgid "Thank you! You are on the list."
+msgstr ""
+
+#. translators: %s: coupon code.
+#: includes/class-marketing.php:44
+#, php-format
+msgid "Thank you! Use code %s at checkout."
+msgstr ""
+
+#: includes/class-marketing.php:45
+#: includes/class-marketing.php:75
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-marketing.php:46
+msgid "No thanks"
+msgstr ""
+
+#: includes/class-marketing.php:78
+#: includes/class-upi-payments.php:87
+msgid "Too many attempts. Please try again later."
+msgstr ""
+
+#: includes/class-plugin.php:101
+msgid "Every five minutes (Aurelia)"
+msgstr ""
+
+#: includes/class-plugin.php:169
+msgid "Aurelia Commerce needs WooCommerce. Please install and activate WooCommerce to use the store features."
+msgstr ""
+
+#: includes/class-privacy.php:33
+msgid "Store analytics are cookie-less and anonymous: we record page and product views, cart additions and similar events without IP addresses, cookies or any personal identifiers."
+msgstr ""
+
+#: includes/class-privacy.php:34
+msgid "If you join our newsletter we store your email address until you unsubscribe or ask us to delete it."
+msgstr ""
+
+#: includes/class-privacy.php:35
+msgid "Messages you send to our shopping assistant are processed by Anthropic (Claude) to generate replies and are not stored on this website. WhatsApp orders are sent through WhatsApp, which is subject to its own privacy policy."
+msgstr ""
+
+#: includes/class-privacy.php:47
+#: includes/class-privacy.php:90
+msgid "Newsletter (Aurelia)"
+msgstr ""
+
+#: includes/class-privacy.php:55
+msgid "Newsletter"
+msgstr ""
+
+#: includes/class-privacy.php:59
+#: includes/class-settings.php:71
+#: includes/class-setup-wizard.php:328
+msgid "Email"
+msgstr ""
+
+#: includes/class-privacy.php:63
+msgid "Signed up"
+msgstr ""
+
+#: includes/class-privacy.php:67
+msgid "Source"
+msgstr ""
+
+#: includes/class-reviews.php:41
+msgid "Add photos (optional)"
+msgstr ""
+
+#. translators: %d: max photos.
+#: includes/class-reviews.php:44
+#, php-format
+msgid "Up to %d images, 5 MB each. JPG, PNG or WebP."
+msgstr ""
+
+#: includes/class-reviews.php:133
+msgid "Customer photo"
+msgstr ""
+
+#. translators: %s: store name.
+#: includes/class-seo.php:662
+#, php-format
+msgid "%s is an online store."
+msgstr ""
+
+#. translators: %s: city.
+#: includes/class-seo.php:665
+#, php-format
+msgid "Based in %s."
+msgstr ""
+
+#. translators: %s: WhatsApp number.
+#: includes/class-seo.php:669
+#, php-format
+msgid "Orders can be placed on the website or on WhatsApp (+%s)."
+msgstr ""
+
+#: includes/class-seo.php:689
+msgid "Products"
+msgstr ""
+
+#. translators: %s: price.
+#: includes/class-seo.php:707
+#, php-format
+msgid "Price: %s"
+msgstr ""
+
+#: includes/class-seo.php:711
+msgid "Category"
+msgstr ""
+
+#. translators: 1: rating, 2: review count.
+#: includes/class-seo.php:718
+#, php-format
+msgid "Rating: %1$s/5 from %2$d reviews"
+msgstr ""
+
+#: includes/class-seo.php:720
+#: includes/class-shop.php:106
+msgid "In stock"
+msgstr ""
+
+#: includes/class-seo.php:720
+#: includes/class-shop.php:107
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-seo.php:729
+msgid "Policies & FAQ"
+msgstr ""
+
+#: includes/class-seo.php:736
+msgid "Key pages"
+msgstr ""
+
+#: includes/class-seo.php:737
+msgid "Shop all products"
+msgstr ""
+
+#: includes/class-seo.php:745
+msgid "Product feed (XML)"
+msgstr ""
+
+#: includes/class-seo.php:750
+msgid "Full product details"
+msgstr ""
+
+#: includes/class-settings.php:37
+msgid "General store"
+msgstr ""
+
+#: includes/class-settings.php:38
+msgid "Jewellery store"
+msgstr ""
+
+#: includes/class-settings.php:39
+msgid "Clothing store"
+msgstr ""
+
+#: includes/class-settings.php:40
+msgid "Electronics store"
+msgstr ""
+
+#: includes/class-settings.php:41
+msgid "Beauty store"
+msgstr ""
+
+#: includes/class-settings.php:42
+msgid "Grocery store"
+msgstr ""
+
+#: includes/class-settings.php:43
+msgid "Home goods store"
+msgstr ""
+
+#: includes/class-settings.php:44
+msgid "Online-only store"
+msgstr ""
+
+#: includes/class-settings.php:49
+#: includes/class-setup-wizard.php:38
+msgid "Store"
+msgstr ""
+
+#: includes/class-settings.php:53
+#: includes/class-setup-wizard.php:326
+msgid "Store name"
+msgstr ""
+
+#: includes/class-settings.php:55
+msgid "Leave empty to use the site title."
+msgstr ""
+
+#: includes/class-settings.php:59
+#: includes/class-setup-wizard.php:294
+msgid "Store type"
+msgstr ""
+
+#: includes/class-settings.php:62
+msgid "Used in structured data and to tune the AI concierge."
+msgstr ""
+
+#: includes/class-settings.php:66
+#: includes/class-setup-wizard.php:327
+#: includes/class-whatsapp.php:137
+#: includes/class-whatsapp.php:493
+msgid "Phone"
+msgstr ""
+
+#: includes/class-settings.php:76
+msgid "Street address"
+msgstr ""
+
+#: includes/class-settings.php:81
+#: includes/class-setup-wizard.php:330
+#: includes/class-whatsapp.php:139
+#: includes/class-whatsapp.php:495
+msgid "City"
+msgstr ""
+
+#: includes/class-settings.php:86
+msgid "State / region"
+msgstr ""
+
+#: includes/class-settings.php:91
+#: includes/class-setup-wizard.php:332
+msgid "PIN / postcode"
+msgstr ""
+
+#: includes/class-settings.php:96
+#: includes/class-setup-wizard.php:333
+msgid "Country code"
+msgstr ""
+
+#: includes/class-settings.php:98
+msgid "Two-letter ISO code, e.g. IN."
+msgstr ""
+
+#: includes/class-settings.php:102
+msgid "Opening hours"
+msgstr ""
+
+#: includes/class-settings.php:104
+msgid "schema.org format, e.g. Mo-Sa 10:30-20:30."
+msgstr ""
+
+#: includes/class-settings.php:108
+msgid "Social profile URLs"
+msgstr ""
+
+#: includes/class-settings.php:110
+msgid "One URL per line (Instagram, Facebook, YouTube...). Used for structured data."
+msgstr ""
+
+#: includes/class-settings.php:115
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/class-settings.php:119
+msgid "Enable WhatsApp ordering"
+msgstr ""
+
+#: includes/class-settings.php:124
+#: includes/class-setup-wizard.php:344
+msgid "WhatsApp number"
+msgstr ""
+
+#: includes/class-settings.php:126
+msgid "International format with country code, digits only, e.g. 919876543210."
+msgstr ""
+
+#: includes/class-settings.php:130
+msgid "Checkout mode"
+msgstr ""
+
+#: includes/class-settings.php:133
+msgid "Show alongside normal checkout"
+msgstr ""
+
+#: includes/class-settings.php:134
+msgid "Replace checkout with WhatsApp ordering"
+msgstr ""
+
+#: includes/class-settings.php:139
+msgid "\"Order on WhatsApp\" on product pages"
+msgstr ""
+
+#: includes/class-settings.php:144
+msgid "\"Order on WhatsApp\" in cart and side cart"
+msgstr ""
+
+#: includes/class-settings.php:149
+msgid "Product enquiry button"
+msgstr ""
+
+#: includes/class-settings.php:154
+msgid "\"Request a video call\" button"
+msgstr ""
+
+#: includes/class-settings.php:159
+msgid "Floating WhatsApp button"
+msgstr ""
+
+#: includes/class-settings.php:164
+msgid "Floating button position"
+msgstr ""
+
+#: includes/class-settings.php:167
+msgid "Bottom right"
+msgstr ""
+
+#: includes/class-settings.php:168
+msgid "Bottom left"
+msgstr ""
+
+#: includes/class-settings.php:173
+msgid "Create a WooCommerce order (\"Pending – WhatsApp\") for each WhatsApp order"
+msgstr ""
+
+#: includes/class-settings.php:178
+msgid "Ask for name, phone and address before opening WhatsApp"
+msgstr ""
+
+#: includes/class-settings.php:183
+msgid "Include an online payment link in the message"
+msgstr ""
+
+#: includes/class-settings.php:188
+msgid "Message closing line"
+msgstr ""
+
+#: includes/class-settings.php:189
+msgid "Please confirm availability and payment options. Thank you!"
+msgstr ""
+
+#: includes/class-settings.php:194
+msgid "AI concierge"
+msgstr ""
+
+#: includes/class-settings.php:198
+msgid "Enable the AI shopping concierge"
+msgstr ""
+
+#: includes/class-settings.php:203
+#: includes/class-setup-wizard.php:357
+msgid "Claude API key"
+msgstr ""
+
+#: includes/class-settings.php:205
+msgid "Create a key at console.anthropic.com. It is stored on your server and never sent to the browser. Without a key, a rule-based assistant answers from your catalogue."
+msgstr ""
+
+#: includes/class-settings.php:209
+msgid "Model"
+msgstr ""
+
+#: includes/class-settings.php:211
+msgid "Claude model ID, e.g. claude-opus-5 or claude-sonnet-5."
+msgstr ""
+
+#: includes/class-settings.php:215
+#: includes/class-setup-wizard.php:358
+msgid "Assistant name"
+msgstr ""
+
+#: includes/class-settings.php:220
+msgid "Greeting"
+msgstr ""
+
+#: includes/class-settings.php:221
+msgid "Namaste ✨ I am your personal shopping concierge. What are you looking for today?"
+msgstr ""
+
+#: includes/class-settings.php:225
+msgid "Suggested questions"
+msgstr ""
+
+#: includes/class-settings.php:226
+msgid ""
+"Gift ideas under ₹2,000\n"
+"What's new this week?\n"
+"Do you offer cash on delivery?\n"
+"How long does delivery take?"
+msgstr ""
+
+#: includes/class-settings.php:227
+msgid "One per line."
+msgstr ""
+
+#: includes/class-settings.php:231
+msgid "Shipping, returns & payment policy"
+msgstr ""
+
+#: includes/class-settings.php:232
+msgid ""
+"Free shipping on orders over ₹999, otherwise ₹79. Dispatch within 48 hours; delivery in 2–7 days across India.\n"
+"Easy 15-day returns on unused items in original packaging.\n"
+"Payments: UPI (PhonePe, Google Pay, Paytm), cards, net banking and cash on delivery."
+msgstr ""
+
+#: includes/class-settings.php:236
+msgid "FAQ for the assistant"
+msgstr ""
+
+#: includes/class-settings.php:238
+msgid "Optional. Write each as \"Q: ...\" followed by \"A: ...\". FAQ blocks on your pages are included automatically."
+msgstr ""
+
+#: includes/class-settings.php:242
+msgid "Extra instructions"
+msgstr ""
+
+#: includes/class-settings.php:244
+msgid "Tone, brand voice or topics to avoid."
+msgstr ""
+
+#: includes/class-settings.php:248
+msgid "Messages per visitor per 10 minutes"
+msgstr ""
+
+#: includes/class-settings.php:256
+msgid "3D viewer"
+msgstr ""
+
+#: includes/class-settings.php:260
+msgid "Enable \"View in 3D\" on products"
+msgstr ""
+
+#: includes/class-settings.php:262
+msgid "Configure each product in its \"3D view\" box: the built-in ring or your own GLB/GLTF model."
+msgstr ""
+
+#: includes/class-settings.php:266
+msgid "Animate the hero 3D stage"
+msgstr ""
+
+#: includes/class-settings.php:268
+msgid "Turns the \"Hero with 3D showcase\" pattern image into a live 3D ring."
+msgstr ""
+
+#: includes/class-settings.php:272
+msgid "Default metal colour"
+msgstr ""
+
+#: includes/class-settings.php:277
+msgid "Default gem colour"
+msgstr ""
+
+#: includes/class-settings.php:283
+msgid "Shop features"
+msgstr ""
+
+#: includes/class-settings.php:287
+msgid "Live product search suggestions"
+msgstr ""
+
+#: includes/class-settings.php:297
+msgid "Product compare"
+msgstr ""
+
+#: includes/class-settings.php:302
+#: includes/class-shop.php:97
+msgid "Quick view"
+msgstr ""
+
+#: includes/class-settings.php:307
+msgid "Variation swatches (colour, image, button)"
+msgstr ""
+
+#: includes/class-settings.php:312
+msgid "Grid / list view toggle"
+msgstr ""
+
+#: includes/class-settings.php:317
+msgid "Shop pagination"
+msgstr ""
+
+#: includes/class-settings.php:320
+msgid "Page numbers"
+msgstr ""
+
+#: includes/class-settings.php:321
+msgid "\"Load more\" button"
+msgstr ""
+
+#: includes/class-settings.php:322
+msgid "Infinite scroll"
+msgstr ""
+
+#: includes/class-settings.php:327
+msgid "Sticky add-to-cart bar on product pages"
+msgstr ""
+
+#: includes/class-settings.php:332
+msgid "Quantity + / − buttons"
+msgstr ""
+
+#: includes/class-settings.php:337
+msgid "Recently viewed products"
+msgstr ""
+
+#: includes/class-settings.php:342
+msgid "Frequently bought together (uses cross-sells)"
+msgstr ""
+
+#: includes/class-settings.php:347
+msgid "Allow photos in reviews"
+msgstr ""
+
+#: includes/class-settings.php:352
+msgid "Countdown for scheduled sales"
+msgstr ""
+
+#: includes/class-settings.php:357
+msgid "Show dispatch & delivery estimate"
+msgstr ""
+
+#: includes/class-settings.php:362
+msgid "Same-day dispatch cut-off hour (0–23)"
+msgstr ""
+
+#: includes/class-settings.php:369
+msgid "Delivery days (minimum)"
+msgstr ""
+
+#: includes/class-settings.php:376
+msgid "Delivery days (maximum)"
+msgstr ""
+
+#: includes/class-settings.php:383
+msgid "Free-shipping progress bar in cart"
+msgstr ""
+
+#: includes/class-settings.php:388
+msgid "Free shipping threshold"
+msgstr ""
+
+#: includes/class-settings.php:392
+msgid "Order value that unlocks free shipping (0 to hide the bar)."
+msgstr ""
+
+#: includes/class-settings.php:396
+#: includes/class-shop.php:491
+msgid "Size guide"
+msgstr ""
+
+#: includes/class-settings.php:398
+msgid "Shown in a popup on products with a \"Size\" attribute. Each product can override it."
+msgstr ""
+
+#: includes/class-settings.php:403
+msgid "Marketing"
+msgstr ""
+
+#: includes/class-settings.php:407
+msgid "Newsletter popup"
+msgstr ""
+
+#: includes/class-settings.php:412
+msgid "Show on exit intent (desktop)"
+msgstr ""
+
+#: includes/class-settings.php:417
+msgid "Or show after (seconds)"
+msgstr ""
+
+#: includes/class-settings.php:424
+msgid "Popup title"
+msgstr ""
+
+#: includes/class-settings.php:425
+msgid "Get 10% off your first order"
+msgstr ""
+
+#: includes/class-settings.php:429
+msgid "Popup text"
+msgstr ""
+
+#: includes/class-settings.php:430
+msgid "Join our list for new arrivals and private sales."
+msgstr ""
+
+#: includes/class-settings.php:434
+msgid "Coupon shown after sign-up"
+msgstr ""
+
+#: includes/class-settings.php:439
+msgid "Forward sign-ups to webhook"
+msgstr ""
+
+#: includes/class-settings.php:441
+msgid "Optional Make / Zapier / n8n / Mailchimp webhook URL."
+msgstr ""
+
+#: includes/class-settings.php:446
+msgid "Social posting"
+msgstr ""
+
+#: includes/class-settings.php:450
+msgid "Publishing webhook (Make, Zapier, n8n)"
+msgstr ""
+
+#: includes/class-settings.php:452
+msgid "When set, every post is sent here as JSON and your automation fans it out to any network."
+msgstr ""
+
+#: includes/class-settings.php:456
+msgid "Facebook Page ID"
+msgstr ""
+
+#: includes/class-settings.php:461
+msgid "Instagram Business account ID"
+msgstr ""
+
+#: includes/class-settings.php:466
+msgid "Meta Page access token"
+msgstr ""
+
+#: includes/class-settings.php:468
+msgid "Long-lived Page token with pages_manage_posts, instagram_basic and instagram_content_publish."
+msgstr ""
+
+#: includes/class-settings.php:472
+msgid "Graph API version"
+msgstr ""
+
+#: includes/class-settings.php:478
+msgid "Analytics & SEO"
+msgstr ""
+
+#: includes/class-settings.php:482
+msgid "Privacy-friendly analytics (no cookies, no personal data)"
+msgstr ""
+
+#: includes/class-settings.php:487
+msgid "Keep analytics for (days)"
+msgstr ""
+
+#: includes/class-settings.php:494
+msgid "Structured data (Product, Store, WebSite, Breadcrumbs, FAQ)"
+msgstr ""
+
+#: includes/class-settings.php:496
+msgid "When Yoast, Rank Math or AIOSEO is active, their schema is extended instead of duplicated."
+msgstr ""
+
+#: includes/class-settings.php:500
+msgid "Open Graph & Twitter meta (skipped when an SEO plugin is active)"
+msgstr ""
+
+#: includes/class-settings.php:505
+msgid "Publish /llms.txt and /llms-full.txt for AI assistants"
+msgstr ""
+
+#: includes/class-settings.php:510
+msgid "Allow AI crawlers in robots.txt"
+msgstr ""
+
+#: includes/class-settings.php:515
+msgid "Google Merchant / Meta catalogue feed at /product-feed.xml"
+msgstr ""
+
+#: includes/class-settings.php:520
+msgid "Return window (days)"
+msgstr ""
+
+#: includes/class-settings.php:527
+msgid "Standard shipping cost (for schema)"
+msgstr ""
+
+#: includes/class-settings.php:534
+msgid "Default Google product category"
+msgstr ""
+
+#: includes/class-settings.php:536
+msgid "Optional Google taxonomy ID used in the feed, e.g. 188 for jewellery."
+msgstr ""
+
+#: includes/class-setup-wizard.php:37
+msgid "Look"
+msgstr ""
+
+#: includes/class-setup-wizard.php:39
+msgid "WhatsApp & payments"
+msgstr ""
+
+#: includes/class-setup-wizard.php:40
+msgid "AI & social"
+msgstr ""
+
+#: includes/class-setup-wizard.php:41
+msgid "Demo content"
+msgstr ""
+
+#: includes/class-setup-wizard.php:42
+msgid "Ready"
+msgstr ""
+
+#: includes/class-setup-wizard.php:78
+msgid "Welcome to Aurelia!"
+msgstr ""
+
+#: includes/class-setup-wizard.php:79
+msgid "Set up your store look, WhatsApp, payments and demo content in a few minutes."
+msgstr ""
+
+#: includes/class-setup-wizard.php:81
+msgid "Run the setup wizard"
+msgstr ""
+
+#: includes/class-setup-wizard.php:143
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-setup-wizard.php:235
+msgid "Set up your Aurelia store"
+msgstr ""
+
+#: includes/class-setup-wizard.php:253
+msgid "Skip this step"
+msgstr ""
+
+#: includes/class-setup-wizard.php:254
+msgid "Save & continue"
+msgstr ""
+
+#: includes/class-setup-wizard.php:256
+msgid "Launch my store"
+msgstr ""
+
+#: includes/class-setup-wizard.php:293
+msgid "What do you sell, and how should it look?"
+msgstr ""
+
+#: includes/class-setup-wizard.php:301
+msgid "Style"
+msgstr ""
+
+#: includes/class-setup-wizard.php:315
+msgid "You can switch any time in Appearance → Editor → Styles."
+msgstr ""
+
+#: includes/class-setup-wizard.php:325
+msgid "Your store details"
+msgstr ""
+
+#: includes/class-setup-wizard.php:325
+msgid "Used in emails, invoices, WhatsApp messages and search results."
+msgstr ""
+
+#: includes/class-setup-wizard.php:329
+#: includes/class-whatsapp.php:138
+#: includes/class-whatsapp.php:494
+msgid "Address"
+msgstr ""
+
+#: includes/class-setup-wizard.php:331
+msgid "State code"
+msgstr ""
+
+#: includes/class-setup-wizard.php:331
+msgid "For India, e.g. MH, DL, KA, TN."
+msgstr ""
+
+#: includes/class-setup-wizard.php:343
+msgid "WhatsApp ordering & payments"
+msgstr ""
+
+#: includes/class-setup-wizard.php:344
+msgid "With country code, e.g. 919876543210. Orders and enquiries open a chat with this number."
+msgstr ""
+
+#: includes/class-setup-wizard.php:345
+msgid "WhatsApp mode"
+msgstr ""
+
+#: includes/class-setup-wizard.php:345
+msgid "Alongside normal checkout"
+msgstr ""
+
+#: includes/class-setup-wizard.php:345
+msgid "Replace checkout (WhatsApp only)"
+msgstr ""
+
+#: includes/class-setup-wizard.php:346
+msgid "Accept cash on delivery"
+msgstr ""
+
+#: includes/class-setup-wizard.php:347
+msgid "UPI ID for QR payments"
+msgstr ""
+
+#: includes/class-setup-wizard.php:347
+msgid "e.g. yourshop@okhdfcbank. Customers scan a QR or tap \"Pay with UPI app\" (PhonePe, Google Pay, Paytm…)."
+msgstr ""
+
+#: includes/class-setup-wizard.php:348
+#: includes/class-upi-gateway.php:71
+msgid "Payee name"
+msgstr ""
+
+#: includes/class-setup-wizard.php:349
+msgid "Prefer a payment gateway? Install Razorpay, PhonePe PG or Cashfree from Plugins → Add New; Aurelia styles their checkout automatically."
+msgstr ""
+
+#: includes/class-setup-wizard.php:356
+msgid "AI concierge & social posting (optional)"
+msgstr ""
+
+#: includes/class-setup-wizard.php:357
+msgid "A key is already saved — leave blank to keep it."
+msgstr ""
+
+#: includes/class-setup-wizard.php:357
+msgid "From console.anthropic.com. Stored on your server only. Without it, a rule-based assistant still answers from your catalogue."
+msgstr ""
+
+#: includes/class-setup-wizard.php:359
+msgid "Social webhook (Make, Zapier, n8n)"
+msgstr ""
+
+#: includes/class-setup-wizard.php:359
+msgid "Optional. Or connect Facebook & Instagram later in Settings → Social posting."
+msgstr ""
+
+#: includes/class-setup-wizard.php:374
+msgid "Importing… please keep this tab open."
+msgstr ""
+
+#: includes/class-setup-wizard.php:375
+msgid "Done! Continue to the last step."
+msgstr ""
+
+#: includes/class-setup-wizard.php:377
+msgid "Delete all demo products, pages, menu and images?"
+msgstr ""
+
+#: includes/class-setup-wizard.php:380
+msgid "Make it look like the demo"
+msgstr ""
+
+#: includes/class-setup-wizard.php:381
+msgid "Imports 26 sample products across jewellery, fashion, electronics, beauty, grocery and home — with images, variations, swatches, 3D rings, reviews and coupons — plus Home, About, Contact, FAQ, Shipping, Wishlist, Compare and Track-order pages and a mega menu. You can remove it all later in one click."
+msgstr ""
+
+#: includes/class-setup-wizard.php:383
+msgid "Demo content is already imported."
+msgstr ""
+
+#: includes/class-setup-wizard.php:385
+msgid "Import demo content"
+msgstr ""
+
+#: includes/class-setup-wizard.php:387
+msgid "Remove demo content"
+msgstr ""
+
+#: includes/class-setup-wizard.php:390
+#: includes/class-whatsapp.php:143
+msgid "Skip"
+msgstr ""
+
+#: includes/class-setup-wizard.php:397
+msgid "Your store is ready 🎉"
+msgstr ""
+
+#: includes/class-setup-wizard.php:399
+msgid "View your store"
+msgstr ""
+
+#: includes/class-setup-wizard.php:400
+msgid "Change colours, fonts and style variation"
+msgstr ""
+
+#: includes/class-setup-wizard.php:401
+msgid "Add your first product"
+msgstr ""
+
+#: includes/class-setup-wizard.php:402
+msgid "Fine-tune Aurelia settings"
+msgstr ""
+
+#: includes/class-setup-wizard.php:403
+msgid "Make a product video"
+msgstr ""
+
+#: includes/class-setup-wizard.php:404
+msgid "Review payment methods"
+msgstr ""
+
+#: includes/class-setup-wizard.php:409
+msgid "Launching turns off WooCommerce \"Coming soon\" mode so shoppers can see your store."
+msgstr ""
+
+#: includes/class-shop.php:86
+msgid "Add to wishlist"
+msgstr ""
+
+#: includes/class-shop.php:87
+msgid "Remove from wishlist"
+msgstr ""
+
+#: includes/class-shop.php:88
+#: includes/class-shop.php:567
+msgid "Your wishlist is empty. Tap the heart on any product to save it here."
+msgstr ""
+
+#: includes/class-shop.php:89
+msgid "Add to compare"
+msgstr ""
+
+#: includes/class-shop.php:90
+msgid "Remove from compare"
+msgstr ""
+
+#: includes/class-shop.php:91
+msgid "Add up to 4 products to compare them side by side."
+msgstr ""
+
+#: includes/class-shop.php:92
+msgid "Compare now"
+msgstr ""
+
+#: includes/class-shop.php:93
+msgid "Clear"
+msgstr ""
+
+#. translators: %d: number of products.
+#: includes/class-shop.php:95
+#, php-format
+msgid "Compare (%d)"
+msgstr ""
+
+#: includes/class-shop.php:96
+msgid "You can compare up to 4 products."
+msgstr ""
+
+#: includes/class-shop.php:98
+#: includes/class-shop.php:492
+msgid "Close"
+msgstr ""
+
+#: includes/class-shop.php:99
+msgid "View full details"
+msgstr ""
+
+#: includes/class-shop.php:101
+#: includes/class-shop.php:152
+msgid "Added to cart ✓"
+msgstr ""
+
+#: includes/class-shop.php:102
+#: includes/class-shop.php:557
+msgid "Choose options"
+msgstr ""
+
+#: includes/class-shop.php:103
+msgid "Price"
+msgstr ""
+
+#: includes/class-shop.php:104
+msgid "Rating"
+msgstr ""
+
+#: includes/class-shop.php:105
+msgid "Availability"
+msgstr ""
+
+#: includes/class-shop.php:108
+msgid "No products found"
+msgstr ""
+
+#: includes/class-shop.php:109
+msgid "See all results"
+msgstr ""
+
+#: includes/class-shop.php:110
+msgid "Product suggestions"
+msgstr ""
+
+#: includes/class-shop.php:111
+msgid "Grid view"
+msgstr ""
+
+#: includes/class-shop.php:112
+msgid "List view"
+msgstr ""
+
+#: includes/class-shop.php:113
+msgid "Load more products"
+msgstr ""
+
+#: includes/class-shop.php:114
+msgid "Loading…"
+msgstr ""
+
+#. translators: %s: amount left for free shipping.
+#: includes/class-shop.php:116
+#, php-format
+msgid "Add %s more for FREE shipping"
+msgstr ""
+
+#: includes/class-shop.php:117
+msgid "🎉 You have unlocked FREE shipping!"
+msgstr ""
+
+#: includes/class-shop.php:118
+#: includes/class-shop.php:407
+msgid "Recently viewed"
+msgstr ""
+
+#: includes/class-shop.php:119
+#: includes/class-video-studio.php:59
+msgid "Remove"
+msgstr ""
+
+#: includes/class-shop.php:120
+msgid "Decrease quantity"
+msgstr ""
+
+#: includes/class-shop.php:121
+msgid "Increase quantity"
+msgstr ""
+
+#: includes/class-shop.php:143
+msgid "Select an option"
+msgstr ""
+
+#: includes/class-shop.php:144
+msgid "Unavailable"
+msgstr ""
+
+#: includes/class-shop.php:145
+#: includes/class-shop.php:423
+msgid "Sale ends in"
+msgstr ""
+
+#: includes/class-shop.php:146
+msgctxt "days abbreviation"
+msgid "d"
+msgstr ""
+
+#: includes/class-shop.php:147
+msgctxt "hours abbreviation"
+msgid "h"
+msgstr ""
+
+#: includes/class-shop.php:148
+msgctxt "minutes abbreviation"
+msgid "m"
+msgstr ""
+
+#: includes/class-shop.php:149
+msgctxt "seconds abbreviation"
+msgid "s"
+msgstr ""
+
+#: includes/class-shop.php:150
+#: includes/class-shop.php:535
+msgid "Add selected to cart"
+msgstr ""
+
+#: includes/class-shop.php:151
+msgid "Adding…"
+msgstr ""
+
+#: includes/class-shop.php:299
+msgid "Weight"
+msgstr ""
+
+#: includes/class-shop.php:315
+msgid "Product not found."
+msgstr ""
+
+#. translators: %s: product name.
+#: includes/class-shop.php:362
+#, php-format
+msgid "Add %s to wishlist"
+msgstr ""
+
+#. translators: %s: product name.
+#: includes/class-shop.php:366
+#, php-format
+msgid "Quick view %s"
+msgstr ""
+
+#. translators: %s: product name.
+#: includes/class-shop.php:370
+#, php-format
+msgid "Compare %s"
+msgstr ""
+
+#. translators: %d: items left.
+#: includes/class-shop.php:430
+#, php-format
+msgid "Hurry — only %d left in stock"
+msgid_plural "Hurry — only %d left in stock"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: hours, 2: minutes.
+#: includes/class-shop.php:461
+#, php-format
+msgid "Order within %1$dh %2$dm for dispatch today."
+msgstr ""
+
+#. translators: 1: earliest date, 2: latest date.
+#: includes/class-shop.php:464
+#, php-format
+msgid "Estimated delivery %1$s – %2$s"
+msgstr ""
+
+#: includes/class-shop.php:521
+msgid "Frequently bought together"
+msgstr ""
+
+#: includes/class-shop.php:528
+msgid "This item:"
+msgstr ""
+
+#: includes/class-shop.php:534
+msgid "Total:"
+msgstr ""
+
+#: includes/class-shop.php:585
+msgid "Size guide (optional)"
+msgstr ""
+
+#: includes/class-shop.php:588
+msgid "Overrides the global size guide for this product."
+msgstr ""
+
+#: includes/class-social.php:40
+#: includes/class-social.php:120
+#: includes/class-social.php:179
+msgid "Social posts"
+msgstr ""
+
+#: includes/class-social.php:141
+msgid "Compose a post"
+msgstr ""
+
+#: includes/class-social.php:143
+msgid "— No product —"
+msgstr ""
+
+#: includes/class-social.php:144
+msgid "Image or video URL"
+msgstr ""
+
+#: includes/class-social.php:145
+msgid "Choose from Media Library"
+msgstr ""
+
+#: includes/class-social.php:146
+msgid "Media type"
+msgstr ""
+
+#: includes/class-social.php:147
+msgid "Image"
+msgstr ""
+
+#: includes/class-social.php:148
+msgid "Video / Reel"
+msgstr ""
+
+#: includes/class-social.php:149
+msgid "Text only"
+msgstr ""
+
+#: includes/class-social.php:150
+msgid "Link (tracked per platform)"
+msgstr ""
+
+#: includes/class-social.php:151
+msgid "Caption"
+msgstr ""
+
+#: includes/class-social.php:152
+msgid "Hashtags"
+msgstr ""
+
+#: includes/class-social.php:153
+msgid "✨ Write with AI"
+msgstr ""
+
+#: includes/class-social.php:154
+msgid "Writing…"
+msgstr ""
+
+#: includes/class-social.php:155
+msgid "Platforms"
+msgstr ""
+
+#: includes/class-social.php:156
+msgid "Schedule (leave empty to save as draft)"
+msgstr ""
+
+#: includes/class-social.php:157
+msgid "Save"
+msgstr ""
+
+#: includes/class-social.php:158
+msgid "Publish now"
+msgstr ""
+
+#: includes/class-social.php:159
+msgid "Posts"
+msgstr ""
+
+#: includes/class-social.php:160
+msgid "Status"
+msgstr ""
+
+#: includes/class-social.php:161
+msgid "When"
+msgstr ""
+
+#: includes/class-social.php:162
+msgid "Tracked links"
+msgstr ""
+
+#: includes/class-social.php:163
+msgid "Actions"
+msgstr ""
+
+#: includes/class-social.php:164
+msgid "Edit"
+msgstr ""
+
+#: includes/class-social.php:165
+msgid "Delete"
+msgstr ""
+
+#: includes/class-social.php:166
+msgid "Delete this post?"
+msgstr ""
+
+#: includes/class-social.php:167
+#: includes/class-upi-gateway.php:209
+msgid "Copy"
+msgstr ""
+
+#: includes/class-social.php:168
+#: includes/class-upi-gateway.php:182
+msgid "Copied"
+msgstr ""
+
+#: includes/class-social.php:169
+msgid "No posts yet. Compose your first one above."
+msgstr ""
+
+#: includes/class-social.php:170
+msgid "Saved."
+msgstr ""
+
+#: includes/class-social.php:171
+msgid "Published."
+msgstr ""
+
+#: includes/class-social.php:172
+msgid "Error: "
+msgstr ""
+
+#: includes/class-social.php:173
+msgid "No publisher configured yet. Add a webhook (Make, Zapier, n8n) or your Meta Page token in Settings → Social posting."
+msgstr ""
+
+#: includes/class-social.php:174
+msgid "clicks"
+msgstr ""
+
+#: includes/class-social.php:175
+msgid "New post"
+msgstr ""
+
+#: includes/class-social.php:179
+msgid "Compose from a product, let AI write the caption, then schedule or publish. Every platform gets its own tracked short link, so the dashboard shows which post and network drove visits."
+msgstr ""
+
+#: includes/class-social.php:348
+msgid "Social post"
+msgstr ""
+
+#: includes/class-social.php:353
+msgid "Post not found."
+msgstr ""
+
+#. translators: 1: product name, 2: price.
+#: includes/class-social.php:432
+#, php-format
+msgid ""
+"✨ Meet the %1$s.\n"
+"Made to be loved, priced at %2$s.\n"
+"🛍️ Tap the link or message us on WhatsApp to order."
+msgstr ""
+
+#: includes/class-social.php:453
+msgid "🔗 Shop via the link in our bio or DM us on WhatsApp"
+msgstr ""
+
+#. translators: %s: link.
+#: includes/class-social.php:459
+#, php-format
+msgid "Shop now: %s"
+msgstr ""
+
+#: includes/class-social.php:522
+msgid "No publisher for this platform — add a webhook in Settings → Social posting."
+msgstr ""
+
+#: includes/class-social.php:596
+msgid "Facebook is not connected — add your Page ID and token in Settings → Social posting."
+msgstr ""
+
+#: includes/class-social.php:639
+msgid "Instagram is not connected — add your Instagram Business account ID and token."
+msgstr ""
+
+#: includes/class-social.php:642
+msgid "Instagram needs an image or video."
+msgstr ""
+
+#: includes/class-social.php:661
+msgid "Processing video…"
+msgstr ""
+
+#: includes/class-social.php:728
+msgid "Instagram could not process the video."
+msgstr ""
+
+#: includes/class-swatches.php:40
+msgid "Colour swatch"
+msgstr ""
+
+#: includes/class-swatches.php:41
+msgid "Image swatch"
+msgstr ""
+
+#: includes/class-swatches.php:42
+msgid "Button"
+msgstr ""
+
+#: includes/class-swatches.php:80
+#: includes/class-swatches.php:103
+msgid "Swatch colour"
+msgstr ""
+
+#: includes/class-swatches.php:84
+#: includes/class-swatches.php:107
+msgid "Swatch image"
+msgstr ""
+
+#: includes/class-swatches.php:86
+#: includes/class-swatches.php:110
+msgid "Choose image"
+msgstr ""
+
+#: includes/class-upi-blocks.php:65
+msgid "UPI"
+msgstr ""
+
+#: includes/class-upi-gateway.php:27
+msgid "UPI (QR code & UPI apps)"
+msgstr ""
+
+#: includes/class-upi-gateway.php:28
+msgid "Customers pay to your UPI ID by scanning a QR code or tapping \"Pay with UPI app\" (PhonePe, Google Pay, Paytm, BHIM…), then share the UPI reference. Orders stay On hold until you verify the payment."
+msgstr ""
+
+#: includes/class-upi-gateway.php:48
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-upi-gateway.php:50
+msgid "Enable UPI payments"
+msgstr ""
+
+#: includes/class-upi-gateway.php:54
+msgid "Title"
+msgstr ""
+
+#: includes/class-upi-gateway.php:56
+msgid "UPI — PhonePe, Google Pay, Paytm & more"
+msgstr ""
+
+#: includes/class-upi-gateway.php:59
+msgid "Description"
+msgstr ""
+
+#: includes/class-upi-gateway.php:61
+msgid "After placing your order you will see a QR code and a \"Pay with UPI app\" button for the exact amount. Scan or tap, pay, then enter the UPI reference number."
+msgstr ""
+
+#: includes/class-upi-gateway.php:64
+msgid "Your UPI ID (VPA)"
+msgstr ""
+
+#: includes/class-upi-gateway.php:66
+msgid "For example yourstore@okhdfcbank or 9876543210@ybl. Payments are sent here."
+msgstr ""
+
+#: includes/class-upi-gateway.php:73
+msgid "Shown in the customer's UPI app. Usually your business name as registered with your bank."
+msgstr ""
+
+#: includes/class-upi-gateway.php:77
+msgid "Static QR image URL (optional)"
+msgstr ""
+
+#: includes/class-upi-gateway.php:79
+msgid "Your shop's printed PhonePe / Paytm / bank QR. Shown next to the amount-specific QR as a backup."
+msgstr ""
+
+#: includes/class-upi-gateway.php:95
+msgid "That does not look like a valid UPI ID (for example name@bank)."
+msgstr ""
+
+#: includes/class-upi-gateway.php:129
+msgid "Awaiting UPI payment."
+msgstr ""
+
+#. translators: %s: order number.
+#: includes/class-upi-gateway.php:149
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: includes/class-upi-gateway.php:183
+msgid "Sending…"
+msgstr ""
+
+#: includes/class-upi-gateway.php:184
+msgid "Something went wrong. Please try again or contact us."
+msgstr ""
+
+#: includes/class-upi-gateway.php:190
+msgid "Complete your UPI payment"
+msgstr ""
+
+#: includes/class-upi-gateway.php:192
+msgid "Thank you! We have your payment reference and will confirm your order shortly."
+msgstr ""
+
+#: includes/class-upi-gateway.php:195
+msgid "Amount to pay"
+msgstr ""
+
+#: includes/class-upi-gateway.php:200
+msgid "UPI payment QR code"
+msgstr ""
+
+#: includes/class-upi-gateway.php:201
+msgid "Scan with any UPI app"
+msgstr ""
+
+#: includes/class-upi-gateway.php:204
+msgid "Pay with UPI app"
+msgstr ""
+
+#: includes/class-upi-gateway.php:205
+msgid "PhonePe · Google Pay · Paytm · BHIM · any bank app"
+msgstr ""
+
+#: includes/class-upi-gateway.php:207
+msgid "Or pay to UPI ID"
+msgstr ""
+
+#: includes/class-upi-gateway.php:213
+msgid "Show our shop QR instead"
+msgstr ""
+
+#: includes/class-upi-gateway.php:214
+msgid "Shop UPI QR code"
+msgstr ""
+
+#: includes/class-upi-gateway.php:218
+msgid "After paying, enter the UPI reference / UTR (12 digits)"
+msgstr ""
+
+#: includes/class-upi-gateway.php:221
+msgid "I have paid"
+msgstr ""
+
+#. translators: 1: amount, 2: UPI ID.
+#: includes/class-upi-gateway.php:244
+#, php-format
+msgid "Please pay %1$s to UPI ID %2$s and share the UPI reference on your order page:"
+msgstr ""
+
+#: includes/class-upi-gateway.php:249
+msgid "Open payment page"
+msgstr ""
+
+#: includes/class-upi-payments.php:94
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-upi-payments.php:97
+msgid "Please enter the 12-digit UPI reference (UTR) shown in your payment app."
+msgstr ""
+
+#. translators: %s: UPI transaction reference.
+#: includes/class-upi-payments.php:106
+#, php-format
+msgid "Customer reports UPI payment with reference %s. Verify it in your bank or UPI app, then mark the order as Processing."
+msgstr ""
+
+#: includes/class-upi-payments.php:114
+msgid "Thank you! We have received your payment reference and will confirm your order shortly."
+msgstr ""
+
+#: includes/class-video-studio.php:29
+msgid "Video studio"
+msgstr ""
+
+#: includes/class-video-studio.php:50
+msgid "1 · Slides"
+msgstr ""
+
+#: includes/class-video-studio.php:51
+msgid "2 · Style"
+msgstr ""
+
+#: includes/class-video-studio.php:52
+msgid "+ Add product image…"
+msgstr ""
+
+#: includes/class-video-studio.php:53
+msgid "Add from Media Library"
+msgstr ""
+
+#: includes/class-video-studio.php:54
+msgid "Upload photos"
+msgstr ""
+
+#: includes/class-video-studio.php:55
+msgid "Slide title"
+msgstr ""
+
+#: includes/class-video-studio.php:56
+msgid "Price or tagline"
+msgstr ""
+
+#: includes/class-video-studio.php:57
+msgid "Move up"
+msgstr ""
+
+#: includes/class-video-studio.php:58
+msgid "Move down"
+msgstr ""
+
+#: includes/class-video-studio.php:60
+msgid "Format"
+msgstr ""
+
+#: includes/class-video-studio.php:61
+msgid "9:16 Reel / Story / Short"
+msgstr ""
+
+#: includes/class-video-studio.php:62
+msgid "1:1 Feed post"
+msgstr ""
+
+#: includes/class-video-studio.php:63
+msgid "16:9 YouTube / Facebook"
+msgstr ""
+
+#: includes/class-video-studio.php:64
+msgid "Transition"
+msgstr ""
+
+#: includes/class-video-studio.php:65
+msgid "Ken Burns zoom"
+msgstr ""
+
+#: includes/class-video-studio.php:66
+msgid "Cross-fade"
+msgstr ""
+
+#: includes/class-video-studio.php:67
+msgid "Slide"
+msgstr ""
+
+#: includes/class-video-studio.php:68
+msgid "Shine sweep"
+msgstr ""
+
+#: includes/class-video-studio.php:69
+msgid "Seconds per slide"
+msgstr ""
+
+#: includes/class-video-studio.php:70
+msgid "Background music (optional)"
+msgstr ""
+
+#: includes/class-video-studio.php:71
+msgid "Closing line"
+msgstr ""
+
+#: includes/class-video-studio.php:72
+msgid "Call to action"
+msgstr ""
+
+#: includes/class-video-studio.php:73
+msgid "Accent colour"
+msgstr ""
+
+#: includes/class-video-studio.php:74
+msgid "Background colour"
+msgstr ""
+
+#: includes/class-video-studio.php:75
+msgid "live preview"
+msgstr ""
+
+#: includes/class-video-studio.php:76
+msgid "🎬 Render video"
+msgstr ""
+
+#: includes/class-video-studio.php:77
+msgid "Rendering…"
+msgstr ""
+
+#: includes/class-video-studio.php:78
+msgid "Download"
+msgstr ""
+
+#: includes/class-video-studio.php:79
+msgid "Save to Media Library"
+msgstr ""
+
+#: includes/class-video-studio.php:80
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-video-studio.php:81
+msgid "Saved to Media Library ✓"
+msgstr ""
+
+#: includes/class-video-studio.php:82
+msgid "Schedule as social post →"
+msgstr ""
+
+#: includes/class-video-studio.php:83
+msgid "Your browser cannot record video. Please use the latest Chrome, Edge or Safari."
+msgstr ""
+
+#: includes/class-video-studio.php:84
+msgid "Could not load an image: "
+msgstr ""
+
+#: includes/class-video-studio.php:85
+msgid "Turn product photos into branded Reels, Shorts and Stories. Rendering happens in your browser; the finished video is saved to your Media Library."
+msgstr ""
+
+#: includes/class-video-studio.php:86
+#: includes/class-whatsapp.php:132
+#: includes/class-whatsapp.php:176
+#: includes/class-whatsapp.php:199
+msgid "Order on WhatsApp"
+msgstr ""
+
+#. translators: %s: store name.
+#: includes/class-video-studio.php:88
+#, php-format
+msgid "%s · Link in bio"
+msgstr ""
+
+#: includes/class-video-studio.php:92
+msgid "Image → video studio"
+msgstr ""
+
+#: includes/class-viewer.php:144
+msgid "View in 3D"
+msgstr ""
+
+#: includes/class-viewer.php:145
+msgid "Close 3D view"
+msgstr ""
+
+#: includes/class-viewer.php:146
+msgid "Drag to rotate"
+msgstr ""
+
+#: includes/class-viewer.php:147
+msgid "Interactive 3D model of the product"
+msgstr ""
+
+#: includes/class-viewer.php:148
+msgid "Loading 3D model…"
+msgstr ""
+
+#: includes/class-viewer.php:149
+msgid "The 3D view could not be loaded on this device."
+msgstr ""
+
+#: includes/class-viewer.php:198
+msgid "3D view"
+msgstr ""
+
+#: includes/class-viewer.php:221
+msgid "Show"
+msgstr ""
+
+#: includes/class-viewer.php:223
+msgid "No 3D view"
+msgstr ""
+
+#: includes/class-viewer.php:224
+msgid "Built-in ring model"
+msgstr ""
+
+#: includes/class-viewer.php:225
+msgid "My GLB / GLTF model"
+msgstr ""
+
+#: includes/class-viewer.php:229
+msgid "Metal colour"
+msgstr ""
+
+#: includes/class-viewer.php:231
+msgid "Gem"
+msgstr ""
+
+#: includes/class-viewer.php:234
+msgid "Plain band (no stone)"
+msgstr ""
+
+#: includes/class-viewer.php:236
+msgid "Model file URL (.glb / .gltf)"
+msgstr ""
+
+#: includes/class-viewer.php:238
+msgid "Upload / choose model"
+msgstr ""
+
+#: includes/class-viewer.php:242
+msgid "Choose a 3D model"
+msgstr ""
+
+#: includes/class-whatsapp.php:50
+#: includes/class-whatsapp.php:72
+#: includes/class-whatsapp.php:76
+msgctxt "Order status"
+msgid "Pending (WhatsApp)"
+msgstr ""
+
+#. translators: %s: number of orders.
+#: includes/class-whatsapp.php:56
+#, php-format
+msgid "Pending (WhatsApp) <span class=\"count\">(%s)</span>"
+msgid_plural "Pending (WhatsApp) <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-whatsapp.php:133
+#: includes/class-whatsapp.php:317
+msgid "Please choose your options first."
+msgstr ""
+
+#: includes/class-whatsapp.php:134
+msgid "Your delivery details"
+msgstr ""
+
+#: includes/class-whatsapp.php:135
+msgid "Optional — helps us confirm faster. Saved only on this device."
+msgstr ""
+
+#: includes/class-whatsapp.php:136
+#: includes/class-whatsapp.php:492
+msgid "Name"
+msgstr ""
+
+#: includes/class-whatsapp.php:140
+msgid "PIN code"
+msgstr ""
+
+#: includes/class-whatsapp.php:141
+#: includes/class-whatsapp.php:497
+msgid "Notes"
+msgstr ""
+
+#: includes/class-whatsapp.php:142
+msgid "Continue to WhatsApp"
+msgstr ""
+
+#: includes/class-whatsapp.php:144
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-whatsapp.php:145
+msgid "Opening WhatsApp…"
+msgstr ""
+
+#. translators: 1: store name, 2: product name, 3: product URL.
+#: includes/class-whatsapp.php:147
+#, php-format
+msgid "Hello %1$s! I am interested in the *%2$s*.\\n%3$s\\n\\nCould you share more photos and the delivery time?"
+msgstr ""
+
+#. translators: 1: store name, 2: product name, 3: product URL.
+#: includes/class-whatsapp.php:149
+#, php-format
+msgid "Hello %1$s! I would like a live video call to see the *%2$s*.\\n%3$s\\n\\nWhen would be a good time?"
+msgstr ""
+
+#. translators: %s: store name.
+#: includes/class-whatsapp.php:151
+#: includes/class-whatsapp.php:210
+#, php-format
+msgid "Hello %s! I have a question."
+msgstr ""
+
+#: includes/class-whatsapp.php:182
+msgid "Ask a question"
+msgstr ""
+
+#: includes/class-whatsapp.php:185
+msgid "Request a video call"
+msgstr ""
+
+#: includes/class-whatsapp.php:215
+msgid "Chat with us on WhatsApp (opens in a new tab)"
+msgstr ""
+
+#: includes/class-whatsapp.php:217
+msgid "Chat with us"
+msgstr ""
+
+#: includes/class-whatsapp.php:244
+msgid "WhatsApp ordering is not configured."
+msgstr ""
+
+#: includes/class-whatsapp.php:247
+msgid "Too many requests. Please try again shortly."
+msgstr ""
+
+#: includes/class-whatsapp.php:258
+msgid "Your bag is empty."
+msgstr ""
+
+#: includes/class-whatsapp.php:311
+msgid "This product is not available."
+msgstr ""
+
+#: includes/class-whatsapp.php:314
+msgid "Invalid product option."
+msgstr ""
+
+#: includes/class-whatsapp.php:443
+msgid "Order started on WhatsApp. Confirm the details with the customer in your WhatsApp chat."
+msgstr ""
+
+#. translators: %s: store name.
+#: includes/class-whatsapp.php:471
+#, php-format
+msgid "New order — %s"
+msgstr ""
+
+#. translators: %s: order reference.
+#: includes/class-whatsapp.php:473
+#, php-format
+msgid "Order ref: #%s"
+msgstr ""
+
+#. translators: %s: SKU.
+#: includes/class-whatsapp.php:480
+#, php-format
+msgid "SKU %s"
+msgstr ""
+
+#. translators: %d: quantity.
+#: includes/class-whatsapp.php:483
+#, php-format
+msgid "Qty %d"
+msgstr ""
+
+#. translators: %s: order total.
+#: includes/class-whatsapp.php:489
+#, php-format
+msgid "Order total: %s"
+msgstr ""
+
+#: includes/class-whatsapp.php:496
+msgid "PIN"
+msgstr ""
+
+#: includes/class-whatsapp.php:507
+msgid "Delivery details"
+msgstr ""
+
+#. translators: %s: payment URL.
+#: includes/class-whatsapp.php:513
+#, php-format
+msgid "Pay online (UPI / card): %s"
+msgstr ""
+
+#: includes/demo/data.php:13
+msgid "Jewellery"
+msgstr ""
+
+#: includes/demo/data.php:13
+msgid "Hallmarked gold, certified diamonds and gemstones, handcrafted for every occasion."
+msgstr ""
+
+#: includes/demo/data.php:14
+msgid "Fashion"
+msgstr ""
+
+#: includes/demo/data.php:14
+msgid "Easy linen, soft organic cotton and leather pieces that last for years."
+msgstr ""
+
+#: includes/demo/data.php:15
+msgid "Electronics"
+msgstr ""
+
+#: includes/demo/data.php:15
+msgid "Headphones, wearables and speakers with warranty and fast delivery."
+msgstr ""
+
+#: includes/demo/data.php:16
+msgid "Beauty"
+msgstr ""
+
+#: includes/demo/data.php:16
+msgid "Clean skincare, long-wear colour and fragrances made in small batches."
+msgstr ""
+
+#: includes/demo/data.php:17
+msgid "Grocery"
+msgstr ""
+
+#: includes/demo/data.php:17
+msgid "Raw honey, first-flush teas and cold-pressed oils sourced from farms we know."
+msgstr ""
+
+#: includes/demo/data.php:18
+msgid "Home & Living"
+msgstr ""
+
+#: includes/demo/data.php:18
+msgid "Handmade lamps, ceramics and textiles that make a house feel like home."
+msgstr ""
+
+#: includes/demo/data.php:23
+msgid "Colour"
+msgstr ""
+
+#: includes/demo/data.php:26
+msgid "Forest"
+msgstr ""
+
+#: includes/demo/data.php:27
+msgid "Charcoal"
+msgstr ""
+
+#: includes/demo/data.php:28
+msgid "Ivory"
+msgstr ""
+
+#: includes/demo/data.php:29
+msgid "Classic Red"
+msgstr ""
+
+#: includes/demo/data.php:30
+msgid "Nude"
+msgstr ""
+
+#: includes/demo/data.php:31
+msgid "Berry"
+msgstr ""
+
+#: includes/demo/data.php:35
+msgid "Size"
+msgstr ""
+
+#: includes/demo/data.php:53
+msgid "Eternal Solitaire Diamond Ring"
+msgstr ""
+
+#: includes/demo/data.php:59
+msgid "A timeless one-carat solitaire in a four-prong 18K white gold setting."
+msgstr ""
+
+#: includes/demo/data.php:60
+msgid "Our signature engagement ring: a one-carat IGI-certified round brilliant diamond held high in a four-prong cathedral setting so it catches light from every angle. The 2 mm comfort-fit band is cast in 18K white gold and rhodium-finished for a lasting, mirror-bright shine. Free resizing within 60 days and lifetime exchange at full gold value."
+msgstr ""
+
+#: includes/demo/data.php:72
+msgid "Rose Petal Halo Ring"
+msgstr ""
+
+#: includes/demo/data.php:76
+msgid "A blush pink sapphire framed by a halo of micro-pavé diamonds."
+msgstr ""
+
+#: includes/demo/data.php:77
+msgid "Soft, romantic and quietly bold. A cushion-cut pink sapphire sits inside a halo of 18 micro-pavé diamonds, set on a slender 18K rose gold band with petal-shaped shoulders. Arrives in a gift box with its certificate."
+msgstr ""
+
+#: includes/demo/data.php:87
+msgid "Royal Emerald Kundan Necklace"
+msgstr ""
+
+#: includes/demo/data.php:93
+msgid "A regal 22K kundan necklace with hand-set Zambian emerald drops."
+msgstr ""
+
+#: includes/demo/data.php:94
+msgid "Inspired by Mughal court jewellery and hand-set by our karigars in Jaipur using traditional kundan technique. Seven Zambian emerald drops hang from a 22K gold collar finished with meenakari enamel on the reverse — an heirloom for weddings and festive evenings."
+msgstr ""
+
+#: includes/demo/data.php:103
+msgid "Pearl Drop Jhumka Earrings"
+msgstr ""
+
+#: includes/demo/data.php:107
+msgid "Light gold jhumkas finished with lustrous freshwater pearls."
+msgstr ""
+
+#: includes/demo/data.php:108
+msgid "Classic bell-shaped jhumkas in 22K gold with a delicate granulation border and a single freshwater pearl drop. Light enough to wear from the morning puja to the evening sangeet."
+msgstr ""
+
+#: includes/demo/data.php:116
+msgid "Sapphire Teardrop Pendant"
+msgstr ""
+
+#: includes/demo/data.php:120
+msgid "A deep blue Ceylon sapphire framed with diamonds, on an 18-inch chain."
+msgstr ""
+
+#: includes/demo/data.php:121
+msgid "A 1.2-carat teardrop Ceylon sapphire surrounded by a pavé diamond frame in 18K white gold. Comes with a matching 18-inch box chain and a GIA gemstone report."
+msgstr ""
+
+#: includes/demo/data.php:129
+msgid "Celestial Diamond Tennis Bracelet"
+msgstr ""
+
+#: includes/demo/data.php:134
+msgid "Thirty-four brilliant diamonds in a fluid line of 18K white gold."
+msgstr ""
+
+#: includes/demo/data.php:135
+msgid "An everyday icon: 3 carats of matched round brilliant diamonds set in four-prong links that move like silk. Double safety clasp and complimentary annual cleaning."
+msgstr ""
+
+#: includes/demo/data.php:143
+msgid "Linen Wrap Dress"
+msgstr ""
+
+#: includes/demo/data.php:149
+msgid "A breezy midi wrap dress in washed European linen."
+msgstr ""
+
+#: includes/demo/data.php:150
+msgid "Cut from pre-washed European linen that softens with every wear. The wrap front and self-tie belt flatter every shape, and deep side pockets make it the dress you will reach for all summer. Machine washable."
+msgstr ""
+
+#: includes/demo/data.php:160
+msgid "Classic Leather Sneakers"
+msgstr ""
+
+#: includes/demo/data.php:164
+msgid "Minimal white leather sneakers with a cushioned, recycled sole."
+msgstr ""
+
+#: includes/demo/data.php:165
+msgid "Full-grain leather uppers, a padded collar and a recycled rubber cupsole make these the sneakers that go with everything. Leather-lined for all-day comfort."
+msgstr ""
+
+#: includes/demo/data.php:173
+msgid "Structured Leather Tote"
+msgstr ""
+
+#: includes/demo/data.php:178
+msgid "A roomy tan tote that fits a 14-inch laptop and then some."
+msgstr ""
+
+#: includes/demo/data.php:179
+msgid "Vegetable-tanned leather, hand-stitched edges and a brass turn-lock pocket. It holds a 14-inch laptop, a water bottle and everything else your day needs, and ages beautifully."
+msgstr ""
+
+#: includes/demo/data.php:187
+msgid "Organic Cotton Tee"
+msgstr ""
+
+#: includes/demo/data.php:191
+msgid "A heavyweight organic cotton T-shirt that keeps its shape."
+msgstr ""
+
+#: includes/demo/data.php:192
+msgid "220 gsm GOTS-certified organic cotton, garment-dyed for a lived-in feel. Relaxed fit, reinforced neckline and made in Tiruppur."
+msgstr ""
+
+#: includes/demo/data.php:205
+msgid "Aura ANC Headphones"
+msgstr ""
+
+#: includes/demo/data.php:211
+msgid "Adaptive noise cancelling, 40-hour battery and plush memory-foam cushions."
+msgstr ""
+
+#: includes/demo/data.php:212
+msgid "Hybrid active noise cancellation tunes itself to your surroundings, while 40 mm drivers deliver warm, detailed sound. Forty hours of battery, 10-minute fast charge for 5 hours, multipoint Bluetooth 5.3 and a foldable design. One-year warranty."
+msgstr ""
+
+#: includes/demo/data.php:222
+msgid "Pulse Smartwatch"
+msgstr ""
+
+#: includes/demo/data.php:226
+msgid "AMOLED fitness watch with SpO2, sleep tracking and 10-day battery."
+msgstr ""
+
+#: includes/demo/data.php:227
+msgid "A 1.43-inch always-on AMOLED display, 100+ workout modes, heart-rate, SpO2 and sleep tracking, Bluetooth calling and up to 10 days on a charge. Swim-proof to 5 ATM."
+msgstr ""
+
+#: includes/demo/data.php:236
+msgid "Nova Bluetooth Speaker"
+msgstr ""
+
+#: includes/demo/data.php:241
+msgid "360° room-filling sound, IPX7 waterproof, 18-hour battery."
+msgstr ""
+
+#: includes/demo/data.php:242
+msgid "Dual passive radiators and a 360° driver fill any room or terrace with rich, balanced sound. IPX7 waterproof, pairs with a second speaker for stereo, and lasts 18 hours per charge."
+msgstr ""
+
+#: includes/demo/data.php:250
+msgid "Echo Wireless Earbuds"
+msgstr ""
+
+#: includes/demo/data.php:254
+msgid "Pocket-size ANC earbuds with a 32-hour charging case."
+msgstr ""
+
+#: includes/demo/data.php:255
+msgid "Active noise cancellation, four microphones for clear calls, low-latency game mode and a slim case that adds 26 hours of listening. USB-C and wireless charging."
+msgstr ""
+
+#: includes/demo/data.php:263
+msgid "Vitamin C Glow Serum"
+msgstr ""
+
+#: includes/demo/data.php:269
+msgid "15% vitamin C with ferulic acid for brighter, even skin."
+msgstr ""
+
+#: includes/demo/data.php:270
+msgid "A stable 15% L-ascorbic acid serum with vitamin E and ferulic acid to fade dark spots and protect against pollution. Fragrance-free, dermatologist tested and suitable for Indian skin tones. 30 ml."
+msgstr ""
+
+#: includes/demo/data.php:279
+msgid "Velvet Matte Lipstick"
+msgstr ""
+
+#: includes/demo/data.php:283
+msgid "Weightless, transfer-resistant matte colour that stays for 12 hours."
+msgstr ""
+
+#: includes/demo/data.php:284
+msgid "A creamy bullet that sets to a soft velvet matte. Enriched with shea butter and vitamin E so lips never feel dry. Vegan and cruelty-free."
+msgstr ""
+
+#: includes/demo/data.php:297
+msgid "Rosé Hydration Cream"
+msgstr ""
+
+#: includes/demo/data.php:301
+msgid "A cushiony moisturiser with Kannauj rose water and ceramides."
+msgstr ""
+
+#: includes/demo/data.php:302
+msgid "Steam-distilled rose water from Kannauj, three ceramides and hyaluronic acid restore the skin barrier and keep it plump for 48 hours. Non-greasy and perfect under make-up. 50 g."
+msgstr ""
+
+#: includes/demo/data.php:307
+msgid "Oud Eau de Parfum"
+msgstr ""
+
+#: includes/demo/data.php:312
+msgid "Smoky oud, Bulgarian rose and saffron in a long-lasting parfum."
+msgstr ""
+
+#: includes/demo/data.php:313
+msgid "An evening fragrance built around Assam oud, softened by Bulgarian rose and warmed with saffron and amber. Eau de parfum concentration for 8–10 hours of wear. 50 ml."
+msgstr ""
+
+#: includes/demo/data.php:321
+msgid "Wild Forest Honey"
+msgstr ""
+
+#: includes/demo/data.php:326
+msgid "Raw, unprocessed multi-flora honey from the Nilgiri forests."
+msgstr ""
+
+#: includes/demo/data.php:327
+msgid "Collected by tribal honey gatherers in the Nilgiri Biosphere and simply strained — never heated or blended — so every enzyme and floral note survives. Natural crystallisation is a sign of purity. 500 g glass jar."
+msgstr ""
+
+#: includes/demo/data.php:336
+msgid "Himalayan Green Tea"
+msgstr ""
+
+#: includes/demo/data.php:340
+msgid "Whole-leaf first-flush green tea from a single Darjeeling estate."
+msgstr ""
+
+#: includes/demo/data.php:341
+msgid "Hand-plucked in spring and pan-fired the same day for a sweet, grassy cup with a gentle muscatel finish. Brews up to three times. 100 g in a reusable tin."
+msgstr ""
+
+#: includes/demo/data.php:349
+msgid "Cold-Pressed Olive Oil"
+msgstr ""
+
+#: includes/demo/data.php:354
+msgid "Extra virgin, single-origin and first cold pressed. 500 ml."
+msgstr ""
+
+#: includes/demo/data.php:355
+msgid "Pressed within hours of harvest from a single grove of Arbequina olives, with low acidity and a peppery, green finish. Ideal for salads, dips and finishing dishes."
+msgstr ""
+
+#: includes/demo/data.php:363
+msgid "Superfood Trail Mix"
+msgstr ""
+
+#: includes/demo/data.php:367
+msgid "Roasted almonds, cashews, cranberries and seeds with no added sugar."
+msgstr ""
+
+#: includes/demo/data.php:368
+msgid "A crunchy, protein-rich mix of dry-roasted almonds and cashews, pumpkin and sunflower seeds, cranberries and golden raisins. No added sugar, no palm oil. 400 g resealable jar."
+msgstr ""
+
+#: includes/demo/data.php:373
+msgid "Terracotta Table Lamp"
+msgstr ""
+
+#: includes/demo/data.php:379
+msgid "Hand-thrown terracotta base with a pleated linen shade."
+msgstr ""
+
+#: includes/demo/data.php:380
+msgid "Thrown by potters in Khurja and fired twice for a warm, earthy glow. The pleated linen shade softens the light for bedside or living-room corners. E27 holder; bulb not included."
+msgstr ""
+
+#: includes/demo/data.php:389
+msgid "Celadon Ceramic Vase"
+msgstr ""
+
+#: includes/demo/data.php:393
+msgid "A sculptural stoneware vase with a soft celadon glaze."
+msgstr ""
+
+#: includes/demo/data.php:394
+msgid "Each vase is wheel-thrown and glazed by hand, so no two are alike. Watertight for fresh flowers and beautiful on its own with dried stems."
+msgstr ""
+
+#: includes/demo/data.php:402
+msgid "Handloom Cushion Cover"
+msgstr ""
+
+#: includes/demo/data.php:407
+msgid "Handwoven cotton cushion cover with gold and forest stripes."
+msgstr ""
+
+#: includes/demo/data.php:408
+msgid "Woven on pit looms in Panipat from soft cotton yarn, with a hidden zip and tassel corners. 45 × 45 cm; insert not included."
+msgstr ""
+
+#: includes/demo/data.php:416
+msgid "Sandalwood Soy Candle"
+msgstr ""
+
+#: includes/demo/data.php:420
+msgid "Mysore sandalwood and vetiver in a clean-burning soy candle."
+msgstr ""
+
+#: includes/demo/data.php:421
+msgid "Hand-poured soy wax with a cotton wick and a calming blend of Mysore sandalwood, vetiver and a hint of cardamom. Around 45 hours of burn time in a reusable glass tumbler."
+msgstr ""
+
+#: includes/demo/data.php:431
+msgid "Deal of the day: 15% off"
+msgstr ""
+
+#: includes/demo/data.php:432
+msgid "Newsletter welcome: 10% off the first order"
+msgstr ""

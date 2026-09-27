@@ -1,0 +1,1577 @@
+# Copyright (C) 2026 Aurelia Commerce
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aurelia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/calculatewellhub-cell/e-commerce-theme/issues\n"
+"Last-Translator: Aurelia <hello@example.com>\n"
+"Language-Team: Aurelia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T12:14:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: aurelia\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Aurelia"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/calculatewellhub-cell/e-commerce-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Aurelia is a premium, universal WooCommerce block theme for any kind of store: jewellery, fashion, electronics, beauty, grocery or home. It ships with seven complete style variations (Luxe emerald and gold, Noir, Fashion, Electronics, Beauty, Grocery and Minimal), automatic light and dark mode, a full set of shop templates, and over twenty store patterns — hero, category grid, product carousels, promo banners, countdown sale, testimonials, FAQ, brand logos, gallery, newsletter, trust badges and more. Every colour, font, radius and spacing value comes from theme.json, so the whole store changes look from Appearance → Editor → Styles. Pair it with the free Aurelia Commerce plugin for WhatsApp ordering, an AI shopping concierge, 3D product viewing and marketing tools; the theme works fully without it."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Aurelia Commerce"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/calculatewellhub-cell"
+msgstr ""
+
+#: functions.php:78
+#: patterns/header.php:28
+msgid "Switch to dark mode"
+msgstr ""
+
+#: functions.php:79
+msgid "Switch to light mode"
+msgstr ""
+
+#: functions.php:80
+msgid "Previous products"
+msgstr ""
+
+#: functions.php:81
+msgid "Next products"
+msgstr ""
+
+#: functions.php:82
+msgid "Days"
+msgstr ""
+
+#: functions.php:83
+msgid "Hours"
+msgstr ""
+
+#: functions.php:84
+msgid "Mins"
+msgstr ""
+
+#: functions.php:85
+msgid "Secs"
+msgstr ""
+
+#: functions.php:86
+msgid "This offer has ended"
+msgstr ""
+
+#: functions.php:136
+msgid "Checklist"
+msgstr ""
+
+#: functions.php:139
+msgid "Mega menu"
+msgstr ""
+
+#: functions.php:142
+msgid "3D tile"
+msgstr ""
+
+#: functions.php:145
+msgid "Ghost (on dark)"
+msgstr ""
+
+#: functions.php:148
+msgid "Reveal on scroll"
+msgstr ""
+
+#: functions.php:151
+msgid "Numbered steps"
+msgstr ""
+
+#: functions.php:154
+#: patterns/footer.php:90
+msgid "FAQ"
+msgstr ""
+
+#: functions.php:157
+msgid "Carousel"
+msgstr ""
+
+#: functions.php:179
+msgid "Aurelia: Hero"
+msgstr ""
+
+#: functions.php:180
+msgid "Aurelia: Shop"
+msgstr ""
+
+#: functions.php:181
+msgid "Aurelia: Marketing"
+msgstr ""
+
+#: functions.php:182
+msgid "Aurelia: Content"
+msgstr ""
+
+#: functions.php:183
+msgid "Aurelia: Pages"
+msgstr ""
+
+#: patterns/announcement.php
+msgctxt "Pattern title"
+msgid "Announcement bar"
+msgstr ""
+
+#: patterns/announcement.php
+msgctxt "Pattern description"
+msgid "Slim promotional bar shown above the header."
+msgstr ""
+
+#: patterns/announcement.php:15
+msgid "Free shipping over ₹999 · Easy 15-day returns · Order on WhatsApp in one tap"
+msgstr ""
+
+#: patterns/brand-logos.php
+msgctxt "Pattern title"
+msgid "Brand logos strip"
+msgstr ""
+
+#: patterns/brand-logos.php
+msgctxt "Pattern description"
+msgid "A row of brand or press names. Replace the text with logo images from your media library."
+msgstr ""
+
+#: patterns/brand-logos.php:17
+msgid "Brands we stock"
+msgstr ""
+
+#: patterns/category-grid.php
+msgctxt "Pattern title"
+msgid "Shop by category (3D tiles)"
+msgstr ""
+
+#: patterns/category-grid.php
+msgctxt "Pattern description"
+msgid "Six image tiles that tilt in 3D on hover and link to your product categories."
+msgstr ""
+
+#: patterns/category-grid.php:14
+#: patterns/footer.php:50
+msgid "Jewellery"
+msgstr ""
+
+#: patterns/category-grid.php:14
+msgid "Emerald necklace on a dark background"
+msgstr ""
+
+#: patterns/category-grid.php:15
+#: patterns/footer.php:54
+msgid "Fashion"
+msgstr ""
+
+#: patterns/category-grid.php:15
+msgid "Linen wrap dress on a hanger"
+msgstr ""
+
+#: patterns/category-grid.php:16
+#: patterns/footer.php:58
+msgid "Electronics"
+msgstr ""
+
+#: patterns/category-grid.php:16
+msgid "Wireless headphones"
+msgstr ""
+
+#: patterns/category-grid.php:17
+#: patterns/footer.php:62
+msgid "Beauty"
+msgstr ""
+
+#: patterns/category-grid.php:17
+msgid "Pink perfume bottle"
+msgstr ""
+
+#: patterns/category-grid.php:18
+msgid "Grocery"
+msgstr ""
+
+#: patterns/category-grid.php:18
+msgid "Jar of raw honey"
+msgstr ""
+
+#: patterns/category-grid.php:19
+msgid "Home & Living"
+msgstr ""
+
+#: patterns/category-grid.php:19
+msgid "Terracotta table lamp"
+msgstr ""
+
+#: patterns/category-grid.php:25
+msgid "Collections"
+msgstr ""
+
+#: patterns/category-grid.php:29
+msgid "Shop by category"
+msgstr ""
+
+#: patterns/countdown-sale.php
+msgctxt "Pattern title"
+msgid "Countdown sale"
+msgstr ""
+
+#: patterns/countdown-sale.php
+msgctxt "Pattern description"
+msgid "Deal-of-the-day band with a live countdown. Set the end date in the Custom HTML block's data-end attribute (for example 2026-12-31T23:59:59+05:30); without it the timer counts down to midnight."
+msgstr ""
+
+#: patterns/countdown-sale.php:18
+msgid "Deal of the day"
+msgstr ""
+
+#: patterns/countdown-sale.php:22
+msgid "Extra 15% off everything, today only"
+msgstr ""
+
+#: patterns/countdown-sale.php:26
+msgid "Use code <strong>TODAY15</strong> at checkout. Valid on UPI, card and cash on delivery orders."
+msgstr ""
+
+#: patterns/countdown-sale.php:30
+msgid "Time left for this offer"
+msgstr ""
+
+#: patterns/countdown-sale.php:30
+msgid "Ends at midnight"
+msgstr ""
+
+#: patterns/countdown-sale.php:35
+msgid "Grab the deal"
+msgstr ""
+
+#: patterns/countdown-sale.php:42
+#: patterns/promo-banners.php:15
+msgid "Headphones and a smartwatch on a navy background"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "FAQ accordion"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern description"
+msgid "Frequently asked questions as accessible Details blocks. Aurelia Commerce turns them into FAQPage structured data automatically."
+msgstr ""
+
+#: patterns/faq.php:14
+msgid "How long does delivery take?"
+msgstr ""
+
+#: patterns/faq.php:14
+msgid "Orders are dispatched within 48 hours. Metro cities usually receive them in 2–4 days and the rest of India in 3–7 days. You will get a tracking link by SMS, email and WhatsApp."
+msgstr ""
+
+#: patterns/faq.php:15
+msgid "Which payment methods do you accept?"
+msgstr ""
+
+#: patterns/faq.php:15
+msgid "UPI (PhonePe, Google Pay, Paytm and any UPI app), debit and credit cards, net banking and cash on delivery. You can also place your order on WhatsApp and pay by UPI."
+msgstr ""
+
+#: patterns/faq.php:16
+msgid "Can I order on WhatsApp?"
+msgstr ""
+
+#: patterns/faq.php:16
+msgid "Yes. Tap \"Order on WhatsApp\" on any product or in your bag. We receive your items, sizes and total instantly and a real person confirms availability, delivery and payment with you."
+msgstr ""
+
+#: patterns/faq.php:17
+msgid "What is your return policy?"
+msgstr ""
+
+#: patterns/faq.php:17
+msgid "Unused items in original packaging can be returned within 15 days of delivery for a full refund or exchange. Hygiene products and personalised items are final sale."
+msgstr ""
+
+#: patterns/faq.php:18
+msgid "Is cash on delivery available?"
+msgstr ""
+
+#: patterns/faq.php:18
+msgid "Cash on delivery is available on most pin codes for orders up to ₹50,000. You can check at checkout."
+msgstr ""
+
+#: patterns/faq.php:24
+msgid "Good to know"
+msgstr ""
+
+#: patterns/faq.php:28
+msgid "Frequently asked questions"
+msgstr ""
+
+#: patterns/features.php
+msgctxt "Pattern title"
+msgid "Why shop with us"
+msgstr ""
+
+#: patterns/features.php
+msgctxt "Pattern description"
+msgid "Dark section with four promise cards."
+msgstr ""
+
+#: patterns/features.php:14
+msgid "Authentic, always"
+msgstr ""
+
+#: patterns/features.php:14
+msgid "Sourced directly from makers and authorised brands, with invoices and warranty."
+msgstr ""
+
+#: patterns/features.php:15
+msgid "Insured delivery"
+msgstr ""
+
+#: patterns/features.php:15
+msgid "Every parcel is tracked and insured door to door across India."
+msgstr ""
+
+#: patterns/features.php:16
+msgid "Lifetime care"
+msgstr ""
+
+#: patterns/features.php:16
+msgid "Free exchanges, repairs guidance and honest after-sales support."
+msgstr ""
+
+#: patterns/features.php:17
+msgid "Personal concierge"
+msgstr ""
+
+#: patterns/features.php:17
+msgid "Ask our AI concierge anytime, or chat with a human stylist on WhatsApp."
+msgstr ""
+
+#: patterns/features.php:23
+msgid "Our promise"
+msgstr ""
+
+#: patterns/features.php:27
+msgid "Why thousands shop with us"
+msgstr ""
+
+#: patterns/footer-minimal.php
+msgctxt "Pattern title"
+msgid "Minimal footer"
+msgstr ""
+
+#: patterns/footer-minimal.php
+msgctxt "Pattern description"
+msgid "Single-line footer for checkout."
+msgstr ""
+
+#. translators: 1: current year, 2: site name.
+#: patterns/footer-minimal.php:19
+#, php-format
+msgid "© %1$s %2$s · Secure payments · Easy returns"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Store footer"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern description"
+msgid "Four-column footer with brand, shop links, customer care, contact and payment marks."
+msgstr ""
+
+#: patterns/footer.php:25
+msgid "Thoughtfully curated products, honest prices and real people behind every order. Shop online or message us on WhatsApp — we reply within minutes."
+msgstr ""
+
+#: patterns/footer.php:41
+msgid "Shop"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "All products"
+msgstr ""
+
+#: patterns/footer.php:66
+msgid "Home & living"
+msgstr ""
+
+#: patterns/footer.php:73
+msgid "Customer care"
+msgstr ""
+
+#: patterns/footer.php:78
+msgid "My account"
+msgstr ""
+
+#: patterns/footer.php:82
+msgid "Track your order"
+msgstr ""
+
+#: patterns/footer.php:86
+msgid "Shipping & returns"
+msgstr ""
+
+#: patterns/footer.php:94
+#: patterns/page-contact.php:22
+msgid "Contact us"
+msgstr ""
+
+#: patterns/footer.php:101
+msgid "Visit & contact"
+msgstr ""
+
+#: patterns/footer.php:105
+msgid "12 Heritage Arcade, Zaveri Bazaar"
+msgstr ""
+
+#: patterns/footer.php:105
+msgid "Mumbai, Maharashtra 400002"
+msgstr ""
+
+#: patterns/footer.php:105
+#: patterns/page-contact.php:70
+msgid "Mon–Sat, 10:30–20:30"
+msgstr ""
+
+#. translators: 1: current year, 2: site name.
+#: patterns/footer.php:115
+#, php-format
+msgid "© %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: patterns/footer.php:121
+msgid "Accepted payments"
+msgstr ""
+
+#: patterns/footer.php:121
+msgid "COD"
+msgstr ""
+
+#: patterns/gallery.php
+msgctxt "Pattern title"
+msgid "Instagram-style gallery"
+msgstr ""
+
+#: patterns/gallery.php
+msgctxt "Pattern description"
+msgid "Six-tile social gallery with a follow button."
+msgstr ""
+
+#: patterns/gallery.php:14
+msgid "Gold bangles set with rubies"
+msgstr ""
+
+#: patterns/gallery.php:15
+msgid "Vitamin C serum bottle"
+msgstr ""
+
+#: patterns/gallery.php:16
+msgid "White leather sneaker"
+msgstr ""
+
+#: patterns/gallery.php:17
+msgid "Sandalwood candle glowing"
+msgstr ""
+
+#: patterns/gallery.php:18
+msgid "Green tea tin with leaves"
+msgstr ""
+
+#: patterns/gallery.php:19
+msgid "Bluetooth speaker"
+msgstr ""
+
+#: patterns/gallery.php:25
+msgid "@yourstore"
+msgstr ""
+
+#: patterns/gallery.php:29
+msgid "Seen on Instagram"
+msgstr ""
+
+#: patterns/gallery.php:45
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: patterns/header-minimal.php
+msgctxt "Pattern title"
+msgid "Minimal header"
+msgstr ""
+
+#: patterns/header-minimal.php
+msgctxt "Pattern description"
+msgid "Logo-only header used on checkout and landing pages."
+msgstr ""
+
+#: patterns/header-minimal.php:23
+msgid "🔒 Secure checkout"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Store header"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern description"
+msgid "Sticky header with logo, mega menu, product search, account, dark mode and mini-cart."
+msgstr ""
+
+#: patterns/header.php:25
+msgid "Search products"
+msgstr ""
+
+#: patterns/header.php:25
+#: patterns/hidden-404.php:24
+msgid "Search products…"
+msgstr ""
+
+#: patterns/header.php:25
+#: patterns/hidden-404.php:24
+#: patterns/hidden-no-results.php:15
+#: patterns/hidden-search-form.php:11
+msgid "Search"
+msgstr ""
+
+#: patterns/hero-3d.php
+msgctxt "Pattern title"
+msgid "Hero with 3D showcase"
+msgstr ""
+
+#: patterns/hero-3d.php
+msgctxt "Pattern description"
+msgid "Dark hero with headline, calls to action, store stats and a stage that the Aurelia Commerce plugin turns into an interactive 3D model. Without the plugin it shows the image."
+msgstr ""
+
+#: patterns/hero-3d.php:18
+msgid "New season collection"
+msgstr ""
+
+#: patterns/hero-3d.php:22
+msgid "Made to be <em class=\"au-sheen-text\">treasured</em>, every day"
+msgstr ""
+
+#: patterns/hero-3d.php:26
+msgid "Discover pieces crafted with care and priced honestly. Shop online with secure UPI payments, or order in one tap on WhatsApp and a real person will confirm every detail."
+msgstr ""
+
+#: patterns/hero-3d.php:31
+msgid "Shop the collection"
+msgstr ""
+
+#: patterns/hero-3d.php:35
+msgid "Explore categories"
+msgstr ""
+
+#: patterns/hero-3d.php:42
+msgid "Happy customers"
+msgstr ""
+
+#: patterns/hero-3d.php:48
+msgid "Average rating"
+msgstr ""
+
+#: patterns/hero-3d.php:54
+msgid "Dispatch"
+msgstr ""
+
+#: patterns/hero-3d.php:63
+msgid "A gold solitaire ring with a brilliant-cut diamond"
+msgstr ""
+
+#: patterns/hero-cover.php
+msgctxt "Pattern title"
+msgid "Full-width image hero"
+msgstr ""
+
+#: patterns/hero-cover.php
+msgctxt "Pattern description"
+msgid "Full-bleed image hero with centred headline and two buttons. Works for any product category."
+msgstr ""
+
+#: patterns/hero-cover.php:14
+#: patterns/hero-cover.php:15
+msgid "A perfume bottle and a smartwatch on a dark background"
+msgstr ""
+
+#: patterns/hero-cover.php:17
+msgid "The festive edit"
+msgstr ""
+
+#: patterns/hero-cover.php:21
+msgid "Gifts they will actually love"
+msgstr ""
+
+#: patterns/hero-cover.php:25
+msgid "Up to 30% off across fashion, beauty, tech and home. Free gift wrapping on every order this week."
+msgstr ""
+
+#: patterns/hero-cover.php:30
+msgid "Shop the sale"
+msgstr ""
+
+#: patterns/hero-cover.php:34
+msgid "Browse categories"
+msgstr ""
+
+#: patterns/hero-split.php
+msgctxt "Pattern title"
+msgid "Split hero with arch image"
+msgstr ""
+
+#: patterns/hero-split.php
+msgctxt "Pattern description"
+msgid "Light split hero with text on one side and an arch-framed image on the other."
+msgstr ""
+
+#: patterns/hero-split.php:18
+msgid "Our story"
+msgstr ""
+
+#: patterns/hero-split.php:22
+msgid "Small-batch craft, delivered to your door"
+msgstr ""
+
+#: patterns/hero-split.php:26
+msgid "We work directly with makers and brands we trust, check every item by hand and ship it beautifully packed. No middlemen, no surprises."
+msgstr ""
+
+#: patterns/hero-split.php:31
+msgid "Quality checked before dispatch"
+msgstr ""
+
+#: patterns/hero-split.php:35
+msgid "Pay by UPI, card or cash on delivery"
+msgstr ""
+
+#: patterns/hero-split.php:39
+msgid "Real humans on WhatsApp, 7 days a week"
+msgstr ""
+
+#: patterns/hero-split.php:45
+msgid "Start shopping"
+msgstr ""
+
+#: patterns/hero-split.php:52
+msgid "Gold pearl drop earrings on an emerald background"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404 content"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "This page wandered off"
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgid "The page you are looking for may have moved. Try a search, or explore the shop."
+msgstr ""
+
+#: patterns/hidden-404.php:28
+msgid "Continue shopping"
+msgstr ""
+
+#: patterns/hidden-blog-heading.php
+msgctxt "Pattern title"
+msgid "Blog heading"
+msgstr ""
+
+#: patterns/hidden-blog-heading.php:12
+msgid "Journal"
+msgstr ""
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-comments.php:13
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "No results"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgid "Nothing matched your search. Try different keywords or browse our collections."
+msgstr ""
+
+#: patterns/hidden-product-assurance.php
+msgctxt "Pattern title"
+msgid "Product assurance badges"
+msgstr ""
+
+#: patterns/hidden-product-assurance.php:11
+msgid "Secure payment"
+msgstr ""
+
+#: patterns/hidden-product-assurance.php:12
+msgid "Fast delivery"
+msgstr ""
+
+#: patterns/hidden-product-assurance.php:13
+msgid "15-day returns"
+msgstr ""
+
+#: patterns/hidden-search-form.php
+msgctxt "Pattern title"
+msgid "Search form"
+msgstr ""
+
+#: patterns/marquee.php
+msgctxt "Pattern title"
+msgid "Scrolling trust marquee"
+msgstr ""
+
+#: patterns/marquee.php
+msgctxt "Pattern description"
+msgid "An infinitely scrolling ribbon of store promises. Pauses on hover and stops for reduced-motion users."
+msgstr ""
+
+#: patterns/marquee.php:14
+msgid "Free shipping over ₹999"
+msgstr ""
+
+#: patterns/marquee.php:15
+msgid "Secure UPI & card payments"
+msgstr ""
+
+#: patterns/marquee.php:16
+msgid "Cash on delivery available"
+msgstr ""
+
+#: patterns/marquee.php:17
+msgid "Easy 15-day returns"
+msgstr ""
+
+#: patterns/marquee.php:18
+msgid "Order on WhatsApp"
+msgstr ""
+
+#: patterns/marquee.php:19
+msgid "Gift wrapping on request"
+msgstr ""
+
+#: patterns/newsletter.php
+msgctxt "Pattern title"
+msgid "Newsletter band"
+msgstr ""
+
+#: patterns/newsletter.php
+msgctxt "Pattern description"
+msgid "Rounded call-to-action band with an email signup form. Aurelia Commerce stores sign-ups and can forward them to your email tool; without it, link the form to your provider."
+msgstr ""
+
+#: patterns/newsletter.php:19
+msgid "The insider list"
+msgstr ""
+
+#: patterns/newsletter.php:23
+msgid "Get 10% off your first order"
+msgstr ""
+
+#: patterns/newsletter.php:27
+msgid "New arrivals, private sales and styling tips. One email a week, never spam."
+msgstr ""
+
+#: patterns/newsletter.php:34
+msgid "Email address"
+msgstr ""
+
+#: patterns/newsletter.php:35
+msgid "Your email address"
+msgstr ""
+
+#: patterns/newsletter.php:36
+msgid "Subscribe"
+msgstr ""
+
+#: patterns/newsletter.php:37
+msgid "By subscribing you agree to receive marketing emails. Unsubscribe anytime."
+msgstr ""
+
+#: patterns/page-about.php
+msgctxt "Pattern title"
+msgid "About page"
+msgstr ""
+
+#: patterns/page-about.php
+msgctxt "Pattern description"
+msgid "Brand story, promises and testimonials."
+msgstr ""
+
+#: patterns/page-contact.php
+msgctxt "Pattern title"
+msgid "Contact page"
+msgstr ""
+
+#: patterns/page-contact.php
+msgctxt "Pattern description"
+msgid "Contact details, opening hours and quick links to WhatsApp, phone and email."
+msgstr ""
+
+#: patterns/page-contact.php:18
+msgid "We are here to help"
+msgstr ""
+
+#: patterns/page-contact.php:26
+msgid "The fastest way to reach us is WhatsApp — we usually reply within 10 minutes during opening hours."
+msgstr ""
+
+#: patterns/page-contact.php:34
+msgid "WhatsApp"
+msgstr ""
+
+#: patterns/page-contact.php:38
+msgid "Orders, sizing, video calls and custom requests."
+msgstr ""
+
+#: patterns/page-contact.php:48
+msgid "Email"
+msgstr ""
+
+#: patterns/page-contact.php:52
+msgid "Invoices, returns and business enquiries."
+msgstr ""
+
+#: patterns/page-contact.php:62
+msgid "Visit the store"
+msgstr ""
+
+#: patterns/page-contact.php:66
+msgid "12 Heritage Arcade, Zaveri Bazaar, Mumbai 400002"
+msgstr ""
+
+#: patterns/page-home.php
+msgctxt "Pattern title"
+msgid "Store home page"
+msgstr ""
+
+#: patterns/page-home.php
+msgctxt "Pattern description"
+msgid "A complete store home page: 3D hero, marquee, categories, new arrivals, promos, deal countdown, best sellers, WhatsApp steps, testimonials, gallery, FAQ and newsletter."
+msgstr ""
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr ""
+
+#: patterns/products-best-sellers.php
+msgctxt "Pattern title"
+msgid "Best sellers grid"
+msgstr ""
+
+#: patterns/products-best-sellers.php
+msgctxt "Pattern description"
+msgid "Your top-selling products in a four-column grid."
+msgstr ""
+
+#: patterns/products-best-sellers.php:17
+msgid "Loved by customers"
+msgstr ""
+
+#: patterns/products-best-sellers.php:21
+msgid "Best sellers"
+msgstr ""
+
+#: patterns/products-best-sellers.php:43
+#: patterns/products-featured.php:43
+#: patterns/products-new-arrivals.php:43
+#: patterns/products-on-sale.php:43
+msgid "View all products"
+msgstr ""
+
+#: patterns/products-featured.php
+msgctxt "Pattern title"
+msgid "Featured products grid"
+msgstr ""
+
+#: patterns/products-featured.php
+msgctxt "Pattern description"
+msgid "Hand-featured products in a three-column grid."
+msgstr ""
+
+#: patterns/products-featured.php:17
+msgid "Editor’s picks"
+msgstr ""
+
+#: patterns/products-featured.php:21
+msgid "Featured favourites"
+msgstr ""
+
+#: patterns/products-new-arrivals.php
+msgctxt "Pattern title"
+msgid "New arrivals carousel"
+msgstr ""
+
+#: patterns/products-new-arrivals.php
+msgctxt "Pattern description"
+msgid "A swipeable carousel of your newest products."
+msgstr ""
+
+#: patterns/products-new-arrivals.php:17
+msgid "Just landed"
+msgstr ""
+
+#: patterns/products-new-arrivals.php:21
+msgid "New arrivals"
+msgstr ""
+
+#: patterns/products-on-sale.php
+msgctxt "Pattern title"
+msgid "On sale carousel"
+msgstr ""
+
+#: patterns/products-on-sale.php
+msgctxt "Pattern description"
+msgid "Carousel of discounted products with sale badges."
+msgstr ""
+
+#: patterns/products-on-sale.php:17
+msgid "Limited time"
+msgstr ""
+
+#: patterns/products-on-sale.php:21
+msgid "On sale now"
+msgstr ""
+
+#: patterns/promo-banners.php
+msgctxt "Pattern title"
+msgid "Two promo banners"
+msgstr ""
+
+#: patterns/promo-banners.php
+msgctxt "Pattern description"
+msgid "Two side-by-side image banners with an offer and a link."
+msgstr ""
+
+#: patterns/promo-banners.php:14
+msgid "Wrap dress and leather tote on a blush background"
+msgstr ""
+
+#: patterns/promo-banners.php:14
+msgid "Fashion edit"
+msgstr ""
+
+#: patterns/promo-banners.php:14
+msgid "Linen, leather & easy layers"
+msgstr ""
+
+#: patterns/promo-banners.php:14
+msgid "Up to 30% off"
+msgstr ""
+
+#: patterns/promo-banners.php:15
+msgid "Tech week"
+msgstr ""
+
+#: patterns/promo-banners.php:15
+msgid "Sound & smart wearables"
+msgstr ""
+
+#: patterns/promo-banners.php:15
+msgid "Free fast delivery"
+msgstr ""
+
+#: patterns/promo-banners.php:38
+msgid "Shop now"
+msgstr ""
+
+#: patterns/template-shop-search.php
+msgctxt "Pattern title"
+msgid "Product search results layout"
+msgstr ""
+
+#: patterns/template-shop-search.php
+msgctxt "Pattern description"
+msgid "Product search results with filters."
+msgstr ""
+
+#: patterns/template-shop-search.php:27
+#: patterns/template-shop.php:29
+msgid "Filters"
+msgstr ""
+
+#: patterns/template-shop-search.php:38
+#: patterns/template-shop.php:40
+msgid "Clear filters"
+msgstr ""
+
+#: patterns/template-shop-search.php:46
+#: patterns/template-shop.php:48
+msgid "Price"
+msgstr ""
+
+#: patterns/template-shop-search.php:56
+#: patterns/template-shop.php:58
+msgid "Category"
+msgstr ""
+
+#: patterns/template-shop-search.php:67
+#: patterns/template-shop.php:69
+msgid "Colour"
+msgstr ""
+
+#: patterns/template-shop-search.php:79
+#: patterns/template-shop.php:81
+msgid "Size"
+msgstr ""
+
+#: patterns/template-shop-search.php:90
+#: patterns/template-shop.php:92
+msgid "Rating"
+msgstr ""
+
+#: patterns/template-shop-search.php:100
+#: patterns/template-shop.php:102
+msgid "Availability"
+msgstr ""
+
+#: patterns/template-shop.php
+msgctxt "Pattern title"
+msgid "Shop archive layout"
+msgstr ""
+
+#: patterns/template-shop.php
+msgctxt "Pattern description"
+msgid "Shop, category and tag archive: page header, AJAX filters sidebar, sorting and product grid."
+msgstr ""
+
+#: patterns/template-single-product.php
+msgctxt "Pattern title"
+msgid "Single product layout"
+msgstr ""
+
+#: patterns/template-single-product.php
+msgctxt "Pattern description"
+msgid "Gallery with zoom and lightbox, buy box, trust badges, details tabs with reviews, upsells and related products."
+msgstr ""
+
+#: patterns/template-single-product.php:39
+msgid "Tags: "
+msgstr ""
+
+#: patterns/template-single-product.php:55
+msgid "You may also like"
+msgstr ""
+
+#: patterns/template-single-product.php:75
+msgid "Complete the look"
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Customer testimonials"
+msgstr ""
+
+#: patterns/testimonials.php
+msgctxt "Pattern description"
+msgid "Three customer quotes with star ratings."
+msgstr ""
+
+#: patterns/testimonials.php:14
+msgid "Ordered on WhatsApp at midnight and had a reply in minutes. The packaging felt like a gift, and the quality is better than the photos."
+msgstr ""
+
+#: patterns/testimonials.php:14
+msgid "Priya S., Mumbai"
+msgstr ""
+
+#: patterns/testimonials.php:15
+msgid "Paid with UPI, got tracking the same day and the headphones arrived in two days. Genuinely the easiest online order I have made."
+msgstr ""
+
+#: patterns/testimonials.php:15
+msgid "Arjun M., Bengaluru"
+msgstr ""
+
+#: patterns/testimonials.php:16
+msgid "The concierge chat helped me choose a gift for my mother within my budget. She has not stopped wearing it since."
+msgstr ""
+
+#: patterns/testimonials.php:16
+msgid "Fatima K., Hyderabad"
+msgstr ""
+
+#: patterns/testimonials.php:22
+msgid "Kind words"
+msgstr ""
+
+#: patterns/testimonials.php:26
+msgid "Loved across India"
+msgstr ""
+
+#: patterns/trust-badges.php
+msgctxt "Pattern title"
+msgid "Trust badges"
+msgstr ""
+
+#: patterns/trust-badges.php
+msgctxt "Pattern description"
+msgid "Four icon badges: shipping, secure payments, returns and support."
+msgstr ""
+
+#: patterns/trust-badges.php:14
+msgid "Fast, free shipping"
+msgstr ""
+
+#: patterns/trust-badges.php:14
+msgid "Free on orders over ₹999, dispatched in 48 hours"
+msgstr ""
+
+#: patterns/trust-badges.php:15
+msgid "Secure payments"
+msgstr ""
+
+#: patterns/trust-badges.php:15
+msgid "UPI, cards, net banking and cash on delivery"
+msgstr ""
+
+#: patterns/trust-badges.php:16
+msgid "Easy returns"
+msgstr ""
+
+#: patterns/trust-badges.php:16
+msgid "No-questions-asked 15-day returns"
+msgstr ""
+
+#: patterns/trust-badges.php:17
+msgid "Real human support"
+msgstr ""
+
+#: patterns/trust-badges.php:17
+msgid "Chat on WhatsApp, 7 days a week"
+msgstr ""
+
+#: patterns/whatsapp-steps.php
+msgctxt "Pattern title"
+msgid "How to order on WhatsApp"
+msgstr ""
+
+#: patterns/whatsapp-steps.php
+msgctxt "Pattern description"
+msgid "Three numbered steps explaining WhatsApp ordering."
+msgstr ""
+
+#: patterns/whatsapp-steps.php:14
+msgid "Pick your favourites"
+msgstr ""
+
+#: patterns/whatsapp-steps.php:14
+msgid "Browse the store, choose sizes or shades and add to your bag — or tap \"Order on WhatsApp\" on any product."
+msgstr ""
+
+#: patterns/whatsapp-steps.php:15
+msgid "Send us the message"
+msgstr ""
+
+#: patterns/whatsapp-steps.php:15
+msgid "WhatsApp opens with your items, quantities and total already written. Add your address and hit send."
+msgstr ""
+
+#: patterns/whatsapp-steps.php:16
+msgid "Confirm & relax"
+msgstr ""
+
+#: patterns/whatsapp-steps.php:16
+msgid "We confirm stock and delivery, share a UPI or payment link, and send tracking the moment it ships."
+msgstr ""
+
+#: patterns/whatsapp-steps.php:22
+msgid "How it works"
+msgstr ""
+
+#: patterns/whatsapp-steps.php:26
+msgid "Order on WhatsApp in 3 easy steps"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "2X large"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json styles/noir.json
+msgctxt "Font family name"
+msgid "Heading (Cormorant Garamond)"
+msgstr ""
+
+#: theme.json styles/noir.json
+msgctxt "Font family name"
+msgid "Body (Jost)"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Font family name"
+msgid "System"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Base alt"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Contrast muted"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary alt"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Primary light"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent light"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Accent text"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "On primary"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "On accent"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Sale"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Color name"
+msgid "Success"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Accent sheen"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Primary glow"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Primary soft"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Gradient name"
+msgid "Image shade"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Soft"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Card"
+msgstr ""
+
+#: theme.json styles/beauty.json styles/fashion.json styles/grocery.json styles/minimal.json styles/noir.json styles/tech.json
+msgctxt "Shadow name"
+msgid "Deep"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page without title (full width)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page wide"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Landing page (no header or footer)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Announcement bar"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (minimal)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer (minimal)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post meta"
+msgstr ""
+
+#: styles/beauty.json
+msgctxt "Style variation name"
+msgid "Beauty"
+msgstr ""
+
+#: styles/beauty.json
+msgctxt "Font family name"
+msgid "Heading (Fraunces)"
+msgstr ""
+
+#: styles/beauty.json
+msgctxt "Font family name"
+msgid "Body (DM Sans)"
+msgstr ""
+
+#: styles/blocks/button-accent.json
+msgctxt "Style variation name"
+msgid "Accent"
+msgstr ""
+
+#: styles/blocks/image-arch.json
+msgctxt "Style variation name"
+msgid "Arch"
+msgstr ""
+
+#: styles/blocks/image-rounded-card.json
+msgctxt "Style variation name"
+msgid "Rounded"
+msgstr ""
+
+#: styles/blocks/paragraph-eyebrow.json
+msgctxt "Style variation name"
+msgid "Eyebrow"
+msgstr ""
+
+#: styles/fashion.json
+msgctxt "Style variation name"
+msgid "Fashion"
+msgstr ""
+
+#: styles/fashion.json
+msgctxt "Font family name"
+msgid "Heading (Bodoni Moda)"
+msgstr ""
+
+#: styles/fashion.json
+msgctxt "Font family name"
+msgid "Body (Manrope)"
+msgstr ""
+
+#: styles/grocery.json
+msgctxt "Style variation name"
+msgid "Grocery"
+msgstr ""
+
+#: styles/grocery.json
+msgctxt "Font family name"
+msgid "Heading (Outfit)"
+msgstr ""
+
+#: styles/grocery.json
+msgctxt "Font family name"
+msgid "Body (Nunito Sans)"
+msgstr ""
+
+#: styles/minimal.json
+msgctxt "Style variation name"
+msgid "Minimal"
+msgstr ""
+
+#: styles/minimal.json
+msgctxt "Font family name"
+msgid "Heading (Inter)"
+msgstr ""
+
+#: styles/minimal.json styles/tech.json
+msgctxt "Font family name"
+msgid "Body (Inter)"
+msgstr ""
+
+#: styles/noir.json
+msgctxt "Style variation name"
+msgid "Noir"
+msgstr ""
+
+#: styles/sections/card.json
+msgctxt "Style variation name"
+msgid "Card"
+msgstr ""
+
+#: styles/sections/section-alt.json
+msgctxt "Style variation name"
+msgid "Soft section"
+msgstr ""
+
+#: styles/sections/section-dark.json
+msgctxt "Style variation name"
+msgid "Dark section"
+msgstr ""
+
+#: styles/sections/section-primary.json
+msgctxt "Style variation name"
+msgid "Primary section"
+msgstr ""
+
+#: styles/tech.json
+msgctxt "Style variation name"
+msgid "Electronics"
+msgstr ""
+
+#: styles/tech.json
+msgctxt "Font family name"
+msgid "Heading (Space Grotesk)"
+msgstr ""

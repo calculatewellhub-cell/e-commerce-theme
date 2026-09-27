@@ -253,6 +253,8 @@
 				"transform": "none",
 				"letter-spacing": "0.01em"
 			},
+			"sheen-on-dark": "linear-gradient(120deg, #f2a93b 0%, #fcd581 50%, #f2a93b 100%)",
+			"on-sheen-dark": "#1d2a1a",
 			"header": {
 				"height": "72px"
 			},

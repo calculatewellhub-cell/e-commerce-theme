@@ -110,6 +110,9 @@ V["minimal"] = dict(
     title="Minimal", palette=["#ffffff", "#f5f5f4", "#ffffff", "#18181b", "#52525b", "#18181b", "#27272a", "#3f3f46",
                               "#18181b", "#e4e4e7", "#3f3f46", "#ffffff", "#ffffff", "#e4e4e7", "#b91c1c", "#15803d"],
     sheen="linear-gradient(120deg, #18181b 0%, #3f3f46 100%)",
+    # Silver for dark heroes and dark mode, where the near-black sheen would vanish.
+    sheen_dark="linear-gradient(120deg, #a1a1aa 0%, #ffffff 40%, #d4d4d8 60%, #ffffff 80%, #a1a1aa 100%)",
+    on_sheen_dark="#18181b",
     hero="linear-gradient(180deg, #18181b 0%, #27272a 100%)",
     soft="linear-gradient(180deg, #27272a, #18181b)",
     fonts=fonts("inter", "inter", "Inter", "Inter"),
@@ -143,6 +146,8 @@ def custom(v):
                      "accent-3": v["dark"]["accent3"]},
             "heading": {"weight": v["heading_weight"], "transform": v["heading_case"]},
             "button": {"transform": v["button_case"], "letter-spacing": "0.06em" if v["button_case"] == "uppercase" else "0.01em"},
+            "sheen-on-dark": v.get("sheen_dark", v["sheen"]),
+            "on-sheen-dark": v.get("on_sheen_dark", v["palette"][12]),
             "header": {"height": "72px"},
             "whatsapp": {"background": "#25d366", "text": "#06301a"},
             "transition": {"base": "0.25s ease", "spring": "0.5s cubic-bezier(0.2, 0.7, 0.2, 1)"}}

@@ -262,6 +262,8 @@
 				"transform": "uppercase",
 				"letter-spacing": "0.06em"
 			},
+			"sheen-on-dark": "linear-gradient(120deg, #a67f36 0%, #f1dca4 35%, #c9a45c 55%, #fff1c9 75%, #a67f36 100%)",
+			"on-sheen-dark": "#1c1406",
 			"header": {
 				"height": "72px"
 			},

@@ -29,6 +29,8 @@
 	--wp--preset--color--contrast-2: var(--wp--custom--dark--contrast-2);
 	--wp--preset--color--line: var(--wp--custom--dark--line);
 	--wp--preset--color--accent-3: var(--wp--custom--dark--accent-3);
+	--au-sheen: var(--wp--custom--sheen-on-dark);
+	--au-on-sheen: var(--wp--custom--on-sheen-dark);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,6 +43,29 @@
 		--wp--preset--color--contrast-2: var(--wp--custom--dark--contrast-2);
 		--wp--preset--color--line: var(--wp--custom--dark--line);
 		--wp--preset--color--accent-3: var(--wp--custom--dark--accent-3);
+		--au-sheen: var(--wp--custom--sheen-on-dark);
+		--au-on-sheen: var(--wp--custom--on-sheen-dark);
+	}
+}
+
+/* Sheen text and accent buttons on dark sections (and in dark mode) use the
+   variation's light-safe gradient, so a near-black accent never vanishes. */
+.is-style-section-dark,
+.is-style-section-primary {
+	--au-sheen: var(--wp--custom--sheen-on-dark);
+	--au-on-sheen: var(--wp--custom--on-sheen-dark);
+}
+
+:is(.is-style-section-dark, .is-style-section-primary) .wp-block-button.is-style-accent .wp-block-button__link,
+:root:is([data-color-scheme="dark"]) .wp-block-button.is-style-accent .wp-block-button__link {
+	background: var(--au-sheen);
+	color: var(--au-on-sheen);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root[data-color-scheme="auto"] .wp-block-button.is-style-accent .wp-block-button__link {
+		background: var(--au-sheen);
+		color: var(--au-on-sheen);
 	}
 }
 
@@ -188,7 +213,7 @@ canvas {
 
 .au-sheen-text,
 .au-sheen-text em {
-	background: var(--wp--preset--gradient--accent-sheen);
+	background: var(--au-sheen, var(--wp--preset--gradient--accent-sheen));
 	background-size: 200% auto;
 	-webkit-background-clip: text;
 	background-clip: text;

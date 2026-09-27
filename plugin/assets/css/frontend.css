@@ -44,8 +44,13 @@
 
 .au-visually-hidden {
 	position: absolute !important;
-	inline-size: 1px;
-	block-size: 1px;
+	inline-size: 1px !important;
+	min-inline-size: 0 !important;
+	max-inline-size: 1px !important;
+	block-size: 1px !important;
+	padding: 0 !important;
+	border: 0 !important;
+	opacity: 0;
 	overflow: hidden;
 	clip: rect(0 0 0 0);
 	white-space: nowrap;

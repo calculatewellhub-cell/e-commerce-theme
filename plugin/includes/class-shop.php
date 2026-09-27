@@ -177,7 +177,7 @@ class Shop {
 				array(
 					'methods'             => 'GET',
 					'permission_callback' => 'is_user_logged_in',
-					'callback'            => static fn() => array( 'ids' => array_map( 'absint', (array) get_user_meta( get_current_user_id(), self::WISHLIST_META, true ) ) ),
+					'callback'            => static fn() => array( 'ids' => array_values( array_filter( array_map( 'absint', (array) get_user_meta( get_current_user_id(), self::WISHLIST_META, true ) ) ) ) ),
 				),
 				array(
 					'methods'             => 'POST',

@@ -398,7 +398,7 @@
 		if ( C.loggedIn ) {
 			api( 'wishlist' )
 				.then( ( r ) => {
-					const merged = Array.from( new Set( [ ...( r.ids || [] ), ...wishlist ] ) ).map( Number );
+					const merged = Array.from( new Set( [ ...( r.ids || [] ), ...wishlist ] ) ).map( Number ).filter( Boolean );
 					if ( merged.length !== ( r.ids || [] ).length ) {
 						wishlist = merged;
 						save();

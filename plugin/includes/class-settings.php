@@ -595,12 +595,31 @@ class Settings {
 	}
 
 	/**
+	 * Name of the wp-config.php constant that supplies a secret, if it is defined.
+	 * A constant wins over the saved value, so keys can stay out of the database.
+	 *
+	 * @param string $key Secret key.
+	 * @return string Constant name, or '' when not defined.
+	 */
+	public static function secret_constant( $key ) {
+		$constant = array(
+			'anthropic_key' => 'AURELIA_ANTHROPIC_API_KEY',
+			'meta_token'    => 'AURELIA_META_TOKEN',
+		)[ $key ] ?? '';
+		return ( '' !== $constant && defined( $constant ) && '' !== (string) constant( $constant ) ) ? $constant : '';
+	}
+
+	/**
 	 * Read a secret (server-side only).
 	 *
 	 * @param string $key Secret key.
 	 * @return string
 	 */
 	public static function secret( $key ) {
+		$constant = self::secret_constant( $key );
+		if ( '' !== $constant ) {
+			return (string) constant( $constant );
+		}
 		$secrets = get_option( self::SECRETS, array() );
 		return is_array( $secrets ) && isset( $secrets[ $key ] ) ? (string) $secrets[ $key ] : '';
 	}

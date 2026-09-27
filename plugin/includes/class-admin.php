@@ -256,15 +256,23 @@ class Admin {
 				printf( '<input type="text" id="%1$s" name="%2$s" value="%3$s" class="aurelia-color" data-default-color="%4$s">', esc_attr( $id ), esc_attr( $name ), esc_attr( (string) $value ), esc_attr( $field['default'] ) );
 				break;
 			case 'secret':
-				$saved = '' !== Settings::secret( $key );
+				$constant = Settings::secret_constant( $key );
+				$saved    = '' !== Settings::secret( $key );
+				if ( '' !== $constant ) {
+					/* translators: %s: PHP constant name. */
+					$placeholder = sprintf( __( 'Set in wp-config.php (%s)', 'aurelia-commerce' ), $constant );
+				} else {
+					$placeholder = $saved ? __( 'Saved — leave blank to keep', 'aurelia-commerce' ) : '';
+				}
 				printf(
-					'<input type="password" id="%1$s" name="%2$s" value="" class="regular-text" autocomplete="new-password" placeholder="%3$s"%4$s>',
+					'<input type="password" id="%1$s" name="%2$s" value="" class="regular-text" autocomplete="new-password" placeholder="%3$s"%5$s%4$s>',
 					esc_attr( $id ),
 					esc_attr( $name ),
-					esc_attr( $saved ? __( 'Saved — leave blank to keep', 'aurelia-commerce' ) : '' ),
-					$desc // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped above.
+					esc_attr( $placeholder ),
+					$desc, // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped above.
+					'' !== $constant ? ' disabled' : ''
 				);
-				if ( $saved ) {
+				if ( $saved && '' === $constant ) {
 					printf( ' <label><input type="checkbox" name="%1$s" value="1"> %2$s</label>', esc_attr( Settings::OPTION . '[' . $key . '_clear]' ), esc_html__( 'Remove saved value', 'aurelia-commerce' ) );
 				}
 				if ( 'anthropic_key' === $key ) {

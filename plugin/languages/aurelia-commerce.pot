@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-27T17:43:43+00:00\n"
+"POT-Creation-Date: 2026-09-27T18:00:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: aurelia-commerce\n"
@@ -128,8 +128,8 @@ msgstr ""
 
 #: includes/class-analytics.php:336
 #: includes/class-analytics.php:347
-#: includes/class-shop.php:100
-#: includes/class-shop.php:557
+#: includes/class-shop.php:121
+#: includes/class-shop.php:578
 msgid "Add to cart"
 msgstr ""
 
@@ -442,7 +442,7 @@ msgstr ""
 #: includes/class-demo-importer.php:601
 #: includes/class-demo-importer.php:673
 #: includes/class-settings.php:292
-#: includes/class-shop.php:392
+#: includes/class-shop.php:413
 msgid "Wishlist"
 msgstr ""
 
@@ -653,12 +653,12 @@ msgid "Rating: %1$s/5 from %2$d reviews"
 msgstr ""
 
 #: includes/class-seo.php:720
-#: includes/class-shop.php:106
+#: includes/class-shop.php:127
 msgid "In stock"
 msgstr ""
 
 #: includes/class-seo.php:720
-#: includes/class-shop.php:107
+#: includes/class-shop.php:128
 msgid "Out of stock"
 msgstr ""
 
@@ -996,7 +996,7 @@ msgid "Product compare"
 msgstr ""
 
 #: includes/class-settings.php:302
-#: includes/class-shop.php:97
+#: includes/class-shop.php:118
 msgid "Quick view"
 msgstr ""
 
@@ -1069,147 +1069,151 @@ msgid "Free-shipping progress bar in cart"
 msgstr ""
 
 #: includes/class-settings.php:388
+msgid "When free shipping is available, hide paid delivery rates"
+msgstr ""
+
+#: includes/class-settings.php:393
 msgid "Free shipping threshold"
 msgstr ""
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:397
 msgid "Order value that unlocks free shipping (0 to hide the bar)."
 msgstr ""
 
-#: includes/class-settings.php:396
-#: includes/class-shop.php:491
+#: includes/class-settings.php:401
+#: includes/class-shop.php:512
 msgid "Size guide"
 msgstr ""
 
-#: includes/class-settings.php:398
+#: includes/class-settings.php:403
 msgid "Shown in a popup on products with a \"Size\" attribute. Each product can override it."
 msgstr ""
 
-#: includes/class-settings.php:403
+#: includes/class-settings.php:408
 msgid "Marketing"
 msgstr ""
 
-#: includes/class-settings.php:407
+#: includes/class-settings.php:412
 msgid "Newsletter popup"
 msgstr ""
 
-#: includes/class-settings.php:412
+#: includes/class-settings.php:417
 msgid "Show on exit intent (desktop)"
 msgstr ""
 
-#: includes/class-settings.php:417
+#: includes/class-settings.php:422
 msgid "Or show after (seconds)"
 msgstr ""
 
-#: includes/class-settings.php:424
+#: includes/class-settings.php:429
 msgid "Popup title"
 msgstr ""
 
-#: includes/class-settings.php:425
+#: includes/class-settings.php:430
 msgid "Get 10% off your first order"
 msgstr ""
 
-#: includes/class-settings.php:429
+#: includes/class-settings.php:434
 msgid "Popup text"
 msgstr ""
 
-#: includes/class-settings.php:430
+#: includes/class-settings.php:435
 msgid "Join our list for new arrivals and private sales."
 msgstr ""
 
-#: includes/class-settings.php:434
+#: includes/class-settings.php:439
 msgid "Coupon shown after sign-up"
 msgstr ""
 
-#: includes/class-settings.php:439
+#: includes/class-settings.php:444
 msgid "Forward sign-ups to webhook"
 msgstr ""
 
-#: includes/class-settings.php:441
+#: includes/class-settings.php:446
 msgid "Optional Make / Zapier / n8n / Mailchimp webhook URL."
 msgstr ""
 
-#: includes/class-settings.php:446
+#: includes/class-settings.php:451
 msgid "Social posting"
 msgstr ""
 
-#: includes/class-settings.php:450
+#: includes/class-settings.php:455
 msgid "Publishing webhook (Make, Zapier, n8n)"
 msgstr ""
 
-#: includes/class-settings.php:452
+#: includes/class-settings.php:457
 msgid "When set, every post is sent here as JSON and your automation fans it out to any network."
 msgstr ""
 
-#: includes/class-settings.php:456
+#: includes/class-settings.php:461
 msgid "Facebook Page ID"
 msgstr ""
 
-#: includes/class-settings.php:461
+#: includes/class-settings.php:466
 msgid "Instagram Business account ID"
 msgstr ""
 
-#: includes/class-settings.php:466
+#: includes/class-settings.php:471
 msgid "Meta Page access token"
 msgstr ""
 
-#: includes/class-settings.php:468
+#: includes/class-settings.php:473
 msgid "Long-lived Page token with pages_manage_posts, instagram_basic and instagram_content_publish."
 msgstr ""
 
-#: includes/class-settings.php:472
+#: includes/class-settings.php:477
 msgid "Graph API version"
 msgstr ""
 
-#: includes/class-settings.php:478
+#: includes/class-settings.php:483
 msgid "Analytics & SEO"
 msgstr ""
 
-#: includes/class-settings.php:482
+#: includes/class-settings.php:487
 msgid "Privacy-friendly analytics (no cookies, no personal data)"
 msgstr ""
 
-#: includes/class-settings.php:487
+#: includes/class-settings.php:492
 msgid "Keep analytics for (days)"
 msgstr ""
 
-#: includes/class-settings.php:494
+#: includes/class-settings.php:499
 msgid "Structured data (Product, Store, WebSite, Breadcrumbs, FAQ)"
 msgstr ""
 
-#: includes/class-settings.php:496
+#: includes/class-settings.php:501
 msgid "When Yoast, Rank Math or AIOSEO is active, their schema is extended instead of duplicated."
 msgstr ""
 
-#: includes/class-settings.php:500
+#: includes/class-settings.php:505
 msgid "Open Graph & Twitter meta (skipped when an SEO plugin is active)"
 msgstr ""
 
-#: includes/class-settings.php:505
+#: includes/class-settings.php:510
 msgid "Publish /llms.txt and /llms-full.txt for AI assistants"
 msgstr ""
 
-#: includes/class-settings.php:510
+#: includes/class-settings.php:515
 msgid "Allow AI crawlers in robots.txt"
 msgstr ""
 
-#: includes/class-settings.php:515
+#: includes/class-settings.php:520
 msgid "Google Merchant / Meta catalogue feed at /product-feed.xml"
 msgstr ""
 
-#: includes/class-settings.php:520
+#: includes/class-settings.php:525
 msgid "Return window (days)"
 msgstr ""
 
-#: includes/class-settings.php:527
+#: includes/class-settings.php:532
 msgid "Standard shipping cost (for schema)"
 msgstr ""
 
-#: includes/class-settings.php:534
+#: includes/class-settings.php:539
 msgid "Default Google product category"
 msgstr ""
 
-#: includes/class-settings.php:536
+#: includes/class-settings.php:541
 msgid "Optional Google taxonomy ID used in the feed, e.g. 188 for jewellery."
 msgstr ""
 
@@ -1429,206 +1433,206 @@ msgstr ""
 msgid "Launching turns off WooCommerce \"Coming soon\" mode so shoppers can see your store."
 msgstr ""
 
-#: includes/class-shop.php:86
+#: includes/class-shop.php:107
 msgid "Add to wishlist"
 msgstr ""
 
-#: includes/class-shop.php:87
+#: includes/class-shop.php:108
 msgid "Remove from wishlist"
 msgstr ""
 
-#: includes/class-shop.php:88
-#: includes/class-shop.php:567
+#: includes/class-shop.php:109
+#: includes/class-shop.php:588
 msgid "Your wishlist is empty. Tap the heart on any product to save it here."
 msgstr ""
 
-#: includes/class-shop.php:89
+#: includes/class-shop.php:110
 msgid "Add to compare"
 msgstr ""
 
-#: includes/class-shop.php:90
+#: includes/class-shop.php:111
 msgid "Remove from compare"
 msgstr ""
 
-#: includes/class-shop.php:91
+#: includes/class-shop.php:112
 msgid "Add up to 4 products to compare them side by side."
 msgstr ""
 
-#: includes/class-shop.php:92
+#: includes/class-shop.php:113
 msgid "Compare now"
 msgstr ""
 
-#: includes/class-shop.php:93
+#: includes/class-shop.php:114
 msgid "Clear"
 msgstr ""
 
 #. translators: %d: number of products.
-#: includes/class-shop.php:95
+#: includes/class-shop.php:116
 #, php-format
 msgid "Compare (%d)"
 msgstr ""
 
-#: includes/class-shop.php:96
+#: includes/class-shop.php:117
 msgid "You can compare up to 4 products."
 msgstr ""
 
-#: includes/class-shop.php:98
-#: includes/class-shop.php:492
+#: includes/class-shop.php:119
+#: includes/class-shop.php:513
 msgid "Close"
 msgstr ""
 
-#: includes/class-shop.php:99
+#: includes/class-shop.php:120
 msgid "View full details"
 msgstr ""
 
-#: includes/class-shop.php:101
-#: includes/class-shop.php:152
+#: includes/class-shop.php:122
+#: includes/class-shop.php:173
 msgid "Added to cart ✓"
 msgstr ""
 
-#: includes/class-shop.php:102
-#: includes/class-shop.php:557
+#: includes/class-shop.php:123
+#: includes/class-shop.php:578
 msgid "Choose options"
 msgstr ""
 
-#: includes/class-shop.php:103
+#: includes/class-shop.php:124
 msgid "Price"
 msgstr ""
 
-#: includes/class-shop.php:104
+#: includes/class-shop.php:125
 msgid "Rating"
 msgstr ""
 
-#: includes/class-shop.php:105
+#: includes/class-shop.php:126
 msgid "Availability"
 msgstr ""
 
-#: includes/class-shop.php:108
+#: includes/class-shop.php:129
 msgid "No products found"
 msgstr ""
 
-#: includes/class-shop.php:109
+#: includes/class-shop.php:130
 msgid "See all results"
 msgstr ""
 
-#: includes/class-shop.php:110
+#: includes/class-shop.php:131
 msgid "Product suggestions"
 msgstr ""
 
-#: includes/class-shop.php:111
+#: includes/class-shop.php:132
 msgid "Grid view"
 msgstr ""
 
-#: includes/class-shop.php:112
+#: includes/class-shop.php:133
 msgid "List view"
 msgstr ""
 
-#: includes/class-shop.php:113
+#: includes/class-shop.php:134
 msgid "Load more products"
 msgstr ""
 
-#: includes/class-shop.php:114
+#: includes/class-shop.php:135
 msgid "Loading…"
 msgstr ""
 
 #. translators: %s: amount left for free shipping.
-#: includes/class-shop.php:116
+#: includes/class-shop.php:137
 #, php-format
 msgid "Add %s more for FREE shipping"
 msgstr ""
 
-#: includes/class-shop.php:117
+#: includes/class-shop.php:138
 msgid "🎉 You have unlocked FREE shipping!"
 msgstr ""
 
-#: includes/class-shop.php:118
-#: includes/class-shop.php:407
+#: includes/class-shop.php:139
+#: includes/class-shop.php:428
 msgid "Recently viewed"
 msgstr ""
 
-#: includes/class-shop.php:119
+#: includes/class-shop.php:140
 #: includes/class-video-studio.php:59
 msgid "Remove"
 msgstr ""
 
-#: includes/class-shop.php:120
+#: includes/class-shop.php:141
 msgid "Decrease quantity"
 msgstr ""
 
-#: includes/class-shop.php:121
+#: includes/class-shop.php:142
 msgid "Increase quantity"
 msgstr ""
 
-#: includes/class-shop.php:143
+#: includes/class-shop.php:164
 msgid "Select an option"
 msgstr ""
 
-#: includes/class-shop.php:144
+#: includes/class-shop.php:165
 msgid "Unavailable"
 msgstr ""
 
-#: includes/class-shop.php:145
-#: includes/class-shop.php:423
+#: includes/class-shop.php:166
+#: includes/class-shop.php:444
 msgid "Sale ends in"
 msgstr ""
 
-#: includes/class-shop.php:146
+#: includes/class-shop.php:167
 msgctxt "days abbreviation"
 msgid "d"
 msgstr ""
 
-#: includes/class-shop.php:147
+#: includes/class-shop.php:168
 msgctxt "hours abbreviation"
 msgid "h"
 msgstr ""
 
-#: includes/class-shop.php:148
+#: includes/class-shop.php:169
 msgctxt "minutes abbreviation"
 msgid "m"
 msgstr ""
 
-#: includes/class-shop.php:149
+#: includes/class-shop.php:170
 msgctxt "seconds abbreviation"
 msgid "s"
 msgstr ""
 
-#: includes/class-shop.php:150
-#: includes/class-shop.php:535
+#: includes/class-shop.php:171
+#: includes/class-shop.php:556
 msgid "Add selected to cart"
 msgstr ""
 
-#: includes/class-shop.php:151
+#: includes/class-shop.php:172
 msgid "Adding…"
 msgstr ""
 
-#: includes/class-shop.php:299
+#: includes/class-shop.php:320
 msgid "Weight"
 msgstr ""
 
-#: includes/class-shop.php:315
+#: includes/class-shop.php:336
 msgid "Product not found."
 msgstr ""
 
 #. translators: %s: product name.
-#: includes/class-shop.php:362
+#: includes/class-shop.php:383
 #, php-format
 msgid "Add %s to wishlist"
 msgstr ""
 
 #. translators: %s: product name.
-#: includes/class-shop.php:366
+#: includes/class-shop.php:387
 #, php-format
 msgid "Quick view %s"
 msgstr ""
 
 #. translators: %s: product name.
-#: includes/class-shop.php:370
+#: includes/class-shop.php:391
 #, php-format
 msgid "Compare %s"
 msgstr ""
 
 #. translators: %d: items left.
-#: includes/class-shop.php:430
+#: includes/class-shop.php:451
 #, php-format
 msgid "Hurry — only %d left in stock"
 msgid_plural "Hurry — only %d left in stock"
@@ -1636,34 +1640,34 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: hours, 2: minutes.
-#: includes/class-shop.php:461
+#: includes/class-shop.php:482
 #, php-format
 msgid "Order within %1$dh %2$dm for dispatch today."
 msgstr ""
 
 #. translators: 1: earliest date, 2: latest date.
-#: includes/class-shop.php:464
+#: includes/class-shop.php:485
 #, php-format
 msgid "Estimated delivery %1$s – %2$s"
 msgstr ""
 
-#: includes/class-shop.php:521
+#: includes/class-shop.php:542
 msgid "Frequently bought together"
 msgstr ""
 
-#: includes/class-shop.php:528
+#: includes/class-shop.php:549
 msgid "This item:"
 msgstr ""
 
-#: includes/class-shop.php:534
+#: includes/class-shop.php:555
 msgid "Total:"
 msgstr ""
 
-#: includes/class-shop.php:585
+#: includes/class-shop.php:606
 msgid "Size guide (optional)"
 msgstr ""
 
-#: includes/class-shop.php:588
+#: includes/class-shop.php:609
 msgid "Overrides the global size guide for this product."
 msgstr ""
 

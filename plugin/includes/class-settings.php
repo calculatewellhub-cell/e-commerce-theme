@@ -282,37 +282,37 @@ class Settings {
 			'shop'      => array(
 				'label'  => __( 'Shop features', 'aurelia-commerce' ),
 				'fields' => array(
-					'live_search'       => array(
+					'live_search'        => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Live product search suggestions', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'wishlist'          => array(
+					'wishlist'           => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Wishlist', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'compare'           => array(
+					'compare'            => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Product compare', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'quick_view'        => array(
+					'quick_view'         => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Quick view', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'swatches'          => array(
+					'swatches'           => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Variation swatches (colour, image, button)', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'list_toggle'       => array(
+					'list_toggle'        => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Grid / list view toggle', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'pagination'        => array(
+					'pagination'         => array(
 						'type'    => 'select',
 						'label'   => __( 'Shop pagination', 'aurelia-commerce' ),
 						'default' => 'load_more',
@@ -322,68 +322,73 @@ class Settings {
 							'infinite'  => __( 'Infinite scroll', 'aurelia-commerce' ),
 						),
 					),
-					'sticky_cart'       => array(
+					'sticky_cart'        => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Sticky add-to-cart bar on product pages', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'qty_buttons'       => array(
+					'qty_buttons'        => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Quantity + / − buttons', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'recently_viewed'   => array(
+					'recently_viewed'    => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Recently viewed products', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'bought_together'   => array(
+					'bought_together'    => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Frequently bought together (uses cross-sells)', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'review_photos'     => array(
+					'review_photos'      => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Allow photos in reviews', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'sale_countdown'    => array(
+					'sale_countdown'     => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Countdown for scheduled sales', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'delivery_info'     => array(
+					'delivery_info'      => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Show dispatch & delivery estimate', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'dispatch_cutoff'   => array(
+					'dispatch_cutoff'    => array(
 						'type'    => 'number',
 						'label'   => __( 'Same-day dispatch cut-off hour (0–23)', 'aurelia-commerce' ),
 						'default' => 15,
 						'min'     => 0,
 						'max'     => 23,
 					),
-					'delivery_min'      => array(
+					'delivery_min'       => array(
 						'type'    => 'number',
 						'label'   => __( 'Delivery days (minimum)', 'aurelia-commerce' ),
 						'default' => 2,
 						'min'     => 0,
 						'max'     => 60,
 					),
-					'delivery_max'      => array(
+					'delivery_max'       => array(
 						'type'    => 'number',
 						'label'   => __( 'Delivery days (maximum)', 'aurelia-commerce' ),
 						'default' => 6,
 						'min'     => 0,
 						'max'     => 90,
 					),
-					'free_shipping_bar' => array(
+					'free_shipping_bar'  => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Free-shipping progress bar in cart', 'aurelia-commerce' ),
 						'default' => 1,
 					),
-					'free_shipping_min' => array(
+					'free_shipping_only' => array(
+						'type'    => 'checkbox',
+						'label'   => __( 'When free shipping is available, hide paid delivery rates', 'aurelia-commerce' ),
+						'default' => 1,
+					),
+					'free_shipping_min'  => array(
 						'type'        => 'number',
 						'label'       => __( 'Free shipping threshold', 'aurelia-commerce' ),
 						'default'     => 999,
@@ -391,7 +396,7 @@ class Settings {
 						'max'         => 10000000,
 						'description' => __( 'Order value that unlocks free shipping (0 to hide the bar).', 'aurelia-commerce' ),
 					),
-					'size_guide'        => array(
+					'size_guide'         => array(
 						'type'        => 'html',
 						'label'       => __( 'Size guide', 'aurelia-commerce' ),
 						'default'     => '',

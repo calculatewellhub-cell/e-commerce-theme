@@ -1469,6 +1469,15 @@
 
 .au-upi__row input {
 	flex: 1 1 12rem;
+	min-block-size: 2.75rem;
+	padding: 0.55rem 0.9rem;
+	border: 1px solid var(--au-c-line);
+	border-radius: var(--au-r-sm);
+	background: var(--au-c-surface);
+	color: var(--au-c-text);
+	font: inherit;
+	font-variant-numeric: tabular-nums;
+	letter-spacing: 0.04em;
 }
 
 .au-upi__done {

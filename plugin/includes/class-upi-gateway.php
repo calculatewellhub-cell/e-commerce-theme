@@ -217,7 +217,7 @@ class Upi_Gateway extends \WC_Payment_Gateway {
 						<form class="au-upi__form" data-order="<?php echo esc_attr( (string) $order->get_id() ); ?>" data-key="<?php echo esc_attr( $order->get_order_key() ); ?>">
 							<label for="au-upi-utr"><?php esc_html_e( 'After paying, enter the UPI reference / UTR (12 digits)', 'aurelia-commerce' ); ?></label>
 							<div class="au-upi__row">
-								<input id="au-upi-utr" name="utr" inputmode="numeric" autocomplete="off" required minlength="6" maxlength="35" pattern="[A-Za-z0-9]{6,35}">
+								<input type="text" id="au-upi-utr" name="utr" inputmode="numeric" autocomplete="off" required minlength="6" maxlength="35" pattern="[A-Za-z0-9]{6,35}">
 								<button type="submit" class="au-btn au-btn--primary"><?php esc_html_e( 'I have paid', 'aurelia-commerce' ); ?></button>
 							</div>
 							<p class="au-upi__msg" role="status" aria-live="polite"></p>

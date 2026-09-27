@@ -11,7 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-27T17:43:43+00:00\n"
+"POT-Creation-Date: 2026-09-27T18:00:55+00:00\n"
 "PO-Revision-Date: 2026-09-27 12:00+0530\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: aurelia-commerce\n"
@@ -130,8 +130,8 @@ msgstr "प्रोडक्ट व्यू"
 
 #: includes/class-analytics.php:336
 #: includes/class-analytics.php:347
-#: includes/class-shop.php:100
-#: includes/class-shop.php:557
+#: includes/class-shop.php:121
+#: includes/class-shop.php:578
 msgid "Add to cart"
 msgstr "कार्ट में डालें"
 
@@ -444,7 +444,7 @@ msgstr "बिना इस्तेमाल किए, असली पैक�
 #: includes/class-demo-importer.php:601
 #: includes/class-demo-importer.php:673
 #: includes/class-settings.php:292
-#: includes/class-shop.php:392
+#: includes/class-shop.php:413
 msgid "Wishlist"
 msgstr "विशलिस्ट"
 
@@ -655,12 +655,12 @@ msgid "Rating: %1$s/5 from %2$d reviews"
 msgstr "रेटिंग: %2$d रिव्यू से %1$s/5"
 
 #: includes/class-seo.php:720
-#: includes/class-shop.php:106
+#: includes/class-shop.php:127
 msgid "In stock"
 msgstr "स्टॉक में"
 
 #: includes/class-seo.php:720
-#: includes/class-shop.php:107
+#: includes/class-shop.php:128
 msgid "Out of stock"
 msgstr "स्टॉक में नहीं"
 
@@ -991,7 +991,7 @@ msgid "Product compare"
 msgstr "प्रोडक्ट तुलना"
 
 #: includes/class-settings.php:302
-#: includes/class-shop.php:97
+#: includes/class-shop.php:118
 msgid "Quick view"
 msgstr "क्विक व्यू"
 
@@ -1064,147 +1064,151 @@ msgid "Free-shipping progress bar in cart"
 msgstr "कार्ट में मुफ़्त शिपिंग प्रोग्रेस बार"
 
 #: includes/class-settings.php:388
+msgid "When free shipping is available, hide paid delivery rates"
+msgstr "मुफ़्त शिपिंग उपलब्ध होने पर पेड डिलीवरी रेट छिपाएँ"
+
+#: includes/class-settings.php:393
 msgid "Free shipping threshold"
 msgstr "मुफ़्त शिपिंग की सीमा"
 
-#: includes/class-settings.php:392
+#: includes/class-settings.php:397
 msgid "Order value that unlocks free shipping (0 to hide the bar)."
 msgstr "जिस ऑर्डर वैल्यू पर शिपिंग मुफ़्त होती है (बार छिपाने के लिए 0)।"
 
-#: includes/class-settings.php:396
-#: includes/class-shop.php:491
+#: includes/class-settings.php:401
+#: includes/class-shop.php:512
 msgid "Size guide"
 msgstr "साइज़ गाइड"
 
-#: includes/class-settings.php:398
+#: includes/class-settings.php:403
 msgid "Shown in a popup on products with a \"Size\" attribute. Each product can override it."
 msgstr "\"Size\" एट्रिब्यूट वाले प्रोडक्ट पर पॉपअप में दिखता है। हर प्रोडक्ट इसे बदल सकता है।"
 
-#: includes/class-settings.php:403
+#: includes/class-settings.php:408
 msgid "Marketing"
 msgstr "मार्केटिंग"
 
-#: includes/class-settings.php:407
+#: includes/class-settings.php:412
 msgid "Newsletter popup"
 msgstr "न्यूज़लेटर पॉपअप"
 
-#: includes/class-settings.php:412
+#: includes/class-settings.php:417
 msgid "Show on exit intent (desktop)"
 msgstr "पेज छोड़ते समय दिखाएँ (डेस्कटॉप)"
 
-#: includes/class-settings.php:417
+#: includes/class-settings.php:422
 msgid "Or show after (seconds)"
 msgstr "या इतने सेकंड बाद दिखाएँ"
 
-#: includes/class-settings.php:424
+#: includes/class-settings.php:429
 msgid "Popup title"
 msgstr "पॉपअप का टाइटल"
 
-#: includes/class-settings.php:425
+#: includes/class-settings.php:430
 msgid "Get 10% off your first order"
 msgstr "पहले ऑर्डर पर 10% की छूट पाएँ"
 
-#: includes/class-settings.php:429
+#: includes/class-settings.php:434
 msgid "Popup text"
 msgstr "पॉपअप का टेक्स्ट"
 
-#: includes/class-settings.php:430
+#: includes/class-settings.php:435
 msgid "Join our list for new arrivals and private sales."
 msgstr "नए प्रोडक्ट और प्राइवेट सेल के लिए हमारी लिस्ट से जुड़ें।"
 
-#: includes/class-settings.php:434
+#: includes/class-settings.php:439
 msgid "Coupon shown after sign-up"
 msgstr "साइन-अप के बाद दिखने वाला कूपन"
 
-#: includes/class-settings.php:439
+#: includes/class-settings.php:444
 msgid "Forward sign-ups to webhook"
 msgstr "साइन-अप को वेबहुक पर भेजें"
 
-#: includes/class-settings.php:441
+#: includes/class-settings.php:446
 msgid "Optional Make / Zapier / n8n / Mailchimp webhook URL."
 msgstr "वैकल्पिक Make / Zapier / n8n / Mailchimp वेबहुक URL।"
 
-#: includes/class-settings.php:446
+#: includes/class-settings.php:451
 msgid "Social posting"
 msgstr "सोशल पोस्टिंग"
 
-#: includes/class-settings.php:450
+#: includes/class-settings.php:455
 msgid "Publishing webhook (Make, Zapier, n8n)"
 msgstr "पब्लिशिंग वेबहुक (Make, Zapier, n8n)"
 
-#: includes/class-settings.php:452
+#: includes/class-settings.php:457
 msgid "When set, every post is sent here as JSON and your automation fans it out to any network."
 msgstr "सेट होने पर हर पोस्ट JSON के रूप में यहाँ भेजी जाती है और आपका ऑटोमेशन उसे किसी भी नेटवर्क पर पहुँचाता है।"
 
-#: includes/class-settings.php:456
+#: includes/class-settings.php:461
 msgid "Facebook Page ID"
 msgstr "Facebook Page ID"
 
-#: includes/class-settings.php:461
+#: includes/class-settings.php:466
 msgid "Instagram Business account ID"
 msgstr "Instagram Business अकाउंट ID"
 
-#: includes/class-settings.php:466
+#: includes/class-settings.php:471
 msgid "Meta Page access token"
 msgstr "Meta Page ऐक्सेस टोकन"
 
-#: includes/class-settings.php:468
+#: includes/class-settings.php:473
 msgid "Long-lived Page token with pages_manage_posts, instagram_basic and instagram_content_publish."
 msgstr "pages_manage_posts, instagram_basic और instagram_content_publish अनुमतियों वाला लंबी अवधि का Page टोकन।"
 
-#: includes/class-settings.php:472
+#: includes/class-settings.php:477
 msgid "Graph API version"
 msgstr "Graph API वर्शन"
 
-#: includes/class-settings.php:478
+#: includes/class-settings.php:483
 msgid "Analytics & SEO"
 msgstr "एनालिटिक्स और SEO"
 
-#: includes/class-settings.php:482
+#: includes/class-settings.php:487
 msgid "Privacy-friendly analytics (no cookies, no personal data)"
 msgstr "प्राइवेसी-फ़्रेंडली एनालिटिक्स (कोई कुकी नहीं, कोई निजी डेटा नहीं)"
 
-#: includes/class-settings.php:487
+#: includes/class-settings.php:492
 msgid "Keep analytics for (days)"
 msgstr "एनालिटिक्स इतने दिन रखें"
 
-#: includes/class-settings.php:494
+#: includes/class-settings.php:499
 msgid "Structured data (Product, Store, WebSite, Breadcrumbs, FAQ)"
 msgstr "स्ट्रक्चर्ड डेटा (Product, Store, WebSite, Breadcrumbs, FAQ)"
 
-#: includes/class-settings.php:496
+#: includes/class-settings.php:501
 msgid "When Yoast, Rank Math or AIOSEO is active, their schema is extended instead of duplicated."
 msgstr "जब Yoast, Rank Math या AIOSEO चालू हो, तो उनका schema दोहराने की जगह बढ़ाया जाता है।"
 
-#: includes/class-settings.php:500
+#: includes/class-settings.php:505
 msgid "Open Graph & Twitter meta (skipped when an SEO plugin is active)"
 msgstr "Open Graph और Twitter मेटा (SEO प्लगइन चालू होने पर छोड़ दिया जाता है)"
 
-#: includes/class-settings.php:505
+#: includes/class-settings.php:510
 msgid "Publish /llms.txt and /llms-full.txt for AI assistants"
 msgstr "AI असिस्टेंट के लिए /llms.txt और /llms-full.txt प्रकाशित करें"
 
-#: includes/class-settings.php:510
+#: includes/class-settings.php:515
 msgid "Allow AI crawlers in robots.txt"
 msgstr "robots.txt में AI क्रॉलर को अनुमति दें"
 
-#: includes/class-settings.php:515
+#: includes/class-settings.php:520
 msgid "Google Merchant / Meta catalogue feed at /product-feed.xml"
 msgstr "/product-feed.xml पर Google Merchant / Meta कैटलॉग फ़ीड"
 
-#: includes/class-settings.php:520
+#: includes/class-settings.php:525
 msgid "Return window (days)"
 msgstr "रिटर्न की अवधि (दिन)"
 
-#: includes/class-settings.php:527
+#: includes/class-settings.php:532
 msgid "Standard shipping cost (for schema)"
 msgstr "स्टैंडर्ड शिपिंग ख़र्च (schema के लिए)"
 
-#: includes/class-settings.php:534
+#: includes/class-settings.php:539
 msgid "Default Google product category"
 msgstr "डिफ़ॉल्ट Google प्रोडक्ट कैटेगरी"
 
-#: includes/class-settings.php:536
+#: includes/class-settings.php:541
 msgid "Optional Google taxonomy ID used in the feed, e.g. 188 for jewellery."
 msgstr "फ़ीड में इस्तेमाल होने वाली वैकल्पिक Google टैक्सोनॉमी ID, जैसे ज्वेलरी के लिए 188।"
 
@@ -1424,206 +1428,206 @@ msgstr "पेमेंट तरीक़े देखें"
 msgid "Launching turns off WooCommerce \"Coming soon\" mode so shoppers can see your store."
 msgstr "लॉन्च करने से WooCommerce का \"Coming soon\" मोड बंद हो जाता है ताकि ख़रीदार आपका स्टोर देख सकें।"
 
-#: includes/class-shop.php:86
+#: includes/class-shop.php:107
 msgid "Add to wishlist"
 msgstr "विशलिस्ट में जोड़ें"
 
-#: includes/class-shop.php:87
+#: includes/class-shop.php:108
 msgid "Remove from wishlist"
 msgstr "विशलिस्ट से हटाएँ"
 
-#: includes/class-shop.php:88
-#: includes/class-shop.php:567
+#: includes/class-shop.php:109
+#: includes/class-shop.php:588
 msgid "Your wishlist is empty. Tap the heart on any product to save it here."
 msgstr "आपकी विशलिस्ट ख़ाली है। किसी भी प्रोडक्ट पर दिल के निशान पर टैप करके उसे यहाँ सहेजें।"
 
-#: includes/class-shop.php:89
+#: includes/class-shop.php:110
 msgid "Add to compare"
 msgstr "तुलना में जोड़ें"
 
-#: includes/class-shop.php:90
+#: includes/class-shop.php:111
 msgid "Remove from compare"
 msgstr "तुलना से हटाएँ"
 
-#: includes/class-shop.php:91
+#: includes/class-shop.php:112
 msgid "Add up to 4 products to compare them side by side."
 msgstr "अगल-बगल तुलना के लिए 4 प्रोडक्ट तक जोड़ें।"
 
-#: includes/class-shop.php:92
+#: includes/class-shop.php:113
 msgid "Compare now"
 msgstr "अभी तुलना करें"
 
-#: includes/class-shop.php:93
+#: includes/class-shop.php:114
 msgid "Clear"
 msgstr "साफ़ करें"
 
 #. translators: %d: number of products.
-#: includes/class-shop.php:95
+#: includes/class-shop.php:116
 #, php-format
 msgid "Compare (%d)"
 msgstr "तुलना (%d)"
 
-#: includes/class-shop.php:96
+#: includes/class-shop.php:117
 msgid "You can compare up to 4 products."
 msgstr "आप 4 प्रोडक्ट तक की तुलना कर सकते हैं।"
 
-#: includes/class-shop.php:98
-#: includes/class-shop.php:492
+#: includes/class-shop.php:119
+#: includes/class-shop.php:513
 msgid "Close"
 msgstr "बंद करें"
 
-#: includes/class-shop.php:99
+#: includes/class-shop.php:120
 msgid "View full details"
 msgstr "पूरा विवरण देखें"
 
-#: includes/class-shop.php:101
-#: includes/class-shop.php:152
+#: includes/class-shop.php:122
+#: includes/class-shop.php:173
 msgid "Added to cart ✓"
 msgstr "कार्ट में जोड़ा गया ✓"
 
-#: includes/class-shop.php:102
-#: includes/class-shop.php:557
+#: includes/class-shop.php:123
+#: includes/class-shop.php:578
 msgid "Choose options"
 msgstr "विकल्प चुनें"
 
-#: includes/class-shop.php:103
+#: includes/class-shop.php:124
 msgid "Price"
 msgstr "दाम"
 
-#: includes/class-shop.php:104
+#: includes/class-shop.php:125
 msgid "Rating"
 msgstr "रेटिंग"
 
-#: includes/class-shop.php:105
+#: includes/class-shop.php:126
 msgid "Availability"
 msgstr "उपलब्धता"
 
-#: includes/class-shop.php:108
+#: includes/class-shop.php:129
 msgid "No products found"
 msgstr "कोई प्रोडक्ट नहीं मिला"
 
-#: includes/class-shop.php:109
+#: includes/class-shop.php:130
 msgid "See all results"
 msgstr "सभी नतीजे देखें"
 
-#: includes/class-shop.php:110
+#: includes/class-shop.php:131
 msgid "Product suggestions"
 msgstr "प्रोडक्ट सुझाव"
 
-#: includes/class-shop.php:111
+#: includes/class-shop.php:132
 msgid "Grid view"
 msgstr "ग्रिड व्यू"
 
-#: includes/class-shop.php:112
+#: includes/class-shop.php:133
 msgid "List view"
 msgstr "लिस्ट व्यू"
 
-#: includes/class-shop.php:113
+#: includes/class-shop.php:134
 msgid "Load more products"
 msgstr "और प्रोडक्ट लोड करें"
 
-#: includes/class-shop.php:114
+#: includes/class-shop.php:135
 msgid "Loading…"
 msgstr "लोड हो रहा है…"
 
 #. translators: %s: amount left for free shipping.
-#: includes/class-shop.php:116
+#: includes/class-shop.php:137
 #, php-format
 msgid "Add %s more for FREE shipping"
 msgstr "मुफ़्त शिपिंग के लिए %s और जोड़ें"
 
-#: includes/class-shop.php:117
+#: includes/class-shop.php:138
 msgid "🎉 You have unlocked FREE shipping!"
 msgstr "🎉 आपको मुफ़्त शिपिंग मिल गई!"
 
-#: includes/class-shop.php:118
-#: includes/class-shop.php:407
+#: includes/class-shop.php:139
+#: includes/class-shop.php:428
 msgid "Recently viewed"
 msgstr "हाल में देखे गए"
 
-#: includes/class-shop.php:119
+#: includes/class-shop.php:140
 #: includes/class-video-studio.php:59
 msgid "Remove"
 msgstr "हटाएँ"
 
-#: includes/class-shop.php:120
+#: includes/class-shop.php:141
 msgid "Decrease quantity"
 msgstr "मात्रा घटाएँ"
 
-#: includes/class-shop.php:121
+#: includes/class-shop.php:142
 msgid "Increase quantity"
 msgstr "मात्रा बढ़ाएँ"
 
-#: includes/class-shop.php:143
+#: includes/class-shop.php:164
 msgid "Select an option"
 msgstr "एक विकल्प चुनें"
 
-#: includes/class-shop.php:144
+#: includes/class-shop.php:165
 msgid "Unavailable"
 msgstr "उपलब्ध नहीं"
 
-#: includes/class-shop.php:145
-#: includes/class-shop.php:423
+#: includes/class-shop.php:166
+#: includes/class-shop.php:444
 msgid "Sale ends in"
 msgstr "सेल ख़त्म होने में"
 
-#: includes/class-shop.php:146
+#: includes/class-shop.php:167
 msgctxt "days abbreviation"
 msgid "d"
 msgstr "दि"
 
-#: includes/class-shop.php:147
+#: includes/class-shop.php:168
 msgctxt "hours abbreviation"
 msgid "h"
 msgstr "घं"
 
-#: includes/class-shop.php:148
+#: includes/class-shop.php:169
 msgctxt "minutes abbreviation"
 msgid "m"
 msgstr "मि"
 
-#: includes/class-shop.php:149
+#: includes/class-shop.php:170
 msgctxt "seconds abbreviation"
 msgid "s"
 msgstr "से"
 
-#: includes/class-shop.php:150
-#: includes/class-shop.php:535
+#: includes/class-shop.php:171
+#: includes/class-shop.php:556
 msgid "Add selected to cart"
 msgstr "चुने हुए कार्ट में डालें"
 
-#: includes/class-shop.php:151
+#: includes/class-shop.php:172
 msgid "Adding…"
 msgstr "जोड़ा जा रहा है…"
 
-#: includes/class-shop.php:299
+#: includes/class-shop.php:320
 msgid "Weight"
 msgstr "वज़न"
 
-#: includes/class-shop.php:315
+#: includes/class-shop.php:336
 msgid "Product not found."
 msgstr "प्रोडक्ट नहीं मिला।"
 
 #. translators: %s: product name.
-#: includes/class-shop.php:362
+#: includes/class-shop.php:383
 #, php-format
 msgid "Add %s to wishlist"
 msgstr "%s को विशलिस्ट में जोड़ें"
 
 #. translators: %s: product name.
-#: includes/class-shop.php:366
+#: includes/class-shop.php:387
 #, php-format
 msgid "Quick view %s"
 msgstr "%s का क्विक व्यू"
 
 #. translators: %s: product name.
-#: includes/class-shop.php:370
+#: includes/class-shop.php:391
 #, php-format
 msgid "Compare %s"
 msgstr "%s की तुलना करें"
 
 #. translators: %d: items left.
-#: includes/class-shop.php:430
+#: includes/class-shop.php:451
 #, php-format
 msgid "Hurry — only %d left in stock"
 msgid_plural "Hurry — only %d left in stock"
@@ -1631,34 +1635,34 @@ msgstr[0] "जल्दी करें — स्टॉक में सिर�
 msgstr[1] "जल्दी करें — स्टॉक में सिर्फ़ %d बचे हैं"
 
 #. translators: 1: hours, 2: minutes.
-#: includes/class-shop.php:461
+#: includes/class-shop.php:482
 #, php-format
 msgid "Order within %1$dh %2$dm for dispatch today."
 msgstr "आज डिस्पैच के लिए %1$d घंटे %2$d मिनट में ऑर्डर करें।"
 
 #. translators: 1: earliest date, 2: latest date.
-#: includes/class-shop.php:464
+#: includes/class-shop.php:485
 #, php-format
 msgid "Estimated delivery %1$s – %2$s"
 msgstr "अनुमानित डिलीवरी %1$s – %2$s"
 
-#: includes/class-shop.php:521
+#: includes/class-shop.php:542
 msgid "Frequently bought together"
 msgstr "अक्सर साथ ख़रीदे जाते हैं"
 
-#: includes/class-shop.php:528
+#: includes/class-shop.php:549
 msgid "This item:"
 msgstr "यह आइटम:"
 
-#: includes/class-shop.php:534
+#: includes/class-shop.php:555
 msgid "Total:"
 msgstr "कुल:"
 
-#: includes/class-shop.php:585
+#: includes/class-shop.php:606
 msgid "Size guide (optional)"
 msgstr "साइज़ गाइड (वैकल्पिक)"
 
-#: includes/class-shop.php:588
+#: includes/class-shop.php:609
 msgid "Overrides the global size guide for this product."
 msgstr "इस प्रोडक्ट के लिए ग्लोबल साइज़ गाइड की जगह इस्तेमाल होता है।"
 

@@ -41,6 +41,27 @@ class Shop {
 
 		add_action( 'add_meta_boxes_product', array( $this, 'size_guide_box' ) );
 		add_action( 'woocommerce_process_product_meta', array( $this, 'save_size_guide' ) );
+
+		add_filter( 'woocommerce_package_rates', array( $this, 'prefer_free_shipping' ), 100 );
+	}
+
+	/**
+	 * Once an order qualifies for free shipping, drop the paid rates so shoppers are
+	 * not charged by default. Local pickup stays available.
+	 *
+	 * @param array $rates Rates keyed by rate ID (WC_Shipping_Rate values).
+	 * @return array
+	 */
+	public function prefer_free_shipping( $rates ) {
+		if ( ! Settings::on( 'free_shipping_only' ) ) {
+			return $rates;
+		}
+		$free = array_filter( $rates, static fn( $rate ) => 'free_shipping' === $rate->get_method_id() );
+		if ( ! $free ) {
+			return $rates;
+		}
+		$keep = array_filter( $rates, static fn( $rate ) => in_array( $rate->get_method_id(), array( 'local_pickup', 'pickup_location' ), true ) );
+		return $free + $keep;
 	}
 
 	/**

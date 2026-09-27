@@ -816,6 +816,14 @@
 	border-color: var(--wp--preset--color--line) !important;
 }
 
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+	border: 0;
+	background: transparent;
+	padding: 0;
+	min-inline-size: 2.5em;
+	border-radius: 0;
+}
+
 .wc-block-components-quantity-selector::after {
 	border-radius: var(--au-radius-button) !important;
 	border-color: var(--wp--preset--color--line) !important;

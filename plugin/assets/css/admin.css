@@ -1,0 +1,511 @@
+/**
+ * Aurelia Commerce — wp-admin screens.
+ */
+.aurelia-admin {
+	--au-series-1: #2a78d6;
+	--au-series-2: #eb6834;
+	--au-series-3: #1baf7a;
+	--au-bar: #2a78d6;
+	--au-surface: #fff;
+	--au-line: #dcdcde;
+	--au-muted: #50575e;
+	--au-ink: #1d2327;
+	max-inline-size: 1400px;
+}
+
+.aurelia-admin .au-card {
+	background: var(--au-surface);
+	border: 1px solid var(--au-line);
+	border-radius: 10px;
+	padding: 16px 20px;
+	margin-block: 16px;
+}
+
+.au-card__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+}
+
+.au-card__head h2 {
+	margin: 0 0 10px;
+	font-size: 1.05rem;
+}
+
+.au-empty {
+	color: var(--au-muted);
+}
+
+.aurelia-callout {
+	border-inline-start: 4px solid #2271b1;
+	background: #f0f6fc;
+	padding: 12px 16px;
+	margin-block: 16px;
+}
+
+.aurelia-callout code {
+	user-select: all;
+}
+
+/* Dashboard */
+.aurelia-dashboard__head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.au-kpis {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+	gap: 12px;
+	margin-block: 16px;
+}
+
+.au-kpi {
+	background: var(--au-surface);
+	border: 1px solid var(--au-line);
+	border-radius: 10px;
+	padding: 14px 16px;
+	display: grid;
+	gap: 4px;
+}
+
+.au-kpi__label {
+	color: var(--au-muted);
+	font-size: 12px;
+}
+
+.au-kpi__value {
+	font-size: 26px;
+	line-height: 1.1;
+	color: var(--au-ink);
+	font-variant-numeric: tabular-nums;
+}
+
+.au-kpi__sub {
+	color: var(--au-muted);
+	font-size: 12px;
+}
+
+.au-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	gap: 0 16px;
+}
+
+@media (max-width: 782px) {
+	.au-grid-2 {
+		grid-template-columns: 1fr;
+	}
+}
+
+.au-chart {
+	position: relative;
+}
+
+.au-line {
+	inline-size: 100%;
+	block-size: auto;
+	display: block;
+	font-family: inherit;
+}
+
+.au-line .au-grid {
+	stroke: #e6e6e6;
+	stroke-width: 1;
+}
+
+.au-line .au-axis {
+	fill: var(--au-muted);
+	font-size: 11px;
+}
+
+.au-line .au-series {
+	fill: none;
+	stroke-width: 2;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.au-line .au-endlabel {
+	fill: var(--au-ink);
+	font-size: 12px;
+}
+
+.au-line .au-cross {
+	stroke: #8c8f94;
+	stroke-dasharray: 3 3;
+}
+
+.au-line .au-dot {
+	stroke: var(--au-surface);
+	stroke-width: 2;
+}
+
+.au-tip {
+	position: absolute;
+	inset-block-start: 8px;
+	background: var(--au-surface);
+	border: 1px solid var(--au-line);
+	border-radius: 8px;
+	box-shadow: 0 8px 24px -12px rgb(0 0 0 / 0.35);
+	padding: 8px 10px;
+	font-size: 12px;
+	min-inline-size: 170px;
+	pointer-events: none;
+}
+
+.au-tip__row {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-block-start: 3px;
+}
+
+.au-tip__row b {
+	margin-inline-start: auto;
+	font-variant-numeric: tabular-nums;
+}
+
+.au-swatch {
+	inline-size: 10px;
+	block-size: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	flex: none;
+}
+
+.au-legend {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	margin: 0 0 8px;
+	font-size: 12px;
+	color: var(--au-ink);
+}
+
+.au-legend li {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin: 0;
+}
+
+.au-barlist {
+	margin: 0;
+}
+
+.au-barlist li {
+	display: grid;
+	grid-template-columns: minmax(90px, 38%) 1fr auto;
+	gap: 10px;
+	align-items: center;
+	margin-block: 6px;
+	font-size: 13px;
+}
+
+.au-barlist__label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: var(--au-ink);
+}
+
+.au-barlist__track {
+	block-size: 12px;
+}
+
+.au-barlist__bar {
+	display: block;
+	block-size: 100%;
+	background: var(--au-bar);
+	border-radius: 0 4px 4px 0;
+}
+
+[dir="rtl"] .au-barlist__bar {
+	border-radius: 4px 0 0 4px;
+}
+
+.au-barlist__value {
+	font-variant-numeric: tabular-nums;
+	color: var(--au-ink);
+	min-inline-size: 3ch;
+	text-align: end;
+}
+
+.au-table th.num,
+.au-table td.num {
+	text-align: end;
+	font-variant-numeric: tabular-nums;
+}
+
+.au-table-scroll {
+	overflow-x: auto;
+}
+
+/* Social */
+.au-composer__grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 320px;
+	gap: 24px;
+}
+
+@media (max-width: 960px) {
+	.au-composer__grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.au-field {
+	display: grid;
+	gap: 4px;
+	margin-block: 0 12px;
+}
+
+.au-field label {
+	font-weight: 600;
+}
+
+.au-inline {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.au-platforms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 16px;
+	margin-block: 0 12px;
+}
+
+.au-platforms legend {
+	font-weight: 600;
+	margin-block-end: 4px;
+}
+
+.au-s-preview img,
+.au-s-preview video {
+	inline-size: 100%;
+	border-radius: 10px;
+	border: 1px solid var(--au-line);
+}
+
+.au-thumb {
+	border-radius: 6px;
+	object-fit: cover;
+	vertical-align: middle;
+	margin-inline-end: 8px;
+}
+
+.au-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+	background: #f0f0f1;
+	text-transform: capitalize;
+}
+
+.au-status--published {
+	background: #edfaef;
+	color: #1a5e20;
+}
+
+.au-status--failed {
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.au-status--scheduled {
+	background: #f0f6fc;
+	color: #0a4b78;
+}
+
+.au-status--partial,
+.au-status--publishing {
+	background: #fcf9e8;
+	color: #614a00;
+}
+
+.au-result {
+	font-size: 11px;
+	margin-block-start: 3px;
+}
+
+.au-result.is-bad {
+	color: #8a2424;
+}
+
+.au-link-row {
+	font-size: 12px;
+}
+
+.au-notice {
+	font-weight: 500;
+}
+
+/* Studio */
+.au-studio {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+	gap: 24px;
+	align-items: start;
+}
+
+@media (max-width: 1100px) {
+	.au-studio {
+		grid-template-columns: 1fr;
+	}
+}
+
+.au-slides {
+	margin: 0 0 12px;
+	padding: 0;
+	list-style: none;
+}
+
+.au-slides li {
+	display: grid;
+	grid-template-columns: 52px 1fr auto;
+	gap: 10px;
+	align-items: center;
+	padding: 8px 0;
+	border-block-end: 1px solid var(--au-line);
+}
+
+.au-slides img {
+	border-radius: 6px;
+	object-fit: cover;
+}
+
+.au-slides__fields {
+	display: grid;
+	gap: 4px;
+}
+
+.au-slides__fields input {
+	inline-size: 100%;
+}
+
+.au-studio__style {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 0 16px;
+}
+
+.au-studio__style h2 {
+	grid-column: 1 / -1;
+}
+
+.au-studio__style label {
+	display: grid;
+	gap: 4px;
+}
+
+.au-studio__preview {
+	position: sticky;
+	inset-block-start: 46px;
+	display: grid;
+	gap: 10px;
+}
+
+.au-canvas-frame {
+	background: #000;
+	border-radius: 14px;
+	overflow: hidden;
+	margin-inline: auto;
+	inline-size: 100%;
+}
+
+.au-canvas-frame.is-reel {
+	max-inline-size: 300px;
+}
+
+.au-canvas-frame canvas {
+	inline-size: 100%;
+	block-size: auto;
+	display: block;
+}
+
+.au-studio__video {
+	inline-size: 100%;
+	max-block-size: 420px;
+	border-radius: 10px;
+	background: #000;
+}
+
+/* Wizard */
+.aurelia-wizard {
+	max-inline-size: 760px;
+	margin: 40px auto;
+}
+
+.aurelia-wizard .au-card {
+	padding: 28px 32px;
+}
+
+.aurelia-wizard__steps {
+	display: flex;
+	gap: 8px;
+	list-style: none;
+	margin: 0 0 16px;
+	padding: 0;
+	counter-reset: step;
+	flex-wrap: wrap;
+}
+
+.aurelia-wizard__steps li {
+	counter-increment: step;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: var(--au-muted);
+	font-size: 13px;
+}
+
+.aurelia-wizard__steps li::before {
+	content: counter(step);
+	inline-size: 24px;
+	block-size: 24px;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	background: #f0f0f1;
+	font-weight: 600;
+}
+
+.aurelia-wizard__steps li.is-current {
+	color: var(--au-ink);
+	font-weight: 600;
+}
+
+.aurelia-wizard__steps li.is-current::before,
+.aurelia-wizard__steps li.is-done::before {
+	background: #0b1a17;
+	color: #f1dca4;
+}
+
+.aurelia-wizard .form-table th {
+	inline-size: 190px;
+}
+
+.aurelia-wizard__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block-start: 20px;
+}
+
+.aurelia-wizard__log {
+	max-block-size: 220px;
+	overflow: auto;
+	background: #f6f7f7;
+	border-radius: 8px;
+	padding: 10px 14px;
+	font-family: ui-monospace, Menlo, monospace;
+	font-size: 12px;
+}

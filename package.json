@@ -1,0 +1,23 @@
+{
+  "name": "aurelia-commerce-suite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build tooling for the Aurelia block theme and the Aurelia Commerce plugin.",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build:js": "node tools/build-js.mjs",
+    "build:styles": "python3 tools/build-styles.py",
+    "build:art": "node tools/generate-art.mjs",
+    "build:zip": "bash tools/build-zips.sh",
+    "build": "npm run build:js && npm run build:zip"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "qrcode-generator": "^2.0.4",
+    "three": "^0.186.1"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.55.0",
+    "sharp": "^0.34.0"
+  }
+}

@@ -1,0 +1,78 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Aurelia demo store",
+		"description": "The Aurelia block theme and Aurelia Commerce plugin with WooCommerce and the full demo store.",
+		"author": "calculatewellhub-cell",
+		"categories": [
+			"Themes",
+			"WooCommerce"
+		]
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Aurelia",
+				"blogdescription": "Thoughtfully curated, honestly priced",
+				"permalink_structure": "/%postname%/"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "woocommerce"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/calculatewellhub-cell/e-commerce-theme",
+				"ref": "claude/charming-archimedes-euq210",
+				"refType": "branch",
+				"path": "theme"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "aurelia"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/calculatewellhub-cell/e-commerce-theme",
+				"ref": "claude/charming-archimedes-euq210",
+				"refType": "branch",
+				"path": "plugin"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "aurelia-commerce"
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/aurelia-playground.php",
+			"data": "<?php\n// Playground demo only. Playground runs on SQLite, which cannot run WooCommerce's\n// checkout stock-hold query, so skip holds here. Real hosting (MySQL/MariaDB) needs none of this.\nadd_filter( 'woocommerce_hold_stock_for_checkout', '__return_false' );\n// Keep the demo on the storefront instead of the setup wizard redirect.\nadd_action( 'admin_init', static function () { delete_transient( 'aurelia_commerce_activation_redirect' ); }, 1 );\n"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php\nrequire '/wordpress/wp-load.php';\nwp_set_current_user( 1 );\n$importer = new \\Aurelia\\Commerce\\Demo_Importer();\nforeach ( \\Aurelia\\Commerce\\Demo_Importer::steps() as $step ) {\n\techo $step, ': ', $importer->run( $step ), \"\\n\";\n}\n// Demo-only contact and payment values that cannot reach a real person:\n// WhatsApp rejects 910000000000 as invalid, and no UPI provider uses the @example handle.\n\\Aurelia\\Commerce\\Settings::update( array( 'wa_number' => '910000000000', 'wa_enabled' => 1 ) );\nupdate_option(\n\t'woocommerce_aurelia_upi_settings',\n\tarray_merge(\n\t\t(array) get_option( 'woocommerce_aurelia_upi_settings', array() ),\n\t\tarray( 'enabled' => 'yes', 'upi_id' => 'demo.store@example', 'payee_name' => 'Aurelia Demo' )\n\t)\n);\nupdate_option( 'woocommerce_coming_soon', 'no' );\nupdate_option( 'woocommerce_onboarding_profile', array( 'skipped' => true ) );\ndelete_transient( 'aurelia_commerce_activation_redirect' );\nflush_rewrite_rules( false );\n"
+		}
+	]
+}

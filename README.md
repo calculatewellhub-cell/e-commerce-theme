@@ -104,6 +104,8 @@ You can reopen the wizard at any time from **Aurelia → Setup wizard**. Every s
 5. **Demo content:** import the full demo store, or skip. See [Demo content](#demo-content).
 6. **Ready:** **Launch my store** turns off WooCommerce's "Coming soon" mode so shoppers can see the store.
 
+After the wizard, replace the sample contact details. The footer and the Contact page ship with a placeholder address, phone (`+91 00000 00000`) and email (`hello@example.com`). Edit the footer in **Appearance → Editor → Patterns → Footer**, and the Contact page in **Pages**.
+
 ## WhatsApp number and WhatsApp ordering
 
 Go to **Aurelia → Settings → WhatsApp**.

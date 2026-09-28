@@ -102,7 +102,7 @@ $aurelia_links = array(
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e( '12 Heritage Arcade, Zaveri Bazaar', 'aurelia' ); ?><br><?php esc_html_e( 'Mumbai, Maharashtra 400002', 'aurelia' ); ?><br><a href="tel:+919876543210">+91 98765 43210</a><br><a href="mailto:hello@example.com">hello@example.com</a><br><?php esc_html_e( 'Mon–Sat, 10:30–20:30', 'aurelia' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e( '12 Heritage Arcade, Zaveri Bazaar', 'aurelia' ); ?><br><?php esc_html_e( 'Mumbai, Maharashtra 400002', 'aurelia' ); ?><br><a href="tel:+910000000000">+91 00000 00000</a><br><a href="mailto:hello@example.com">hello@example.com</a><br><?php esc_html_e( 'Mon–Sat, 10:30–20:30', 'aurelia' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

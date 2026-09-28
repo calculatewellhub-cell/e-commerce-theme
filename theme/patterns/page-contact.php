@@ -39,7 +39,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://wa.me/919876543210">+91 98765 43210</a></p>
+<p><a href="https://wa.me/910000000000">+91 00000 00000</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

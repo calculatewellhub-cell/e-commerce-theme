@@ -61,9 +61,12 @@ final class Upi_Blocks extends AbstractPaymentMethodType {
 	 * @return array
 	 */
 	public function get_payment_method_data() {
+		// The gateway merges its form-field defaults, so title and description are
+		// right even when settings were saved programmatically without them.
+		$gateway = WC()->payment_gateways() ? ( WC()->payment_gateways()->payment_gateways()[ $this->name ] ?? null ) : null;
 		return array(
-			'title'       => $this->settings['title'] ?? __( 'UPI', 'aurelia-commerce' ),
-			'description' => $this->settings['description'] ?? '',
+			'title'       => $gateway ? $gateway->get_title() : ( $this->settings['title'] ?? __( 'UPI', 'aurelia-commerce' ) ),
+			'description' => $gateway ? $gateway->get_description() : ( $this->settings['description'] ?? '' ),
 			'icon'        => AURELIA_COMMERCE_URL . 'assets/img/upi.svg',
 			'supports'    => array( 'products' ),
 		);

@@ -12,6 +12,8 @@ Aurelia किसी भी तरह की दुकान के लिए �
 | PHP | 8.1 या नया |
 | WooCommerce | 9.0 या नया (11.1 तक टेस्ट किया गया), HPOS और Cart/Checkout ब्लॉक सपोर्टेड |
 
+**[▶ लाइव डेमो आज़माएँ](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/calculatewellhub-cell/e-commerce-theme/claude/charming-archimedes-euq210/playground/blueprint.json)**: WordPress Playground के ज़रिए आपके ब्राउज़र में चलने वाला पूरा डेमो स्टोर, बिना होस्टिंग और बिना साइन-अप। लोड होने में लगभग एक मिनट लगता है, और टैब बंद करने पर सब रीसेट हो जाता है।
+
 ![डेस्कटॉप पर होम पेज](docs/screenshots/home-desktop.webp)
 
 <p>

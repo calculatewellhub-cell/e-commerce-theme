@@ -12,6 +12,8 @@ The theme handles presentation only, so it works without the plugin. The plugin 
 | PHP | 8.1 or newer |
 | WooCommerce | 9.0 or newer (tested up to 11.1), HPOS and Cart/Checkout blocks supported |
 
+**[▶ Try the live demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/calculatewellhub-cell/e-commerce-theme/claude/charming-archimedes-euq210/playground/blueprint.json)**: a full demo store running in your browser through WordPress Playground, with no hosting and no sign-up. It takes about a minute to load and resets when you close the tab.
+
 ![Home page, desktop](docs/screenshots/home-desktop.webp)
 
 <p>
